@@ -1,0 +1,1831 @@
+{
+ "version": "2026-06-19-abif-105",
+ "generado": "2026-06-19T09:00:00",
+ "total": 105,
+ "proyectos": [
+  {
+   "id": "p1",
+   "boletin": "15.034-07",
+   "titulo": "Regula medidas de seguridad aplicables en las cajas de atención de público de las instituciones bancarias y financieras",
+   "desc": "Establece medidas de seguridad físicas en cajas de atención (separación de cajas, silenciamiento de máquinas contadoras, grabación de imágenes), restricciones de ingreso/permanencia (prohíbe sombreros, anteojos de sol, celulares, fotos), uso de cámaras corporales por vigilantes y difusión preventiva. Opinión legal ABIF: los delitos de marcaje son dinámicos y el Protocolo vigente, definido con la Subsecretaría de Prevención del Delito, ya aborda la materia; el PdL debiese reforzar facultades del Ministerio del Interior, contemplar al regulador bancario y evaluar mecanismos para reducir el uso de efectivo. Moción parlamentaria, ingreso al Senado 1/06/2022.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Seguridad Pública",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "media",
+   "fecha": "2022-12-20",
+   "hist": [
+    {
+     "f": "2022-08-16",
+     "t": "Sesión para iniciar la discusión en general."
+    },
+    {
+     "f": "2022-10-11",
+     "t": "Presentación de la ABIF en la Comisión."
+    },
+    {
+     "f": "2022-10-18",
+     "t": "ABIF invitada; expuso la Subsecretaría de Prevención del Delito (SPD), que valoró el Protocolo con la ABIF. Varios senadores cuestionaron regular por ley."
+    },
+    {
+     "f": "2022-11-14",
+     "t": "La Comisión invitó a la ABIF, pero no alcanzó a discutirse."
+    },
+    {
+     "f": "2022-12-13",
+     "t": "Citación para continuar el estudio en general. No se vio."
+    },
+    {
+     "f": "2022-12-20",
+     "t": "Citación para continuar el estudio en general. No se vio."
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "boletin": "15.975-25",
+   "titulo": "Crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado",
+   "desc": "Mensaje presidencial (ingreso al Senado 31/05/23). Persigue la ruta del dinero del lavado de activos, financiamiento del terrorismo y crimen organizado mediante análisis de datos, trazabilidad, levantamiento del secreto bancario y ampliación de obligados a informar. Crea un Subsistema integrado por UAF, SII y Aduanas. Modifica la LGB, el DL 3.538 (CMF) y el Código Tributario. El nudo central es el levantamiento del secreto bancario por la UAF: la Comisión de Hacienda aprobó el levantamiento administrativo excepcional (ROS de bancos, funcionarios públicos o personas jurídicas), pero la Sala lo rechazó manteniendo control judicial. En 2TC la Cámara aprobó (5/03/26) eliminar el control judicial previo en esos tres casos. En 3TC el Senado empató 23-23 (2/06) y 24-24 (9/06): la norma se rechaza y el proyecto pasa a Comisión Mixta.",
+   "camara": "Comisión Mixta",
+   "etapa": "Tercer trámite → Comisión Mixta (por rechazo de modificaciones)",
+   "urgencia": "Sin urgencia",
+   "impacto": "Secreto y reserva bancaria",
+   "relevancia": "alta",
+   "fecha": "2026-06-09",
+   "hist": [
+    {
+     "f": "2023-07-18",
+     "t": "Inicio del estudio en la Comisión de Seguridad Pública del Senado."
+    },
+    {
+     "f": "2023-09-26",
+     "t": "Presentación de la ABIF."
+    },
+    {
+     "f": "2023-12-13",
+     "t": "Aprobado en general; se despacha a la Sala."
+    },
+    {
+     "f": "2024-07-30",
+     "t": "Aprobado en particular; se despacha a la Comisión de Hacienda."
+    },
+    {
+     "f": "2025-01-15",
+     "t": "Aprobado en particular por Hacienda; se despacha a la Sala del Senado."
+    },
+    {
+     "f": "2025-03-25",
+     "t": "Aprobado en particular por la Sala; se despacha a la Cámara (2TC)."
+    },
+    {
+     "f": "2025-05-14",
+     "t": "Presentación de la ABIF en la Comisión de Seguridad Ciudadana (Cámara)."
+    },
+    {
+     "f": "2026-01-19",
+     "t": "Aprobado en particular; se despacha a la Comisión de Hacienda de la Cámara."
+    },
+    {
+     "f": "2026-03-05",
+     "t": "La Sala de la Cámara aprueba eliminar el control judicial previo para la UAF en tres casos (ROS de banco, funcionarios públicos, personas jurídicas). Se despacha al Senado (3TC)."
+    },
+    {
+     "f": "2026-06-02",
+     "t": "En Sala del Senado quedó pendiente la votación del artículo sobre levantamiento del secreto bancario por la UAF (empate 23-23)."
+    },
+    {
+     "f": "2026-06-09",
+     "t": "Empate 24-24-0 en Sala. La norma se rechaza y el proyecto pasa a Comisión Mixta."
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "boletin": "15.869-19 / 16.821-19",
+   "titulo": "Regula los sistemas de inteligencia artificial, la robótica y las tecnologías conexas, en sus distintos ámbitos de aplicación",
+   "desc": "Boletines refundidos. Moción parlamentaria, ingreso a la Cámara 24/04/23. Establece un marco jurídico para desarrollo, comercialización y uso de sistemas de IA, protegiendo derechos fundamentales. Califica como alto riesgo los sistemas de evaluación de solvencia o calificación crediticia. Crea una Comisión Nacional de IA que autoriza el desarrollo y uso de sistemas de IA, con requisitos, deber de notificar incidentes, multas y un registro público.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión de Ciencias",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "media",
+   "fecha": "2026-06-16",
+   "hist": [
+    {
+     "f": "2024-01-10",
+     "t": "Aprobado en general en la Cámara."
+    },
+    {
+     "f": "2025-05-14",
+     "t": "Aprobado en particular; se despacha a la Comisión de Hacienda."
+    },
+    {
+     "f": "2025-10-13",
+     "t": "La Sala de la Cámara aprueba en particular; se despacha al Senado (2TC)."
+    },
+    {
+     "f": "2026-05-18",
+     "t": "Inicio del estudio en general por la Comisión de Ciencias del Senado."
+    },
+    {
+     "f": "2026-06-16",
+     "t": "Se continuó el estudio; se acordó seguir en una nueva sesión."
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "boletin": "15.610-03 / 16.041-03",
+   "titulo": "Modifica la ley N° 19.496 sobre protección de los derechos de los consumidores, para prohibir llamadas telefónicas publicitarias de proveedores sin consentimiento del consumidor",
+   "desc": "Boletines refundidos. Moción parlamentaria, ingreso a la Cámara 20/12/2022. Establece el derecho del consumidor a no recibir llamadas ni mensajería publicitaria sin consentimiento previo, expreso y específico. Multa de hasta 1.000 UTM (texto Cámara). Regula también la cobranza extrajudicial: el contacto debe efectuarse por un número telefónico identificable previamente por el usuario.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Sala",
+   "urgencia": "Sin urgencia",
+   "impacto": "Limitación a la oferta publicitaria",
+   "relevancia": "media",
+   "fecha": "2026-03-03",
+   "hist": [
+    {
+     "f": "2024-08-13",
+     "t": "Aprobado en general (Comisión Economía Cámara)."
+    },
+    {
+     "f": "2024-09-24",
+     "t": "La Sala de la Cámara aprueba; se despacha al Senado."
+    },
+    {
+     "f": "2026-01-13",
+     "t": "Presentación de la ABIF en la Comisión de Economía del Senado."
+    },
+    {
+     "f": "2026-03-03",
+     "t": "Aprobado en general; se despacha a la Sala del Senado para su votación."
+    }
+   ]
+  },
+  {
+   "id": "p5",
+   "boletin": "17.381-03",
+   "titulo": "Prohíbe subcontratar servicios de teleoperadores que funcionen fuera del territorio nacional",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 29/01/2025. Establece una multa de 1.000 UF para empresas que subcontraten servicios de call center que operen fuera del territorio nacional (atención, soporte técnico, comercial o administrativo, venta o promoción, recepción de reclamos).",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "media",
+   "fecha": "2026-05-05",
+   "hist": [
+    {
+     "f": "2025-09-30",
+     "t": "Rechazado en general por la Comisión de Economía (Cámara); se despacha a la Sala."
+    },
+    {
+     "f": "2026-05-05",
+     "t": "La Sala de la Cámara lo aprueba en general y en particular; se despacha al Senado (2TC)."
+    }
+   ]
+  },
+  {
+   "id": "p6",
+   "boletin": "18.044-13",
+   "titulo": "Modifica el Código del Trabajo con el objeto de regular un sistema de negociación colectiva multinivel",
+   "desc": "Mensaje presidencial, ingreso a la Cámara 9/01/26. Crea negociación colectiva a tres niveles: sectorial (estándares mínimos por sector, con efectos generales), intermedio (acuerdos marco entre confederaciones y empresas, con efectos solo para las partes) y de empresa. Entrega a la Dirección del Trabajo facultades para reincorporar trabajadores despedidos por vulneración de la libertad sindical y para fiscalizar acuerdos.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "Costo laboral · Negociación colectiva ramal",
+   "relevancia": "media",
+   "fecha": "2026-03-03",
+   "hist": [
+    {
+     "f": "2026-01-13",
+     "t": "Inicio del estudio en general por la Comisión de Trabajo."
+    },
+    {
+     "f": "2026-03-03",
+     "t": "Aprobado en general."
+    }
+   ]
+  },
+  {
+   "id": "p7",
+   "boletin": "18.286-03",
+   "titulo": "Modifica la ley N° 19.799 sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados",
+   "desc": "Mensaje presidencial, ingreso a la Cámara 2/06/26. Incorpora firma electrónica avanzada y sellado de tiempo para que documentos electrónicos tengan la misma validez que los documentos en papel o ante notario. Modifica la ley N° 18.092 (letra de cambio y pagaré) para permitir su emisión, circulación y protesto en formato electrónico con FEA y sellado de tiempo, otorgándoles mérito ejecutivo. El reglamento debe dictarse en el plazo de 1 año.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Simple",
+   "impacto": "Firma electrónica · Contratos · Pagaré electrónico",
+   "relevancia": "alta",
+   "fecha": "2026-06-23",
+   "hist": [
+    {
+     "f": "2026-06-02",
+     "t": "Ingreso a la Cámara con urgencia simple."
+    },
+    {
+     "f": "2026-06-09",
+     "t": "Inicio del estudio en general por la Comisión de Economía; no se alcanzó a tratar el proyecto."
+    },
+    {
+     "f": "2026-06-23",
+     "t": "Citado para inicio del estudio en general por la Comisión de Economía."
+    }
+   ]
+  },
+  {
+   "id": "p8",
+   "boletin": "18.263-03",
+   "titulo": "Protección de la vivienda propia y resguardo del pago de los créditos hipotecarios ante el alza de la Unidad de Fomento",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 11/05/26. Obliga a las instituciones financieras a ofrecer refinanciamientos sin cobros (gastos operacionales, tasaciones, comisiones) cuando la variación acumulada de la UF supere el 5% en 24 meses. Incorpora incisos al art. 26 de la Ley N° 18.010: el dividendo mensual no puede subir más de 10%, ni en términos anuales por sobre el índice de remuneraciones del INE; la diferencia se acumula y no se extingue.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito · Hipotecarios · UF",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p9",
+   "boletin": "18.251-07",
+   "titulo": "Modifica el artículo 445 del Código de Procedimiento Civil para establecer un régimen excepcional de inembargabilidad de la vivienda principal del deudor",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 9/05/26. Reemplaza el numeral 8 del art. 445 del CPC: declara inembargable la residencia principal del deudor y su grupo familiar bajo requisitos copulativos (avalúo fiscal ≤ 4.000 UTM, no ser propietario de otros bienes raíces, compromiso grave de subsistencia, vulnerabilidad calificada y resolución judicial fundada previa audiencia). La inembargabilidad no es oponible al acreedor hipotecario.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito · Garantías",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p10",
+   "boletin": "18.226-15",
+   "titulo": "Autoriza la aplicación de prefijos telefónicos en la identificación de llamadas de cobranza extrajudicial",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 28/04/26. Crea un nuevo inciso final al art. 8 de la Ley N° 18.168 (General de Telecomunicaciones) que incorpora las comunicaciones de cobranza extrajudicial como servicios complementarios, permitiendo bloques especiales de numeración (como los prefijos 600 y 809).",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Obras Públicas, Transportes y Telecomunicaciones",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Cobranza",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p11",
+   "boletin": "18.060-07",
+   "titulo": "Perfecciona la Ley N° 21.719, que regula la protección y el tratamiento de datos personales y crea la Agencia de Protección de Datos Personales",
+   "desc": "Moción parlamentaria, ingreso al Senado 14/01/26. Incorpora las fuentes de acceso público como fuente de licitud para tratar datos sin consentimiento. Rebaja las multas (leves 1-100 UTM, graves 101-1.000 UTM, gravísimas 1.001-5.000 UTM, con agravantes por reincidencia y hasta 2% de ingresos). Elimina el derecho de bloqueo durante la tramitación de rectificación/supresión/oposición. Autoriza la transferencia internacional de datos dentro de un mismo grupo empresarial. Regula modelos de prevención de infracciones y atenuantes. Relevante porque la Ley N° 21.719 entra en vigencia el 1/12/26.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Datos personales",
+   "relevancia": "alta",
+   "fecha": "2026-01-14",
+   "hist": [
+    {
+     "f": "2026-01-14",
+     "t": "Ingreso a tramitación en el Senado."
+    }
+   ]
+  },
+  {
+   "id": "p12",
+   "boletin": "18.340-03",
+   "titulo": "Excluye la aplicación de la unidad de fomento como mecanismo de reajustabilidad en los contratos que señala y establece mayores deberes de transparencia en su utilización",
+   "desc": "Moción parlamentaria, ingreso al Senado 10/06/26. Busca excluir la UF como mecanismo de reajustabilidad en ciertos contratos y establecer mayores deberes de transparencia. Alta relevancia para el sector: la UF es fundamental en créditos hipotecarios y financiamientos de largo plazo; su restricción podría generar incertidumbre en la valorización de activos y pasivos y afectar la oferta de productos financieros.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito · Valorización de activos y pasivos · UF",
+   "relevancia": "alta",
+   "fecha": "2026-06-10",
+   "hist": [
+    {
+     "f": "2026-06-10",
+     "t": "Ingreso a tramitación en el Senado."
+    }
+   ]
+  },
+  {
+   "id": "p13",
+   "boletin": "16.271-03",
+   "titulo": "Mejora la protección de los derechos de las personas consumidoras fortaleciendo al SERNAC",
+   "desc": "Mensaje presidencial, ingreso a la Cámara 7/09/23. Otorga nuevas atribuciones sancionatorias al SERNAC para casos de interés individual, con subdirección especializada e independiente, procedimiento reglado e impugnación administrativa y judicial. Incentivos de rebaja de multas (hasta 80% durante la tramitación, 35% tras la resolución). Declara abusivas ciertas cláusulas (avaluación anticipada, aceleración cuando el retardo sea inferior al 20% de la deuda), regula reclamos con mérito ejecutivo y establece plazo de 24 horas para disponibilizar fondos de créditos preaprobados.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Hacienda",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo, provisiones y capital",
+   "relevancia": "alta",
+   "fecha": "2025-03-18",
+   "hist": [
+    {
+     "f": "2024-01-16",
+     "t": "Presentación de la ABIF."
+    },
+    {
+     "f": "2024-01-23",
+     "t": "Aprobado en general."
+    },
+    {
+     "f": "2024-12-10",
+     "t": "Se inició la votación en particular."
+    },
+    {
+     "f": "2025-03-18",
+     "t": "Aprobado en particular; se despacha a la Comisión de Hacienda."
+    }
+   ]
+  },
+  {
+   "id": "p14",
+   "boletin": "12.917-03",
+   "titulo": "Modifica la LGB y el CPC para establecer el avalúo comercial de los bienes raíces como mínimo de las subastas y proteger la vivienda única de los deudores mediante la prenda pretoria",
+   "desc": "Moción parlamentaria, ingreso al Senado 6/09/2019. El remate procedería solo en caso de mora superior a 6 meses, con condiciones (avalúo fiscal bajo 8.000-10.000 UF, vivienda única familiar, ≥50% del capital pagado) y un mínimo de remate equivalente al avalúo fiscal incrementado en 30%. Mantiene la prenda pretoria solo para bienes industriales, agrícolas o comerciales.",
+   "camara": "Comisión Mixta",
+   "etapa": "Comisión Mixta",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito · Provisiones y capital",
+   "relevancia": "alta",
+   "fecha": "2023-12-19",
+   "hist": [
+    {
+     "f": "2023-04-17",
+     "t": "La Sala de la Cámara aprueba; se despacha con modificaciones al Senado."
+    },
+    {
+     "f": "2023-07-11",
+     "t": "La Sala del Senado rechaza todas las modificaciones de la Cámara."
+    },
+    {
+     "f": "2023-10-10",
+     "t": "Comisión Mixta: citación para resolver las divergencias."
+    },
+    {
+     "f": "2023-12-19",
+     "t": "Citación para resolver divergencias e iniciar la votación. Suspendida."
+    }
+   ]
+  },
+  {
+   "id": "p15",
+   "boletin": "15.697-03 / 14.955-03 / 17.038-03",
+   "titulo": "Modifica la Ley General de Bancos para establecer excepciones al secreto y reserva bancaria respecto de autoridades y directores de corporaciones, fundaciones y asociaciones que indica",
+   "desc": "Boletines refundidos. Moción parlamentaria, ingreso al Senado 6/05/2022. Obliga a las autoridades, desde que asuman el cargo, a autorizar a los bancos a entregar a la UAF y al SII, sin más trámite, los antecedentes de sus operaciones sujetas a secreto y reserva. Define un amplio catálogo de autoridades obligadas; la autorización se otorga dentro de 30 días y los bancos entregan en 15 días corridos.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Seguridad Pública",
+   "urgencia": "Sin urgencia",
+   "impacto": "Secreto y reserva bancaria",
+   "relevancia": "alta",
+   "fecha": "2025-12-16",
+   "hist": [
+    {
+     "f": "2024-09-30",
+     "t": "Aprobado en general."
+    },
+    {
+     "f": "2024-10-06",
+     "t": "Aprobado en particular; se despacha a la Comisión de Seguridad Pública."
+    },
+    {
+     "f": "2025-12-16",
+     "t": "Inicio del estudio en general por la Comisión de Seguridad Pública."
+    }
+   ]
+  },
+  {
+   "id": "p16",
+   "boletin": "15.407-03",
+   "titulo": "Consagra el derecho al olvido en materia financiera",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 5/10/2022. Obliga a eliminar información sobre deudas impagas exigibles o extinguidas hace más de 5 años; permite mantener registros anonimizados; prohíbe comunicaciones de cobro de deudas prescritas; deber de informar las razones de rechazo de un servicio financiero; e infracciones con deber de indemnizar. Comentario ABIF: la idea matriz ya está resguardada en el Capítulo 18-5 de la RAN; eliminar la información de registros internos implicaría en la práctica la prescripción de las deudas.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito · Buró de crédito",
+   "relevancia": "alta",
+   "fecha": "2023-06-12",
+   "hist": [
+    {
+     "f": "2022-11-08",
+     "t": "Presentación de la ABIF."
+    },
+    {
+     "f": "2023-06-12",
+     "t": "La Sala de la Cámara aprueba; se despacha al Senado (2TC)."
+    }
+   ]
+  },
+  {
+   "id": "p17",
+   "boletin": "15.779-03 / 15.787-03",
+   "titulo": "Modifica diversos cuerpos legales para eliminar la unidad de fomento como sistema de reajustabilidad en los casos que indica",
+   "desc": "Boletines refundidos. Moción parlamentaria, ingreso a la Cámara 29/03/23. Establece que ciertos contratos deban fijarse en pesos y no en UF: arriendos, aranceles educacionales, cotizaciones de salud (ISAPRES) y créditos hipotecarios y de salud previsional. El 9/09/25 la Comisión de Economía rechazó íntegramente el proyecto y sus indicaciones.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Sala",
+   "urgencia": "Sin urgencia",
+   "impacto": "UF · Reajustabilidad",
+   "relevancia": "alta",
+   "fecha": "2026-03-04",
+   "hist": [
+    {
+     "f": "2025-09-09",
+     "t": "Rechazado el proyecto y sus indicaciones por la Comisión de Economía; se despacha a la Sala."
+    },
+    {
+     "f": "2025-12-09",
+     "t": "En tabla de la Sala. No se vio."
+    },
+    {
+     "f": "2026-03-04",
+     "t": "En tabla de la Sala. No se vio."
+    }
+   ]
+  },
+  {
+   "id": "p18",
+   "boletin": "17.169-04",
+   "titulo": "Crea un Nuevo Instrumento de Financiamiento Público para Estudios de Nivel Superior y un Plan de Reorganización y Condonación de Deudas Educativas",
+   "desc": "Mensaje presidencial, ingreso a la Cámara 9/10/24. Crea un instrumento de financiamiento sin participación de la banca, con retribución contingente al ingreso administrado por el nuevo Servicio Ingresa, y un plan de reorganización y condonación de deudas del CAE, Fondo Solidario y Corfo, con condonación inicial y progresiva según trayectoria e historial de pago.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión Educación",
+   "urgencia": "Sin urgencia",
+   "impacto": "Deterioro de crédito educativo",
+   "relevancia": "media",
+   "fecha": "2026-01-14",
+   "hist": [
+    {
+     "f": "2025-08-20",
+     "t": "La Sala de la Cámara aprueba en general y particular; se despacha al Senado (2TC)."
+    },
+    {
+     "f": "2025-12-10",
+     "t": "Continuación del estudio en general (Comisión Educación del Senado)."
+    },
+    {
+     "f": "2026-01-14",
+     "t": "Citación para continuar el estudio en general."
+    }
+   ]
+  },
+  {
+   "id": "p19",
+   "boletin": "14.782-13",
+   "titulo": "Equipara el derecho de sala cuna para trabajadoras, trabajadores e independientes y crea un fondo solidario de sala cuna",
+   "desc": "Mensaje presidencial, ingreso al Senado 4/01/22. Indicación sustitutiva: equipara el derecho de sala cuna y elimina el requisito de 20 o más trabajadoras. Crea un Fondo de Sala Cuna financiado con una cotización de cargo del empleador del 0,2% de las remuneraciones imponibles; aporte máximo de 4,11 UTM por matrícula y mensualidades.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Hacienda",
+   "urgencia": "Sin urgencia",
+   "impacto": "Costo laboral",
+   "relevancia": "media",
+   "fecha": "2026-01-26",
+   "hist": [
+    {
+     "f": "2025-11-19",
+     "t": "Aprobado en particular; se despacha a la Comisión de Educación."
+    },
+    {
+     "f": "2026-01-13",
+     "t": "Aprobado; se despacha a la Comisión de Hacienda."
+    },
+    {
+     "f": "2026-01-26",
+     "t": "Citación para iniciar el estudio en Hacienda. No se vio. Nuevo plazo de indicaciones hasta el 15/06."
+    }
+   ]
+  },
+  {
+   "id": "p20",
+   "boletin": "16.889-05",
+   "titulo": "Crea una Agencia de Financiamiento e Inversión para el Desarrollo (Afide) y la autoriza a participar en fondos de fondos",
+   "desc": "Mensaje presidencial, ingreso a la Cámara 31/05/2024. Crea AFIDE S.A., fiscalizada por la CMF y supervisada por la UAF, para financiar, garantizar e invertir en proyectos de transformación productiva. No podrá captar dinero del público (no es banco). Ofrecerá créditos de segundo y primer piso, títulos de deuda, inversión en fondos de fondos y garantías (con un Fondo de Garantía para el Desarrollo, FOGADE).",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Sala del Senado",
+   "urgencia": "Sin urgencia",
+   "impacto": "Financiamiento estatal · Competencia",
+   "relevancia": "media",
+   "fecha": "2026-01-21",
+   "hist": [
+    {
+     "f": "2024-12-16",
+     "t": "La Sala de la Cámara aprueba; se despacha al Senado."
+    },
+    {
+     "f": "2025-12-09",
+     "t": "Aprobado en general por la Comisión de Hacienda del Senado; se despacha a la Sala."
+    },
+    {
+     "f": "2026-01-21",
+     "t": "En tabla de la Sala del Senado. No se vio."
+    }
+   ]
+  },
+  {
+   "id": "p21",
+   "boletin": "17.625-03",
+   "titulo": "Modifica la ley N° 20.009 en cuanto a la forma de denunciar los hechos constitutivos de fraude",
+   "desc": "Moción parlamentaria, ingreso al Senado 18/06/25. Amplía los medios para denunciar fraudes, permitiendo plataformas digitales (como Comisaría Virtual), modificando el inciso cuarto del art. 4 de la Ley N° 20.009.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Ley de Fraudes",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p22",
+   "boletin": "17.687-03",
+   "titulo": "Modifica la Ley General de Bancos para fomentar la asociación de los clientes bancarios para la defensa de sus intereses",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 8/07/25. Incorpora un art. 49 ter a la LGB: los clientes pueden asociarse en corporaciones para negociar con el banco (tasas, repactación). Los bancos quedan obligados a reconocerlas y negociar, con un representante en el directorio; se rigen supletoriamente por las normas sobre sindicatos y negociación colectiva.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Gobierno corporativo · Relación con clientes",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p23",
+   "boletin": "17.445-03",
+   "titulo": "Modifica la ley N° 20.009 para facilitar el aviso oportuno del usuario a los emisores en caso de extravío, hurto, robo o fraude de medios de pago",
+   "desc": "Moción parlamentaria, ingreso al Senado 3/04/25. Agrega un inciso final al art. 2 de la Ley N° 20.009 para que el usuario pueda solicitar a cualquier emisor transmitir de inmediato el aviso oportuno a todas las entidades con las que tenga contrato vigente.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Medios de pago",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p24",
+   "boletin": "10.576-13 / 12.719-13 / 14.139-34",
+   "titulo": "Modifica el Código del Trabajo para perfeccionar la regulación del principio de igualdad de remuneraciones entre hombres y mujeres",
+   "desc": "Boletines relacionados (similar al 9.322-13). Moción parlamentaria, ingreso a la Cámara 15/03/2016. La variación de salarios solo se justifica por calificación; obliga a una evaluación analítica de puestos (métrica de la DT) y, en empresas de 50 o más trabajadores, a un comité paritario que sirva de base para un plan de igualdad de remuneraciones materia de negociación colectiva.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "Costo laboral",
+   "relevancia": "media",
+   "fecha": "2025-01-06",
+   "hist": [
+    {
+     "f": "2024-09-02",
+     "t": "Aprobado en general; se despacha a la Sala."
+    },
+    {
+     "f": "2025-01-06",
+     "t": "Aprobado en particular; se despacha a la Comisión de Trabajo."
+    }
+   ]
+  },
+  {
+   "id": "p25",
+   "boletin": "17.976-25",
+   "titulo": "Modifica la ley N° 21.659 sobre seguridad privada para ampliar el plazo de presentación del estudio de seguridad ante la Subsecretaría de Prevención del Delito",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 10/11/25. Amplía de 60 a 90 días hábiles el plazo para presentar el estudio de seguridad. Artículo único que reemplaza la expresión en el inciso final del art. 13.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Seguridad Ciudadana",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Seguridad privada",
+   "relevancia": "baja",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p26",
+   "boletin": "8.096-32 / 8.128-32",
+   "titulo": "Establece como bienes inembargables aquellos pertenecientes a los Adultos Mayores",
+   "desc": "Boletines refundidos. Moción parlamentaria, ingreso a la Cámara 20/12/2011. Agrega un art. 445 bis al CPC: inejecutable la residencia única del deudor cuando concurran copulativamente: 60 años cumplidos, inmueble inscrito solo a su nombre por al menos 10 años, avalúo fiscal ≤ 5.000 UF, ingresos ≤ 50 UTM, acción no hipotecaria y no ser dueño de otro bien raíz.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito · Garantías",
+   "relevancia": "alta",
+   "fecha": "2024-12-04",
+   "hist": [
+    {
+     "f": "2023-01-25",
+     "t": "Aprobado en general; la Sala lo devuelve a la Comisión de Constitución para discusión en general y particular."
+    },
+    {
+     "f": "2024-12-04",
+     "t": "Citación para iniciar el estudio por la Comisión de Constitución del Senado."
+    }
+   ]
+  },
+  {
+   "id": "p27",
+   "boletin": "17.435-03",
+   "titulo": "Modifica la ley N° 20.448 en materia de reajustabilidad de los créditos hipotecarios universales",
+   "desc": "Moción parlamentaria, ingreso al Senado 25/03/25. Modifica el art. 7 de la Ley N° 20.448: los créditos hipotecarios universales serían en pesos con reajuste anual según la variación del IPC, eliminando la UF como mecanismo de reajustabilidad para este tipo de créditos.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "UF · Hipotecarios",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p28",
+   "boletin": "17.266-03",
+   "titulo": "Modifica la ley N° 19.496 para exigir que los terminales de pago cumplan principios de diseño universal, facilitando su uso por personas con discapacidad visual",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 2/12/24. Incorpora al art. 3 de la Ley N° 19.496 la obligación de que los dispositivos de pago electrónico contemplen medidas de diseño universal para personas con discapacidad visual.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Accesibilidad",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p29",
+   "boletin": "16.927-35",
+   "titulo": "Regula el diseño y la accesibilidad universal en el mercado financiero",
+   "desc": "Moción parlamentaria, ingreso al Senado 17/06/24. Agrega un art. 74 bis a la LGB: obliga a bancos y sociedades de apoyo al giro a disponer de diseño y accesibilidad universal en sucursales, sitios web, cajeros, POS y aplicaciones. La CMF dictará estándares; se prohíbe el uso de equipos que no los cumplan y se obliga a publicar datos de inclusión laboral.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Sala del Senado",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Accesibilidad",
+   "relevancia": "media",
+   "fecha": "2024-08-27",
+   "hist": [
+    {
+     "f": "2024-08-27",
+     "t": "Aprobado en general; se despacha a la Sala del Senado para su votación."
+    }
+   ]
+  },
+  {
+   "id": "p30",
+   "boletin": "15.462-03 / 16.764-03 / 16.783-03",
+   "titulo": "Modifica el Código de Comercio con el objeto de limitar los montos de pago en efectivo en el comercio",
+   "desc": "Boletines refundidos. Moción parlamentaria, ingreso al Senado 25/10/22. Establece límites al pago en efectivo (propuestas que van desde 50 UF a 5 UTA y 135 UF según boletín), con excepción de bancos, instituciones financieras y el Banco Central, y sanciones por incumplimiento.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Uso de efectivo · Prevención de lavado",
+   "relevancia": "media",
+   "fecha": "2024-08-27",
+   "hist": [
+    {
+     "f": "2024-08-05",
+     "t": "Presentación de la ABIF."
+    },
+    {
+     "f": "2024-08-27",
+     "t": "Citación para continuar el estudio en general."
+    }
+   ]
+  },
+  {
+   "id": "p31",
+   "boletin": "15.875-03",
+   "titulo": "Modifica la Ley sobre Cuentas Corrientes Bancarias y Cheques para establecer el pago de intereses sobre fondos disponibles en cuentas corrientes",
+   "desc": "Moción parlamentaria, ingreso al Senado 26/04/23. Obliga a pagar intereses sobre saldos disponibles en cuentas corrientes en moneda nacional (modifica el art. 8 del DFL 707). El Banco Central dispondría de 90 días para fijar la normativa; las modificaciones contractuales no podrían aumentar costos ni comisiones.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Costo financiero · Cuentas corrientes",
+   "relevancia": "media",
+   "fecha": "2024-08-27",
+   "hist": [
+    {
+     "f": "2024-08-05",
+     "t": "Presentación de la ABIF."
+    },
+    {
+     "f": "2024-08-27",
+     "t": "Citación para continuar el estudio en general."
+    }
+   ]
+  },
+  {
+   "id": "p32",
+   "boletin": "18.126-03",
+   "titulo": "Declara el día 1 de octubre de cada año como el Día Nacional de la Numismática y la Educación Financiera",
+   "desc": "Moción parlamentaria, ingreso al Senado 10/03/26. Establece el 1 de octubre como Día Nacional de la Numismática y la Educación Financiera. Las entidades públicas y privadas (incluidos bancos) y especialmente los establecimientos educacionales podrán desarrollar actividades de fomento del ahorro y la educación financiera. Sin efectos regulatorios directos.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Educación financiera (conmemorativo)",
+   "relevancia": "baja",
+   "fecha": "2026-03-10",
+   "hist": [
+    {
+     "f": "2026-03-10",
+     "t": "Ingreso a tramitación en el Senado."
+    }
+   ]
+  },
+  {
+   "id": "p33",
+   "boletin": "17.196-17",
+   "titulo": "Modifica la ley N° 18.046 sobre Sociedades Anónimas para establecer obligaciones de protección de derechos humanos a las personas jurídicas que indica",
+   "desc": "Moción parlamentaria, ingreso al Senado 21/10/2024. Agrega los arts. 10 bis y 10 ter a la Ley de S.A.: entidades fiscalizadas por la CMF (incluidas empresas bancarias y emisores de tarjetas) con 250+ trabajadores e ingresos sobre 1.000.000 UF deberán publicar una declaración de riesgos de DDHH, evaluarla anualmente y publicar denuncias recibidas.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión DDHH",
+   "urgencia": "Sin urgencia",
+   "impacto": "Gobierno corporativo · DDHH",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p34",
+   "boletin": "17.520-17",
+   "titulo": "Establece la obligación de incorporar la debida diligencia en derechos humanos a las empresas que operen en territorio nacional",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 5/05/25. Obliga a empresas medianas y grandes a implementar procesos de debida diligencia en DDHH en todas sus operaciones y cadenas de suministro (identificación de riesgos, evaluación de impacto, planes de mitigación, monitoreo, rendición de cuentas y reclamos). Multas no inferiores a 20 UTM.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Gobierno corporativo · DDHH",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p35",
+   "boletin": "16.475-05",
+   "titulo": "Crea un Registro Nacional de Personas Beneficiarias Finales",
+   "desc": "Mensaje presidencial, ingreso al Senado 18/12/2023. Crea un registro administrado por el SII con información de beneficiarios finales de personas jurídicas y otras entidades, conservada por al menos 10 años. Acceso del Estado a toda la información; publicidad limitada. Sanciones de hasta 1.500 UTA.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Hacienda",
+   "urgencia": "Sin urgencia",
+   "impacto": "Beneficiario final · Prevención de lavado",
+   "relevancia": "media",
+   "fecha": "2024-08-06",
+   "hist": [
+    {
+     "f": "2024-08-06",
+     "t": "Inicio del estudio en general."
+    }
+   ]
+  },
+  {
+   "id": "p36",
+   "boletin": "12.100-07",
+   "titulo": "Modifica la ley N° 20.285 sobre acceso a la información pública",
+   "desc": "Mensaje presidencial, ingreso a la Cámara 12/09/2018. Permite el acceso de la Contraloría General de la República a las cuentas bancarias de organismos públicos mediante resolución fundada.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión Hacienda",
+   "urgencia": "Sin urgencia",
+   "impacto": "Secreto y reserva bancaria",
+   "relevancia": "alta",
+   "fecha": "2024-08-07",
+   "hist": [
+    {
+     "f": "2024-08-07",
+     "t": "Citación para iniciar el estudio y votación en particular por la Comisión de Hacienda."
+    }
+   ]
+  },
+  {
+   "id": "p37",
+   "boletin": "15.716-03",
+   "titulo": "Introduce modificaciones a la ley N° 19.983 y al DL N° 825 para mejorar el pago a treinta días",
+   "desc": "Mensaje presidencial, ingreso al Senado 31/01/23. Establece plazo único de pago de facturas de 30 días, registro censal de tiempos de pago ante el SII, reportes públicos mensuales, desincentivos tributarios para malos pagadores y cambio de sujeto del IVA; para el Estado reduce el plazo a 20 días corridos.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Pago a proveedores",
+   "relevancia": "media",
+   "fecha": "2024-07-23",
+   "hist": [
+    {
+     "f": "2024-07-23",
+     "t": "Citación para continuar el estudio del proyecto. Suspendida."
+    }
+   ]
+  },
+  {
+   "id": "p38",
+   "boletin": "17.079-03",
+   "titulo": "Modifica la ley N° 19.496 para reglar el uso de sistemas automatizados de respuestas en servicios de atención al cliente",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 14/08/24. Garantiza atención humana (presencial o telefónica) en servicios básicos y grandes empresas. Llamada atendida en máx. 5 minutos; sanción de hasta 1.000 UTM por uso exclusivo de contestadores automáticos. Excluye a pymes.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Atención al cliente",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p39",
+   "boletin": "16.992-03",
+   "titulo": "Limita el monto de los pagos que se pueden realizar con dinero en efectivo",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 22/07/24. Prohíbe pagos en efectivo superiores a $1.500.000, con excepción de bancos, instituciones financieras y el Banco Central; multa del 100% del monto pagado al comprador y al receptor.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Uso de efectivo",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p40",
+   "boletin": "16.925-07",
+   "titulo": "Modifica la Carta Fundamental para facilitar el pago de deudas asociadas a gastos en educación, salud y vivienda",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 11/06/24. Reforma constitucional: establece un plazo de 13 años sin reajustes ni intereses para deudas por estudios superiores, salud o primera vivienda.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Deterioro de crédito · Intereses",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p41",
+   "boletin": "16.899-07",
+   "titulo": "Modifica la Carta Fundamental para facilitar el pago de deudas contraídas con instituciones financieras",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 4/06/24. Reforma constitucional: plazo de 13 años (156 cuotas) para créditos de consumo o comerciales, computadas solo sobre el capital, sin intereses ni capitalización; excluye a autoridades y a ejecutivos de entidades financieras.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Deterioro de crédito · Intereses",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p42",
+   "boletin": "16.696-07",
+   "titulo": "Modifica el DFL N° 3 (LGB) para establecer una excepción al secreto y reserva bancaria respecto de las autoridades y otras personas que indica",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 1/04/24. Modifica el art. 154 de la LGB: ciertas autoridades y sus familiares hasta el segundo grado deberían autorizar anticipadamente a los bancos a entregar antecedentes a la UAF, CMF, SII y tribunales, dentro de 30 días de investidos en el cargo.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Secreto y reserva bancaria",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p43",
+   "boletin": "15.244-13",
+   "titulo": "Modifica diversos cuerpos legales con el objeto de proteger el empleo ante despidos masivos",
+   "desc": "Moción parlamentaria, ingreso al Senado 3/08/2022. Establece un proceso de consulta previa y obligatoria ante despidos masivos (10% o más, o más de 1.000 trabajadores), con deber de comunicar a la Dirección del Trabajo; los despidos no se verifican hasta concluido el proceso de 45 días hábiles, prorrogables.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Trabajo y Previsión Social",
+   "urgencia": "Sin urgencia",
+   "impacto": "Costo laboral",
+   "relevancia": "media",
+   "fecha": "2024-05-07",
+   "hist": [
+    {
+     "f": "2024-05-07",
+     "t": "La Sala del Senado lo aprueba en general; vuelve a la Comisión de Trabajo. Plazo de indicaciones hasta el 30/05."
+    }
+   ]
+  },
+  {
+   "id": "p44",
+   "boletin": "15.169-11",
+   "titulo": "Modifica la Ley N° 20.422 para disponer de áreas de descanso y asientos suficientes en espacios de acceso público",
+   "desc": "Moción parlamentaria, ingreso al Senado 12/07/2022. Obliga a edificios y espacios de uso público a disponer de áreas de descanso y asientos para personas con discapacidad y adultos mayores.",
+   "camara": "Senado",
+   "etapa": "Primer trámite · Comisión Adulto Mayor",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Accesibilidad",
+   "relevancia": "baja",
+   "fecha": "2024-01-17",
+   "hist": [
+    {
+     "f": "2024-01-17",
+     "t": "La Sala del Senado lo aprueba en general; vuelve a la Comisión de Adulto Mayor. Plazo de indicaciones hasta el 7/03."
+    }
+   ]
+  },
+  {
+   "id": "p45",
+   "boletin": "16.122-03",
+   "titulo": "Modifica la Ley N° 20.584 para consagrar el derecho a la eliminación de la información oncológica para fines de acceso a productos y servicios financieros",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 25/07/23. Introduce un art. 29 bis a la Ley N° 20.584: las entidades reguladas por la CMF deberían eliminar la información clínica de un diagnóstico oncológico transcurridos 3 años desde el alta; las personas podrían requerir la eliminación directamente.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión Salud",
+   "urgencia": "Sin urgencia",
+   "impacto": "Datos de salud · Seguros",
+   "relevancia": "media",
+   "fecha": "2024-09-05",
+   "hist": [
+    {
+     "f": "2024-09-05",
+     "t": "La Sala de la Cámara lo aprueba en general y particular; se despacha al Senado (2TC)."
+    }
+   ]
+  },
+  {
+   "id": "p46",
+   "boletin": "15.961-07",
+   "titulo": "Modifica la Carta Fundamental para extinguir las deudas y obligaciones contraídas en virtud de la ley N° 20.027 (CAE)",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 17/04/2023. Reforma constitucional que busca condonar la totalidad de la deuda del CAE y extinguir obligaciones de los usuarios con las entidades financieras, y facultar al MINEDUC para fijar aranceles máximos.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Sala",
+   "urgencia": "Sin urgencia",
+   "impacto": "Deterioro de crédito por no pago",
+   "relevancia": "alta",
+   "fecha": "2023-07-25",
+   "hist": [
+    {
+     "f": "2023-07-25",
+     "t": "ABIF invitada a exponer. Rechazado en general; pasa a la Sala de la Cámara para su votación."
+    }
+   ]
+  },
+  {
+   "id": "p47",
+   "boletin": "16.494-05",
+   "titulo": "Modifica la ley N° 21.000 (CMF) para que las entidades fiscalizadas publiquen las resoluciones sancionatorias en sus sitios web",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 13/12/23. Agrega un inciso final al art. 28: las entidades supervisadas y sancionadas por la CMF deberán publicar la resolución sancionatoria en un lugar visible de su sitio web institucional.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Hacienda",
+   "urgencia": "Sin urgencia",
+   "impacto": "Reputacional · Cumplimiento",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p48",
+   "boletin": "16.343-03",
+   "titulo": "Modifica la Ley N° 19.496 para restringir el número de comunicaciones publicitarias y promocionales permitidas diariamente",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 4/10/23. Agrega incisos al art. 28 B: el proveedor solo puede comunicar de lunes a viernes de 9 a 18 horas; se entiende solicitada la suspensión si el consumidor no se manifiesta en 3 días; multa de 3 a 10 UTM.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Limitación a la oferta publicitaria",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p49",
+   "boletin": "16.057-13",
+   "titulo": "Modifica la Ley N° 18.833 para establecer un sistema de ahorro social y mecanismos para su promoción",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 4/07/23. Permite a las cajas de compensación administrar un régimen de ahorro social, abrir cuentas individuales y recibir ahorro voluntario de afiliados, ascendientes y descendientes.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "Competencia · Ahorro",
+   "relevancia": "baja",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p50",
+   "boletin": "13.810-03",
+   "titulo": "Exige a empresas bancarias poner a disposición del público un porcentaje mínimo de billetes de baja denominación",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 25/09/2020. Obliga a mantener al menos un 30% de billetes de $1.000 y $2.000 en cajeros automáticos. Comentario: el Capítulo 1-7 de la RAN fija una disponibilidad mínima del 95% que incentiva billetes de alta denominación por restricción de espacio en gavetas.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Efectivo",
+   "relevancia": "baja",
+   "fecha": "2023-06-13",
+   "hist": [
+    {
+     "f": "2023-06-13",
+     "t": "Citación para iniciar la discusión en general (se puso en tabla sorpresivamente)."
+    }
+   ]
+  },
+  {
+   "id": "p51",
+   "boletin": "15.515-03",
+   "titulo": "Modifica la ley N° 19.983 en materia de responsabilidad por el no pago en la cesión de facturas",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 23/11/22. Derecho del cedente a repetir contra el deudor, siempre que se estipule expresamente en el contrato de factoring y se haga exigible tras la notificación al deudor.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Factoring",
+   "relevancia": "media",
+   "fecha": "2023-05-16",
+   "hist": [
+    {
+     "f": "2023-05-16",
+     "t": "Aprobado en general."
+    }
+   ]
+  },
+  {
+   "id": "p52",
+   "boletin": "14.939-18",
+   "titulo": "Modifica diversos cuerpos legales para establecer en los juicios de alimentos la obligación del tribunal de obtener información patrimonial y financiera y permitir el levantamiento del secreto bancario respecto del demandado",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 21/04/2022. Obliga a los tribunales a solicitar información patrimonial y financiera del demandado; modifica la LGB y el DFL 707 para reconocer la facultad de requerir esta información, apelable según el art. 67 de la Ley N° 19.968.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Familia",
+   "urgencia": "Sin urgencia",
+   "impacto": "Secreto bancario",
+   "relevancia": "alta",
+   "fecha": "2023-04-12",
+   "hist": [
+    {
+     "f": "2023-04-12",
+     "t": "Citación para continuar la discusión general del proyecto."
+    }
+   ]
+  },
+  {
+   "id": "p53",
+   "boletin": "15.722-03",
+   "titulo": "Modifica la ley N° 19.496 para regular el otorgamiento de productos y servicios financieros a estudiantes de educación superior",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 30/01/2023. Agrega un art. 39 D: para otorgar créditos y tarjetas a estudiantes de educación superior se debería acreditar ingresos suficientes o autorización notarial del sostenedor; el contrato sin estos requisitos sería nulo.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito · Consumo",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p54",
+   "boletin": "14.059-03 / 13.067-03 / 13.150-03",
+   "titulo": "Modifica diversos cuerpos legales para prohibir y sancionar administrativa y penalmente el cobro de interés sobre intereses (anatocismo) en operaciones de crédito de dinero",
+   "desc": "Boletines refundidos (sin contenido unificado aún). Moción parlamentaria, ingreso a la Cámara 1/03/2021. Las propuestas incluyen prohibir y penalizar el anatocismo, establecer un límite de tasas a la tasa de interés promedio (no la TMC) y restringir comisiones a las que se acredite necesidad y razonabilidad.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de mercado · Crédito",
+   "relevancia": "alta",
+   "fecha": "2021-11-22",
+   "hist": [
+    {
+     "f": "2021-09-07",
+     "t": "La Cámara acuerda refundir los proyectos."
+    },
+    {
+     "f": "2021-11-22",
+     "t": "Citación para iniciar la discusión general. No se vio."
+    }
+   ]
+  },
+  {
+   "id": "p55",
+   "boletin": "15.260-03",
+   "titulo": "Dispone la suspensión de los procedimientos administrativos de cobro y juicios ejecutivos por doce meses en razón de la crisis económica",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 12/07/2022. Suspende por 12 meses el cobro y los juicios ejecutivos por deudas con la Tesorería y con instituciones financieras, para micro y pequeñas empresas. La CMF advirtió señal errónea a deudores, debilitamiento de la cultura de pago y estimó impactos por mayores provisiones y costos.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Hacienda",
+   "urgencia": "Sin urgencia",
+   "impacto": "Deterioro de crédito por no pago",
+   "relevancia": "alta",
+   "fecha": "2022-10-11",
+   "hist": [
+    {
+     "f": "2022-10-11",
+     "t": "Aprobado en general por la Comisión de Economía (8-2-0); pasa a la Comisión de Hacienda. La suspensión aplica a deudas contraídas hasta el 11/10/2022."
+    }
+   ]
+  },
+  {
+   "id": "p56",
+   "boletin": "14.968-03",
+   "titulo": "Modifica la Ley N° 19.496 para establecer como regla general el envío de estados de cuenta por medios digitales",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 9/05/2022. Establece que los estados de cuenta o informaciones periódicas se envíen por medios electrónicos, salvo solicitud expresa; si no hay casilla, se implementarían sitios privados por consumidor.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "media",
+   "fecha": "2022-10-25",
+   "hist": [
+    {
+     "f": "2022-10-25",
+     "t": "Comienza la votación en particular; no se votó."
+    }
+   ]
+  },
+  {
+   "id": "p57",
+   "boletin": "15.652-07",
+   "titulo": "Modifica el Código de Procedimiento Civil para agregar la insolvencia del deudor como nueva excepción en el juicio ejecutivo",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 6/01/2023. Incorpora al art. 464 del CPC una excepción del deudor: falta de liquidez por cesantía o enfermedad catastrófica propia, de su pareja o de un descendiente.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p58",
+   "boletin": "15.361-13",
+   "titulo": "Modifica el Código del Trabajo para permitir acceder al teletrabajo a los progenitores tras el período postnatal",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 26/09/2022. Obliga al empleador a ofrecer trabajo a distancia o teletrabajo por un año tras el descanso de maternidad/permiso postnatal parental, sin reducción de remuneraciones (nuevo art. 206 ter).",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Laboral",
+   "relevancia": "baja",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p59",
+   "boletin": "15.356-03",
+   "titulo": "Modifica la Ley N° 18.010 para prohibir la estipulación de cláusulas de aceleración",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 20/09/2022. Prohíbe el ejercicio de cláusulas de aceleración en operaciones de financiamiento o refinanciamiento cuyo monto total no exceda de 4.500 UF.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Riesgo de crédito",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p60",
+   "boletin": "15.341-25",
+   "titulo": "Establece medidas de seguridad obligatorias para las entidades bancarias o financieras que indica",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 9/09/2022. Establece prohibiciones (uso de dispositivos de comunicación, multa de hasta 5 UTM), disposición de asientos que impidan ver las cajas, registro biométrico al ingreso, barreras visuales y modernización de cámaras con respaldo de imágenes por 45 días.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Seguridad Ciudadana",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Seguridad",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p61",
+   "boletin": "8.729-31",
+   "titulo": "Declara la inembargabilidad del bien raíz que sirva de residencia principal para una persona con discapacidad",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 12/12/2012. No se podría ejecutar el bien raíz si concurren: incapacidad declarada y registrada, inmueble inscrito solo a su nombre, avalúo fiscal ≤ 5.000 UF, ingresos ≤ 50 UTM, acción no hipotecaria y no ser dueño de otro bien raíz.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Personas Mayores",
+   "urgencia": "Sin urgencia",
+   "impacto": "Garantías · Riesgo de crédito",
+   "relevancia": "media",
+   "fecha": "2022-05-27",
+   "hist": [
+    {
+     "f": "2022-04-18",
+     "t": "Se retoma el proyecto (sin movimiento desde 2012) y se deriva a la Comisión de Personas Mayores."
+    },
+    {
+     "f": "2022-05-27",
+     "t": "Plazo para presentar indicaciones."
+    }
+   ]
+  },
+  {
+   "id": "p62",
+   "boletin": "15.248-18",
+   "titulo": "Modifica el Código Civil para permitir a los progenitores la declaración de bien familiar en interés de sus descendientes",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 3/08/2022. Reemplaza 'cónyuges' por 'progenitores' en varios artículos y agrega un art. 141 bis sobre legitimación activa y medios probatorios del vínculo familiar.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Familia",
+   "urgencia": "Sin urgencia",
+   "impacto": "Garantías · Riesgo de crédito",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p63",
+   "boletin": "15.209-13",
+   "titulo": "Modifica el Código del Trabajo para reducir el porcentaje mínimo de trabajadores de nacionalidad chilena",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 19/07/2022. Rebaja de 85% a 60% el porcentaje mínimo de trabajadores chilenos por empleador, con excepciones para micro/pequeña empresa y por estacionalidad.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Laboral",
+   "relevancia": "baja",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p64",
+   "boletin": "15.199-25",
+   "titulo": "Impone a las instituciones financieras y cajas de compensación la obligación de contar con medidas que resguarden la privacidad de las operaciones",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 13/07/2022. Obliga a instalar biombos separadores semicerrados en forma de 'L' en las cajas de atención al público.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Seguridad Ciudadana",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "baja",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p65",
+   "boletin": "15.019-07",
+   "titulo": "Modifica la Carta Fundamental para otorgar al Banco Central la facultad de establecer un sistema de formación de precios para artículos de primera necesidad",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 27/05/2022. El Banco Central podría implementar, en una crisis inflacionaria, un Sistema Excepcional de Formación de Precios al Consumidor por un máximo de 60 días.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Comercial · Fijación de precios",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p66",
+   "boletin": "14.986-13",
+   "titulo": "Modifica el Código del Trabajo para reducir la jornada laboral a 39 horas semanales, de manera gradual y flexible",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 11/05/2022. Rebaja la jornada laboral a 39 horas, con excepción de jornada bisemanal u otros casos de distribución excepcional.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Trabajo y Seguridad Social",
+   "urgencia": "Sin urgencia",
+   "impacto": "Costo laboral",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p67",
+   "boletin": "14.888-03",
+   "titulo": "Elimina y prohíbe el uso de datos sobre deudas impagas al 30 de abril de 2022 y establece sanciones",
+   "desc": "Moción parlamentaria, ingreso al Senado 6/04/2022. Prohíbe informar y usar deudas impagas al 30/04/2022 cuando el total sea inferior a $2.500.000 de capital, con obligación de eliminarlas; sanciones de 1.000 a 2.500 UTM.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Buró de crédito · Evaluación de riesgo",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p68",
+   "boletin": "14.709-03",
+   "titulo": "Modifica cuerpos legales para proteger a las personas en materia de cobranzas y facilita la renegociación de deudas",
+   "desc": "Moción parlamentaria, ingreso 15/11/2021. Ajusta la Ley N° 19.496 en cobros por cobranza (reduce tramos, máx. 1 UF; llamados máx. 0,1 UF) y la Ley N° 20.720 (flexibiliza el acceso a la liquidación personal: elimina requisito de juicios pendientes, reduce monto de 80 a 40 UF).",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Costos de cobranza",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p69",
+   "boletin": "11.835-03",
+   "titulo": "Modifica la Ley N° 19.496 en materia de sanciones a las empresas que incurran en acoso telefónico en el envío de promociones o publicidad",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 20/06/2018. Multa de 20 a 300 UTM por no suspender el envío de publicidad tras requerimiento; obliga a llamar desde un solo número identificador visible y a obtener consentimiento previo para mensajes.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Publicidad",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p70",
+   "boletin": "14.535-03",
+   "titulo": "Modifica la LGB en materia de información al cliente y el cobro ejecutivo de créditos hipotecarios",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 17/08/2021. Incorpora un art. 106 bis (requisitos adicionales para acciones ejecutivas: adeudar al menos 10 cuotas o 3% del crédito en la primera mitad, 15 cuotas o 7% en la segunda) y un art. 111 bis (deber de informar condiciones más favorables).",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito · Garantías",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p71",
+   "boletin": "14.494-03",
+   "titulo": "Modifica la Ley N° 19.496 para extender el plazo de gracia para el pago de primas morosas en los seguros de desgravamen asociados a créditos hipotecarios",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 28/07/2021. Obliga a establecer un plazo de gracia de un año en las pólizas de desgravamen, manteniendo exigible el seguro aunque no se paguen las primas; autoriza descontar primas de la indemnización.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Seguros de desgravamen",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p72",
+   "boletin": "14.451-13",
+   "titulo": "Modifica el Código del Trabajo en materia de duración y distribución de la jornada laboral",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 24/06/2021. Rebaja la jornada laboral a 38 horas distribuidas en mínimo 4 y máximo 6 días, sin disminución de remuneraciones ni de derechos.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "Costo laboral",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p73",
+   "boletin": "14.333-03",
+   "titulo": "Dispone el otorgamiento de créditos de postergación a los deudores de créditos hipotecarios y suspende los juicios ejecutivos para su cobro",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 22/06/2021. Obliga a la banca a otorgar créditos de postergación a deudores hipotecarios que lo soliciten y suspende por 6 meses los juicios ejecutivos sobre deudas con hipoteca específica.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Garantías hipotecarias",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p74",
+   "boletin": "13.240-13",
+   "titulo": "Modifica el Código del Trabajo en materia de participación de los trabajadores en las utilidades de las empresas",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 14/11/2019. Aumenta la participación en utilidades, estableciendo la obligatoriedad de repartir como gratificación 8% o 15% de las utilidades según facturación anual.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "Costo laboral",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p75",
+   "boletin": "9.706-14",
+   "titulo": "Modifica el CPC para declarar inembargables las viviendas adquiridas con subsidios del Estado con avalúo fiscal no superior a 520 UF",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 6/11/2014. Sustituye el N° 8 del art. 445 del CPC: inembargabilidad del único bien raíz del deudor cuando se trate de vivienda de emergencia, adquirida con subsidio MINVU o vivienda social con avalúo fiscal hasta 400-520 UF.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión Vivienda",
+   "urgencia": "Sin urgencia",
+   "impacto": "Garantías",
+   "relevancia": "media",
+   "fecha": "2021-06-10",
+   "hist": [
+    {
+     "f": "2021-06-10",
+     "t": "Se desarchiva el proyecto (archivado desde 2018)."
+    }
+   ]
+  },
+  {
+   "id": "p76",
+   "boletin": "13.519-03 y otros",
+   "titulo": "Prohíbe la publicación de las deudas morosas durante la vigencia, y hasta noventa días después, del estado de catástrofe por la pandemia de Covid-19",
+   "desc": "Boletines refundidos (13.519-03, 13.523-03, 13.414-03, 13.444-03, 13.446-03, 13.458-03, 13.626-03). Moción parlamentaria, ingreso a la Cámara 14/05/2020. Prohíbe comunicar obligaciones exigibles después del 18/10/2020 a personas con deudas hasta 150 UF y medianas empresas, hasta 120 días tras el término del estado de excepción.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Buró de crédito",
+   "relevancia": "alta",
+   "fecha": "2021-07-19",
+   "hist": [
+    {
+     "f": "2021-07-19",
+     "t": "Exponen ABIF, CMF y BCCh."
+    }
+   ]
+  },
+  {
+   "id": "p77",
+   "boletin": "14.231-07",
+   "titulo": "Modifica la Carta Fundamental para imponer al Presidente la obligación y plazo de presentar un proyecto que extinga deudas educativas",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 5/05/2021. Otorga un plazo de 3 meses al Presidente para presentar un proyecto que extinga la totalidad de las deudas educativas (condonación u otro modo de extinguir), con prohibición de mantener registros de morosos.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Buró de crédito · Deuda educativa",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p78",
+   "boletin": "13.362-03 y otros",
+   "titulo": "Dispone la suspensión del cobro de obligaciones de pago de servicios durante la vigencia del estado de excepción constitucional de catástrofe",
+   "desc": "Boletines refundidos (13.362-03, 13.328-03, 13.371-03, 13.391-03, 13.392-03, 13.394-03). Moción parlamentaria, ingreso a la Cámara 24/03/2020. Permite a personas naturales y MIPYMEs suspender el pago de 6 cuotas de créditos elegibles suscritos con instituciones con acceso a la Facilidad de Liquidez del Banco Central.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Deterioro de crédito por no pago",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p79",
+   "boletin": "13.526-03",
+   "titulo": "Modifica cuerpos legales en materia de gastos asociados a la celebración y liquidación de operaciones de crédito de dinero ('Deuda Maldita')",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 19/05/2020. Nuevo límite a la comisión de prepago, reglas de imputación al capital e intereses, interés moratorio para operaciones de hasta 5.000 UF (prohibición del anatocismo), condiciones a las cláusulas de aceleración, regulación de gastos operacionales y prohibición de cobros por cobranza.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de mercado · Crédito",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p80",
+   "boletin": "8.466-07",
+   "titulo": "Modifica la Ley N° 19.799 sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma y otros textos legales",
+   "desc": "Mensaje presidencial, ingreso al Senado 25/07/2012. Actualiza y moderniza el sistema de firma electrónica para masificar su uso. Su demora impacta la productividad al no contar con un pagaré electrónico como título ejecutivo.",
+   "camara": "Senado",
+   "etapa": "Tercer trámite · Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Firma electrónica · Productividad",
+   "relevancia": "media",
+   "fecha": "2021-01-27",
+   "hist": [
+    {
+     "f": "2021-01-27",
+     "t": "Continúa la discusión."
+    }
+   ]
+  },
+  {
+   "id": "p81",
+   "boletin": "14.822-07",
+   "titulo": "Regula la hipoteca inversa",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 25/01/2022. Reconoce la hipoteca inversa para complementar ingresos hasta la muerte del beneficiario (mayores de 60 años o con discapacidad, inmueble sobre 1.000 UF de avalúo, residencia habitual); los herederos podrían pagar en un plazo de hasta un año.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Garantías · Productos hipotecarios",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p82",
+   "boletin": "13.506-04",
+   "titulo": "Dispone la suspensión del pago de las cuotas de créditos para la educación con aval del Estado (CAE) con ocasión del estado de excepción por la pandemia",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 7/04/2020. Permite suspender el pago de deudas del Fondo Solidario, CAE, líneas de Corfo y otras de financiamiento de estudios superiores durante el estado de excepción.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite · Comisión Educación",
+   "urgencia": "Sin urgencia",
+   "impacto": "Deterioro de crédito por no pago",
+   "relevancia": "media",
+   "fecha": "2021-03-30",
+   "hist": [
+    {
+     "f": "2020-08-12",
+     "t": "Aprobado por la Cámara (en general y particular); pasa a segundo trámite al Senado."
+    },
+    {
+     "f": "2021-03-30",
+     "t": "Se da cuenta; pasa a la Comisión de Educación."
+    }
+   ]
+  },
+  {
+   "id": "p83",
+   "boletin": "13.625-03",
+   "titulo": "Modifica la ley N° 18.010 para reducir transitoriamente la tasa máxima convencional",
+   "desc": "Moción parlamentaria, ingreso a la Cámara 1/07/2020. Limita transitoriamente la TMC para operaciones con tarjetas de crédito (créditos inferiores a 200 UF): operaciones sobre 50 UF a 7% más la TIC, y de 50 UF o menos a 11% más la TIC.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de mercado · TMC",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p84",
+   "boletin": "13.695-03",
+   "titulo": "Modifica la ley N° 19.628 para prohibir, por el periodo y condiciones que indica, comunicar, publicar o utilizar datos relativos a obligaciones impagas",
+   "desc": "Prohíbe el uso, comunicación y publicación de información económica, financiera, bancaria o comercial durante el año siguiente a la entrada en vigencia de la ley, incluyendo información anterior a un año. Ingreso 11/08/2020.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Buró de crédito · Evaluación de riesgo",
+   "relevancia": "alta",
+   "fecha": "2020-08-11",
+   "hist": [
+    {
+     "f": "2020-08-11",
+     "t": "Ingreso del proyecto."
+    }
+   ]
+  },
+  {
+   "id": "p85",
+   "boletin": "13.897-03",
+   "titulo": "Modifica la ley N° 19.628 para prohibir comunicar información relacionada con deudas impagas contraídas entre las fechas que indica",
+   "desc": "Prohíbe informar deudas contraídas entre octubre de 2019 y marzo de 2021 que estén impagas, siempre que el total comunicado sea inferior a 523,22 UF. Ingreso 16/11/2020.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Buró de crédito",
+   "relevancia": "alta",
+   "fecha": "2020-11-16",
+   "hist": [
+    {
+     "f": "2020-11-16",
+     "t": "Ingreso del proyecto; pasa a la Comisión de Economía."
+    }
+   ]
+  },
+  {
+   "id": "p86",
+   "boletin": "13.053-04",
+   "titulo": "Interpreta la Ley N° 19.496 y modifica otras normas legales",
+   "desc": "Hace aplicable la Ley N° 19.496 a los contratos de crédito para estudios superiores (nulidad de cláusulas, carga de la prueba, mandatos en blanco). Modifica la Ley N° 20.027 (CAE): permite a la TGR condonar deudas, elimina la imprescriptibilidad y la exigencia de mandato irrevocable. Modifica el Fondo Solidario.",
+   "camara": "Senado",
+   "etapa": "Tercer trámite · Comisión Educación",
+   "urgencia": "Sin urgencia",
+   "impacto": "Deterioro de crédito · CAE",
+   "relevancia": "media",
+   "fecha": "2022-09-07",
+   "hist": [
+    {
+     "f": "2022-08-29",
+     "t": "Aprobado por la Sala."
+    },
+    {
+     "f": "2022-09-07",
+     "t": "Discusión en tercer trámite constitucional."
+    }
+   ]
+  },
+  {
+   "id": "p87",
+   "boletin": "13.560-03",
+   "titulo": "Modifica la Ley N° 20.720 para facilitar el acceso al procedimiento concursal de renegociación de la persona deudora",
+   "desc": "Flexibiliza las condiciones para acogerse a la renegociación de deudas: reduce plazos de morosidad (de 90 a 30 días), disminuye el monto mínimo (de 80 a 40 UF), permite a personas a honorarios y elimina la exigencia de no tener juicios ejecutivos vigentes (con suspensión de los pendientes). Ingreso 3/06/2020.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Calificación crediticia · Garantías",
+   "relevancia": "media",
+   "fecha": "2020-06-03",
+   "hist": [
+    {
+     "f": "2020-06-03",
+     "t": "Ingreso del proyecto; pasa a la Comisión de Economía."
+    }
+   ]
+  },
+  {
+   "id": "p88",
+   "boletin": "13.841-03",
+   "titulo": "Modifica la Ley N° 19.496 para tipificar y sancionar modalidades de abuso por parte de los proveedores en contratos de adhesión",
+   "desc": "Incorpora la figura del 'microabuso' con multas de 50 a 100 UTM por mayor dificultad para terminar que para suscribir un contrato, no extender mejores condiciones a clientes antiguos, omisión de información o cualquier conducta que cause perjuicio o desventaja al consumidor. Ingreso 27/10/2020.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Comercial",
+   "relevancia": "media",
+   "fecha": "2020-10-27",
+   "hist": [
+    {
+     "f": "2020-10-27",
+     "t": "Se da cuenta; pasa a la Comisión de Economía."
+    }
+   ]
+  },
+  {
+   "id": "p89",
+   "boletin": "13.117-03",
+   "titulo": "Modifica la Ley N° 18.010 con el objeto de reducir el incremento para el cálculo de la Tasa Máxima Convencional (TMC)",
+   "desc": "Ajusta los arts. 6 y 6 bis de la Ley N° 18.010 reduciendo los guarismos de la TMC (regla general de 1,5 a 1,2 vez la TIC; operaciones bajo 200 UF y créditos descontados de pensiones también se reducen). Ingreso 11/12/2019.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de mercado · TMC",
+   "relevancia": "alta",
+   "fecha": "2019-12-11",
+   "hist": [
+    {
+     "f": "2019-12-11",
+     "t": "Pasa a la Comisión de Economía."
+    }
+   ]
+  },
+  {
+   "id": "p90",
+   "boletin": "13.226-03",
+   "titulo": "Modifica la ley N° 18.010 para reducir la TMC aplicable a los créditos que se otorguen a personas mayores de 65 años",
+   "desc": "Incorpora un límite a la TMC aplicable a créditos otorgados a personas mayores de 65 años: no superior al 30% del monto total del crédito. Ingreso 29/12/2019.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de mercado · TMC",
+   "relevancia": "alta",
+   "fecha": "2019-12-29",
+   "hist": [
+    {
+     "f": "2019-12-29",
+     "t": "Se da cuenta; pasa a la Comisión de Economía."
+    }
+   ]
+  },
+  {
+   "id": "p91",
+   "boletin": "13.382-03",
+   "titulo": "Modifica la ley N° 20.720 (reorganización y liquidación de empresas y personas)",
+   "desc": "Facilita el uso de la liquidación personal: elimina el requisito de juicios pendientes, reduce el monto para optar (de 80 UF a 3 sueldos mínimos) e incorpora la prohibición de discriminación financiera arbitraria a quienes se acojan a liquidación. Ingreso 31/03/2020.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Calificación crediticia",
+   "relevancia": "media",
+   "fecha": "2020-03-31",
+   "hist": [
+    {
+     "f": "2020-03-31",
+     "t": "Ingreso del proyecto; pasa a la Comisión de Economía."
+    }
+   ]
+  },
+  {
+   "id": "p92",
+   "boletin": "13.267-18",
+   "titulo": "Modifica el CPC para declarar inembargables los bienes pertenecientes a adultos mayores",
+   "desc": "Incorpora un nuevo numeral al art. 445 del CPC declarando inembargables los bienes muebles e inmuebles que pertenezcan a personas adultas mayores. Ingreso 5/03/2020.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Familia",
+   "urgencia": "Sin urgencia",
+   "impacto": "Garantías · Riesgo de crédito",
+   "relevancia": "media",
+   "fecha": "2020-03-05",
+   "hist": [
+    {
+     "f": "2020-03-05",
+     "t": "Se da cuenta; pasa a la Comisión de Familia."
+    }
+   ]
+  },
+  {
+   "id": "p93",
+   "boletin": "13.463-03",
+   "titulo": "Modifica la Ley N° 19.496 para que los contratos suscritos por medios electrónicos puedan dejarse sin efecto por la misma vía",
+   "desc": "Agrega un inciso al art. 12 A de la LPDC: los proveedores que oferten contratación por medios electrónicos deberán proveer, al mismo tiempo, la posibilidad de poner término al contrato por el mismo medio. Ingreso 28/04/2020.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Legal",
+   "relevancia": "media",
+   "fecha": "2020-04-28",
+   "hist": [
+    {
+     "f": "2020-04-28",
+     "t": "Ingreso del proyecto; pasa a la Comisión de Economía."
+    }
+   ]
+  },
+  {
+   "id": "p94",
+   "boletin": "13.378-04",
+   "titulo": "Dispone planes de flexibilización para el cobro de aranceles y matrícula por instituciones de educación superior, con ocasión de la pandemia Covid-19",
+   "desc": "Proyecto sin movimiento en el último año. Dispone planes de flexibilización para el cobro de aranceles y matrícula por instituciones de educación superior, con ocasión de la pandemia Covid-19.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Deterioro de crédito educativo",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p95",
+   "boletin": "12.924-03",
+   "titulo": "Modifica la ley N° 19.628 sobre protección de la vida privada, en materia de publicación de datos personales sobre deudas morosas o protestadas",
+   "desc": "Proyecto sin movimiento en el último año. Modifica la ley N° 19.628 sobre protección de la vida privada, en materia de publicación de datos personales sobre deudas morosas o protestadas.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Buró de crédito",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p96",
+   "boletin": "11.654-03",
+   "titulo": "Modifica la ley N° 19.946 para exigir sello SERNAC en contratos de adhesión celebrados con bancos y otras entidades",
+   "desc": "Proyecto sin movimiento en el último año. Modifica la ley N° 19.946 para exigir sello SERNAC en contratos de adhesión celebrados con bancos y otras entidades.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Comercial · Cumplimiento",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p97",
+   "boletin": "11.219-03",
+   "titulo": "Modifica la LGB para establecer medidas en favor de los deudores hipotecarios que no han pagado las cuotas o dividendos en el plazo estipulado",
+   "desc": "Proyecto sin movimiento en el último año. Modifica la LGB para establecer medidas en favor de los deudores hipotecarios que no han pagado las cuotas o dividendos en el plazo estipulado.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Garantías hipotecarias",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p98",
+   "boletin": "12.618-13",
+   "titulo": "Proyecto sobre Modernización Laboral",
+   "desc": "Proyecto sin movimiento en el último año. Proyecto sobre Modernización Laboral.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "Costo laboral",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p99",
+   "boletin": "12.463-03",
+   "titulo": "Modifica la ley N° 19.496 para establecer un procedimiento de impugnación en caso de cobros indebidos asociados al uso de tarjetas de crédito y cuentas corrientes",
+   "desc": "Proyecto sin movimiento en el último año. Modifica la ley N° 19.496 para establecer un procedimiento de impugnación en caso de cobros indebidos asociados al uso de tarjetas de crédito y cuentas corrientes.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional · Medios de pago",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p100",
+   "boletin": "12.055-03 / 12.054-03 / 11.975-03",
+   "titulo": "Refunde proyectos relativos a la responsabilidad de bancos e instituciones financieras en casos de fraudes informáticos",
+   "desc": "Proyecto sin movimiento en el último año. Refunde proyectos relativos a la responsabilidad de bancos e instituciones financieras en casos de fraudes informáticos.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Fraude · Riesgo operacional",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p101",
+   "boletin": "11.807-07",
+   "titulo": "Sobre protección de los consumidores (modificación constitucional)",
+   "desc": "Proyecto sin movimiento en el último año. Sobre protección de los consumidores (modificación constitucional).",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Comercial",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p102",
+   "boletin": "12.508-03",
+   "titulo": "Modifica la LGB para establecer una excepción al secreto y reserva bancaria respecto de las autoridades que indica",
+   "desc": "Proyecto sin movimiento en el último año. Modifica la LGB para establecer una excepción al secreto y reserva bancaria respecto de las autoridades que indica.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Secreto y reserva bancaria",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p103",
+   "boletin": "12.099-03",
+   "titulo": "Modifica la ley N° 19.496 para obligar a dar a conocer las vulneraciones a las bases de datos que contengan información sobre sus clientes o usuarios",
+   "desc": "Proyecto sin movimiento en el último año. Modifica la ley N° 19.496 para obligar a dar a conocer las vulneraciones a las bases de datos que contengan información sobre sus clientes o usuarios.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Datos personales · Ciberseguridad",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p104",
+   "boletin": "9.886-13",
+   "titulo": "Modifica el Código del Trabajo para establecer un procedimiento previo al que debe someterse el empleador en caso de despidos colectivos",
+   "desc": "Proyecto sin movimiento en el último año. Modifica el Código del Trabajo para establecer un procedimiento previo al que debe someterse el empleador en caso de despidos colectivos.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "Costo laboral",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  },
+  {
+   "id": "p105",
+   "boletin": "13.570-03",
+   "titulo": "Modifica el DL N° 3.472 (FOGAPE) para exigir transparencia en la información y sancionar el actuar arbitrario de instituciones financieras",
+   "desc": "Proyecto sin movimiento en el último año. Modifica el DL N° 3.472 (FOGAPE) para exigir transparencia en la información y sancionar el actuar arbitrario de instituciones financieras.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite · Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "FOGAPE · Reputacional",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": []
+  }
+ ]
+}
