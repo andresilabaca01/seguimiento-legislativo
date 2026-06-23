@@ -1,0 +1,42 @@
+name: Actualizar seguimiento legislativo
+
+# Corre automáticamente de lunes a viernes a las 09:00 hora de Chile.
+# (GitHub usa UTC; Chile en horario de invierno = UTC-4, así que 13:00 UTC ≈ 09:00 CL.
+#  Ajusta el valor de 'cron' si cambia el horario de verano: verano UTC-3 → 12:00 UTC.)
+on:
+  schedule:
+    - cron: "0 13 * * 1-5"   # 13:00 UTC, lunes a viernes
+  workflow_dispatch:          # permite ejecutarlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write             # necesario para que el bot haga commit del JSON
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests beautifulsoup4
+
+      - name: Ejecutar el scraper
+        run: python scraper_legislativo.py
+
+      - name: Publicar proyectos.json si hubo cambios
+        run: |
+          git config user.name  "bot-seguimiento"
+          git config user.email "bot@users.noreply.github.com"
+          git add proyectos.json
+          if git diff --staged --quiet; then
+            echo "Sin cambios que publicar."
+          else
+            git commit -m "Actualización automática $(date +'%Y-%m-%d')"
+            git push
+          fi
