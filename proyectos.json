@@ -1,13 +1,13 @@
 {
- "version": "2026-06-23-1340",
- "generado": "2026-06-23T13:40:08",
+ "version": "2026-06-24-1921",
+ "generado": "2026-06-24T19:21:19",
  "total": 105,
- "cambios_detectados": 102,
+ "cambios_detectados": 1,
  "no_leidos": [
-  "15.034-07",
   "13.519-03 y otros",
   "13.362-03 y otros"
  ],
+ "candidatos": [],
  "proyectos": [
   {
    "id": "p1",
@@ -15,7 +15,7 @@
    "titulo": "Regula medidas de seguridad aplicables en las cajas de atención de público de las instituciones bancarias y financieras",
    "desc": "Establece medidas de seguridad físicas en cajas de atención (separación de cajas, silenciamiento de máquinas contadoras, grabación de imágenes), restricciones de ingreso/permanencia (prohíbe sombreros, anteojos de sol, celulares, fotos), uso de cámaras corporales por vigilantes y difusión preventiva. Opinión legal ABIF: los delitos de marcaje son dinámicos y el Protocolo vigente, definido con la Subsecretaría de Prevención del Delito, ya aborda la materia; el PdL debiese reforzar facultades del Ministerio del Interior, contemplar al regulador bancario y evaluar mecanismos para reducir el uso de efectivo. Moción parlamentaria, ingreso al Senado 1/06/2022.",
    "camara": "Senado",
-   "etapa": "Primer trámite · Comisión Seguridad Pública",
+   "etapa": "Fecha",
    "urgencia": "Sin urgencia",
    "impacto": "Operacional",
    "relevancia": "media",
