@@ -64,6 +64,51 @@ URL_SENADO_RECIENTES = ("https://tramitacion.senado.cl/appsenado/templates/"
                         "tramitacion/proyectos.php")
 
 # --------------------------------------------------------------------
+# LISTA DE FUENTES A MONITOREAR (17 URLs solicitadas por ABIF)
+# Cada corrida el robot INTENTA visitar todas. Las que respondan bien,
+# se procesan; las que fallen (bloqueo, timeout, cambio de HTML) quedan
+# registradas en el log como "no leídas" sin detener la corrida.
+# --------------------------------------------------------------------
+FUENTES_MONITOREADAS = [
+    # SENADO
+    {"nombre": "Senado - Actividad legislativa",
+     "url": "https://www.senado.cl/actividad-legislativa", "tipo": "general"},
+    {"nombre": "Senado - Citaciones a comisiones",
+     "url": "https://www.senado.cl/actividad-legislativa/comisiones/citaciones", "tipo": "citaciones"},
+    {"nombre": "Senado - Resultados de comisiones",
+     "url": "https://www.senado.cl/actividad-legislativa/comisiones/resultados", "tipo": "resultados"},
+    {"nombre": "Senado - Tabla semanal de Sala",
+     "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal", "tipo": "tabla"},
+    {"nombre": "Senado - Votaciones de Sala",
+     "url": "https://www.senado.cl/actividad-legislativa/sala/votaciones", "tipo": "votaciones"},
+    {"nombre": "Senado - Sesiones de Sala",
+     "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/sesiones-de-sala", "tipo": "sesiones"},
+    {"nombre": "Senado - Tramitación (buscador de boletines)",
+     "url": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/", "tipo": "buscador"},
+    {"nombre": "Senado - Leyes publicadas",
+     "url": "https://www.senado.cl/actividad-legislativa/informacion-legislativa/leyes-publicadas", "tipo": "leyes"},
+    {"nombre": "Senado - TV en vivo (no procesable como texto)",
+     "url": "https://tv.senado.cl/", "tipo": "video"},
+    # CÁMARA
+    {"nombre": "Cámara - Buscador de proyectos de ley",
+     "url": "https://www.camara.cl/legislacion/ProyectosDeLey/proyectos_ley.aspx", "tipo": "buscador"},
+    {"nombre": "Cámara - Comisiones permanentes",
+     "url": "https://www.camara.cl/legislacion/comisiones/comisiones_permanentes.aspx", "tipo": "general"},
+    {"nombre": "Cámara - Citaciones a comisiones",
+     "url": "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx", "tipo": "citaciones"},
+    {"nombre": "Cámara - Resultados de comisiones",
+     "url": "https://www.camara.cl/legislacion/comisiones/resultados_todos.aspx", "tipo": "resultados"},
+    {"nombre": "Cámara - Tabla semanal",
+     "url": "https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL", "tipo": "tabla"},
+    {"nombre": "Cámara - Votaciones de Sala",
+     "url": "https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx", "tipo": "votaciones"},
+    {"nombre": "Cámara - Sesiones de Sala",
+     "url": "https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx", "tipo": "sesiones"},
+    {"nombre": "Cámara - TV en vivo (no procesable como texto)",
+     "url": "https://www.camara.cl/prensa/television.aspx", "tipo": "video"},
+]
+
+# --------------------------------------------------------------------
 # PALABRAS CLAVE PARA DETECTAR RELEVANCIA BANCARIA (lista estándar editable)
 # Si el título o la materia de un proyecto NUEVO contiene alguno de estos
 # términos, se agrega a la BANDEJA de la plataforma como candidato por revisar.
@@ -240,53 +285,105 @@ def texto_coincide(texto):
     return [kw.strip() for kw in PALABRAS_CLAVE if kw.lower() in t]
 
 
-def detectar_candidatos(boletines_seguidos):
+# --------------------------------------------------------------------
+# ESCANEO DE LAS 17 FUENTES CONFIGURADAS
+# Intenta leer cada URL. Registra qué funcionó y qué no. Extrae texto
+# plano y busca menciones a boletines + palabras clave bancarias.
+# Los TV en vivo se marcan como "no procesables" (son video/streaming).
+# --------------------------------------------------------------------
+def escanear_fuentes(boletines_seguidos, palabras_clave_fn):
     """
-    Intenta leer la lista de proyectos recién ingresados al Senado y devuelve
-    los que coinciden con palabras clave bancarias y NO están ya en seguimiento.
-    Devuelve lista de dicts: {boletin, titulo, fecha, camara, match[]}.
-    Defensivo: si no logra leer la página, devuelve [] sin romper la corrida.
+    Devuelve (candidatos_detectados, registro_fuentes).
+    - candidatos: proyectos nuevos con match de palabras clave que no están seguidos.
+    - registro_fuentes: lista de {nombre, url, estado, detalle} para el log.
     """
     candidatos = []
-    try:
-        r = requests.get(URL_SENADO_RECIENTES, headers=HEADERS, timeout=TIMEOUT)
-        r.raise_for_status()
-    except Exception as e:
-        log(f"  (detección de nuevos) no se pudo leer recientes: {e}")
-        return candidatos
-
-    soup = BeautifulSoup(r.text, "html.parser")
+    registro = []
     seguidos = set()
     for b in boletines_seguidos:
         for parte in b.replace(" ", "").split("/"):
             seguidos.add(parte.replace(".", ""))
-
-    # Buscar enlaces o filas que contengan un número de boletín tipo NNNNN-NN
     patron_bol = re.compile(r"\b(\d{4,5}-\d{2})\b")
-    filas = soup.find_all(["tr", "li", "a"])
-    vistos = set()
-    for fila in filas:
-        txt = fila.get_text(" ", strip=True)
-        m = patron_bol.search(txt)
-        if not m:
+    vistos_cand = set()
+
+    for f in FUENTES_MONITOREADAS:
+        nombre, url, tipo = f["nombre"], f["url"], f["tipo"]
+
+        # Los TV en vivo no son procesables como texto — se marcan honestamente.
+        if tipo == "video":
+            registro.append({"nombre": nombre, "url": url,
+                             "estado": "omitido",
+                             "detalle": "Transmisión en vivo: no es texto, requiere transcripción externa."})
+            log(f"  ⊘ {nombre}: omitido (video en vivo)")
             continue
-        bol = m.group(1)
-        if bol in vistos or bol.replace("-", "") in seguidos or bol in seguidos:
-            continue
-        matches = texto_coincide(txt)
-        if matches:
-            vistos.add(bol)
-            # quitar el número del título para dejarlo más limpio
-            titulo = patron_bol.sub("", txt).strip(" .-—|")
-            candidatos.append({
-                "boletin": bol,
-                "titulo": titulo[:300],
-                "fecha": None,
-                "camara": "Por confirmar",
-                "match": matches[:6],
-            })
-    log(f"  Candidatos nuevos detectados: {len(candidatos)}")
-    return candidatos
+
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True)
+            if r.status_code >= 400:
+                registro.append({"nombre": nombre, "url": url,
+                                 "estado": "error",
+                                 "detalle": f"HTTP {r.status_code}"})
+                log(f"  ✗ {nombre}: HTTP {r.status_code}")
+                continue
+            html = r.text
+            if len(html) < 500:
+                registro.append({"nombre": nombre, "url": url,
+                                 "estado": "vacio",
+                                 "detalle": f"Respuesta muy corta ({len(html)} bytes)"})
+                log(f"  ? {nombre}: respuesta vacía o muy corta")
+                continue
+
+            # Extraer texto de la página
+            soup = BeautifulSoup(html, "html.parser")
+            for s in soup(["script", "style"]):
+                s.decompose()
+            texto = soup.get_text(" ", strip=True)
+
+            # Buscar boletines nuevos con palabras clave bancarias
+            nuevos_aqui = 0
+            for fila in soup.find_all(["tr", "li", "a", "div"]):
+                txt = fila.get_text(" ", strip=True)
+                if len(txt) < 20 or len(txt) > 500:
+                    continue
+                m = patron_bol.search(txt)
+                if not m:
+                    continue
+                bol = m.group(1)
+                if bol in vistos_cand or bol.replace("-", "") in seguidos or bol in seguidos:
+                    continue
+                matches = palabras_clave_fn(txt)
+                if matches:
+                    vistos_cand.add(bol)
+                    titulo = patron_bol.sub("", txt).strip(" .-—|")
+                    candidatos.append({
+                        "boletin": bol,
+                        "titulo": titulo[:300],
+                        "fecha": None,
+                        "camara": "Por confirmar",
+                        "match": matches[:6],
+                        "detectado_en": nombre,
+                    })
+                    nuevos_aqui += 1
+
+            registro.append({"nombre": nombre, "url": url,
+                             "estado": "ok",
+                             "detalle": f"{len(texto)} caracteres · {nuevos_aqui} candidato(s)"})
+            log(f"  ✓ {nombre}: leído ({len(texto)} chars, {nuevos_aqui} candidatos)")
+
+        except requests.exceptions.Timeout:
+            registro.append({"nombre": nombre, "url": url,
+                             "estado": "timeout",
+                             "detalle": f"Sin respuesta en {TIMEOUT}s"})
+            log(f"  ⏱ {nombre}: timeout")
+        except Exception as e:
+            registro.append({"nombre": nombre, "url": url,
+                             "estado": "error",
+                             "detalle": str(e)[:120]})
+            log(f"  ✗ {nombre}: {type(e).__name__}")
+
+        time.sleep(PAUSA_ENTRE)
+
+    return candidatos, registro
 
 
 # --------------------------------------------------------------------
@@ -317,8 +414,12 @@ def main():
                 total_cambios += 1
         time.sleep(PAUSA_ENTRE)
 
-    # 2b. Detectar proyectos nuevos con relevancia bancaria (para la bandeja)
-    candidatos = detectar_candidatos([p["boletin"] for p in proyectos])
+    # 2b. Escanear las 17 fuentes configuradas (detección de candidatos + log honesto)
+    log("--- Escaneando 17 fuentes configuradas ---")
+    candidatos, registro_fuentes = escanear_fuentes(
+        [p["boletin"] for p in proyectos],
+        texto_coincide,
+    )
 
     # 3. Empaquetar con metadatos de versión (la plataforma los usa)
     salida = {
@@ -328,17 +429,27 @@ def main():
         "cambios_detectados": total_cambios,
         "no_leidos": fallidos,
         "candidatos": candidatos,
+        "fuentes_monitoreadas": registro_fuentes,
         "proyectos": proyectos,
     }
 
     with open(ARCHIVO_BASE, "w", encoding="utf-8") as f:
         json.dump(salida, f, ensure_ascii=False, indent=1)
 
+    # Resumen del escaneo por estado
+    from collections import Counter
+    conteo = Counter(f["estado"] for f in registro_fuentes)
     log("=== Resumen ===")
     log(f"  Proyectos totales : {len(proyectos)}")
     log(f"  Con cambios       : {total_cambios}")
     log(f"  No leídos         : {len(fallidos)}  {fallidos if fallidos else ''}")
     log(f"  Candidatos nuevos : {len(candidatos)}")
+    log(f"  Fuentes escaneadas: {len(registro_fuentes)}")
+    log(f"    ✓ OK           : {conteo.get('ok', 0)}")
+    log(f"    ⊘ omitidas (video): {conteo.get('omitido', 0)}")
+    log(f"    ✗ error/HTTP   : {conteo.get('error', 0)}")
+    log(f"    ⏱ timeout      : {conteo.get('timeout', 0)}")
+    log(f"    ? vacías       : {conteo.get('vacio', 0)}")
     log(f"  Archivo generado  : {ARCHIVO_BASE}  (versión {salida['version']})")
     log("Listo. Publica este archivo para que la plataforma lo lea.")
 
