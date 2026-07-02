@@ -1,13 +1,199 @@
 {
- "version": "2026-07-02-1828",
- "generado": "2026-07-02T18:28:55",
+ "version": "2026-07-02-2123",
+ "generado": "2026-07-02T21:23:25",
  "total": 105,
  "cambios_detectados": 0,
  "no_leidos": [
   "13.519-03 y otros",
   "13.362-03 y otros"
  ],
- "candidatos": [],
+ "candidatos": [
+  {
+   "boletin": "18407-25",
+   "titulo": "Modifica diversos cuerpos legales, con el objeto de agravar las sanciones aplicables en materia de lavado de activos En tramitación 24/06/2026",
+   "fecha": null,
+   "camara": "Por confirmar",
+   "match": [
+    "lavado de activos"
+   ],
+   "detectado_en": "Senado - Tramitación (buscador de boletines)"
+  },
+  {
+   "boletin": "18192-25",
+   "titulo": "Modifica diversos cuerpos legales, con el objeto de fortalecer la persecución penal de la distribución digital ilícita y proteger a los consumidores En tramitación 15/04/2026",
+   "fecha": null,
+   "camara": "Por confirmar",
+   "match": [
+    "consumidor"
+   ],
+   "detectado_en": "Senado - Tramitación (buscador de boletines)"
+  },
+  {
+   "boletin": "18144-07",
+   "titulo": "Modifica el Código Procesal Penal, para fortalecer la persecución penal del crimen organizado y regular el juicio oral en ausencia del imputado En tramitación 25/03/2026",
+   "fecha": null,
+   "camara": "Por confirmar",
+   "match": [
+    "crimen organizado"
+   ],
+   "detectado_en": "Senado - Tramitación (buscador de boletines)"
+  },
+  {
+   "boletin": "18118-07",
+   "titulo": "Modifica la ley N° 21.719, que regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales, y otro cuerpo legal que indica, en materia de identidad digital y representación sintética En tramitación 10/03/2026",
+   "fecha": null,
+   "camara": "Por confirmar",
+   "match": [
+    "datos personales"
+   ],
+   "detectado_en": "Senado - Tramitación (buscador de boletines)"
+  },
+  {
+   "boletin": "18128-03",
+   "titulo": "Modifica la Ley Orgánica Constitucional del Banco Central, para promover el uso de elementos del patrimonio natural y cultural del país en las monedas y billetes. En tramitación 10/03/2026",
+   "fecha": null,
+   "camara": "Por confirmar",
+   "match": [
+    "banco",
+    "billete"
+   ],
+   "detectado_en": "Senado - Tramitación (buscador de boletines)"
+  },
+  {
+   "boletin": "18080-03",
+   "titulo": "Modifica diversos cuerpos legales, con el objeto de fortalecer la transparencia y trazabilidad financiera en las operaciones prendarias En tramitación 26/01/2026",
+   "fecha": null,
+   "camara": "Por confirmar",
+   "match": [
+    "prenda"
+   ],
+   "detectado_en": "Senado - Tramitación (buscador de boletines)"
+  },
+  {
+   "boletin": "18083-03",
+   "titulo": "Modifica la ley N° 20.720, con el objeto de facilitar el acceso al procedimiento concursal de renegociación a deudores en las situaciones de emergencia que indica En tramitación 26/01/2026",
+   "fecha": null,
+   "camara": "Por confirmar",
+   "match": [
+    "deudor"
+   ],
+   "detectado_en": "Senado - Tramitación (buscador de boletines)"
+  },
+  {
+   "boletin": "15351-07",
+   "titulo": "Sobre armonización de la ley N° 21.302, que Crea el Servicio Nacional de Protección Especializada a la Niñez y Adolescencia y Modifica Normas Legales que Indica, y la ley N° 20.032, que Regula el Régimen de Aportes Financieros del Estado a los Colaboradores Acreditados, con la ley N° 21.430, Sobre G",
+   "fecha": null,
+   "camara": "Por confirmar",
+   "match": [
+    "garantía"
+   ],
+   "detectado_en": "Senado - Tramitación (buscador de boletines)"
+  }
+ ],
+ "fuentes_monitoreadas": [
+  {
+   "nombre": "Senado - Actividad legislativa",
+   "url": "https://www.senado.cl/actividad-legislativa",
+   "estado": "ok",
+   "detalle": "1283 caracteres · 0 candidato(s)"
+  },
+  {
+   "nombre": "Senado - Citaciones a comisiones",
+   "url": "https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
+   "estado": "ok",
+   "detalle": "644 caracteres · 0 candidato(s)"
+  },
+  {
+   "nombre": "Senado - Resultados de comisiones",
+   "url": "https://www.senado.cl/actividad-legislativa/comisiones/resultados",
+   "estado": "ok",
+   "detalle": "708 caracteres · 0 candidato(s)"
+  },
+  {
+   "nombre": "Senado - Tabla semanal de Sala",
+   "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
+   "estado": "ok",
+   "detalle": "2141 caracteres · 0 candidato(s)"
+  },
+  {
+   "nombre": "Senado - Votaciones de Sala",
+   "url": "https://www.senado.cl/actividad-legislativa/sala/votaciones",
+   "estado": "ok",
+   "detalle": "478 caracteres · 0 candidato(s)"
+  },
+  {
+   "nombre": "Senado - Sesiones de Sala",
+   "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/sesiones-de-sala",
+   "estado": "ok",
+   "detalle": "497 caracteres · 0 candidato(s)"
+  },
+  {
+   "nombre": "Senado - Tramitación (buscador de boletines)",
+   "url": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/",
+   "estado": "ok",
+   "detalle": "40831 caracteres · 8 candidato(s)"
+  },
+  {
+   "nombre": "Senado - Leyes publicadas",
+   "url": "https://www.senado.cl/actividad-legislativa/informacion-legislativa/leyes-publicadas",
+   "estado": "ok",
+   "detalle": "852 caracteres · 0 candidato(s)"
+  },
+  {
+   "nombre": "Senado - TV en vivo (no procesable como texto)",
+   "url": "https://tv.senado.cl/",
+   "estado": "omitido",
+   "detalle": "Transmisión en vivo: no es texto, requiere transcripción externa."
+  },
+  {
+   "nombre": "Cámara - Buscador de proyectos de ley",
+   "url": "https://www.camara.cl/legislacion/ProyectosDeLey/proyectos_ley.aspx",
+   "estado": "error",
+   "detalle": "HTTP 403"
+  },
+  {
+   "nombre": "Cámara - Comisiones permanentes",
+   "url": "https://www.camara.cl/legislacion/comisiones/comisiones_permanentes.aspx",
+   "estado": "error",
+   "detalle": "HTTP 403"
+  },
+  {
+   "nombre": "Cámara - Citaciones a comisiones",
+   "url": "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx",
+   "estado": "error",
+   "detalle": "HTTP 403"
+  },
+  {
+   "nombre": "Cámara - Resultados de comisiones",
+   "url": "https://www.camara.cl/legislacion/comisiones/resultados_todos.aspx",
+   "estado": "error",
+   "detalle": "HTTP 403"
+  },
+  {
+   "nombre": "Cámara - Tabla semanal",
+   "url": "https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
+   "estado": "error",
+   "detalle": "HTTP 403"
+  },
+  {
+   "nombre": "Cámara - Votaciones de Sala",
+   "url": "https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx",
+   "estado": "error",
+   "detalle": "HTTP 403"
+  },
+  {
+   "nombre": "Cámara - Sesiones de Sala",
+   "url": "https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx",
+   "estado": "error",
+   "detalle": "HTTP 403"
+  },
+  {
+   "nombre": "Cámara - TV en vivo (no procesable como texto)",
+   "url": "https://www.camara.cl/prensa/television.aspx",
+   "estado": "omitido",
+   "detalle": "Transmisión en vivo: no es texto, requiere transcripción externa."
+  }
+ ],
  "proyectos": [
   {
    "id": "p1",
