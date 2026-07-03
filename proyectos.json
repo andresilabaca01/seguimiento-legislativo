@@ -1,0 +1,2447 @@
+{
+ "version": "2026-07-03-abif-integrado-98",
+ "generado": "2026-07-03T15:20:50",
+ "total": 98,
+ "candidatos": [],
+ "fuentes_monitoreadas": [],
+ "proyectos": [
+  {
+   "id": "p1",
+   "boletin": "18.286-03",
+   "titulo": "PdL que modifica la ley N° 19.799 sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados",
+   "desc": "Mensaje del Ejecutivo (ingreso 02/06/2026). Moderniza la firma electrónica avanzada y reduce exigencias de presencialidad: cuando la intervención notarial tenga por único objeto autorizar o certificar firmas, podrá cumplirse con FEA y sellado de tiempo. Modifica la ley 18.092 para permitir letra de cambio y pagaré electrónicos con mérito ejecutivo. Reglamento en 1 año.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión de Economía",
+   "urgencia": "Simple",
+   "impacto": "Firma electrónica · Contratos · Pagaré electrónico",
+   "relevancia": "alta",
+   "fecha": "2026-06-23",
+   "hist": [
+    {
+     "f": "2026-06-02",
+     "t": "Ingreso a la Cámara con urgencia simple."
+    },
+    {
+     "f": "2026-06-09",
+     "t": "Inicio del estudio en general por la Comisión de Economía; no se alcanzó a tratar."
+    },
+    {
+     "f": "2026-06-23",
+     "t": "Citado para inicio del estudio en general por la Comisión de Economía."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p2",
+   "boletin": "18.340-03",
+   "titulo": "PdL que excluye la aplicación de la unidad de fomento como mecanismo de reajustabilidad en los contratos que señala y establece mayores deberes de transparencia en su utilización",
+   "desc": "Moción parlamentaria (ingreso 10/06/2026). Busca excluir la UF como mecanismo de reajustabilidad en ciertos contratos y establecer mayores deberes de transparencia. Alta relevancia: la UF es fundamental en créditos hipotecarios y financiamientos de largo plazo; su restricción podría afectar la valorización de activos y pasivos y la oferta de productos.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión de Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito · Valorización de activos y pasivos · UF",
+   "relevancia": "alta",
+   "fecha": "2026-06-10",
+   "hist": [
+    {
+     "f": "2026-06-10",
+     "t": "Ingreso a tramitación en el Senado."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p3",
+   "boletin": "15.034-07",
+   "titulo": "PdL que regula medidas de seguridad aplicables en las cajas de atención de público de las instituciones bancarias y financieras.\n\nFecha ingreso PdL al Senado: 1/06/2022\n\nMoción parlamentaria",
+   "desc": "Establece medidas de seguridad en las cajas de atención al público de instituciones bancarias o financieras. \n\nDifusión y propaganda en sucursales y sitios web para evitar la comisión delitos.\nMedidas de seguridad físicas: \nSeparación de cajas y de espera de atención.\nSilenciamiento y ocultamiento de las máquinas contadoras de billetes.\nSistema de grabación de imágenes.\nMedidas de seguridad relativa al ingreso y permanencia para prevenir la comisión de delitos.\nNo utilizar: Sombreros u atuendos que oculten el cabello parcial o totalmente, salvo excepciones; antejos de sol; terminales de telefonía móvil u otros aparatos electrónicos de comunicación, incluye notebooks, tablets; no tomar fotos; prohíbe el uso de mensajería y afines.\nMedidas de seguridad relacionadas a los vigilantes privados.\nUso de cámaras corporales ajustadas a los más altos estándares de calidad.\n\nOpinión legal:\nLos delitos a la salida de bancos o marcajes son de especial preocupación y, por ello, la banca ha participado activamente y cooperado con la Autoridad en la implementación de medidas para prevenir estos delitos (Protocolo).\nLos mecanismos de seguridad para prevenir y combatir delito como el “marcaje” son esencialmente dinámicos, y el perfeccionamiento de las técnicas para cometerlos provocan su rápida obsolescencia.\nLas medidas de seguridad que contiene el Protocolo han sido definidas por criterios técnicos, en conjunto con las autoridades que tienen a su cargo la prevención de los delitos, el orden y la seguridad pública como es el caso de la Mesa Técnica liderada por la Subsecretaría de Prevención del Delito. \nEn este sentido, el PdL debiese reforzar las facultades del Ministerio del Interior para prevenir este tipo de delito, estableciendo lineamientos generales para cumplir estos objetivos, así como llevar adelante la coordinación e implementación de las medidas necesarias.\nFinalmente, este tipo de iniciativas debería contemplar la participación expresa del regulador bancario, por su rol en el funcionamiento de las sucursales, así como evaluar y proponer mecanismos para reducir el uso de efectivo (ej. Límites a compras en efectivo, gestión de retiro de efectivo, facilidades a migrantes para acceder a cuentas transaccionales, etc.).",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Seguridad Pública.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "media",
+   "fecha": "2022-12-20",
+   "hist": [
+    {
+     "f": "2022-10-11",
+     "t": "Presentación de la ABIF en la Comisión."
+    },
+    {
+     "f": "2022-10-18",
+     "t": "ABIF invitada a nueva sesión donde expondrá la Subsecretaría de Prevención del Delito (SPD)."
+    },
+    {
+     "f": "2022-10-18",
+     "t": "La SPD expuso en la Comisión y valoró implementación de Protocolo con la ABIF."
+    },
+    {
+     "f": "2022-11-14",
+     "t": "La Comisión invitó a la ABIF a la sesión, pero no alcanzó a discutirse."
+    },
+    {
+     "f": "2022-12-13",
+     "t": "Citación para continuar con el estudio en general del proyecto."
+    },
+    {
+     "f": "2022-12-20",
+     "t": "Citación para continuar con el estudio en general del proyecto."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p4",
+   "boletin": "15.975-25",
+   "titulo": "PdL que crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado. \n\nFecha ingreso PdL al Senado: 31/05/23\n\nMensaje presidencial",
+   "desc": "Objeto del proyecto: \nPerseguir la ruta del dinero proveniente del lavado de activos, el financiamiento del terrorismo y otros delitos vinculados al crimen organizado, a través del análisis de datos, trazabilidad de operaciones, levantamiento del secreto bancario, ampliación de rubros obligados a informar y robustecer el trabajo interinstitucional. \n\nSe crea un Subsistema de Inteligencia Económica, integrado por la Unidad de Análisis Financiero (UAF), el Servicio de Impuestos Internos (SII) y el Servicio Nacional de Aduanas, para la recolección, evaluación y análisis de información sobre actividades relacionadas con delitos tributarios, aduaneros, económicos, lavado de activos, financiamiento del terrorismo, delitos sobre control de armas o delitos vinculados al crimen organizado, a fin de alertar y/o colaborar con el MP y el Sistema de Inteligencia del Estado. \n\nPrincipales modificaciones legales: \n1. A la LGB: \nCuando el controlador o un accionista con participación significativa de un banco incurra cualquiera de las situaciones de los numerales iv, v y vi de la letra d), del art. 28, deberá enajenar la totalidad de sus acciones, dentro del plazo de 2 años, prorrogables por uno más, desde la fecha en que incurra en tal situación. \nEn relación al secreto bancario, se agrega que los bancos pueden entregar antecedentes relativos a operaciones de depósitos y captaciones de cualquier naturaleza, a quien haya sido autorizado por ley. \n\nAl D.L. N° 3538, que crea la CMF: \nEl Fiscal de la Unidad de Investigación de la CMF ya no requiere autorización de 3 comisionados y resolución fundada para requerir información a bancos y a otras entidades fiscalizadas, incluso aquella sometida a secreto o reserva, en el marco de una investigación o procedimiento sancionatorio. \n\n3. AL D.L N° 830, que aprueba el Código Tributario:\nEntidades financieras deberán informar detalle de los saldos y sumas de abonos de los últimos cinco años de los productos o instrumentos a reportar, pertenecientes a titulares, controladores y beneficiarios finales, cuando en más de un periodo mensual, el saldo o las sumas hayan superado el límite de 1.5000 UF.\n\n\nLa Comisión de Hacienda del Senado, aprobó:\nRespecto del levantamiento del secreto bancario por parte de la UAF: \nPor regla general la UAF deberá solicitar el levantamiento del secreto a la Corte de Apelaciones.\nExcepcionalmente, procederá el levantamiento administrativo (sin autorización judicial previa) del secreto bancario: \nSi la ROS proviene de un banco, si la ROS se refiere a funcionarios públicos, y si la ROS se refiere a personas jurídicas. \nEs necesaria para desarrollar o completar el análisis de una o más operaciones sospechosas previamente reportadas. \nLa ROS debe vincularse con los delitos de su competencia (crimen organizado, lavado de activos o financiamiento del terrorismo)\nEsta facultad es ejercida por el Director de la UAF, mediante resolución fundada, secreta, y previo requerimiento del la jefatura de la División de Inteligencia Financiera. \nControl ex post: El Director de la UAF debe remitir a la Corte de Apelaciones de Stgo., copia de los antecedentes por los cuales solicita el levantamiento bancario administrativo, para que un ministro designado pueda verificar aleatoriamente el cumplimiento de las condiciones establecidas en esta ley. \nEn marzo de cada año, la UAF deberá publicar información agregada sobre la cantidad de veces que ejerció esta facultad en el año calendario y la cantidad de personas a cuya información accedió, distinguiendo si se solicitó el levantamiento judicial o administrativamente.\n \n• Respecto del levantamiento del secreto bancario por parte de la CMF:\nEl Fiscal de la Unidad de Investigación de la CMF, en el marco de investigaciones o procedimientos sancionatorios, puede acceder a información bancaria secreta o sujeta a reserva, sin autorización judicial previa de la Corte de Apelaciones, pero debe contar con la autorización de al menos 3 comisionados.\n\nLa Sala del Senado, rechazó la indicación aprobada por la Comisión de Hacienda respecto de los requerimientos de información sujeta a secreto o reserva bancaria por parte de la UAF, por lo tanto se mantiene el control judicial previo para estos requerimientos. En relación con los requerimientos de información por parte del Fiscal de la Unidad de Investigación de la CMF, se mantiene el control judicial.\n\nEl 29/09/25 y el 19/01/26, la Comisión de Seguridad Ciudadana de la C. de Diputados en 2TC, rechazó las indicaciones a través de la cual se pretendía eliminar el control judicial previo (de la Corte de Apelaciones), para los requerimientos de información sujeta a secreto o reserva bancaria realizados por el Fiscal de la CMF y de la UAF. \n\nEl 5/03/26, la Sala de la C. de Diputados (2TC), aprobó la indicación que elimina el control judicial previo respecto de las solicitudes de información sujeta a secreto o reserva bancaria, por parte de la UAF, solo en los siguientes casos: \nSi la ROS proviene de un banco,\nSi la ROS se refiere a funcionarios públicos, y \nSi la ROS se refiere a personas jurídicas.",
+   "camara": "Comisión Mixta",
+   "etapa": "Tercer trámite → Comisión Mixta (por rechazo de modificaciones)",
+   "urgencia": "Suma",
+   "impacto": "Afectación del secreto y reserva bancaria.",
+   "relevancia": "alta",
+   "fecha": "2026-06-16",
+   "hist": [
+    {
+     "f": "2023-07-18",
+     "t": "Citación para iniciar el estudio del proyecto en la Comisión de Seguridad Pública del Senado."
+    },
+    {
+     "f": "2024-01-17",
+     "t": "Citación para iniciar el estudio en particular del proyecto."
+    },
+    {
+     "f": "2024-11-13",
+     "t": "al 14/01/25: Citación para continuar con la votación."
+    },
+    {
+     "f": "2025-01-15",
+     "t": "Citación para continuar con la votación del proyecto."
+    },
+    {
+     "f": "2025-08-12",
+     "t": "a 12/01/26: Citación para continuar con la votación en particular."
+    },
+    {
+     "f": "2026-01-19",
+     "t": "Citación para continuar con la votación en particular."
+    },
+    {
+     "f": "2026-03-05",
+     "t": "La Sala de la Cámara aprueba eliminar el control judicial previo para la UAF en tres casos (ROS de banco, funcionarios públicos, personas jurídicas). Se despacha al Senado (3TC)."
+    },
+    {
+     "f": "2026-05-12",
+     "t": "Discusión única . Queda pendiente"
+    },
+    {
+     "f": "2026-06-02",
+     "t": "En Sala del Senado queda pendiente la votación del artículo sobre levantamiento del secreto bancario por la UAF (empate 23-23-0)."
+    },
+    {
+     "f": "2026-06-03",
+     "t": "Discusión única . Queda pendiente"
+    },
+    {
+     "f": "2026-06-08",
+     "t": "Cuenta solicitud de comisionar al diputado Gonzalo Winter para que sostenga ante el Senado el proyecto de ley. RECHAZADO"
+    },
+    {
+     "f": "2026-06-09",
+     "t": "Nuevo empate 24-24-0 en Sala. La norma se rechaza y el proyecto pasa a Comisión Mixta."
+    },
+    {
+     "f": "2026-06-09",
+     "t": "Oficio rechazo modificaciones a Cámara Revisora ."
+    },
+    {
+     "f": "2026-06-09",
+     "t": "Discusión única . Rechazadas las modificaciones"
+    },
+    {
+     "f": "2026-06-09",
+     "t": "Cuenta del Mensaje 141-374 que hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-06-10",
+     "t": "Cuenta oficio rechazo a modificaciones ."
+    },
+    {
+     "f": "2026-06-16",
+     "t": "Cuenta del Mensaje 154-374 que hace presente la urgencia Suma"
+    }
+   ],
+   "resumenes": [
+    {
+     "f": "2026-06-09",
+     "org": "Sala del Senado",
+     "t": "VOTACIÓN CLAVE — SECRETO BANCARIO. La Sala votó por segunda vez la norma que faculta a la UAF a requerir información sujeta a secreto bancario sin autorización judicial previa (ROS de bancos, funcionarios públicos o personas jurídicas). Resultado: empate 24-24-0. Por el art. 182 del Reglamento y sin urgencia vigente, la norma se rechaza y el proyecto pasa a Comisión Mixta.\n\nPosiciones: oficialismo e izquierda defendieron la medida como herramienta contra el crimen organizado (caso Operación Tokio); el Ejecutivo mantuvo reparos señalando que ya existe levantamiento por vía judicial. Se argumentó que en 16 años se solicitó 64 veces el levantamiento judicial y se otorgó siempre en 24 horas.\n\nIMPACTO BANCARIO (alto): de prosperar en Mixta, modificaría el régimen de secreto bancario (art. 154 LGB) e introduciría un canal administrativo de entrega de información a la UAF."
+    }
+   ],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca establecer un Subsistema de Inteligencia Económica para la prevención y alerta de actividades relacionadas con el crimen organizado. Su implementación tendrá un impacto directo en el sistema bancario, ya que los bancos son sujetos obligados en la prevención del lavado de activos y financiamiento del terrorismo, implicando nuevas obligaciones de reporte y potencial afectación del secreto bancario. ABIF debe monitorear este proyecto de cerca debido a las significativas implicancias regulatorias y operacionales para la industria.",
+   "categorias_abif": [
+    "Lavado de activos / AML",
+    "Regulación prudencial",
+    "Secreto y reserva bancaria"
+   ]
+  },
+  {
+   "id": "p5",
+   "boletin": "15.869-19 / 16.821-19",
+   "titulo": "PdL que regula los sistemas de inteligencia artificial, la robótica y las tecnologías conexas, en sus distintos ámbitos de aplicación. \n\nFecha ingreso del PdL a la Cámara de Diputados: 24/04/23\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: \nEstablecer un marco jurídico para el desarrollo, comercialización, distribución y utilización de los sistemas de Inteligencia Artificial, asegurando la protección de los derechos fundamentales garantizados por el Estado. \n\nDentro de los sistemas calificados por esta ley como sistemas de IA de alto riesgo, se encuentran los sistemas de evaluación de solvencia o de calificación crediticia.\n\nSe creará una Comisión Nacional de Inteligencia Artificial, que entre sus funciones le corresponderá autorizar el desarrollo, comercialización, distribución y utilización de sistemas de IA. \nAdemás, se definen requisitos que se deben cumplir para contar con la autorización de la Comisión, se establece la obligación de notificar incidentes, multas por incumplimiento y la creación de un registro púbico que contendrá información sobre las solicitudes de autorización y los incidentes notificados.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Comisión Ciencias",
+   "urgencia": "Simple",
+   "impacto": "operacional",
+   "relevancia": "media",
+   "fecha": "2026-06-09",
+   "hist": [
+    {
+     "f": "2023-06-14",
+     "t": "Citación para iniciar el estudio en general del proyecto."
+    },
+    {
+     "f": "2024-01-03",
+     "t": "a 3/01/24: Citación para continuar con el estudio en general."
+    },
+    {
+     "f": "2024-11-20",
+     "t": "al 7/05/25: Citación para continuar con la votación en particular."
+    },
+    {
+     "f": "2025-10-13",
+     "t": "En tabla para su votación en la Sala de la C. de Diputados."
+    },
+    {
+     "f": "2025-10-14",
+     "t": "Cuenta del Mensaje 1163-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2025-10-14",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Desafíos del Futuro, Ciencia, Tecnología e Innovación, y a la Comisión de Hacienda, en su caso."
+    },
+    {
+     "f": "2025-11-05",
+     "t": "Cuenta del Mensaje 1236-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2025-12-03",
+     "t": "Cuenta del Mensaje 1323-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2026-01-06",
+     "t": "Cuenta del Mensaje 1462-373 que hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-01-20",
+     "t": "Cuenta del Mensaje 1548-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-05-12",
+     "t": "Cuenta del Mensaje 88-374 que hace presente la urgencia Simple"
+    },
+    {
+     "f": "2026-06-09",
+     "t": "Cuenta del Mensaje 134-374 que retira y hace presente la urgencia Simple"
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca establecer un marco regulatorio general para los sistemas de inteligencia artificial, la robótica y tecnologías conexas en sus diversos ámbitos de aplicación. Aunque no menciona explícitamente al sector bancario o financiero, la regulación de la IA podría tener implicancias futuras en el desarrollo y uso de estas tecnologías para scoring crediticio, atención al cliente o seguridad operacional. Se sugiere monitorear su tramitación para identificar posibles efectos indirectos en la operación bancaria o en la aplicación de IA en servicios financieros.",
+   "categorias_abif": [
+    "Fintech / Open Finance / IA financiera"
+   ]
+  },
+  {
+   "id": "p6",
+   "boletin": "15.610-03 / 16.041-03",
+   "titulo": "PdL que modifica la ley N° 19.416, que establece normas sobre protección de los derechos de los consumidores, para prohibir llamadas telefónicas publicitarias de proveedores sin consentimiento del consumidor.\n\nFecha ingreso PdL a la Cámara de Diputados: 20/12/2022\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: \nEstablecer el derecho del consumidor a no recibir llamados telefónicos publicitarios de proveedores, a menos que manifiesten expresamente su voluntad para ello, deben otorgar su consentimiento. \n\nRequisitos del consentimiento: (art. 28 B)\nPrevio, expreso y específico.\nDeclaración escrita o medio electrónico equivalente, o por acto afirmativo que dé cuenta con claridad de la voluntad del titular.\nNo se podrá obtener cuando el proveedor haya iniciado el contacto telefónico.\nDebe obtenerse con posterioridad a la celebración de un contrato.\n\nMulta de hasta 1.500 UTM para los proveedores que envíen publicidad, sin contar con consentimiento del usuario. \n\nActuaciones de cobranza extrajudicial: \nEl contacto telefónico o la gestión de cobranza deberá efectuarse mediante un número telefónico u otra fuente que sea reconocible o identificable previamente por el usuario. \n\nTexto aprobado por la Comisión de Economía – C. de Diputados: \n\nDerecho del consumidor a no recibir llamados telefónicos o mensajería instantánea con objetivos publicitarios de proveedores a menos que exista consentimiento expreso.\nToda comunicación promocional o publicitaria (llamados telefónicos o mensajería), debe contar con el consentimiento del destinatario. \nSanción por incumplimiento: Multa de hasta 1.000 UTM.\nSe puede revocar el consentimiento en cualquier momento, por los medios dispuestos por el proveedor. \nEn relación con las actuaciones de cobranza extrajudicial: \nEl máximo de contactos telefónicos, visitas u otras actuaciones de cobranza permitidas por semana, se considera respecto a una deuda determinada. \nEl contacto telefónico o gestión de cobranza deberá efectuarse por número telefónico u otra fuente reconocible o identificable previamente por usuario.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Sala",
+   "urgencia": "Suma",
+   "impacto": "Limitación a la oferta publicitaria",
+   "relevancia": "media",
+   "fecha": "2026-03-10",
+   "hist": [
+    {
+     "f": "2023-12-12",
+     "t": "Citación para iniciar el estudio en general del proyecto."
+    },
+    {
+     "f": "2024-01-09",
+     "t": "Citación para continuar con el estudio en general."
+    },
+    {
+     "f": "2024-09-24",
+     "t": "En tabla para su votación en la Sala de la C. de Diputados."
+    },
+    {
+     "f": "2025-11-05",
+     "t": "Cuenta del Mensaje 1235-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2025-11-25",
+     "t": "Cuenta del Mensaje 1269-373 que hace presente la urgencia Suma"
+    },
+    {
+     "f": "2025-12-10",
+     "t": "Cuenta del Mensaje 1362-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-01-06",
+     "t": "Citación para iniciar el estudio en general del proyecto por la Comisión Economía del Senado."
+    },
+    {
+     "f": "2026-01-06",
+     "t": "Cuenta del Mensaje 1462-373 que hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-01-20",
+     "t": "Cuenta del Mensaje 1548-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-03-03",
+     "t": "Cuenta del Mensaje 1605-373 que hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-03-09",
+     "t": "Primer informe de comisión de Economía."
+    },
+    {
+     "f": "2026-03-10",
+     "t": "Cuenta de primer informe de comisión ."
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca modificar la Ley N°19.496 de Protección de los Derechos de los Consumidores para prohibir las llamadas telefónicas publicitarias no solicitadas por parte de proveedores, incluyendo a los bancos, sin el consentimiento expreso del consumidor. La iniciativa impacta directamente las estrategias de marketing y captación de clientes de la banca, limitando los canales de comunicación para la oferta de productos y servicios financieros. Genera un riesgo operacional al requerir que las instituciones financieras implementen sistemas para gestionar y verificar el consentimiento de los consumidores, así como para asegurar el cumplimiento de esta nueva normativa.",
+   "categorias_abif": [
+    "Protección al consumidor financiero",
+    "Cobranza y ejecución",
+    "Pagos y transacciones"
+   ]
+  },
+  {
+   "id": "p7",
+   "boletin": "17.381-03",
+   "titulo": "PdL que prohíbe subcontratar servicios de teleoperadores que funcionen fuera del territorio nacional. \n\nFecha ingreso del PdL a la Cámara de Diputados: \n29/01/2025\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto:\nEstablecer una multa de 1.000 UF para las empresas que subcontraten servicios de call center* que operen fuera del territorio nacional. \n\n*empresas que presten servicios para contactar o ser contactados con terceros, sea por vía telefónica, medios telemáticos, aplicación de tecnología digital o cualquier otro medio electrónico, para la atención, información o asesoramiento de soporte técnico, comercial o administrativo, venta o promoción de productos o servicios, o recepción de reclamos",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": "2026-05-06",
+   "hist": [
+    {
+     "f": "2025-01-29",
+     "t": "Ingreso de proyecto ."
+    },
+    {
+     "f": "2025-03-05",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Economía, Fomento; Micro, Pequeña y Mediana Empresa, Protección de los Consumidores y Turismo."
+    },
+    {
+     "f": "2025-09-30",
+     "t": "Citación para continuar con el estudio en general del proyecto por la Comisión Economía (Diputados)."
+    },
+    {
+     "f": "2025-10-08",
+     "t": "Cuenta de primer informe de comisión .  Queda para tabla."
+    },
+    {
+     "f": "2025-10-20",
+     "t": "Primer informe de comisión de Economía, Fomento y Desarrollo."
+    },
+    {
+     "f": "2026-05-05",
+     "t": "En tabla para su votación en la Sala de la C. de Diputados."
+    },
+    {
+     "f": "2026-05-05",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Economía"
+    },
+    {
+     "f": "2026-05-05",
+     "t": "Oficio de ley a Cámara Revisora ."
+    },
+    {
+     "f": "2026-05-05",
+     "t": "Discusión general . Aprobado en general y particular a la vez ."
+    },
+    {
+     "f": "2026-05-06",
+     "t": "La Sala acuerda que el proyecto de ley sea conocido por la Comisión de Transportes y Telecomunicaciones, una vez despachado por la Comisión de Economía"
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca prohibir la subcontratación de servicios de teleoperadores que operen fuera del territorio nacional. Para el sistema bancario, esto implica un impacto significativo, ya que muchos bancos utilizan servicios de call center offshore para atención al cliente, cobranza y otras operaciones. La eventual aprobación de esta iniciativa obligaría a los bancos a relocalizar estos servicios en Chile, generando importantes ajustes operacionales y un aumento en los costos asociados a la contratación de personal y la infraestructura local. Se sugiere un monitoreo activo por parte de ABIF debido a las implicancias en la eficiencia y seguridad operacional de los servicios bancarios.",
+   "categorias_abif": [
+    "Cobranza y ejecución",
+    "Seguridad operacional"
+   ]
+  },
+  {
+   "id": "p8",
+   "boletin": "18.044-13",
+   "titulo": "PdL que modifica el Código del Trabajo con el objeto de regular un sistema de negociación colectiva multinivel.\n\nFecha ingreso PdL a la Cámara de Diputados: \n9/01/26\n\nMensaje presidencial",
+   "desc": "Objetivo del proyecto de acuerdo al mensaje:\n\nCrear un sistema de negociación colectiva a tres niveles: \nNivel sectorial: Instancia de negociación entre federaciones sindicales y confederaciones empresariales, con el objeto de establecer estándares mínimos aplicables a empleadores y trabajadores de un sector o subsector económico. Los acuerdos se publican en el D.O. y tienen efectos para todas las empresas y trabajadores de ese sector o subsector.\nNivel intermedio: Instancia de negociación entre confederaciones sindicales y una o más empresas o asociaciones gremiales, respecto de materias que afecten las relaciones laborales entre los participantes, como cadenas de valor, grandes proyectos o faenas, permitiendo coordinar obligaciones recíprocas entre empresas principales y contratistas en materias como seguridad y capacitación, con el objetivo de suscribir acuerdos marco que fijen condiciones comunes a contextos económicos específicos. El acuerdo marco solo producirá efectos a las partes que lo suscribieron. \nNivel empresa: Instancia de negociación entre sindicatos y empleador, con el objeto de regular condiciones específicas atendida la realidad productiva y operativa de una empresa. Las federaciones podrán negociar también, en representación de dos o más sindicatos de una misma empresa. \n\nSe le entrega a la Dirección del Trabajo facultades para reincorporar a trabajadores despedidos (que no cuenten con fuero laboral) por haberse vulnerado la libertad sindical, que hubieren hecho una denuncia a esta institución o ante tribunal laboral. Además de facultades para fiscalizar el cumplimiento de los acuerdos.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "Negociación colectiva ramal.",
+   "relevancia": "media",
+   "fecha": "2026-01-13",
+   "hist": [
+    {
+     "f": "2026-01-13",
+     "t": "Citación para iniciar el estudio en general del proyecto por la Comisión de Trabajo."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p9",
+   "boletin": "18.286-03",
+   "titulo": "PdL que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados. \n\nFecha ingreso PdL a la Cámara de Diputados: \n2/06/26\n\nMensaje presidencial",
+   "desc": "Contenido del proyecto de ley: \n\nEntre otras modificaciones, relacionadas con la incorporación de la firma electrónica avanzada y sellado de tiempo para documentos electrónicos, para que tengan la misma validez y efectos jurídicos que documentos en papel y/o ante notarios o ministros de fe.  \n\nSe modifica la Ley N° 18.092, que dicta normas sobre letra de cambio y pagaré y deroga disposiciones del código de comercio (art. 3 del PdL), en el siguiente sentido:\n\nPermitir la emisión, circulación y protesto de las letras de cambio y pagaré en formato electrónico, que estén suscritos con firma electrónica avanzada y sellado de tiempo.\nEl endoso, aceptación y aval de una letra de cambio en formato electrónico, también deberán efectuarse por medios electrónicos. \nMediante reglamento se establecerán los requisitos técnicos, operativos, de interoperabilidad, conservación, consulta y verificación para dichas actuaciones, que resguarden la seguridad jurídica del instrumento y su adecuada adaptación a la evolución tecnológica. \n\nAdemás, se establece que este tipo de instrumentos extendidos de forma electrónica, tendrán mérito ejecutivo, siempre que estén suscritos por el obligado con firma electrónica avanzada y sellado de tiempo. \n\nDisposiciones transitorias: \nEl reglamento deberá dictarse dentro del plazo de 1 año, desde la publicación de la ley en el D.O. \nLas modificaciones a la ley N° 18.092, entrarán en vigencia a contar de la publicación del reglamento en el D.O. \nDurante dicho periodo, el protesto de letras de cambio y pagarés electrónicos podrá ser efectuado por notarios u otros ministros de fe mediante la suscripción de un documento electrónico que de cuenta de la diligencia.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Simple",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": "2026-06-23",
+   "hist": [
+    {
+     "f": "2026-06-02",
+     "t": "Cuenta del Mensaje 126-374 que hace presente la urgencia Simple"
+    },
+    {
+     "f": "2026-06-02",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Economía, Fomento y Desarrollo"
+    },
+    {
+     "f": "2026-06-02",
+     "t": "Ingreso de proyecto .  Tiene Informe Financiero."
+    },
+    {
+     "f": "2026-06-02",
+     "t": "Texto del proyecto"
+    },
+    {
+     "f": "2026-06-22",
+     "t": "Cuenta del Mensaje 163-374 que hace presente la urgencia Simple"
+    },
+    {
+     "f": "2026-06-23",
+     "t": "[Tabla comisiones Cámara] En agenda Economía, Fomento; Micro, Pequeña y Mediana Empresa; Protección de los Consumidores y Turismo"
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca modificar la Ley N° 19.799, que regula los documentos electrónicos, la firma electrónica y los servicios de certificación asociados. Para el sistema bancario, esta modificación es de alta relevancia, ya que la firma y los documentos electrónicos son pilares fundamentales para la operación digital de los bancos, la formalización de contratos con clientes y la seguridad de las transacciones. Su tramitación debe ser monitoreada de cerca, pues podría generar nuevas obligaciones operacionales, costos de cumplimiento o afectar la validez legal de los servicios bancarios digitales.",
+   "categorias_abif": [
+    "Seguridad operacional",
+    "Pagos y transacciones",
+    "Protección al consumidor financiero"
+   ]
+  },
+  {
+   "id": "p10",
+   "boletin": "18.263-03",
+   "titulo": "PdL para la protección de la vivienda propia y el resguardo del pago de los créditos hipotecarios ante el alza de la Unidad de Fomento. \n\nFecha ingreso PdL a la Cámara de Diputados: \n11/05/26\n\nMoción parlamentaria",
+   "desc": "Contenido del proyecto: \nObliga a las instituciones financieras a ofrecer refinanciamientos - sin cobros por gastos operacionales, tasaciones, comisiones ni otros costos adicionales -  a deudores de créditos hipotecarios, en los casos en que la variación acumulada de la UF sea superior a un 5%, en un período de 24 meses consecutivos. \n\nIncorporar incisos nuevos al artículo 26 de la Ley N° 18.010, que establecen que para el caso de los deudores de créditos hipotecarios (en UF), afectados por alzas desproporcionadas de la UF, por condiciones externas: \n\nEl valor del dividendo mensual no puede incrementarse más allá de un 10%. \nEl valor del dividendo no podrá incrementarse, en término anuales, por sobre la variación del índice de remuneraciones del Instituto Nacional de Estadísticas. \nLa diferencia generada entre el valor del dividendo (por variación de la UF) y el monto efectivamente pagado por el deudor del crédito hipotecario (con los topes establecidos), no se extinguirá, sino que podrá ser acumulado por el pago de otras cuotas.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p11",
+   "boletin": "18.251-07",
+   "titulo": "PdL que modifica el artículo 445 del Código de Procedimiento Civil para establecer un régimen excepcional de inembargabilidad de la vivienda principal del deudor. \n\nFecha ingreso PdL a la Cámara de Diputados: \n9/05/26\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto de ley: \n\nReemplazar el numeral 8 del art. 445 del Código de Procedimiento Civil, que establece un listado de los bienes no embargables, por el siguiente: \n\n8°. El inmueble que constituya la residencia principal del deudor y de su grupo familiar, junto con los bienes muebles indispensables para la vida doméstica, siempre que concurran copulativamente los siguientes requisitos: \nQue el inmueble tenga un avalúo fiscal igual o inferior a 4.000 UTM; \nQue el deudor no sea propietario de otros bienes raíces susceptibles de embargo; \nQue el embargo del inmueble comprometa gravemente la subsistencia del deudor y de su grupo familiar, atendidas sus condiciones socioeconómicas; \nQue el deudor se encuentre en una situación de vulnerabilidad calificada, la que deberá ser acreditada ante el tribunal mediante antecedentes suficientes. Se considerarán, entre otras, las siguientes situaciones: cesantía efectiva, existencia de cargas familiares, cuidado de personas mayores o en situación de discapacidad, o padecimiento de una enfermedad grave o incapacidad laboral; \nQue la inembargabilidad sea declarada mediante resolución judicial fundada, dictada previa audiencia de las partes y ponderación de los derechos e intereses del acreedor y del deudor.\" \nLa inembargabilidad establecida en el inciso anterior no será oponible al acreedor hipotecario, quién gozará de todos los derechos y facultades que las normas generales prescriben al efecto.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p12",
+   "boletin": "18.226-15",
+   "titulo": "PdL que autoriza la aplicación de prefijos telefónicos en la identificación de llamadas de cobranza extrajudicial. \n\nFecha ingreso PdL a la Cámara de Diputados: \n28/04/26\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto de ley: \n\nCrea un nuevo inciso final al art. 8 de la Ley N° 18.168 (Ley General de Telecomunicaciones), que incorpora a las comunicaciones de cobranza extrajudicial como servicios complementarios, lo que permite que estas comunicaciones puedan estar sujetas a bloques especiales de numeración, tal como los prefijos 600 y 809.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Obras Públicas, Transportes y Telecomunciaciones.",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": "2026-05-04",
+   "hist": [
+    {
+     "f": "2026-04-28",
+     "t": "Ingreso de proyecto ."
+    },
+    {
+     "f": "2026-05-04",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Obras Públicas, Transportes y Telecomunicaciones"
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca autorizar la aplicación de prefijos telefónicos específicos para la identificación de llamadas de cobranza extrajudicial. La medida tiene como objetivo aumentar la transparencia para los consumidores, permitiéndoles reconocer y gestionar mejor estas comunicaciones. Para ABIF, el proyecto es de alta relevancia, ya que impacta directamente los procedimientos operativos de cobranza de créditos bancarios, pudiendo generar costos operacionales y comerciales para las instituciones financieras y sus proveedores. Se recomienda un monitoreo cercano para evaluar los requisitos de implementación y sus efectos en la gestión de carteras de crédito.",
+   "categorias_abif": [
+    "Cobranza y ejecución",
+    "Pagos y transacciones",
+    "Protección al consumidor financiero"
+   ]
+  },
+  {
+   "id": "p13",
+   "boletin": "18.060-07",
+   "titulo": "PdL para perfeccionar la Ley N° 21.719, que regula la protección y el tratamiento de datos personales y crea la Agencia de Protección de Datos Personales, en los términos que indica.\n\nFecha ingreso PdL al Senado: \n14/01/26\n\nMoción parlamentaria.",
+   "desc": "Contenido del proyecto de ley: \n\nIncorpora a las fuentes de acceso público, como fuente de licitud para el tratamiento de datos, sin consentimiento del titular de datos.  \nRebaja las multas: 1 a 100 UTM infracciones leves, 101 a 1.000 UTM infracciones graves y 1.001 a 5.000 UTM multas gravísimas. \nEn caso de reincidencia se podrá aplicar hasta el doble de la multa original. \nCuando el infractor es una empresa distinta a una empresa de menor tamaño, y reincida en una infracción grave o gravísima, la multa podrá alcanzar el triple de la multa original o hasta el 2% de los ingresos anuales por ventas y servicios y otras actividades del giro de la empresa en el último año calendario. \nElimina el derecho de bloqueo del tratamiento, mientras se esté resolviendo una solicitud de rectificación, supresión u oposición. \nSe autoriza la transferencia internacional de datos entre sociedades que pertenezcan a un mismo grupo empresarial, empresas relacionadas o empresas sujetas a un mismo controlador. \nEstablece que el modelo de prevención de infracciones se puede configurar a través de la designación de un encargado de prevención o delegado de protección de datos personales, o la adopción de un programa de cumplimiento o de prevención de infracciones.\nLas circunstancias atenuantes de autodenuncia y haber cumplido diligentemente con los deberes de dirección y supervisión para la protección de datos personales, es decir contar con un modelo de prevención de infracciones, puede reducir multas o exonerar de responsabilidad al responsable de datos.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Mejora de la actual Ley de Datos Personales, que entra en vigencia el 1/12/26.",
+   "relevancia": "alta",
+   "fecha": "2026-01-20",
+   "hist": [
+    {
+     "f": "2026-01-14",
+     "t": "Ingreso de proyecto ."
+    },
+    {
+     "f": "2026-01-20",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca perfeccionar la Ley N° 21.719, que regula la protección y el tratamiento de los datos personales y crea la Agencia de Protección de Datos Personales. Su tramitación es de relevancia media para ABIF, ya que cualquier modificación a esta ley impacta directamente la forma en que los bancos recopilan, almacenan, procesan y utilizan la información personal y financiera de sus clientes. Esto podría generar nuevas obligaciones de cumplimiento, afectar la evaluación crediticia y los procesos operativos relacionados con la gestión de datos, por lo que se sugiere un monitoreo constante.",
+   "categorias_abif": [
+    "Datos personales financieros",
+    "Protección al consumidor financiero"
+   ]
+  },
+  {
+   "id": "p14",
+   "boletin": "18.340-03",
+   "titulo": "PdL Que excluye la aplicación de la unidad de fomento como mecanismo de reajustabilidad en los contratos que señala y establece mayores deberes de transparencia en su utilización.\n\nFecha de ingreso PdL al Senado: 10/06/26.\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto de ley:\n\nEste proyecto de ley busca excluir la aplicación de la Unidad de Fomento (UF) como mecanismo de reajustabilidad en ciertos contratos y establecer mayores deberes de transparencia en su uso. La iniciativa tiene una alta relevancia para el sector bancario, ya que la UF es fundamental en la estructuración de créditos hipotecarios y otros financiamientos a largo plazo. Su eliminación o restricción podría generar incertidumbre en la valorización de activos y pasivos, afectando la estabilidad y la oferta de productos financieros. Se recomienda un seguimiento exhaustivo para comprender el alcance de los contratos afectados y las posibles alternativas de reajustabilidad propuestas.",
+   "camara": "Por confirmar",
+   "etapa": "Primer trámite constitucional (senado) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito y valorización de activos y pasivos.",
+   "relevancia": "alta",
+   "fecha": "2026-06-16",
+   "hist": [
+    {
+     "f": "2026-06-10",
+     "t": "Ingreso de proyecto ."
+    },
+    {
+     "f": "2026-06-16",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Economía"
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca excluir la aplicación de la Unidad de Fomento (UF) como mecanismo de reajustabilidad en ciertos contratos y establecer mayores deberes de transparencia en su uso. Su relevancia para ABIF es alta, ya que impacta directamente la estructura de costos y riesgos de los créditos hipotecarios y de consumo, afectando la estabilidad financiera y la gestión de capital de los bancos. Se sugiere un monitoreo constante debido a su potencial para modificar significativamente las condiciones de mercado y la oferta de productos bancarios.",
+   "categorias_abif": [
+    "Crédito hipotecario",
+    "Crédito de consumo",
+    "Protección al consumidor financiero"
+   ]
+  },
+  {
+   "id": "p15",
+   "boletin": "16.271-03",
+   "titulo": "PdL que mejora la protección de los derechos de las personas consumidoras en el ámbito de sus intereses individuales fortaleciendo al SERNAC, y establece otras modificaciones que indica. \n\nFecha ingreso PdL a la Cámara de Diputados: 7/09/23\n\nMensaje presidencial",
+   "desc": "Objetivo del proyecto de acuerdo al mensaje: \nOtorgar nuevas atribuciones sancionatorias al SERNAC: \nTramitación de casos de interés individual de consumidores. \nEstablece un mecanismo de inhibiciones para garantizar que el ejercicio de la facultad sancionatoria, solo se aplique a los casos individuales. (Ante una denuncia de interés colectivo o difuso, Sernac no puede iniciar un procedimiento sancionatorio y si ya lo inició, debe terminarlo). \nProcedimiento estará a cargo de la Subdirección de Procedimiento Sancionatorio (subdirección independiente, especializada y centralizada).  \nProcedimiento con reglas y etapas claramente definidas. \nSe establecen medios de impugnación, en sede administrativa y judicial.\nMecanismo de incentivos para las empresas para dar soluciones: durante la tramitación de un procedimiento sancionatorio -> rebajas de multas hasta en un 80%. Una vez dictada la resolución de término, para promover el cumplimiento -> rebaja de multas de hasta un 35%.\nRespecto de la aplicación de multas y cumplimiento de sanciones: normas diferenciadas para PYMES.\n\nGestion del reclamo: \nSe reconoce y regula legalmente los reclamos ante el Sernac, dotando de valor jurídico a los acuerdos, \nSe establecen etapas en admisibilidad y tramitación. \nAnte una solución satisfactoria del reclamo, el acuerdo tendrá carácter de transacción extrajudicial; y cuando no se acoja un reclamo, consumidor no acepte propuesta o empresa no responda, se podrá dar inicio a procedimiento sancionatorio. \nSe incorpora como infracción a la Ley de Consumidores, la ausencia injustificada de respuesta de una empresa.\n\nSe fortalecen las mediaciones individuales que realizan las Asociaciones de Consumidores, otorgándole mérito ejecutivo a las mediaciones. \n\nSe reconoce la existencia del interés general de los consumidores, en los juicios de interés general. \n\nSe busca fortalecer los derechos de los consumidores, a través de: \nObligación para empresas de contar con canales de posventa y canales de modificación o término de contratos\nDeclarar abusivas las cláusulas que establezcan la avaluación anticipada de los montos por cobrar, y se reducen los topes máximos que se pueden cobrar.\nSe regula la aplicación de las cláusulas de aceleración y se considerará abusiva cuando el incumplimiento no se vincule directamente con la operación de crédito o que el retardo en los pagos sea inferior al 20% de la deuda morosa. \nSe establece un periodo de 24 horas para disponibilizar fondos de un crédito o cupo preaprobado, para que el consumidor tenga tiempo de evaluar. \nEntre otras modificaciones. \n\nNormas relativas a la creación de un nuevo procedimiento de gestión de reclamos y de un procedimiento sancionatorio, tendrán una entrada en vigencia gradual y por regiones del país. \n\nMediante indicaciones del Ejecutivo, aprobadas por la Comisión de Economía, se incorporan normas para establecer un sistema de mediciones individuales para consumidores, llevado a cabo por Asociaciones de Consumidores y Centros de Mediación registrados.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Hacienda",
+   "urgencia": "Simple",
+   "impacto": "en la gestión de riesgo, de provisiones y de capital.",
+   "relevancia": "alta",
+   "fecha": "2026-03-02",
+   "hist": [
+    {
+     "f": "2023-10-03",
+     "t": "Citación para dar inicio al estudio en general del proyecto."
+    },
+    {
+     "f": "2023-10-17",
+     "t": "al 15/01/24:  Citación para continuar con el estudio en general del proyecto."
+    },
+    {
+     "f": "2024-12-17",
+     "t": "al 11/03/25: Citación para continuar con la votación en particular."
+    },
+    {
+     "f": "2025-03-18",
+     "t": "Citación para continuar con la votación en particular."
+    },
+    {
+     "f": "2025-08-13",
+     "t": "Cuenta del Mensaje 950-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2025-09-10",
+     "t": "Cuenta del Mensaje 1059-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2025-10-08",
+     "t": "Cuenta del Mensaje 1137-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2025-11-04",
+     "t": "Cuenta del Mensaje 1226-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2025-12-03",
+     "t": "Cuenta del Mensaje 1310-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2025-12-17",
+     "t": "Cuenta del Mensaje 1409-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2026-01-14",
+     "t": "Cuenta del Mensaje 1514-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2026-03-02",
+     "t": "Cuenta del Mensaje 1603-373 que hace presente la urgencia Simple"
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca mejorar la protección de los derechos de los consumidores, fortaleciendo las facultades del Servicio Nacional del Consumidor (SERNAC) y estableciendo otras modificaciones. Para ABIF, la relevancia es media, ya que cualquier fortalecimiento del SERNAC o cambio en la ley de protección al consumidor impacta directamente a los bancos como proveedores de servicios financieros. Se espera que genere un mayor riesgo regulatorio y afecte las prácticas comerciales y de cobranza de la banca, requiriendo un monitoreo detallado de sus disposiciones específicas.",
+   "categorias_abif": [
+    "Protección al consumidor financiero",
+    "Cobranza y ejecución",
+    "Crédito de consumo"
+   ]
+  },
+  {
+   "id": "p16",
+   "boletin": "12.917-03",
+   "titulo": "PdL que modifica la LGB y el CPC para establecer el avalúo comercial de los bienes raíces como mínimo de las subastas y proteger la vivienda única de los deudores que indica por medio de la prenda pretoria.\n\nFecha ingreso PdL al Senado: 6/09/2019\n\nMoción parlamentaria",
+   "desc": "Incorpora modificaciones al CPC y LGB: \n\nPlazo para oponerse a la ejecución: 8 días.\nSe amplían excepciones para procedimiento contemplados en LGB\nEl remate procederá sólo en caso de mora superior a 6 meses continuos o discontinuos, de cumplirse las siguientes condiciones (i) viviendas con avalúo fiscal bajo 8.000 UF, y (ii) se encuentre pagado el ≥50% del capital adeudado. \nSe determina como monto mínimo para el proceso de remate al “valor comercial”, equivalente al avalúo fiscal incrementado en un 30%.  Se mantiene la prenda pretoria como una opción del acreedor, pero sólo para bienes de uso industrial, agrícola o comercial. \n\nIndicación aprobada en la Comisión de Economía C. de Diputados:\n\n-El remate solo procederá en caso de mora superior a 6 meses continuos o 12 meses discontinuos, deben cumplirse las siguientes condiciones: (i) viviendas con avalúo fiscal bajo 10.000 UF, (ii) que sea única vivienda y de uso exclusivo familiar y, (iii) que se encuentre pagada el ≥ 50% del capital adeudado.",
+   "camara": "Senado",
+   "etapa": "Comisión Mixta (Senado) Comisión Mixta",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito ante disminución de la calidad crediticia \n\nDesbancarización de los segmentos más afectados (menores ingresos y emprendedores con principal garantía hipotecaria).\n\nRiesgo regulatorio, derivado de mayores provisiones y requisitos de capital.",
+   "relevancia": "alta",
+   "fecha": "2023-12-19",
+   "hist": [
+    {
+     "f": "2022-06-28",
+     "t": "Votación en particular del proyecto en Comisión de Economía."
+    },
+    {
+     "f": "2022-12-13",
+     "t": "En tabla para votación de la Sala de la C. de Diputados."
+    },
+    {
+     "f": "2022-12-20",
+     "t": "Citación para continuar con la votación en particular del proyecto."
+    },
+    {
+     "f": "2023-04-17",
+     "t": "En tabla para votación de la Sala de la Cámara de Diputados."
+    },
+    {
+     "f": "2023-12-19",
+     "t": "Citación para resolver las divergencias producidas entre ambas Cámaras e iniciar la votación."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p17",
+   "boletin": "15.697-03 / 14.955-03 / 17.038-03",
+   "titulo": "PdL que modifica la Ley General de Bancos, con el objeto de establecer excepciones al secreto y reserva bancaria, respecto de las autoridades y directores de corporaciones, fundaciones y asociaciones que indica. \n\nFecha ingreso PdL al Senado: 6/05/2022\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: \nObliga a autoridades**, a autorizar a bancos a entregar información a la CMF, SII y a la UAF cuando estas lo soliciten, en el ejercicio de sus funciones.\nTexto aprobado por la Comisión de Economía del Senado (1TC): \nObligación de autoridades, desde el momento en que asuman el cargo o se tome razón del acto administrativo, a autorizar a los bancos en que tengan operaciones sujetas a secreto y reserva bancarias, a proporcionar, sin mayor trámite, cualquier antecedente relativo a dichas operaciones que sean requeridos por la UAF y SII, para dar cumplimiento a sus funciones.\nAutoridades obligadas**: \nAutoridades electas mediante elección popular. \nMinistros de Estado y Subsecretarios; \nDelegados Presidenciales Regionales y Provinciales; \nMinistros y los Fiscales Judiciales de los Tribunales Superiores de Justicia y los jueces miembros de los juzgados de garantía y de los tribunales de juicio oral en lo penal; \nFiscal Nacional y Fiscales Regionales del Ministerio Público; \nMinistros del Tribunal Constitucional; \nMiembros del Consejo Directivo del Servicio Electoral; miembros del Tribunal Calificador de Elecciones y de los tribunales electorales regionales; \nContralor General de la República; \nComandantes en Jefe de las FFAA, el General Director de Carabineros de Chile, el Director Nacional de Gendarmería y el Director General de la Policía de Investigaciones de Chile, los Oficiales Generales, los Oficiales Superiores y los niveles jerárquicos equivalentes en las Fuerzas de Orden y Seguridad y Gendarmería de Chile; \nPresidente y los Consejeros del Banco Central;\nConsejeros del Consejo de Defensa del Estado;\nDirectores de empresas públicas creadas por ley; \nJefes de servicio; \nFuncionarios que sean elegidos a través del sistema de Alta Dirección Pública; \nJefes de división de administración, de división de finanzas, u otras unidades de organismos públicos; \nTodo aquel que tenga la custodia o administración de recursos públicos, o cuentadantes; \nDirectores de corporaciones municipales de educación, salud y atención a menores creadas en virtud del decreto con fuerza de ley N° 1- 3.063, de 1980, del Ministerio del Interior;\nDirectores de las corporaciones, fundaciones o asociaciones señaladas en señaladas en el artículo 129 del decreto con fuerza de ley 1 del Ministerio del Interior que fija el texto refundido, coordinado y sistematizado de la ley Nº 18.695, Orgánica Constitucional de Municipalidades. \nLa autorización deberá otorgarse al banco dentro de los primeros 30 días de ser asumido el cargo o al momento de realizarse nuevas operaciones, hasta el cese de sus funciones. \nLos bancos deben entregar la información requerida en un plazo máx. de 15 días corridos. \nLos funcionarios públicos que tomen conocimiento de la información bancaria deben guardar reserva.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Seguridad Pública",
+   "urgencia": "Suma",
+   "impacto": "Potencial riesgo frente a una eventual falta de precisión en el alcance de la causal de secreto y reserva bancaria.",
+   "relevancia": "alta",
+   "fecha": "2026-03-03",
+   "hist": [
+    {
+     "f": "2023-05-30",
+     "t": "Citación para iniciar el estudio del proyecto por la Comisión de Economía. No se vio."
+    },
+    {
+     "f": "2023-06-13",
+     "t": "La Sala acuerda refundir los proyectos correspondientes a los boletínes N° 14.955-03 y N° 15.697-03."
+    },
+    {
+     "f": "2024-01-09",
+     "t": "Citación para continuar con el estudio del proyecto."
+    },
+    {
+     "f": "2024-08-07",
+     "t": "Ingreso de proyecto ."
+    },
+    {
+     "f": "2024-08-13",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Economía"
+    },
+    {
+     "f": "2025-06-13",
+     "t": "Citación para iniciar el estudio del proyecto."
+    },
+    {
+     "f": "2025-08-05",
+     "t": "La Sala acuerda que el proyecto de ley, una vez despachado por la Comisión de Economía, sea conocido por la Comisión de Seguridad Pública y luego por la Comisión de Hacienda."
+    },
+    {
+     "f": "2025-08-12",
+     "t": "La Sala acuerda refundir el proyecto de ley correspondiente al Boletín N° 17.038-03, con los proyectos de ley N° 14.955-03 y 15.697-03, ya refundidos."
+    },
+    {
+     "f": "2025-10-14",
+     "t": "Primer informe de comisión de Economía. Pasa a Comisión de Seguridad Pública"
+    },
+    {
+     "f": "2025-12-16",
+     "t": "Citación para iniciar el estudio en general del proyecto por la Comisión de Seguridad Pública."
+    },
+    {
+     "f": "2025-12-17",
+     "t": "Cuenta del Mensaje 1420-373 que hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-01-06",
+     "t": "Cuenta del Mensaje 1462-373 que hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-01-21",
+     "t": "Cuenta del Mensaje 1564-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-03-03",
+     "t": "Cuenta del Mensaje 1605-373 que hace presente la urgencia Suma"
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca modificar la Ley General de Bancos para establecer excepciones al secreto y reserva bancaria, permitiendo que ciertas autoridades accedan a información protegida. Esta iniciativa tiene un impacto directo en la operación bancaria al alterar el marco legal de confidencialidad de los clientes. ABIF debe monitorear de cerca su tramitación, ya que podría generar nuevas obligaciones de reporte y riesgos legales para las instituciones financieras, afectando la confianza y la gestión de datos sensibles.",
+   "categorias_abif": [
+    "Secreto y reserva bancaria",
+    "Lavado de activos / AML",
+    "Datos personales financieros"
+   ]
+  },
+  {
+   "id": "p18",
+   "boletin": "15.407-03",
+   "titulo": "PdL que consagra el derecho al olvido en materia financiera.\n\nFecha ingreso PdL a la Cámara de Diputados: 5/10/2022\n\nMoción parlamentaria",
+   "desc": "Los principales aspectos del Proyecto de Ley son:\nElimina toda información sobre deudas u obligaciones respecto de las cuales hayan transcurrido 5 años desde que la obligación que se haya hecho exigible.\nPrescripción de la deuda por el solo ministerio de la ley respecto de las obligaciones que han transcurrido 5 años desde que la obligación se haya hecho exigible, obligando a su eliminación de los registros internos.\nProhibición de evaluar crediticiamente a un cliente en base a su deuda positiva y/o morosidad. Debiendo fundar su decisión crediticiamente en otras variables. \n\nEjecutivo (el 21 de noviembre) ingresó indicaciones al proyecto de ley: \nObligación de eliminar datos sobre deudas impagas que se hayan hecho exigibles o extinguido, hace más de 5 años, por parte de los responsables de datos. \nA partir de los 5 años se podrán mantener registros con información anonimizada sobre deudas. \nSe elimina artículo que establece la prescripción de las deudas por el solo ministerio de la ley. \nLos órganos del Estado (i.e., CMF) no están obligados a eliminar información de deudas impagas que se hayan hecho exigibles o extinguido, hace más de 5 años.\nDeber de informar justificadamente las razones para rechazar la contratación de un servicio financiero. Por escrito y en la misma forma y momento en que comunican decisión, no podrá considerarse como fundamento, la existencia de obligaciones que hayan debido eliminarse. \nSe establecen infracciones a la obligación de eliminar información y a la obligación a informar razones rechazo servicio financiero. \nEn caso de infracción, se agrega el deber de indemnizar el daño patrimonial y moral causado, sin perjuicio de proceder a eliminar los datos que correspondan. \n\nLa Comisión aprobó las indicaciones presentadas por el Ejecutivo, y además se aprobó las indicaciones presentadas por los diputados Daniel Manouchehri y Ana María Bravo (redactadas nuevamente por asesoras de los Ministerios de Hacienda y Economía): \nResponsables de datos no podrán enviar cartas, correo u otras comunicaciones de cobro respecto de deudas prescritas. \nSe prohíbe la publicación, venta y cesión a cualquier título de los datos personales, cuando dicha información deba ser eliminada por los responsables de datos, respecto de deudas impagas que se hayan hecho exigibles o extinguido, lo primero que ocurra, hace más de cinco años. \n\nIndicaciones presentadas en la Sala (diputado Fuenzalida UDI): RECHAZADAS. \nIndicaciones remplazan la frase “deudas impagas” por “obligaciones prescritas”. \nEl responsable de datos podrá seguir tratando información financiera, por 5 años más, desde la fecha en que fue declarada la prescripción, respecto de las obligaciones prescitas cuyo monto exceda las 40 UTM.  \nÓrganos del Estado que pueden mantener información financiera no podrán revelarla a terceros, y de hacerlo, el Jefe del Servicio incurre en la pena de reclusión menor en sus grados mínimo a medio.  \nAcción indemnizatoria deberá interponerse ante sede civil y tramitarse por procedimiento sumario, y tribunal al resolver, fundará su fallo en las conductas, hechos y calificaciones jurídicas de los mismos establecidos en la resolución sancionatoria. \n\nComentarios: \nRespecto a lo establecido en el art. 1 del PdL, que señala la obligación de los responsables de datos a eliminar los datos personales relativos a información financiera, cuando no existan razones legítimas para su conservación, una vez cumplida su finalidad. El art. 155 de la LGB, permite la conservación de esta información cuando ésta tenga relación directa o indirecta con algún asunto o litigio pendiente. Asimismo, el Capítulo 18-5 de la RAN, en su numeral 2 señala que las instituciones fiscalizadas por las CMF, en su calidad de acreedoras, al mantener esta información ejercen la diligencia ordinaria y demostrativa de la voluntad de recuperar sus acreencias.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito.",
+   "relevancia": "alta",
+   "fecha": "2023-06-12",
+   "hist": [
+    {
+     "f": "2022-11-08",
+     "t": "Presentación de la ABIF:"
+    },
+    {
+     "f": "2023-01-18",
+     "t": "En tabla de la Sala de la C. de Diputados para su votación."
+    },
+    {
+     "f": "2023-06-12",
+     "t": "en tabla de la Sala de la Cámara de Diputados para su votación."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p19",
+   "boletin": "15.779-03 / 15.787-03",
+   "titulo": "PdL que modifica diversos cuerpos legales para eliminar la unidad de fomento como sistema de reajustabilidad en casos que indica.\n\nFecha ingreso del PdL a la Cámara de Diputados: \n29/03/23\n\nMoción parlamentaria",
+   "desc": "Modificar diversos cuerpos legales, para establecer específicamente que ciertos contratos deban fijarse en pesos, moneda nacional, y que no puedan ser fijados en Unidades de Fomento, como modalidad de reajustabilidad.  \nRespecto de los arriendos: se modifica el art. 20 de la Ley N° 18.101, que fija normas especiales sobre arrendamiento de predios urbanos, estableciendo que la renta de arrendamiento deberá fijarse en pesos. \nRespecto de prestaciones de establecimientos educacionales: se modifica el art. 11 del DFL 2, fija texto refundido, coordinado y sistematizado de la ley N° 20.370 con las normas no derogadas del decreto con fuerza de Ley N° 1, señalando que, en todos los establecimientos de educación, en sus diversos niveles, los cobros de arancel, matrícula y cualquier otro item deberán fijarse en pesos. \nRespecto de las cotizaciones de salud con ISAPRES: se modifica el art. 170 letra h) del DFL 1 que fija texto refundido, coordinado y sistematizado del decreto ley N° 2.763, de 1979 y de las Leyes N° 18.933 y N° 18.469, señalando que las cotizaciones siempre deberán fijarse en pesos. \nRespecto a los créditos hipotecarios y los créditos de los contratos de salud previsional: se modifica el art. 17 D, del Decreto con fuerza de ley N° 3 de 2019, que fija el texto refundido, coordinado y sistematizado de la ley N° 19.496, que establece normas sobre protección de los derechos de los consumidores, se establece que estos créditos no podrán ser pactados en UF, y deberán ser estipulados en pesos. \n\nEl 9/09/25, la Comisión de Economía (1TC) rechazó íntegramente el proyecto de ley y sus indicaciones.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Sala de la Cámara de Diputados",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": "2026-01-28",
+   "hist": [
+    {
+     "f": "2023-04-10",
+     "t": "Oficio N°18.254. El diputado Raúl Leiva Carvajal retira su firma como autor del proyecto."
+    },
+    {
+     "f": "2023-04-17",
+     "t": "Oficio N°18.280.  La Cámara de Diputadas accede a la petición para refundir los proyectos correspondientes a los boletines Nos. 15.779-03 y 15.787-03."
+    },
+    {
+     "f": "2023-04-17",
+     "t": "Cuenta de Oficio de la Comisión de Economía, Fomento; Micro, Pequeña y Mediana Empresa; Protección de los Consumidores y Turismo (N°249), por el cual solicita recabar el acuerdo de la Sala para refundir los proyectos contenidos en los boletines 15779-03 y 15787-03. ACORDADO."
+    },
+    {
+     "f": "2023-05-31",
+     "t": "Oficio N°18.411. Comunica que el diputado Juan Santana Castillo retiró su firma como autor del proyecto."
+    },
+    {
+     "f": "2023-05-31",
+     "t": "Cuenta de una comunicación del diputado señor Santana por la cual informa que retira su patrocinio al proyecto."
+    },
+    {
+     "f": "2024-01-03",
+     "t": "Cuenta de una nota de la diputada señora Rojas por la cual solicita recabar el acuerdo de la Sala para que el proyecto sea remitido para su estudio e informe a la Comisión de Educación. RECHAZADO."
+    },
+    {
+     "f": "2025-04-08",
+     "t": "Citación para iniciar el estudio en general del proyecto."
+    },
+    {
+     "f": "2025-07-21",
+     "t": "Cuenta, Comunicación del diputado señor Calisto por la cual informa que retira su patrocinio al proyecto."
+    },
+    {
+     "f": "2025-09-11",
+     "t": "Primer informe de comisión de Economía, Fomento y Desarrollo."
+    },
+    {
+     "f": "2025-09-15",
+     "t": "Cuenta de primer informe de comisión .  Queda para tabla."
+    },
+    {
+     "f": "2025-09-15",
+     "t": "Cuenta de primer informe de comisión ."
+    },
+    {
+     "f": "2025-12-09",
+     "t": ", 7/10, 14/10, 28/10, 3/11, 25/11, 2/12, 9/12/25: En tabla para su votación en la Sala de la C. de Diputados."
+    },
+    {
+     "f": "2026-01-20",
+     "t": "Discusión general . Queda pendiente ."
+    },
+    {
+     "f": "2026-01-20",
+     "t": "Discusión general . Queda pendiente"
+    },
+    {
+     "f": "2026-01-28",
+     "t": "y 28/01/26: En tabla para su votación en la Sala de la C. de Diputados."
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "El proyecto de ley busca modificar diversos cuerpos legales para eliminar la Unidad de Fomento (UF) como sistema de reajustabilidad en casos específicos. Esta iniciativa tiene una relevancia Alta para ABIF, dado que la UF es un componente esencial en la indexación de créditos hipotecarios y otros productos financieros de largo plazo, impactando directamente la estructura de costos y riesgos bancarios. Su eventual eliminación podría generar un significativo riesgo de mercado y afectar la valoración de las garantías, lo que requiere un monitoreo exhaustivo para evaluar sus implicancias operacionales y prudenciales para la banca.",
+   "categorias_abif": [
+    "Crédito hipotecario",
+    "Protección al consumidor financiero",
+    "Regulación prudencial",
+    "Crédito de consumo",
+    "Acceso a servicios financieros"
+   ]
+  },
+  {
+   "id": "p20",
+   "boletin": "17.169-04",
+   "titulo": "PdL que crea un Nuevo Instrumento de Financiamiento Público para Estudios de Nivel Superior y un Plan de Reorganización y Condonación de Deudas Educativas\n\nFecha ingreso del PdL a la Cámara de Diputados: 9/10/24\n\nMensaje presidencial",
+   "desc": "Objetivo del proyecto (de acuerdo al mensaje): \nProponer un nuevo instrumento de financiamiento de estudios superiores, basado en un mecanismo de retribución a los créditos, sin participación de la banca. \nAdemás, crear un plan de reorganización y condonación de deudas al actual sistema de créditos educativos con participación del Estado (Crédito con Garantía Estatal, Fondo Solidario de Crédito Universitario y Corfo), dependiendo de la trayectoria educativa y del historial de pago del deudor. \n\nNuevo Instrumento de Financiamiento Público para Estudios de Nivel Superior: \n\nPara quienes lo necesiten, sin requisitos económicos y académicos, siempre que se matriculen en instituciones superiores adscritas. \nAdministrado por el nuevo Servicio Ingresa (sucesor legal de Comision Ingresa). \nEl Estado le transferirá el monto equivalente al arancel regulado y derechos de matrícula, a la institución adscrita. \nCubrirá 100% de la duración nominal de la carrera, si hay excesos en la duración, se establecen reglas especiales para la cobertura. \nLos beneficiarios deberán retribuir los montos de deuda en proporción a sus ingresos, de acuerdo a tramos progresivos, por un periodo determinado de años: \nTramo exento de pago (ingresos anuales menores a 7,5 UTA)\nTramos progresivos (por ingresos iguales o superiores a 7,5 UTA), que no podrán exceder 7% de los ingresos o 8% ingresos iguales o superiores a 45 UTA)\nPeriodo de años correspondiente a los semestres cursados multiplicados por 2, con tope máx. de 20 años.\nPara el pago, se realizarán retenciones mensuales, por parte del empleador o a través de boletas de honorarios. \nPeriodo de contribución es ininterrumpido, salvo excepciones (ej. Quienes tengan título técnico y vuelvan a acceder a este mecanismo para estudiar carrera universitaria)\n\nPlan de Reorganización y Condonación de Deudas Educativas: \n\nAdministrado por el nuevo Servicio Ingresa (sucesor legal de Comisión Ingresa). \nDisponible para deudores del Crédito con Garantía Estatal, Fondo Solidario y Corfo, y quienes tengan la garantía del crédito ejecutada. \nAdhesión al Plan es voluntaria para deudores y estudiantes, y automática para quienes tengan garantía ejecutada. Se debe renovar cada año. \nLa adhesión implicará que el Fisco adquirirá anualmente parte del crédito (próximas 12 cuotas) del deudor, luego el deudor debe retribuir esos montos a través de cuotas periódicas, progresivas y contingentes a sus ingresos. \n\nCondonación inicial: Todas las personas que adhieran Plan recibirán un monto de condonación (componente de base se definirá de acuerdo a la condición académica y situación de pago): \nDesertados con pago al día: 60 UF *\nEgresados con pago al día: 40 UF*\nDesertados con deuda: 30 UF*\nEgresados con deuda: 20 UF*\n*Multiplicadas por una unidad aumentada en el resultado de la división entre las cuotas pagadas al momento de adherir al Plan y el n° total de cuotas pactadas en el crédito respectivo.\n\n- Condonación progresiva: Una vez aplicada la condonación inicial, se calcularán las cuotas de retribución del monto restante de la deuda, a través de un pago de cuotas mensuales. \nTramo exento de pago (ingresos anuales menores a 7,5 UTA)\nTramos progresivos (por ingresos iguales o superiores a 7,5 UTA), que no podrán exceder 7% de los ingresos o 8% ingresos iguales o superiores a 45 UTA).\nPersonas que prepaguen el monto pendiente (aplicada la condonación), recibirán un 25% adicional de condonación. \nPersonas que a la fecha de la publicación de la ley ya hubieran pagado su deuda total, tendrán derecho a beneficio tributario.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Comisión Educación",
+   "urgencia": "Discusión inmediata",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": "2026-03-03",
+   "hist": [
+    {
+     "f": "2024-12-17",
+     "t": "Citación para continuar con el estudio en general del proyecto."
+    },
+    {
+     "f": "2025-03-11",
+     "t": "Citación para iniciar la votación en particular del proyecto."
+    },
+    {
+     "f": "2025-09-03",
+     "t": "Cuenta del Mensaje 1039-373 que hace presente la urgencia Simple"
+    },
+    {
+     "f": "2025-09-03",
+     "t": "Cuenta del Mensaje 1025-373 que retira la urgencia Discusión inmediata"
+    },
+    {
+     "f": "2025-10-01",
+     "t": "Cuenta del Mensaje 1109-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2025-11-04",
+     "t": "Cuenta del Mensaje 1212-373 que hace presente la urgencia Simple"
+    },
+    {
+     "f": "2025-12-03",
+     "t": "Cuenta del Mensaje 1323-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2025-12-17",
+     "t": "Cuenta del Mensaje 1417-373 que retira y hace presente la urgencia Simple"
+    },
+    {
+     "f": "2026-01-07",
+     "t": "Citación para continuar con el estudio en general."
+    },
+    {
+     "f": "2026-01-13",
+     "t": "Cuenta del Mensaje 1510-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-03-03",
+     "t": "Cuenta del Mensaje 1604-373 que hace presente la urgencia Discusión inmediata"
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley propone la creación de un nuevo instrumento de financiamiento público para estudios superiores y un plan de reorganización y condonación de deudas educativas existentes. La iniciativa es de alta relevancia para el sistema bancario, ya que la condonación y reorganización de deudas educativas impactaría directamente las carteras de crédito de los bancos que administran o son acreedores de estos financiamientos, como el CAE. Esto podría generar un riesgo de crédito significativo y requerir ajustes en las provisiones o requerimientos de capital de las instituciones financieras. ABIF debe monitorear activamente este proyecto por sus potenciales efectos directos en la operación y estabilidad financiera de los bancos.",
+   "categorias_abif": [
+    "Crédito de consumo",
+    "Cobranza y ejecución",
+    "Protección al consumidor financiero"
+   ]
+  },
+  {
+   "id": "p21",
+   "boletin": "14.782-13",
+   "titulo": "PdL que equipara el derecho de sala cuna para las trabajadoras, los trabajadores y los independientes que indica, en las condiciones que establece, modifica el Código del Trabajo para tales efectos y crea un fondo solidario de sala cuna.\n\nFecha ingreso PdL al Senado: \n4/01/22\n\nMensaje presidencial",
+   "desc": "El Ejecutivo presentó una indicación sustitutiva al PdL original presentado durante el gobierno de Sebastián Piñera.\n\nContenido de la indicación sustitutiva: \nEquipara el derecho de sala cuna para mujeres y hombres, incluidos quienes tengan el cuidado personal, de menores de 2 años. \nSe elimina el requisito de 20 o más mujeres trabajadoras en empresa, para proveer el derecho a sala cuna. \nEn caso de que ambos progenitores o personas con el cuidado personal, tengan derecho a sala cuna, de común acuerdo pueden definir quien ejercerá su derecho, debiendo comunicar la decisión a ambos empleadores. A su vez los empleadores deben informar a la DT. \nSe crea un Fondo de Sala Cuna, cuyo objeto será contribuir al financiamiento de la provisión de sala cuna a la cual se encuentran obligados los empleadores. A este Fondo también podrán acceder los trabajadores independientes. \nSolo se financiará el derecho a sala cuna en establecimientos que cuenten con el reconocimiento oficial del Estado. \nEl fondo se financiará con los siguientes recursos: \n- Cotización de cargo del empleador del 0,2% de las remuneraciones imponibles de todos los trabajadores dependientes, y de las rentas imponibles de los trabajadores independientes. \n-   Con la rentabilidad que genere la inversión de los recursos del fondo. \n-  Con el producto de las multas, reajustes e intereses que se aplique de conformidad a la Ley N° 17.322, normas para la cobranza judicial de cotizaciones, aportes y multas de las Instituciones de Seguridad Social. \nEl aporte de sala cuna será de máx. 4,11 UTM (aprox. $282.000), por concepto de matrícula por año calendario y las mensualidades, tanto para trabajadores dependientes como independientes. \nEl aporte se pagará directamente a la sala cuna, con cargo al Fondo, previa solicitud del empleador y autorización de pago del Instituto de Previsión Social. \nDisposiciones transitorias: \nO Normas de esta ley entrarán en vigencia el primer día del sexto mes siguiente a la publicación de la ley en el D.O. \nO Reglamentos deben dictarse dentro de los tres meses siguientes a la publicación de la ley. \nO La cotización del 0,2 de la remuneración se pagará a partir del primer día del sexto mes siguiente a la publicación de la ley. \nO Implementación del derecho de sala cuna, en dos etapas: \nA partir del primer día del sexto mes siguiente a la publicación de la ley: tendrán derecho a sala cuna todas las mujeres trabajadoras contratadas y personas trabajadoras que tengan cuidado personal de menores a 2 años. \nA partir de los doce meses siguientes al plazo anterior: tendrán derecho a sala cuna todas las personas trabajadoras (hombres y mujeres)\nEmpleadores que, previo a la entrada en vigencia de esta ley, cumplían con el derecho a sala cuna, lo seguirán proveyendo.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Hacienda",
+   "urgencia": "Discusión inmediata",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": "2026-06-30",
+   "hist": [
+    {
+     "f": "2022-05-18",
+     "t": "Aprobado en general por la Comisión de Trabajo."
+    },
+    {
+     "f": "2024-04-02",
+     "t": "Aprobado en general por la Sala del Senado."
+    },
+    {
+     "f": "2025-05-07",
+     "t": "Citación para iniciar el estudio en particular del proyecto."
+    },
+    {
+     "f": "2026-01-07",
+     "t": "Continuar con el estudio del proyecto."
+    },
+    {
+     "f": "2026-04-21",
+     "t": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 12:00 horas del día 15 de junio de 2026, en la Secretaría de la Comision de Educación"
+    },
+    {
+     "f": "2026-06-15",
+     "t": "Boletín de indicaciones ."
+    },
+    {
+     "f": "2026-06-16",
+     "t": "La Sala acuerda fijar un nuevo plazo para presentar indicaciones a este proyecto de ley, hasta las 18:00 horas del día 22 de junio de 2026, en la Secretaría de la Comisión de Educación"
+    },
+    {
+     "f": "2026-06-16",
+     "t": "Cuenta del Mensaje 150-374 que hace presente la urgencia Discusión inmediata"
+    },
+    {
+     "f": "2026-06-22",
+     "t": "Boletín de indicaciones ."
+    },
+    {
+     "f": "2026-06-23",
+     "t": "Cuenta del Mensaje 170-374 que hace presente la urgencia Discusión inmediata"
+    },
+    {
+     "f": "2026-06-25",
+     "t": "[Tabla comisiones Senado] En agenda Comisión de Educación"
+    },
+    {
+     "f": "2026-06-30",
+     "t": "Cuenta del Mensaje 179-374 que hace presente la urgencia Discusión inmediata"
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca equiparar el derecho a sala cuna para trabajadores dependientes e independientes, modificando el Código del Trabajo y creando un fondo solidario para su financiamiento. Para el sistema bancario, esto implica un potencial aumento en los costos laborales directos, ya sea por la expansión de la cobertura de sala cuna o por las contribuciones al nuevo fondo solidario. ABIF debería monitorear de cerca las disposiciones específicas que definan la participación y las obligaciones financieras de los empleadores, incluyendo a los bancos, para evaluar el impacto económico y operativo.",
+   "categorias_abif": [
+    "Laboral bancario"
+   ]
+  },
+  {
+   "id": "p22",
+   "boletin": "16.889-05",
+   "titulo": "PdL que crea una Agencia de Financiamiento e Inversión para el Desarrollo (Afide), y la autoriza a participar en fondos de fondos.\n\nFecha ingreso PdL a la Cámara de Diputados: 31/05/2024. \n\nMensaje presidencial",
+   "desc": "Debido a las características de los negocios de innovación, emprendimiento y adopción tecnológica, se dificulta su acceso a financiamiento para el desarrollo de sus negocios. Asimismo, en particular, por la naturaleza y por la normativa aplicable a la banca tradicional/comercial, le es difícil realizar una gestión de riesgos que considere el componente innovador de este tipo de proyectos, para otorgar financiamiento.\nA nivel internacional, la solución a este problema ha sido la creación de entidades públicas especializadas, “instituciones financieras para el desarrollo (IFD)”. \n\nObjetivo del proyecto: \nCrear la Agencia de Financiamiento e Inversión para el Desarrollo S.A. (AFIDE), para que el Estado pueda financiar, garantizar, gestionar, articular, asesorar e invertir en proyectos empresariales de transformación y/o diversificación productiva. \nCaracterísticas de AFIDE: \nSe traspasarán las funciones y funcionarios de la Gerencia de Inversión y Financiamiento de la CORFO a la AFIDE.\nAFIDE será una S.A., fiscalizada por la CMF y supervisada por la UAF. Esta ley regulará a la AFIDE y en lo no regulado se aplicará la ley de S.A. abiertas. \nNo podrá captar o recibir dinero del público. (No es un banco)\nTendrá un gobierno corporativo moderno y especializado, y su directorio se elegirá por Alta Dirección Pública, que tendrá independencia del ciclo político. \nOtorgará distintos instrumentos financieros para financiar la innovación y la adopción de nuevas tecnologías. Complementariamente, podrá invertir en fondos de fondos. \nOrientado a contribuir al financiamiento de diversos actores de la economía, tales como: Empresas de mejor tamaño y cooperativas, startups y scaleups, y grandes proyectos verdes y/o con componente innovador. \n \nFuentes de financiamiento de AFIDE: \nCapital inicial que suscriba y pague el Fisco y CORFO. \nAporte de recursos o bienes originados en la cartera de préstamos CORFO. \nUtilidades que se obtengan del desarrollo de sus actividades y por las inversiones efectuadas en el mercado de capitales. \nToda clase de bienes que adquiera a cualquier título. \n\nTipo de instrumentos financieros que ofertará: \nCréditos de segundo piso.\nCréditos de primer piso.\nAdquirir títulos de deuda. \nInversión en fondos de fondos. \nGarantías. (Para ello se creará un Fondo de Garantía para el Desarrollo (FOGADE))\n\nAFIDE deberá constituirse dentro de 9 meses desde la publicación de la ley en D.O. \nSe establece un plazo de 18 meses desde la constitución de AFIDE para entrar en operación, con la oferta de productos y servicios.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Sala del Senado",
+   "urgencia": "Suma",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": "2026-03-03",
+   "hist": [
+    {
+     "f": "2024-09-23",
+     "t": "Citación para iniciar el estudio en general del proyecto, en la Comisión de Hacienda."
+    },
+    {
+     "f": "2024-12-16",
+     "t": "En tabla para su votación en la Sala de la C. de Diputados."
+    },
+    {
+     "f": "2025-01-15",
+     "t": "Citación para iniciar el estudio del proyecto por la Comisión de Hacienda del Senado."
+    },
+    {
+     "f": "2025-11-26",
+     "t": "Cuenta del Mensaje 1285-373 que hace presente la urgencia Discusión inmediata"
+    },
+    {
+     "f": "2025-12-09",
+     "t": "Citación para continuar con el estudio en general."
+    },
+    {
+     "f": "2025-12-09",
+     "t": "Cuenta del Mensaje 1344-373 que hace presente la urgencia Discusión inmediata"
+    },
+    {
+     "f": "2025-12-10",
+     "t": "Primer informe de comisión de Hacienda."
+    },
+    {
+     "f": "2025-12-16",
+     "t": "Cuenta de primer informe de comisión ."
+    },
+    {
+     "f": "2025-12-17",
+     "t": "Cuenta del Mensaje 1421-373 que hace presente la urgencia Simple"
+    },
+    {
+     "f": "2026-01-07",
+     "t": "Cuenta del Mensaje 1478-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-01-20",
+     "t": "Cuenta del Mensaje 1548-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-01-21",
+     "t": ", 14/01 y 21/01/26: En tabla para su votación por la Sala del Senado."
+    },
+    {
+     "f": "2026-03-03",
+     "t": "Cuenta del Mensaje 1605-373 que hace presente la urgencia Suma"
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley propone la creación de la Agencia de Financiamiento e Inversión para el Desarrollo (Afide), una entidad pública autorizada a participar en fondos de fondos. La iniciativa podría introducir un nuevo actor en el ecosistema financiero, con potencial para influir en la oferta de productos de financiamiento e inversión. ABIF debería monitorear este proyecto para evaluar sus implicancias en la libre competencia y el rol de la banca en el mercado de capitales y financiamiento para el desarrollo.",
+   "categorias_abif": [
+    "Fintech / Open Finance / IA financiera",
+    "Mercado de capitales",
+    "Libre competencia financiera"
+   ]
+  },
+  {
+   "id": "p23",
+   "boletin": "17.625-03",
+   "titulo": "PdL que modifica la ley N° 20.009, en cuanto a la forma de denunciar los hechos constitutivos de fraude, en los términos que indica. \n\nFecha ingreso PdL al Senado: \n18/06/25\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: \nModifica el art. 4 de la Ley N° 20.009, ampliando los medios mediante los cuales el usuario puede efectuar las denuncias de fraude, permitiendo la utilización de plataformas digitales, tales como Comisaria Virtual.  \n\nSe sustituye el inciso cuarto del art. 4 de la ley N° 20.009, por el siguiente: \n“el Ministerio Público, Carabineros de Chile, la Policía de Investigaciones, o ante cualquier tribunal con competencia criminal, en forma presencial o a través de sus canales o plataformas digitales, en los términos establecidos por el artículo 173 del Código Procesal Penal”.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Modificación a la Ley de Fraudes",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p24",
+   "boletin": "17.687-03",
+   "titulo": "PdL que modifica la Ley General de Bancos para fomentar la asociación de los clientes bancarios para la defensa de sus intereses.\n\nFecha ingreso PdL a la Cámara de Diputados: \n8/07/25\n\nMoción parlamentaria",
+   "desc": "Se introduce un nuevo art. 49 ter a la LG: \n\nClientes bancarios pueden asociarse en corporaciones de clientes, en defensa de sus intereses y para negociar con el banco (mejoras tasa de interés, repactación de deudas, entre otros). \nCada banco o grupo de bancos solo podrá tener una corporación de clientes. A su vez, las corporaciones pueden conformar federaciones, que representan a clientes de 2 o más bancos.\nLos bancos están obligados a reconocer a las corporaciones y a negociar con ellas. \nUn representante de la corporación o federación debe tener un representante en el directorio del banco. \nLa formación, funcionamiento y disolución de estas entidades se regirán supletoriamente y en todo lo que por su naturaleza y objetivo les sea aplicable, por las normas sobre sindicatos de trabajadores y negociación colectiva del Código del Trabajo. \nLas corporaciones tendrán personalidad jurídica desde el momento que presenten sus estatutos al banco.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p25",
+   "boletin": "17.445-03",
+   "titulo": "PdL que modifica la ley N° 20.009, con el objeto de facilitar el aviso oportuno del usuario a los emisores en caso de extravío, hurto, robo o fraude de los medios de pago que indica. \n\nFecha ingreso PdL al Senado: \n3/04/25\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: \n\nFortalecer la protección de los usuarios financieros, facilitando la denuncia o aviso oportuno, permitiendo que solicite en un mismo acto la comunicación a todas las entidades respecto de las cuales tenga contrato vigente, para que produzca efecto inmediato respecto de todas ellas.\n\nSe agrega un nuevo inciso final al art. 2 de la Ley N° 20.009, del siguiente tenor: \n“Los usuarios podrán solicitar a cualquiera de los emisores con los cuales tenga contrato vigente transmitir de inmediato el aviso oportuno a todas las entidades sujetas a la presente ley, produciendo en el mismo acto los efectos contemplados respecto de todos ellos.”",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "operacional",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p26",
+   "boletin": "10.576-13 / 12.719-13 / 14.139-34 / 9.322-13",
+   "titulo": "PdL que modifica el Código del Trabajo con el objeto de perfeccionar la regulación del principio de igualdad de remuneraciones entre hombres y mujeres. \n\nFecha ingreso PdL a la Cámara de Diputados: 15/03/2016\n\nMoción parlamentaria",
+   "desc": "Sólo podrá justificarse una variación en salarios en razón de su calificación.\nLas empresas deben realizar una evaluación analítica de puestos de W, con métrica def. por la DT.\nEmpresas con 50 o + Ws, deben conformar un comité de evaluación de empleo compuesto por = n° de mujeres y hombres.\nDicha evaluación servirá de base para determinar el “plan de igualdad de remuneraciones”, el cual será materia de negociación colectiva. El plan deberá ser enviado a la DT.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "ante mayor costo laboral.",
+   "relevancia": "media",
+   "fecha": "2025-01-06",
+   "hist": [
+    {
+     "f": "2024-06-17",
+     "t": "Citación para iniciar el estudio en general, en la Comision de Mujer del Senado."
+    },
+    {
+     "f": "2025-01-06",
+     "t": "Citación para continuar con la votación en particular."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p27",
+   "boletin": "17.976-25",
+   "titulo": "PdL que modifica la ley N° 21.659, sobre seguridad privada, con el objeto de ampliar el plazo para elaborar y presentar la propuesta de estudio de seguridad ante la Subsecretaría de Prevención del Delito. \n\nFecha ingreso PdL a la Cámara de Diputados: \n10/11/25\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: \n\nAmpliar, de 60 a 90 días hábiles, el plazo para presentar el estudio de seguridad a la Subsecretaría de Prevención del Delito, por parte de las entidades obligadas. \n\nArtículo único: Reemplázase, en el inciso final del artículo 13 la expresión “sesenta días” por “noventa días”.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Seguridad Ciudadana",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p28",
+   "boletin": "8.096-32 / 8.128-32",
+   "titulo": "PdL que establece como bienes inembargables aquellos bienes pertenecientes a los Adultos Mayores. \n\nFecha ingreso PdL a la Cámara de Diputados: 20/12/2011\n\nMoción parlamentaria",
+   "desc": "Modifica el Código de Procedimiento Civil, agregando un nuevo art. 445 bis, estableciendo que será inejecutable el bien raíz que sirve de residencia única para el deudor, cuando concurran copulativamente las siguientes circunstancias: \n\nDeudor propietario tenga 60 años cumplidos;\nInmueble inscrito en el Registro de Propiedad del CBR, exclusivamente a nombre del deudor, hace al menos 10 años; \nAvalúo fiscal inferior o igual a 5.000 UF;\nIngresos del deudor propietario no excedan 50 UTM;\nQue la naturaleza de la acción que da origen a la ejecución no sea de carácter hipotecario; y \nQue el deudor propietario no sea dueño de otro bien raíz. \n\nSon inejecutables también, los bienes muebles que guarnecen el inmueble y que pertenezcan al adulto mayor.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito",
+   "relevancia": "alta",
+   "fecha": "2024-12-04",
+   "hist": [
+    {
+     "f": "2023-01-25",
+     "t": "Citación para iniciar el estudio del proyecto."
+    },
+    {
+     "f": "2023-01-25",
+     "t": "La Sala del Senado acuerda devolver el proyecto a la Comisión de Constitución, para que se discuta en general y en particular."
+    },
+    {
+     "f": "2024-12-04",
+     "t": "Citación para iniciar el estudio del proyecto por la Comisión de Constitución del Senado."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p29",
+   "boletin": "17.435-03",
+   "titulo": "PdL que modifica la ley N° 20.448, en materia de reajustabilidad de los créditos hipotecarios universales. \n\nFecha ingreso PdL al Senado: \n25/03/25\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto:\n\nModificar el art. 7, inciso segundo, numeral 5) de la Ley N° 20.448,  que Introduce una serie de reformas en materia de liquidez, innovación financiera e integración del mercado de capitales, estableciendo que: \n\nLos créditos hipotecarios universales ofrecidos por bancos, compañías de seguros, cooperativas de ahorro y crédito, emisores de tarjetas de crédito, entre otras entidades, serán en pesos y tendrán como mecanismo de reajustabilidad anual, la variación del IPC, por lo tanto, elimina la UF como mecanismo de reajustabilidad para este tipo de créditos.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p30",
+   "boletin": "17.266-03",
+   "titulo": "PdL que modifica la ley N° 19.496 para exigir que los terminales de pago cumplan principios de diseño universal, a fin de facilitar su uso por personas con discapacidad visual. \n\nFecha ingreso del PdL a la Cámara de Diputados: 2/12/24\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: \nFortalecer la regulación de los dispositivos de pago electrónico, para que las empresas encargadas de su distribución implementen un sistema accesible para las personas con discapacidad visual. \n\nPara ello, se propone incorporar al artículo 3 letra a) de la Ley N° 19.496, que establece normas sobre protección de los derechos de los consumidores, un inciso final del siguiente tenor: \n\n“Las empresas que ofrezcan dispositivos digitales o electrónicos para realizar transacciones bancarias, deberán utilizar mecanismos que contemplen medidas de diseño universal, a fin de que todas las personas, incluyendo aquellas que tengan problemas o discapacidad visual, puedan utilizarlos de manera autónoma y segura.”",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "operacional",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p31",
+   "boletin": "16.927-35",
+   "titulo": "PdL que regula el diseño y la accesibilidad universal en el mercado financiero. \n\nFecha de ingreso al Senado: \n17/06/24\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: Fortalecer la inclusión de personas con discapacidad en el sistema financiero. \nPara ello, se busca modificar la LGB, agregando un nuevo artículo 74 bis, que establezca: \nLa obligación de que bancos y sociedades de apoyo al giro dispongan de diseño y accesibilidad universal en sus sucursales, sitios electrónicos, cajeros automáticos, terminales de punto de venta y canales o aplicaciones que permitan la autorización, captura, agregación y comunicación de operaciones de pago, las que posteriormente serán procesadas por un operador para su liquidación y/o pago. \nLa CMF deberá dictar normas que establezcan los estándares de diseño y de accesibilidad universal en el mercado financiero. \nAdemás, la CMF deberá absolver las consultas y peticiones, investigar las denuncias o reclamos y resolver los procedimientos sancionatorios por incumplimientos. \nSe prohíbe el uso de cajeros automáticos, terminales de punto de venta y de canales o aplicaciones que no cumplan con los estándares de accesibilidad universal de la CMF.\nLos bancos y las sociedades de apoyo al giro deberán publicar en sus sitios web: la cantidad, porcentaje y funciones de sus trabajadores con discapacidad, y otras medidas de inclusión que haya adoptado.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Sala Senado",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p32",
+   "boletin": "15.462-03 / 16.764-03 / 16.783-03",
+   "titulo": "PdL que modifica el Código de Comercio, con el objeto de limitar los montos de pago en efectivo en el comercio. \n\nFecha ingreso PdL al Senado: \n25/10/22\n\nMoción parlamentaria",
+   "desc": "Boletín N° 15.642-03. Se agrega un nuevo artículo 118 bis al Código de Comercio, del siguiente tenor: \n\n“Sin perjuicio de lo preceptuado en el artículo precedente, ninguna persona, con excepción de bancos, instituciones financieras y del Banco Central, puede recibir pagos en dinero en efectivo consistente en monedas o billetes, ya sea en moneda nacional o extranjera, por sumas superiores al equivalente cinco Unidades Tributarias Anuales. En caso de detectarse un incumplimiento a esta obligación, el adquirente del pago podrá ser sancionado con multa de un diez por ciento de lo pagado, a beneficio fiscal.”\n\nAgosto 2024: 5 UTA = $3.954.060 \n\nBoletín N° 16.764-03. Se agrega un nuevo art. 28 bis de la Ley N° 19.913, que crea la UAF, para prevenir el lavado de dinero, limitando el monto de las transacciones que se realicen con dinero en efectivo, del siguiente tenor:  \n \n“Queda prohibida la utilización de dinero en efectivo para todo pago que sea superior a las 135 Unidades de Fomento, debiendo en consecuencia realizarse la transacción mediante otro medio de pago.” \n\nBoletín N° 16.783-03. PdL cuenta con 3 artículos y 1 transitorio. \nProhíbe el pago en dinero efectivo de transacciones superiores a 50 UF o su equivalente en moneda extranjera. Estableciendo una excepción para los pagos e ingresos realizados en bancos e instituciones financieras.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": "2024-08-27",
+   "hist": [
+    {
+     "f": "2024-07-30",
+     "t": "Citación para iniciar el estudio en general de los proyectos refundidos."
+    },
+    {
+     "f": "2024-08-27",
+     "t": "Citación para continuar con el estudio en general."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p33",
+   "boletin": "15.875-03",
+   "titulo": "PdL que modifica la Ley sobre Cuentas Corrientes Bancarias y Cheques, para establecer el pago de intereses sobre fondos disponibles en cuentas corrientes, en las condiciones que indica. \n\nFecha ingreso PdL al Senado: 26/04/23\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: Que las instituciones financieras deban pagar intereses sobre los saldos disponibles en las cuentas corrientes en moneda nacional, mediante una modificación al art. 8 del DFL 707, que fija texto refundido, coordinado y sistematizado de la ley sobre cuentas corrientes bancarias y cheques.  \n\nAdemás, se establecen 3 disposiciones transitorias: \nEl BC dispone de 90 días desde publicación de la ley en el Diario Oficial, para fijar, mantener o actualizar normativa referente al pago de intereses sobre fondos disponibles en cuentas corrientes. \nLa obligación de pagar intereses entrará en vigor al tercer mes calendario posterior a la fecha en que el BC publique su normativa. \nBancos y demás instituciones financieras deberán adecuar los contratos de cuenta corriente, dentro del plazo de vacancia que la ley entrará en vigor en cuanto a la obligación de pagar intereses. La modificación contractual no podrá significar aumento de costos o comisiones pactadas o disponer nuevos cobros.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": "2024-07-30",
+   "hist": [
+    {
+     "f": "2023-11-28",
+     "t": "Citación para iniciar el estudio en general del proyecto."
+    },
+    {
+     "f": "2024-07-30",
+     "t": "Citación para iniciar el estudio en general del proyecto."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p34",
+   "boletin": "18.126-03",
+   "titulo": "PdL que declara el día 1 de octubre de cada año como el Día Nacional de la Numismática y la Educación Financiera. \n\nFecha ingreso PdL al Senado: \n10/03/26\n\nMoción parlamentaria.",
+   "desc": "Contenido del proyecto de ley: \nEstablecer el 1 de octubre como el Día Nacional de la Numismática y la Educación Financiera.\n\nLos órganos de la administración del Estado, Banco Central, bancos privados y otras entidades públicas o privadas, podrán desarrollar actividades para su conmemoración. Dichas entidades, y especialmente los establecimientos educacionales, podrán desarrollar actividades para la adquisición de conocimientos, hábitos y aptitudes para el fomento del ahorro, comprensión del crédito, tasas de interés, valor del dinero, inversiones y riesgos, entre otras medidas conducentes a una responsable administración del patrimonio.\".",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": "2026-03-10",
+   "hist": [
+    {
+     "f": "2026-03-10",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Economía"
+    },
+    {
+     "f": "2026-03-10",
+     "t": "Ingreso de proyecto ."
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "El proyecto de ley busca declarar el 1 de octubre de cada año como el Día Nacional de la Numismática y la Educación Financiera. Si bien la iniciativa es de carácter declarativo, la promoción de la educación financiera es un pilar fundamental para la protección del consumidor y la inclusión financiera, aspectos de interés directo para la banca. Un mayor conocimiento financiero por parte de la población puede contribuir a una mejor toma de decisiones crediticias y de inversión, beneficiando la estabilidad del sistema. ABIF debería monitorear si esta declaración conlleva futuras expectativas o iniciativas regulatorias que involucren la participación activa de las instituciones financieras.",
+   "categorias_abif": [
+    "Protección al consumidor financiero",
+    "Acceso a servicios financieros"
+   ]
+  },
+  {
+   "id": "p35",
+   "boletin": "17.196-17",
+   "titulo": "PdL que modifica la ley N° 18.046, sobre Sociedades Anónimas, con el objeto de establecer obligaciones para promover la protección de derechos humanos, a las personas jurídicas que indica.\n\nFecha ingreso PdL al Senado: 21/10/2024\n\nMoción parlamentaria.",
+   "desc": "Contenido del proyecto, se agregan dos nuevos artículos a la Ley N° 18.046, sobre SA, del siguiente tenor: \n\nArt. 10 bis: Las personas jurídicas inscritas el Registro de Valores y las señaladas en los numerales 1,4,5,6 y 8 del art. 3 de la ley N° 21.000 (entidades fiscalizadas por la CMF), entre ellas empresas bancarias y empresas dedicadas a la emisión y operación de tarjetas, que cumplan con las siguientes condiciones, estarán obligadas a lo establecido en el art. 10 ter. \nTener un promedio de 250 o más trabajadores por mes y tener ingresos anuales por ventas y servicios superiores a 1.000.000 UF, en el ultimo ejercicio. \nAún no habiendo alcanzado los umbrales establecidos precedentemente, que sea el controlador común de un grupo empresarial que haya alcanzado dichos umbrales en el último ejercicio. \n\nArt. 10 ter: Obligaciones: \nElaborar y publicar en su sitio web, una declaración en que se identifiquen los mayores riesgos de afectación de DDHH, por la actividad de la empresa y sus proveedores, a sus trabajadores, consumidores y comunidades donde desarrollen sus actividades; que se señalen las medidas para reducir o suprimir esos riesgos; y canales de denuncia e instancias de resolución en la empresa. \nUna vez al año, llevar a cabo un proceso de evaluación de las medidas adoptadas para disminuir o suprimir los riesgos e identificar nuevos. \nUna vez al año, publicar en el sitio web los resultados del proceso de evaluación de medidas, y actualizar la política empresarial (primera obligación). \nUna vez al año, publicar en el sitio web el número total de denuncias recibidas.",
+   "camara": "Senado",
+   "etapa": "Primer Trámite Constitucional (Senado) Comisión DDHH",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p36",
+   "boletin": "17.520-17",
+   "titulo": "PdL que establece la obligación de incorporar la debida diligencia en derechos humanos a las empresas que operen en territorio nacional. \n\nFecha ingreso PdL a la Cámara de Diputados: \n5/05/25\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: \nPromover y resguardar el respeto de los derechos humanos en el ámbito empresarial, estableciendo la obligación legal de que las empresas medianas y grandes, tanto públicas como privadas, que operen dentro del territorio nacional, implementen procesos de debida diligencia.\n\nLas empresas deberán implementar procesos eficaces de debida diligencia en materia de derechos humanos en todas sus operaciones, incluidas sus cadenas de suministro, relaciones laborales, comerciales y de negocios. \nDeben realizar a lo menos, las siguientes acciones: \nIdentificación de riesgos y vulnerabilidades. \nEvaluación de impacto de DDHH. \nElaboración de planes de gestión de riesgos o mitigación. \nMonitoreo y evaluación permanente. \nRendición de cuentas. \nMecanismos de reclamos públicos. \n\nEl incumplimiento de las obligaciones en esta ley será sancionado por la autoridad competente, las multas deberán ser proporcionales a la gravedad de la infracción, al tamaño de la empresa y al impacto generado en los DDHH.  En ningún caso la multa impuesta podrá ser inferior a 20 UTM.\n\nLa ley entrará en vigencia en el plazo de 6 meses desde su publicación en el D.O.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p37",
+   "boletin": "16.475-05",
+   "titulo": "PdL que  crea un Registro Nacional de Personas Beneficiarias Finales.\n\nFecha ingreso PdL al Senado: 18/12/2023\n\nMensaje presidencial.",
+   "desc": "Puntos principales del proyecto de acuerdo al mensaje: \n\nSe crea un registro nacional que contendrá información sobre beneficiarios finales de personas jurídicas con o sin fines de lucro, de fondos de inversión y de otras entidades sin personalidad jurídica, quienes estarán obligados a entregar esta información.\n\nEl registro será elaborado y administrado por el SII. Se almacenará la información por al menos 10 años, desde su incorporación al registro. \n\nSolo será información pública, la que pertenezca a entidades que reciban transferencias o contraten con el Estado, o reciban donaciones que den origen a beneficios tributarios para el donante. Los organismos del Estado tendrán acceso a toda la información del registro.  \n\nSe establecen sanciones a quienes cometan infracciones a esta ley, y un procedimiento sancionatorio para su aplicación: \nInfracciones gravísimas: multa de hasta 1.500 UTA. \nInfracciones graves: multa de hasta 1.000 UTA.\nInfracciones leves: multa de hasta 500 UTA.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Hacienda",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p38",
+   "boletin": "12.100-07",
+   "titulo": "PdL que modifica la ley N° 20.285, sobre acceso a la información pública. \n\nFecha ingreso PdL a la Cámara de Diputados: 12/09/2018.\n\nMensaje presidencial",
+   "desc": "Permite acceso de la Contraloría General de la República a las cuentas bancarias de Organismos públicos mediante resolución fundada.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Comisión Hacienda",
+   "urgencia": "Suma",
+   "impacto": "Riesgo regulatorio frente a una eventual falta de precisión en el alcance de la causal de secreto y reserva bancaria.",
+   "relevancia": "alta",
+   "fecha": "2026-03-03",
+   "hist": [
+    {
+     "f": "2022-01-25",
+     "t": "Pasa a Comisión de Hacienda."
+    },
+    {
+     "f": "2023-11-07",
+     "t": "Plazo para presentar indicaciones: hasta el 7/11/23"
+    },
+    {
+     "f": "2025-10-15",
+     "t": "Cuenta del Mensaje 1175-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2025-10-27",
+     "t": "Cuenta del Mensaje 1178-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2025-11-05",
+     "t": "Cuenta del Mensaje 1235-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2025-11-25",
+     "t": "Cuenta del Mensaje 1269-373 que hace presente la urgencia Suma"
+    },
+    {
+     "f": "2025-12-10",
+     "t": "Cuenta del Mensaje 1362-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-01-06",
+     "t": "Cuenta del Mensaje 1462-373 que hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-01-20",
+     "t": "Cuenta del Mensaje 1548-373 que retira y hace presente la urgencia Suma"
+    },
+    {
+     "f": "2026-03-03",
+     "t": "Cuenta del Mensaje 1605-373 que hace presente la urgencia Suma"
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "El proyecto de ley busca modificar la Ley N°20.285, sobre Acceso a la Información Pública, que regula la transparencia y el acceso a la información de los órganos de la Administración del Estado. Si bien la Comisión para el Mercado Financiero (CMF) y el Banco Central son instituciones públicas sujetas a esta ley, las modificaciones propuestas no afectan directamente la operación bancaria, el secreto bancario, ni los productos o servicios financieros ofrecidos por los bancos. Su impacto en el sistema financiero es tangencial, afectando principalmente la forma en que los reguladores financieros gestionan y divulgan información pública. Se sugiere un monitoreo general para identificar cualquier implicancia indirecta en la relación entre los bancos y sus reguladores.",
+   "categorias_abif": [
+    "Otra"
+   ]
+  },
+  {
+   "id": "p39",
+   "boletin": "15.716-03",
+   "titulo": "PdL que introduce modificaciones a la ley N° 19.983, que regula la transferencia y otorga mérito ejecutivo a copia de la factura, y al DL N° 825, del Ministerio de Hacienda, ley sobre impuesto a las ventas y servicios, para mejorar el pago a treinta días.\n\nFecha ingreso PdL al Senado: 31/01/23\n\nMensaje presidencial",
+   "desc": "Pese a la existencia de la ley N° 21.131, que establece pago a treinta días, esta ha sido insuficiente para asegurar el cumplimiento de los tiempos de pago, afectando especialmente a las empresas de menor tamaño. \n\nEl PdL modifica la ley N° 19.983, que regula la transferencia y otorga merito ejecutivo a la copia de la factura, y el DL N° 825, ley sobre impuesto a las ventas y servicios. Además, incorpora dos artículos transitorios que establecen régimen de entrada en vigencia diferida para las medidas que requieren desarrollos tecnológicos. \n\nAgrega disposiciones que rigen los tiempos de pago de operaciones comerciales entre privados: plazo único para el pago de facturas de 30 días; registro censal ante el SII de los tiempos de pago; elaboración de reportes públicos mensuales sobre los tiempos de pago; desincentivos tributarios para malos pagadores; cambio de sujeto (al comprador) que debe retener y enterar el IVA en casos establecidos en la ley; condicionamiento del uso del crédito fiscal, se incorporan prohibiciones que buscan restringir  acciones de no cumplimiento de las obligaciones o retrasos de los tiempos de pago. \nAgrega disposiciones que rigen los tiempos de pago de operaciones comerciales entre organismos del Estado y privados: reconocimiento legal de la Plataforma de Pago Automatizado y emisión de reportes; reducción del plazo de pago de facturas a 20 días corridos; designación de un responsable de efectuar la recepción conforme.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": "2024-07-23",
+   "hist": [
+    {
+     "f": "2023-05-30",
+     "t": "Citación para iniciar el estudio del proyecto en la Comisión de Economía del Senado."
+    },
+    {
+     "f": "2023-06-13",
+     "t": "al 9/07/24: Citación para continuar con el estudio del proyecto."
+    },
+    {
+     "f": "2024-07-23",
+     "t": "Citación para continuar con el estudio del proyecto."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p40",
+   "boletin": "17.079-03",
+   "titulo": "PdL  que modifica la ley N° 19.496, que establece normas sobre protección de los derechos de los consumidores, para reglar el uso de sistemas automatizados de respuestas en servicios de atención al cliente. \n\nFecha ingreso PdL a la Cámara de Diputados: 14/08/24\n\nMoción parlamentaria",
+   "desc": "Objeto del proyecto: Garantizar atención humana, personal, ya sea de forma presencial o por la vía telefónica, en los servicios de atención al cliente de las empresas que presenten ciertos servicios básico de interés general. \n\nSe agrega un nuevo art. 12 D: \nSe aplica a las siguientes empresas: \nEmpresa cuyo servicio sea considerado como básico y esencial, ej.: empresas de suministro y distribución de energía, servicios sanitarios, de AFP, de transporte aéreo de pasajeros, telefónicos y de internet. \nEmpresa con los siguientes ingresos anuales:    \nPrimer Rango Gran Empresa: 100.000,01 a 200.000,00 UF Anuales. \nSegundo Rango Gran Empresa: 200.000,01 a 600.000,00 UF Anuales.\t\t\nTercer Rango Gran Empresa: 600.000,01 a 1.000.000,00 UF Anuales.\nCuarto Rango Gran Empresa: más de 1.000.000,01 UF Anuales.\n  (Quedan excluidas las pequeñas y medianas empresas.)\nObliga a las empresas que prestan servicios básicos esenciales, a garantizar que la atención al cliente sea proporcionada por personal humano, no automatizado. \nSerá sancionado, de acuerdo a la Ley N° 19.496, el uso exclusivo de contestadores automáticos. \nEn cualquier momento durante una llamada telefónica por consulta, queja o reclamo, a solicitud del cliente, el proveedor debe asegurar atención personalizada. \nLlamada debe ser atendida en un plazo máximo de 5 min. \nEn los contratos con el cliente, facturas y en su sitio web, debe constar los canales de comunicación que tenga la empresa. \nSanción por incumplimiento: multa de 1.000 UTM o la que sanción que establezca el órgano sectorial. \n\nSe agrega una nueva letra g) al art. 3, a los derechos y deberes del consumidor: Recibir atención por personal humano, no automatizado, cuando el cliente lo solicite, durante una consulta, queja o reclamación.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer Trámite Constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p41",
+   "boletin": "16.992-03",
+   "titulo": "PdL que limita el monto de los pagos que se pueden realizar con dinero en efectivo. \n\nFecha ingreso del PdL a la Cámara de Diputados: \n22/07/24\n\nMoción parlamentaria",
+   "desc": "Tiene por objeto restringir el pago en efectivo de transacciones comerciales o financieras que superen el monto de $1.500.000. \n\nArtículo único del siguiente tenor: \n“Se prohíbe realizar pagos en dinero efectivo por sumas superiores a un millón quinientos mil pesos, ya sea en monedas o billetes nacional o su equivalente en moneda extranjera, con excepción de bancos, instituciones financieras y del Banco Central.\nLa infracción a lo dispuesto por esta ley, será sancionado con una multa a beneficio fiscal, equivalente al 100% del monto pagado aplicable al comprador y al receptor del dinero.”",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer Trámite Constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p42",
+   "boletin": "16.925-07",
+   "titulo": "PdL Modifica la Carta Fundamental para facilitar el pago de deudas asociadas a gastos en educación, salud y vivienda que indica.\n\nFecha ingreso del PdL a la Cámara de Diputados: \n11/06/24\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: Establecer un plazo de 13 años, sin reajustes ni interés, en favor de deudores que tengan deudas por razones de estudios superiores, salud o vivienda. \n\nSe agrega un nuevo N° 27 al art. 19 de la Constitución, del siguiente tenor: \n\n“Todas las deudas que las personas naturales contraigan, ya sea por:\nHaber estudiado a nivel superior; haber tenido alguna condición de salud ya sea por enfermedad; accidente o cualquier otra situación que lo lleve a pagar alto costos por la atención médica, haber comprado su primera vivienda a través de instituciones financieras, ya sean públicas o privadas, se pagara a 13 años, las cuales no generaran interés alguno, ni reajustes.”",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p43",
+   "boletin": "16.899-07",
+   "titulo": "PdL que Modifica la Carta Fundamental para facilitar el pago de deudas contraídas con instituciones financieras.\n\nFecha ingreso del PdL a la Cámara de Diputados: \n4/06/24\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: Establecer un plazo de 13 años, en favor de los deudores de créditos de consumo o comerciales con instituciones financieras, para el pago de dichos créditos. Durante este periodo no podrán cobrarse intereses de ningún tipo y se prohíbe la capitalización de intereses.  \n\nSe agrega a la Constitución, un nuevo artículo transitorio del siguiente tenor: \n“Si los deudores que mantienen obligaciones derivadas de créditos de consumo o comerciales pactados a corto o mediano plazo con algún grado de saldo insoluto en una entidad financiera que opere en el territorio de la República así lo desean, podrán solicitar ante la respectiva institución acreedora y dentro de los noventa días corridos a contar de la entrada en vigencia de la presente disposición, la parcelación de su deuda aún impaga en un plazo de trece años, esto es, en ciento cincuenta y seis cuotas.\nLas cuotas a las que hace referencia el inciso anterior se computarán exclusivamente sobre el capital originalmente adeudado, excluyendo cualquier tipo de interés, incluso aquel interés que en algún momento de la existencia de la obligación en cuestión se hubiese calculado sobre cualquier otro interés. De igual forma, las nuevas cuotas a que hace referencia esta disposición no serán susceptibles de quedar sujetas a ninguna forma o tipo de interés, incluyendo el interés calculado sobre algún otro interés.\nLo dispuesto en la presente disposición transitoria no se aplicará a aquellas personas que ocupen algún cargo de elección popular, como así tampoco a los Ministros de Estado, Subsecretarios, jefes de servicio público, jueces, ministros de corte, fiscales del Ministerio Público, Defensores Penales Públicos, comandantes en jefe de las Fuerzas Armadas y sus generales y almirantes, General Director de Carabineros, Director General de la Policía de Investigaciones, Gobernadores Regionales, Delegados Presidenciales, Contralor General de la República y Presidente de la República. De igual forma no podrán optar a este beneficio los presidentes, vicepresidentes, gerentes o subgerentes de alguna entidad financiera.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p44",
+   "boletin": "16.696-07",
+   "titulo": "PdL que  Modifica el DFL N°3, que fija el texto refundido, sistematizado y concordado de la LGB y de otros cuerpos legales que se indican, para establecer una excepción al secreto y reserva bancaria, respecto de las autoridades y otras personas que indica. \n\nFecha ingreso del PdL a la Cámara de Diputados: \n1/04/24\n\nMoción parlamentaria",
+   "desc": "Modifica el art. 154 de la LGB, incorporando dos incisos nuevos, que establecen la excepción a la reserva y secreto bancario respecto de ciertas autoridades: \n\nEl Presidente de la República, los ex Presidente de la República, los Ministros de Estado, Senadores, Diputados, miembros de los Tribunales Superiores de Justicia, Fiscal Nacional y sus Fiscales Regionales y adjuntos, Contralor General de la República, Comandantes en Jefe de las Fuerzas Armadas, General Director de Carabineros de Chile y sus generales, entre otros, y sus ascendientes, descendientes, familiares hasta el segundo grado de consanguinidad incluyendo además cónyuges, cuñados y concuñados, desde el momento en que sean investidos en el cargo, deberán autorizar anticipadamente a los bancos en que tengan operaciones de depósitos y captaciones de cualquier naturaleza a proporcionar, sin mayor trámite, cualquier antecedente relativo a dichas operaciones que sean requeridos fundadamente por la UAF, CMF, SII, y cualquier tribunal ordinario o especial dependientes del Poder Judicial para dar cumplimiento a sus funciones. \nLa autorización deberá otorgarse al Banco, dentro de los primeros 30 días de ser investido en el cargo, y tendrá efectos hasta el cese del cargo, y por su parte el Banco deberá remitir a los respectivos organismos dicha autorización en el plazo de 15 días luego de recibida.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p45",
+   "boletin": "15.244-13",
+   "titulo": "PdL que modifica diversos cuerpos legales, con el objeto de proteger el empleo ante despidos masivos.\n\nFecha ingreso PdL al Senado: 3/08/2022\n\nMoción parlamentaria",
+   "desc": "El Pdl establece un proceso de consulta previa y obligatoria ante despidos masivos.\n\n\"Despidos masivos\": aquellos que afecten al 10% o más del total de trabajadores de una empresa, y en general, cuando afecten a más de 1.000 trabajadores de la empresa. \nEl empleador deberá iniciar un proceso de consulta previo a la implementación de los despidos, así como el deber de comunicar el inicio de este a la Dirección del Trabajo.\nDentro de los 5 primeros días de iniciada la consulta, para que los trabajadores puedan formular propuestas y observaciones, el empleador deberá comunicar por escrito: los motivos, el número y los cargos; el período en que se realizarán; los criterios que se utilizarán para definir a las personas que serán afectadas por los despidos; las condiciones de salida que se ofrecerán a las personas despedidas, y toda la información que sirva de sustento a la medida.\nLos despidos no podrán verificarse sino hasta concluido el proceso en 45 días hábiles, prorrogables por otros 45 días hábiles adicionales por la DT.\nDurante el proceso de consulta, cualquiera de las partes podrá solicitar mediación.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Trabajo y Previsión Social",
+   "urgencia": "Sin urgencia",
+   "impacto": "ante mayor costo laboral",
+   "relevancia": "media",
+   "fecha": "2024-04-05",
+   "hist": [
+    {
+     "f": "2024-04-05",
+     "t": "Citación para iniciar el estudio del proyecto."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p46",
+   "boletin": "15.169-11",
+   "titulo": "PdL que modifica Ley N° 20.422, que establece normas sobre igualdad de oportunidades e inclusión social para personas con discapacidad, para disponer de áreas de descanso y asientos suficientes en espacios de acceso público.\n\nFecha ingreso PdL al Senado: 12/07/2022\n\nMoción parlamentaria",
+   "desc": "Todo edificio o establecimiento destinado a un uso que implique la concurrencia de público y los espacios de uso público, deberán: \nDisponer áreas de descanso y asientos destinadas a personas con discapacidad y adultos mayores, se debe considerar el diseño, altura, ubicación, implementación y la cantidad suficiente de áreas de descanso y asientos.",
+   "camara": "Senado",
+   "etapa": "Primer trámite constitucional (Senado) Comisión Adulto Mayor",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "media",
+   "fecha": "2024-01-17",
+   "hist": [
+    {
+     "f": "2024-01-17",
+     "t": "En tabla para su votación en la Sala del Senado."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p47",
+   "boletin": "16.122-03",
+   "titulo": "PdL que modifica la Ley N° 20.584, para consagrar el derecho de las personas a la eliminación de su información oncológica para fines de acceso a productos y servicios financieros.\n\nFecha ingreso del PdL a la Cámara de Diputados: 25/07/23\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: \nIntroducir un nuevo art. 29 bis a la Ley N° 20.584 que regula derechos y deberes de las personas en relación a acciones vinculadas a atenciones de salud, que señale el derecho a la eliminación de la información oncológica para fines de acceso a productos y servicios financieros, lo cual implica una obligación para las entidades reguladas y fiscalizadas por la CMF de eliminar la información clínica relacionada a un diagnóstico oncológico, una vez que hayan transcurrido 3 años desde el alta clínica. Asimismo, personas podrán requerir la eliminación directamente.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Comisión Salud",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p48",
+   "boletin": "15.961-07",
+   "titulo": "PdL que modifica la Carta Fundamental para extinguir las deudas y obligaciones contraídas en virtud de la ley N° 20.027, que establece normas para el financiamiento de estudios de educación superior. \n\nFecha ingreso PdL a la Cámara de Diputados: 17/04/2023\n\nMoción parlamentaria",
+   "desc": "A través de la creación de un nuevo artículo transitorio de la Constitución, se busca condonar a los usuarios del CAE la totalidad de la deuda, intereses, moras, costas y reajustes que en virtud de éste mantengan con el Estado, y extinguir toda obligación que mantengan el Estado y los usuarios del CAE con las entidades bancarias, de crédito o financieras. \nAdemás, facultar al Ministerio de Educación para fijar año a año el arancel anual máximo a cobrar en cada carrera de educación superior.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Sala de la Cámara de Diputados",
+   "urgencia": "Sin urgencia",
+   "impacto": "por deterioro del crédito por no pago",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p49",
+   "boletin": "16.494-05",
+   "titulo": "PdL que  modifica la ley N° 21.000, que crea la CMF, con el objeto de que las entidades fiscalizadas publiquen las resoluciones sancionatorias de que sean objeto en un lugar visible de sus sitios web institucionales.\n\nFecha ingreso del PdL a la Cámara de Diputados: 13/12/23\n\nMoción parlamentaria",
+   "desc": "Se agrega un nuevo inc. final al art. 28, que establece que, las entidades supervisadas por la CMF, que fueran sancionadas por ella, deberán publicar en un lugar visible de su sitio web institucional, la resolución mediante la cual la CMF los sancionó.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Hacienda",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p50",
+   "boletin": "16.343-03",
+   "titulo": "PdL que modifica la Ley N° 19.496 para restringir el número de comunicaciones publicitarias y promocionales permitidas diariamente. \n\nFecha ingreso del PdL a la Cámara de Diputados: 4/10/23\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: \nAgregar al art. 28 B, un nuevo inciso tercero, cuarto y quinto, que señalen lo siguiente: \nEl Proveedor solo pude efectuar comunicaciones de lunes a viernes, de 9 a 18 horas, estando prohibidos los correos electrónicos, mensajes de texto o llamadas telefónicas durante sábados, domingos y festivos. \nSi el consumidor no manifiesta su voluntad de suspender este tipo de comunicaciones dentro del plazo de 3 días desde el primer contacto, se entiende solicitada la suspensión. \nIncumplimiento de lo anterior, será sancionado con multa de 3 a 10 UTM.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p51",
+   "boletin": "16.057-13",
+   "titulo": "PdL que modifica la Ley N° 18.833 para establecer un sistema de ahorro social y mecanismos para su promoción. \n\nFecha ingreso PdL a la Cámara de Diputados: 4/07/23\n\nMoción parlamentaria",
+   "desc": "Objeto del proyecto: \nModificar la Ley N° 18.833, que establece un nuevo estatuto general para las cajas de compensación de asignación familiar, para que estas instituciones puedan administrar un régimen de ahorro social, abrir cuentas individuales a sus afiliados, ascendentes y descendientes en línea recta, y recibir el ahorro que voluntariamente hagan sus titulares o empleadores.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p52",
+   "boletin": "13.810-03",
+   "titulo": "PdL que exige a empresas bancarias poner a disposición del público un porcentaje mínimo de billetes de baja denominación, en la forma que indica.\n\nFecha ingreso PdL a la Cámara de Diputados: 25/09/2020\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto: Establecer la obligación de mantener al menos un 30% de billetes de 1.000 y 2.000 pesos en cajeros automáticos.\n\nComentarios: \nRazones por la cual se mantienen billetes de alta denominación en los cajeros automáticos: \nFijación de estándar mínimo de disponibilidad de los cajeros: Capítulo 1-7 de la RAN, establece que la disponibilidad del servicio de los cajeros no podrá ser inferior a un 95%, lo cual obliga a los bancos a cargar los cajeros con billetes de alta denominación, considerando la restricción de espacio en las gavetas donde se carga el efectivo. \nLas empresas que transportan el dinero tienen restricciones en cuanto al horario en que puedan transportar y cargar los cajeros automáticos, por temas de seguridad. (Decreto Exento N° 1226 del año 2000).",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados). Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo operacional",
+   "relevancia": "media",
+   "fecha": "2023-06-13",
+   "hist": [
+    {
+     "f": "2020-09-29",
+     "t": "Se da cuenta del proyecto, pasa a C. De Economía y de Hacienda de la Cámara."
+    },
+    {
+     "f": "2023-06-13",
+     "t": "Citación para iniciar la discusión en general del proyecto de ley. (Se puso de un momento a otro en tabla)"
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p53",
+   "boletin": "15.515-03",
+   "titulo": "PdL que modifica la ley N° 19.983, que regula la transferencia y otorga mérito ejecutivo a copia de la factura, en materia de responsabilidad por el no pago en la cesión de facturas. \n\nFecha ingreso PdL a la Cámara de Diputados: 23/11/22\n\nMoción parlamentaria",
+   "desc": "Objetivo del proyecto:  \nDerecho del cedente de poder repetir contra el deudor, siempre que ello se estipule expresamente entre las partes del contrato de factoring y se haga exigible una vez que la empresa de factoring notifique, por cualquier medio, de dicha circunstancia al deudor.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": "2023-05-16",
+   "hist": [
+    {
+     "f": "2023-04-25",
+     "t": "Citación para iniciar la discusión del proyecto."
+    },
+    {
+     "f": "2023-05-16",
+     "t": "Citación para continuar con la discusión del proyecto."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p54",
+   "boletin": "14.939-18",
+   "titulo": "PdL que modifica diversos cuerpos legales para establecer, en los juicios de alimentos, la obligación del tribunal de obtener información patrimonial y financiera, y permitir que se levante el secreto bancario respecto del demandado. \n\nFecha ingreso PdL a la Cámara de Diputados: 21/04/2022\n\nMoción parlamentaria",
+   "desc": "Obliga a los tribunales a solicitar la información patrimonial y financiera del demandado. Esta solicitud podrá estar dirigida a recabar información sobre la generalidad de operaciones en un determinado período o sobre operaciones específicas, ya sea que el demandado tenga carácter de parte o titular. A su vez, se modifica la LGB y el DFL 707 para reconocer expresamente la facultad de los tribunales a requerir esta información. \n\nEl requerimiento de información podrá apelarse de conformidad a las reglas del artículo 67 de la Ley N°19.968 que crea los Tribunales de Familia.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Familia.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Afectación del secreto bancario.",
+   "relevancia": "alta",
+   "fecha": "2026-06-02",
+   "hist": [
+    {
+     "f": "2022-04-21",
+     "t": "Ingreso de proyecto ."
+    },
+    {
+     "f": "2022-05-02",
+     "t": "Cuenta de proyecto . Pasa a Comisión de la Familia."
+    },
+    {
+     "f": "2023-03-15",
+     "t": "Citación para continuar con la discusión general del proyecto."
+    },
+    {
+     "f": "2023-04-12",
+     "t": "Por oficio N° 53-2022, la Comisión de Familia recaba la opinión de la Corte Suprema sobre el proyecto."
+    },
+    {
+     "f": "2023-05-16",
+     "t": "Cuenta de oficio N° 101-2023, de la Corte Suprema, por el cual remite opinión respecto del proyecto (informe N° 13-2023)."
+    },
+    {
+     "f": "2026-06-02",
+     "t": "Archivado Cuenta Oficio N°22/16/2026 de la Comisión de Familia, que archiva el proyecto."
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca modificar diversos cuerpos legales para facultar a los tribunales en juicios de alimentos a obtener información patrimonial y financiera de los demandados. Específicamente, permite el levantamiento del secreto bancario respecto de la parte demandada, lo que tiene un impacto directo en la confidencialidad de la información bancaria de los clientes. ABIF debe monitorear este proyecto con alta prioridad, ya que altera el marco legal del secreto bancario y podría sentar precedentes para la divulgación de datos financieros en otros contextos judiciales, generando nuevas obligaciones y riesgos regulatorios para las instituciones bancarias.",
+   "categorias_abif": [
+    "Secreto y reserva bancaria",
+    "Datos personales financieros"
+   ]
+  },
+  {
+   "id": "p55",
+   "boletin": "15.722-03",
+   "titulo": "PdL que modifica la ley N° 19.496, que establece normas sobre protección de los derechos de los consumidores, para regular el otorgamiento de productos y servicios financieros a estudiantes de educación superior.\n\nFecha ingreso PdL a la Cámara de Diputados: 30/01/2023\n\nMoción parlamentaria",
+   "desc": "Se agrega un nuevo art. 39 D, que señala que: \nLos bancos, instituciones financieras y casas comerciales, para otorgar créditos y tarjetas a estudiantes de educación superior, deberán exigir la acreditación de ingresos económicos suficientes por parte del estudiante o, en su defecto, obtener autorización notarial simple del sostenedor de sus estudios. \nSi contrato no tiene alguno de estos requisitos será nulo y no producirá efectos. \n\nAdemás, se deberá informar al interesado sobre la aplicación de intereses, comisiones y costos asociados a los productos.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p56",
+   "boletin": "14.059-03 / 13.067-03 / 13.150-03",
+   "titulo": "PdL que modifica diversos cuerpos legales para prohibir y sancionar, administrativa y penalmente el cobro de interés sobre intereses, o anatocismo, en las operaciones de crédito de dinero.\n\nFecha ingreso PdL a la Cámara de Diputados: 1/03/2021\n\nMoción parlamentaria",
+   "desc": "Se refunden proyectos de Ley, sin contenido unificado aún.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados). Comisión Economía.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de mercado: (i) inhibe el crédito en un sentido amplio (stock y flujo), y (ii) limita las operaciones de refinanciamiento (compra de carteras, operaciones de portabilidad, etc) y de renegociación.",
+   "relevancia": "alta",
+   "fecha": "2021-09-07",
+   "hist": [
+    {
+     "f": "2021-09-07",
+     "t": "La Cámara acuerda refundir proyectos."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p57",
+   "boletin": "15.260-03",
+   "titulo": "PdL que dispone la suspensión de los procedimientos administrativos de cobro y juicios ejecutivos que indica, por doce meses, en razón de la crisis económica que vive el país.\n\nFecha ingreso PdL a la Cámara de Diputados: 12/07/2022\n\nMoción parlamentaria",
+   "desc": "Suspende por el periodo de doce meses, a contar de la promulgación de la presente ley, en favor de las microempresas y pequeñas empresas que así lo soliciten:\n\n1.-El cobro y procedimiento ejecutivos administrativos, por concepto de deudas contraídas con La Tesorería General de la República. \n2.- El cobro y juicios ejecutivos; derivados de deudas contraídas con instituciones financieras y bancarias.\nCMF:\nSeñal errónea a los deudores que se acojan al beneficio.\nLas empresas que posterguen el pago verán incrementadas sus deudas.\nDebilitamiento de la cultura de pago.\nFalta de focalización.\nSe debilita la calidad de los colaterales.\nEstimaciones preliminares del impacto del PdL:\nEn materia de deudas en instancias de cobranza judicial (costo del dinero en el tiempo asociado a la postergación de las recuperaciones en 12 meses por USD$125 MM).\nPotencial cartera en cobranza judicial (mayores provisiones (USD$833 MM), mayor capital (USD$881 MM) y aumento de costos de cobranzas judiciales (USD$97 MM)) y tasa de interés (aumento de hasta 146 puntos base). CMF aclaró que estas estimaciones se realizan sólo con datos de la banca y no incluye a todas las instituciones financieras.\nASECH:\nEntrega mayor protección a las pymes nacionales afectadas por las distintas y sucesivas crisis de los últimos años.\nSolicita evaluar nuevas medidas tendientes a proteger y estimular a las pymes, fomentando su regularización, estabilización y crecimiento en el corto plazo.\nExtender el plazo de 12 meses.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Hacienda",
+   "urgencia": "Sin urgencia",
+   "impacto": "por deterioro del crédito por no pago.",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p58",
+   "boletin": "14.968-03",
+   "titulo": "PdL que modifica la Ley N° 19.496, sobre protección de los derechos de los consumidores, para establecer como regla general que la entrega de estados de cuenta o informaciones periódicas relativas a productos o servicios se efectúe por medios digitales.\n\nFecha ingreso PdL a la Cámara de Diputados: 9/05/2022\n\nMoción parlamentaria",
+   "desc": "Agrega nuevo párrafo al artículo 3 letra b) de la Ley N° 19.496, que establece:\nLos estados de cuenta o informaciones periódicas deberán enviarse como regla general a través de los medios electrónicos, salvo solicitud expresa del deudor. \nSi el consumidor no hubiese proporcionado una casilla electrónica, se deberán implementar sitios privados para cada consumidor y enviar las comunicaciones por dicho medio.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "media",
+   "fecha": "2022-10-25",
+   "hist": [
+    {
+     "f": "2022-10-25",
+     "t": "Comienza votación en particular, no se votó."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p59",
+   "boletin": "15.652-07",
+   "titulo": "PdL que modifica el Código de Procedimiento Civil para agregar la insolvencia del deudor como nueva excepción en el juicio ejecutivo. \n\nFecha de ingreso PdL a la Cámara de Diputados: 6/01/2023\n\nMoción parlamentaria",
+   "desc": "Incorpora al art. 464 del CPC una nueva excepción que puede oponer el deudor en un juicio ejecutivo, esta es, la falta de liquidez del deudor por encontrarse cesante o padecer, él, su pareja o algún descendiente, una enfermedad catastrófica.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Cámara de Diputados) Comisión de Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito.",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p60",
+   "boletin": "15.361-13",
+   "titulo": "PdL que modifica el Código del Trabajo para permitir acceder a la modalidad de teletrabajo a los progenitores con posterioridad al cumplimiento del período postnatal. \n\nFecha ingreso PdL a la Cámara de Diputados: 26/09/2022\n\nMoción parlamentaria",
+   "desc": "El empleador deberá ofrecer al trabajador que haya hecho uso del derecho a descanso de maternidad y/o del derecho a un permiso postnatal parental, la modalidad de trabajo a distancia o teletrabajo, por un periodo de 1 año a contar desde el término de los derechos señalados, en la medida que la naturaleza de sus funciones lo permitiere, sin reducción de remuneraciones.\n\nEstableciendo un nuevo artículo 206 ter, que establece la modalidad de teletrabajo o trabajo a distancia para cuidado de hijos e hijas a madres y padres posterior al ejercicio de los derechos a descanso de maternidad de seis semanas antes del parto y doce semanas después de él y/o del derecho a un permiso postnatal parental de doce semanas a continuación del período postnatal.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "operacional",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p61",
+   "boletin": "15.356-03",
+   "titulo": "PdL que modifica la Ley N° 18.010, que establece normas para las operaciones de crédito y otras obligaciones de dinero que indica, para prohibir la estipulación de cláusulas de aceleración.\n\nFecha ingreso PdL a la Cámara de Diputados: 20/09/2022\n\nMoción parlamentaria",
+   "desc": "Prohíbe el ejercicio de las cláusulas de aceleración en las operaciones de financiamiento o refinanciamiento, cuyo monto total no exceda de UF 4.500.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "operacional y riesgo de crédito",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p62",
+   "boletin": "15.341-25",
+   "titulo": "PdL que establece medidas de seguridad obligatorias para las entidades bancarias o financieras que indica. \n\nFecha ingreso PdL a la Cámara de Diputados: 9/09/2022\n\nMoción parlamentaria",
+   "desc": "Este proyecto establece como medidas de seguridad las siguientes prohibiciones: \n\nProhibición al público general del uso de dispositivos comunicación con el exterior. \nSe facultará a los guardias de seguridad solicitar al infractor de esta medida que haga abandono inmediato del lugar. \nSe aplicará al infractor una multa de hasta 5 UTM a beneficio fiscal. \nDisposición de los asientos que impida la vista directa de las cajas o zonas de retiro de dinero.\nSe permitirá la instalación de un número limitado de asientos de uso exclusivo para adultos mayores, personas en situación de discapacidad o embarazadas.\nMecanismos de registro biométrico o dactilar de las personas que hagan ingreso a las sucursales o locales.\nInstalación de barreras visuales o sistemas de protección visual con suficiente nivel de reserva.\nModernización de cámaras de seguridad:\nDeben permitir la identificación de cada una de las personas que hayan ingresado a la sucursal.\nInstalación de sistemas de respaldo de imágenes que permita su guardado por un periodo de 45 días.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión de Seguridad Ciudadana",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p63",
+   "boletin": "8.729-31",
+   "titulo": "PdL que declara la inembargabilidad del bien raíz que sirva de residencia principal para un discapacitado.\n\nFecha ingreso PdL a la Cámara de Diputados: 12/12/2012\n\nMoción parlamentaria",
+   "desc": "No se podrá ejecutar un bien raíz si se cumplen las siguientes condiciones:\n\n1- Que el deudor sea declarado con incapacidad y que conste en los registros;\n2- Que el inmueble se encuentre inscrito en el CBR exclusivamente a su nombre;\n3- Avalúo fiscal no supere las 5.000 UF;\n4- Deudor con ingresos ≤ 50 UTM;\n5- Que la acción que da origen a la ejecución no sea de carácter hipotecaria; y\n6- Que el deudor no sea dueño de otro bien raíz.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión de Personas Mayores",
+   "urgencia": "Sin urgencia",
+   "impacto": "Pendiente de evaluación, en atención a que las condiciones señaladas se encuentran sujetas a revisión.",
+   "relevancia": "media",
+   "fecha": "2022-05-27",
+   "hist": [
+    {
+     "f": "2022-04-18",
+     "t": "Se retoma PdL (sin movimiento desde 2012) y se deriva a Comisión de Personas Mayores."
+    },
+    {
+     "f": "2022-05-27",
+     "t": "Plazo para presentar indicaciones."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p64",
+   "boletin": "15.248-18",
+   "titulo": "PdL que modifica el Código Civil para permitir a los progenitores la declaración de bien familiar en interés de sus descendientes.\n\nFecha ingreso PdL a la Cámara de Diputados: 3/08/2022\n\nMoción parlamentaria",
+   "desc": "Reemplaza la expresión “cónyuges” por “progenitores” en los artículos 141, 141, 143, 144, 145, 146 y 148, para hacer extensiva la institución.\n\nIncorpora un nuevo artículo 141 Bis:\nQue determina la legitimidad activa (madre o padre no propietario en representación de los hijos)\nY establece como medios probatorios válidos del vínculo familiar:  las partidas de nacimiento, el Acuerdo de Unión Civil, y cualquier otro medio probatorio, lo cual será apreciado por las reglas de la sana crítica.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Familia.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito por posible menor efectividad en las garantías.",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p65",
+   "boletin": "15.209-13",
+   "titulo": "PdL que modifica el Código del Trabajo para reducir el porcentaje mínimo de trabajadores de nacionalidad chilena en los casos que indica.\n\nFecha ingreso PdL a la Cámara de Diputados: 19/07/2022\n\nMoción parlamentaria",
+   "desc": "Modifica el artículo 19 del Código del Trabajo en el siguiente tenor:\nRebaja de 85% a 60% el porcentaje mínimo de trabajadores chilenos que debe tener un mismo empleador. \n\nNueva excepción definida de acuerdo a la clasificación de micro o pequeña empresa (artículo 505 bis).\n\nAgrega nueva excepción en virtud de la estacionalidad de las labores sea necesario un incremento sustantivo de su personal.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión de Trabajo.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p66",
+   "boletin": "15.199-25",
+   "titulo": "PdL que impone a las instituciones financieras y cajas de compensación la obligación de contar con medidas que resguarden la privacidad de las operaciones que se realicen ante ellas.\n\nFecha ingreso PdL a la Cámara de Diputados: 13/07/2022\n\nMoción parlamentaria",
+   "desc": "Obliga a toda institución bancaria o financiera, además de las Cajas de Compensación” a instalar en sus cajas de atención al público biombos separadores semicerrados, de techo a suelo en forma de “L”, fijados contrarios a las filas de usuarios que esperan ser atendido.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Seguridad Ciudadana",
+   "urgencia": "Sin urgencia",
+   "impacto": "Operacional",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p67",
+   "boletin": "15.019-07",
+   "titulo": "PdL que modifica la Carta Fundamental para otorgar al Banco Central la facultad de establecer un sistema de formación de precios para artículos de primera necesidad.\n\nFecha ingreso PdL a la Cámara de Diputados: 27/05/2022\n\nMoción parlamentaria",
+   "desc": "El Banco Central podrá implementar en una crisis inflacionaria un Sistema Excepcional de Formación de Precios al Consumidor. (60 días máximo)",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión de Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Comercial por posible fijación de precios en servicios financieros.",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p68",
+   "boletin": "14.986-13",
+   "titulo": "PdL que modifica el Código del Trabajo para reducir la jornada laboral a 39 horas semanales, de manera gradual y flexible. \n\nFecha ingreso PdL a la Cámara de Diputados: 11/05/2022\n\nMoción parlamentaria",
+   "desc": "Rebaja la jornada laboral a 39 horas.  \n\nExcepción:\nJornada Bisemanal u otros casos de distribución de jornada de trabajo excepcional.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión de Trabajo y Seguridad Social.",
+   "urgencia": "Sin urgencia",
+   "impacto": "ante mayor costo laboral",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p69",
+   "boletin": "14.888-03",
+   "titulo": "PdL que elimina y prohíbe el uso de datos sobre deudas impagas al 30 de abril de 2022 y establece sanciones que indica.\n\nFecha ingreso PdL al Senado: 6/04/2022\n\nMoción parlamentaria",
+   "desc": "El proyecto prohíbe informar sobre deudas impagas al 30 de abril de 2022, así como también prohíbe el uso de esta información, cuando el total de obligaciones impagas a la fecha de publicación de la ley sea inferior a $2.500.000 por concepto de capital (excluye intereses, reajustes o cualquier otro cobro). Se establece a su vez la obligación de eliminar todos los datos relacionados con dichas deudas impagas.\n\nFinalmente, el PdL establece sanciones para quienes no eliminen esta información, o hagan uso de esta, que van desde las 1.000 hasta 2.500 UTM.",
+   "camara": "Senado",
+   "etapa": "Segundo Trámite Constitucional (Senado) Comisión de Economía.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Limitación de información para buró de crédito.\n\nLimitación de información para\nevaluación de capacidad de pago, afectando la evaluación de riesgo.",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p70",
+   "boletin": "14.709-03",
+   "titulo": "PdL que modifica cuerpos legales para proteger a las personas en materia de cobranzas y facilita la renegociación de deudas.\n\nFecha ingreso PdL a la Cámara de Diputados Senado: 15/11/2021\n\nMoción parlamentaria",
+   "desc": "El PdL incorpora ajustes a la Ley N°19.496 en materia de cobros por gestiones de cobranza:\nReduce a la mitad los tramos de deuda, con un máximo de 1 UF. En caso de llamados, mails, cartas o mensajes, el máx. es de 0,1 UF. \nInformada la deuda, ello no podrá reiterarse por un plazo de 30 días o antes del plazo del siguiente vencimiento.\nSe ajusta la Ley 20.720, donde destacan:\nFlexibiliza el acceso a la liquidación personal (elimina requisito de juicios pendientes; reduce el monto para optar a liquidación de 80 UF a 40 UF; y exige sólo una obligación vencida, etc.).\nSi el monto total de la deuda representa menos del 25% de sus activos, no podrá liquidarse el patrimonio del deudor, salvo que éste consienta a ello.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Limitaciones adicionales a los costos asociaos a gestiones de cobranza.",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p71",
+   "boletin": "11.835-03",
+   "titulo": "PdL que modifica la Ley N° 19.496, que establece normas sobre protección de los derechos de los consumidores, en materia de sanciones a las empresas que incurran en acoso telefónico en el envío de promociones o publicidad a los consumidores. \n\nFecha ingreso PdL a la Cámara de Diputados: 20/06/2018\n\nMoción parlamentaria",
+   "desc": "Incorpora un nuevo inciso al artículo 28 B de la Ley N° 19.496, estableciendo una multa de 20 a 300 UTM en caso de no suspender el envío de publicidad habiendo sido requerido a la empresa o ante el Sernac. \n\nSe incorporaron las siguientes indicaciones:\n\nPara fines de ventas y publicidad, las empresas tendrán la obligación de efectuar llamadas desde un solo número identificador, el que siempre tendrá que ser visible. Queda prohibida la utilización de números identificadores aleatorios o que no sean previamente identificables con la empresa oferente de la promoción o publicidad.\n\nPara el envío de promociones y publicidad mediante mensajes de texto, multimedia o correo electrónico se deberá solicitar el consentimiento previo del consumidor receptor de la comunicación.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "operacional",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p72",
+   "boletin": "14.535-03",
+   "titulo": "PdL que modifica la LGB en materia de información al cliente y el cobro ejecutivo de créditos hipotecarios.\n\nFecha ingreso PdL a la Cámara de Diputados: 17/08/2021\n\nMoción parlamentaria",
+   "desc": "Propone incorporar dos nuevos artículos a la LGB:\n1. 106 bis nuevo, el que establece requisitos adicionales para el ejercicio de las acciones ejecutivas: \nSi el deudor se encuentra pagando la primera mitad del crédito: Adeudar a lo menos, 10 cuotas o el 3% del crédito \nSi el deudor se encuentra pagando la segunda mitad del crédito: Adeudar a lo menos, 15 cuotas o el 7% del crédito.\n2. 111 bis nuevo, estable la obl. de informar las condiciones más favorables para el consumidor.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito ante disminución de la calidad crediticia (disminuye efectividad de garantías).",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p73",
+   "boletin": "14.494-03",
+   "titulo": "PdL que modifica la Ley N° 19.496, que establece normas sobre protección de los derechos de los consumidores, para extender el plazo de gracia previsto para el pago de las primas morosas, en los seguros de desgravamen asociados a créditos hipotecarios.\n\nFecha ingreso PdL a la Cámara de Diputados: 28/07/2021\n\nMoción parlamentaria",
+   "desc": "obliga a establecer en las pólizas del seguro de desgravamen, un plazo de gracia de un año, en el cual será exigible el seguro aun cuando no se hayan pagado las primas. En dicho caso, se autoriza a la aseguradora a descontar de la indemnización las primas y los reajustes correspondientes.\n\nEl PdL no señala lo que ocurrirá respecto del crédito asegurado en caso de operar el descuento señalado.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Deterioro de seguros de desgravamen.",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p74",
+   "boletin": "14.451-13",
+   "titulo": "PdL que modifica el Código del Trabajo, en materia de duración y distribución de la jornada laboral. \n\nFecha ingreso PdL a la Cámara de Diputados: 24/06/2021\n\nMoción parlamentaria",
+   "desc": "Rebaja la jornada laboral a 38 horas, y permite que se distribuya en un mínimo de 4 días y máximo 6 días.  \n\nAdemás, se señala que este ajuste no podrá significar una disminución de las remuneraciones de trabajadores, ni una afectación a sus derechos individuales o colectivos.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "ante mayor costo laboral.",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p75",
+   "boletin": "14.333-03",
+   "titulo": "PdL que dispone el otorgamiento de créditos de postergación a los deudores de créditos hipotecarios y suspende los juicios ejecutivos tendientes al cobro de dichas deudas.\n\nFecha ingreso PdL a la Cámara de Diputados: 22/06/2021\n\nMoción parlamentaria",
+   "desc": "Se obliga a entidades bancarias a otorgar créditos de postergación a sus deudores de obligaciones garantizadas con hipoteca, cuando estos últimos lo soliciten.\nAdemás, suspende por 6 meses los juicios ejecutivos tendientes a la realización de las deudas garantizadas con hipotecas específicas",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "comercial, deterioro de las garantías hipotecarias.",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p76",
+   "boletin": "13.240-13",
+   "titulo": "PdL que modifica el Código del Trabajo en materia de participación de los trabajadores en las utilidades de las empresas en que se desempeñan.\n\nFecha ingreso PdL a la Cámara de Diputados: 14/11/2019\n\nMoción parlamentaria",
+   "desc": "Se propone aumentar la participación de los trabajadores en las utilidades, estableciendo la obligatoriedad de repartir como gratificación el 8%, 15% o 15% de las utilidades obtenidas en el año. (porcentaje se det. según facturación anual).",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Comisión de Trabajo",
+   "urgencia": "Sin urgencia",
+   "impacto": "por mayor costo laboral.",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p77",
+   "boletin": "9.706-14",
+   "titulo": "PdL que modifica el CPC, con el objeto de declarar inembargables las viviendas adquiridas con subsidios del Estado que tengan un avalúo fiscal no superior a 520 UF, cumpliendo con los requisitos que indica. \n\nFecha ingreso PdL a la Cámara de Diputados: 6/11/2014\n\nMoción parlamentaria",
+   "desc": "Sustituye el Nº8 del art. 445 del CPC, incorporando La inembargabilidad del bien raíz del deudor en que éste, su cónyuge, su conviviente civil o hijos residan, siempre que sea el único bien raíz de propiedad del deudor, y que se trate de: (i) vivienda de emergencia, (ii) vivienda adquirida con subsidio MINVU que garante acceso a la vivienda sin deuda, o que se encuentren exentas de impuesto territorial; y (iii) viviendas sociales cuyo avalúo fiscal no exceda de 400 UF o de 520 UF tratándose de viviendas acogidas al régimen de copropiedad inmobiliaria.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Comisión Vivienda",
+   "urgencia": "Sin urgencia",
+   "impacto": "por deterioro de garantías.",
+   "relevancia": "alta",
+   "fecha": "2021-06-10",
+   "hist": [
+    {
+     "f": "2021-06-10",
+     "t": "Se desarchiva el proyecto de ley (archivado desde 2018)."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p78",
+   "boletin": "13.519-03 / 13.523-03 / 13.414-03 / 13.444-03 / 13.446-03 / 13.458-03 / 13.626-03",
+   "titulo": "PdL que prohíbe la publicación de las deudas morosas que indica, durante la vigencia, y hasta noventa días después del cese, del estado de catástrofe decretado con motivo de la pandemia de Covid-19.\n\nFecha ingreso PdL a la Cámara de Diputados: 14/05/2020\n\nMoción parlamentaria",
+   "desc": "Propone un nuevo art. 4 transitorio de la Ley 19.628 con lo siguiente: \nBeneficia a: (i) personas por deudas de hasta 150 UF; y (ii) medianas empresas (ventas hasta UF 100.000). \nProhibición de comunicación de las obligaciones que se hayan hecho exigibles con posterioridad al 18 de octubre de 2020.\nEl plazo de la prohibición será hasta 120 días después del término del estado de excepción.\nLas personas podrán renunciar a este bloqueo.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Limitación de información para buró de crédito.\n\nLimitación de información para evaluación de capacidad de pago, afectando la evaluación de riesgo.",
+   "relevancia": "alta",
+   "fecha": "2021-07-19",
+   "hist": [
+    {
+     "f": "2021-07-19",
+     "t": "Exponen ABIF, CMF y BCCh."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p79",
+   "boletin": "14.231-07",
+   "titulo": "PdL que modifica la Carta Fundamental, para imponer al Presidente la obligación y plazo para presentar un PdL que extinga deudas contraídas por los estudiantes para financiar su educación superior. \n\nFecha ingreso PdL a la Cámara de Diputados: 5/05/2021\n\nMoción parlamentaria",
+   "desc": "Se otorga un plazo de 3 meses al Presidente para presentar un proyecto de Ley que establezca un mecanismo para extinguir la totalidad de las deudas contraídas por los estudiantes para financiar su educación superior, a través de la condonación u otro modo de extinguir las obligaciones distinto del pago. \n\nAdemás, el proyecto deberá incluir la prohibición de la mantención de registros de deudores morosos.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados). Comisión Constitución.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Poca claridad respecto a la expresión “otro modo de extinguir las obligaciones distinto del pago”\n\nLimitación de información para buró de crédito.",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p80",
+   "boletin": "13.362-03 / 13.328-03 / 13.371-03 / 13.391-03 / 13.392-03 / 13.394-03",
+   "titulo": "PdL que modifica diversos cuerpos legales para disponer la suspensión del cobro de obligaciones de pago de servicios, según el detalle que indica, durante la vigencia del estado de excepción constitucional de catástrofe. \n\nFecha ingreso PdL a la Cámara de Diputados: 24/03/2020\n\nMoción parlamentaria",
+   "desc": "Los beneficiarios (personas naturales y MIPYMEs que cumplan ciertas condiciones) podrán solicitar la suspensión del pago de 6 cuotas de las operaciones de crédito elegibles, suscritos con instituciones con acceso directo a la Facilidad de Liquidez con Incentivo al Crédito del Banco Central. \n\n\n\n\n\nOtros PdLs relacionados: 13.423 y 13.659",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Comisión Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "por deterioro del crédito por no pago.",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p81",
+   "boletin": "13.526-03",
+   "titulo": "PdL que modifica cuerpos legales en materia de gastos asociados a la celebración y liquidación de operaciones de crédito de dinero. (“Deuda Maldita”)\n\nFecha ingreso PdL a la Cámara de Diputados: 19/05/2020\n\nMoción parlamentaria",
+   "desc": "El proyecto incorpora modificaciones legales en materias relevantes a las operaciones de crédito, donde destacan:\n1. Nuevo límite a la comisión de prepago y nueva regla para determinar imputación del pago al capital e intereses.\n2. Nuevas reglas aplicables al interés moratorio para operaciones de hasta 5.000 UF (destaca la prohibición del anatocismo).\n3. Condiciones aplicables a las cláusulas de aceleración para operaciones de hasta 5.000 UF. \n4. Regula los cobros asociados a “gastos operacionales”.\n5. Prohíbe cobros por cobranza judicial y extrajudicial.\n6. Regula la contratación de seguros asociados a las operaciones de crédito.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de mercado ante nuevas reglas y límites para comisiones de prepago e intereses.\n\nDeterioro de crédito por limitación de cláusulas de aceleración. \n\nRiesgo de mercado ante limitación de anatocismo.\n\nEncarece costo a usuarios por créditos de hasta 5.000 UF.",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p82",
+   "boletin": "8.466-07",
+   "titulo": "PdL que modifica la Ley N° 19.799 sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma y otros textos legales que indica.\n\nFecha ingreso PdL al Senado: 25/07/2012\n\nMensaje presidencial",
+   "desc": "El proyecto actualiza la regulación y moderniza el sistema de firma electrónica a fin de masificar su uso.",
+   "camara": "Senado",
+   "etapa": "Tercer trámite constitucional (Senado) Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Demora en la tramitación de este proyecto impacta en la productividad ya que no se cuenta con un pagaré electrónico como título ejecutivo.",
+   "relevancia": "media",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p83",
+   "boletin": "14.822-07",
+   "titulo": "PdL que regula la hipoteca inversa. \n\nFecha ingreso PdL a la Cámara de Diputados: 25/01/2022\n\nMoción parlamentaria",
+   "desc": "Se reconoce la figura de la hipoteca inversa para complementar ingresos, hasta su muerte.  \n\nProcederá solo de cumplirse ciertos requisitos: (i) a personas sobre 60 años o con algún grado de discapacidad; (ii) inmueble con avalúo fiscal sobre las 1.000 UF; y (iii) que el inmueble sea la residencia habitual del beneficiario.\n\nDurante la vigencia del contrato, el inmueble será de propiedad del solicitante sin que exista obligación de enajenarlo a favor de la institución acreedora.\n\nAl fallecimiento del deudor, sus herederos podrán pagar en un plazo no superior a un año. En caso de negarse, el acreedor podrá pagarse con el remate del inmueble en pública subasta. Si ello no es suficiente, no podrá perseguir la masa hereditaria.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Constitución",
+   "urgencia": "Sin urgencia",
+   "impacto": "Posibles dificultades en la ejecución de la garantía.",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p84",
+   "boletin": "13.506-04",
+   "titulo": "PdL que modifica las normas legales que indica para disponer la suspensión del pago de las cuotas de créditos para la educación con aval del Estado, CAE, con ocasión del estado de excepción constitucional de catástrofe, a causa de la pandemia de Covid-19. \n\nFecha ingreso PdL a la Cámara de Diputados: 7/04/2020\n\nMoción parlamentaria",
+   "desc": "Permite suspender el pago de los siguientes créditos durante la vigencia del estado de excepción:\nDeudas contraídas con instituciones de educación superior de conformidad a la Ley 19.287 (Fondo Solidario de Crédito Universitario)\nDeudas contraídas con bancos o II.FF. de conformidad a la ley 20.027 (CAE)\nDeudas contraídas en el marco de las líneas de financiamiento a estudiantes para cursar estudios en educación superior administradas por CORFO\nCualquier otra deuda contraída con la finalidad de financiar para sí o para terceros estudios de educación superior.",
+   "camara": "Senado",
+   "etapa": "Segundo trámite constitucional (Senado) Comisión Educación",
+   "urgencia": "Sin urgencia",
+   "impacto": "por deterioro del crédito por no pago.",
+   "relevancia": "alta",
+   "fecha": "2021-03-30",
+   "hist": [
+    {
+     "f": "2020-08-12",
+     "t": "Aprobado por la Cámara (en general y particular), pasa a segundo trámite al Senado."
+    },
+    {
+     "f": "2021-03-30",
+     "t": "Se da cuenta, pasa a Comisión de Educación."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p85",
+   "boletin": "13.625-03",
+   "titulo": "PdL que modifica la ley N° 18.010, para reducir transitoriamente la tasa máxima convencional, en los casos que señala. \n\nFecha ingreso PdL a la Cámara de Diputados: 1/07/2020\n\nMoción parlamentaria",
+   "desc": "Limita transitoriamente la TMC para operaciones mediante tarjetas de crédito y hasta el 31/12/2020, con el siguiente ajuste a los límites señalados en el art. 6 bis de la Ley 18.010 (créditos inferiores a 200 UF):\nOperaciones > 50 UF: 7 % más la TIC (actualmente 14% más la TIC).\nOperaciones ≤ 50 UF: 11% la TIC (actualmente 21% más la TIC).",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados) Comisión Economía.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de mercado ante nuevos límites impuestos a TMC.",
+   "relevancia": "alta",
+   "fecha": null,
+   "hist": [],
+   "resumenes": []
+  },
+  {
+   "id": "p86",
+   "boletin": "13.695-03",
+   "titulo": "Modifica la ley N° 19.628, para prohibir, por el periodo y en las condiciones que indica, comunicar, publicar o utilizar datos relativos a obligaciones impagas.",
+   "desc": "El PdL prohíbe hacer uso, comunicación y publicación de\ninformación de carácter económico, financiero, bancario o comercial, durante el año siguiente a la entrada en vigencia de la Ley, comprendiendo dicha prohibición, inclusive, información anterior a un año de su entrada en vigencia.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados). Comisión de Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Limitación de información para evaluación de capacidad de pago, afectando la evaluación de riesgo.",
+   "relevancia": "baja",
+   "fecha": "2020-08-11",
+   "hist": [
+    {
+     "f": "2020-08-11",
+     "t": "Ingreso del PdL."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p87",
+   "boletin": "13.897-03",
+   "titulo": "Modifica la ley N° 19.628, para prohibir comunicar información relacionada con deudas impagas contraídas entre las fechas que indica y en las condiciones que señala.",
+   "desc": "Prohíbe informar información relacionada con las deudas contraídas entre octubre de 2019 y marzo de 2021, que se encuentren impagas, siempre que el total de aquellas que comunique el registro o banco de datos sea inferior a 523,22 UF.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados). Comisión de Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Limitación de información para buró de crédito.",
+   "relevancia": "alta",
+   "fecha": "2020-11-16",
+   "hist": [
+    {
+     "f": "2020-11-16",
+     "t": "Se ingresa PdL. Pasa a Comisión de Economía de la Cámara."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p88",
+   "boletin": "13.053-04",
+   "titulo": "Que interpreta la Ley N° 19.496 y modifica otras normas legales.",
+   "desc": "(i) Hace aplicable la Ley N°19.496 a los contratos de créditos para financiar estudios de educación superior, en especial el párrafo 4° del Título II, particularmente:  \nArt. 16 (nulidad de cláusulas en ctos. de adhesión)  \nArt. 16, d): invertir carga de la prueba \nArt. 16, f) espacios en blanco \nArt. 16, g): contrarias a la buena fe. \nArt. 17 B, b) (mandatos en blanco o irrevocables). \n(ii) Modifica Ley 20.027 (CAE):  \nPermite a TGR condonar deudas. \nElimina imprescriptibilidad de la deuda. \nElimina exigencia de mandato irrevocable para requerir deducción de crédito de su remuneración.  \n(iii) Modifica el Fondo Solidario de Crédito Universitario: \nElimina facultad de suscribir acuerdos para deducir cuotas de la remuneración. \nElimina nómina pública de deudores morosos. \nPermite incorporar las deudas estudiantiles a las solicitudes de liquidación de bienes de personas.",
+   "camara": "Senado",
+   "etapa": "Tercer Tramite constitucional (Senado) Comisión de Educación",
+   "urgencia": "Sin urgencia",
+   "impacto": "Posible impacto adverso por deterioro de crédito. \n \nLimitación de acceso a crédito CAE a nuevos deudores.",
+   "relevancia": "alta",
+   "fecha": "2020-04-22",
+   "hist": [
+    {
+     "f": "2020-01-22",
+     "t": "Aprobado por Comisión de Educación, pasa a sala."
+    },
+    {
+     "f": "2020-04-22",
+     "t": "Se da cuenta en sala del Senado"
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p89",
+   "boletin": "13.560-03",
+   "titulo": "Modifica la Ley N° 20.270, que  sustituye el régimen concursal vigente por una ley de reorganización y liquidación de empresas y personas, y perfecciona el rol de la Superintendencia del ramo, para facilitar el acceso al procedimiento concursal de renegociación de la persona deudora",
+   "desc": "Se flexibilizan condiciones para acogerse al mecanismo de renegociación de deudas. En particular, se reducen plazos de morosidad (90 días a 30 días), se disminuye monto mínimo total (de 80 a 40 UF), se permite a personas a honorarios a acogerse a este procedimiento, y, elimina la exigencia de no existencia de juicios ejecutivos vigentes (de existir juicios pendientes, se propone su suspensión).",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados). Comisión de Economía.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Se afecta calificación crediticia al ajustar la efectividad de la garantía",
+   "relevancia": "alta",
+   "fecha": "2020-06-03",
+   "hist": [
+    {
+     "f": "2020-06-03",
+     "t": "Se ingresa PdL. y pasa a C. de Economía de la Cámara."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p90",
+   "boletin": "13.841-03",
+   "titulo": "Modifica la Ley N° 19.496 para tipificar y sancionar modalidades de abuso por parte de los proveedores en contratos de adhesión",
+   "desc": "Incorpora la figura del “microabuso”, aplicando multas de 50 a 100 UTM a proveedores que ofrezcan servicios bajo modalidad de contratos de adhesión por:\nMayor dificultad para terminar un contrato, que para suscribirlo.\nLa no extensión automática de mejores condiciones contractuales a clientes antiguos.\nOmisión de info. al momento de contratar, relativa a limitaciones, costos, cargos, etc.\nCualquiera que cause perjuicio al consumidor, o lo ponga en una situación desventajosa.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados). Comisión de Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "comercial por limitación a ofertas para nuevos clientes.",
+   "relevancia": "baja",
+   "fecha": "2020-10-27",
+   "hist": [
+    {
+     "f": "2020-10-27",
+     "t": "Se da cuenta del proyecto, pasa a C. de Economía de la Cámara."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p91",
+   "boletin": "13.117-03",
+   "titulo": "Modifica la Ley N° 18.010, con el objeto de reducir el incremento para el cálculo de la Tasa Máxima Convencional (TMC)",
+   "desc": "El Proyecto modifica los artículos 6 y 6 bis de la Ley N° 18.010, ajustando los guarismos que se fijan para la TMC: \nLa regla general (artículo 6) implica el siguiente cambio:  \nActual Max: 1,5 vez la TIC; 2% más la TIC \nPropuesta: Max 1,2 vez la TIC; 1% más la TIC \n \nRespecto a los créditos inferiores a 200 UF (artículo 6 bis), se ajusta lo siguiente: \na) Operaciones > 50 UF:  \nActualmente: 14% más la TIC. \nPropuesta: 7 % más la TIC. \nb) Operaciones ≤ 50 UF:  \nActualmente: 21% más la TIC. \nPropuesta: 10,5% la TIC. \nFinalmente, se reduce guarismo para TMC aplicable a créditos descontados directamente de pensiones:  \nActualmente: 7% más TIC. \nPropuesta: 3,5% más la TIC.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados). Comisión de Economía.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de mercado ante nuevos límites impuestos a TMC.",
+   "relevancia": "alta",
+   "fecha": "2019-12-11",
+   "hist": [
+    {
+     "f": "2019-12-11",
+     "t": "Pasa a Comisión de Economía"
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p92",
+   "boletin": "13.226-03",
+   "titulo": "Modifica la ley N° 18.010, para reducir la TMC aplicable a los créditos que se otorguen a personas mayores de 65 años.",
+   "desc": "Incorpora límite a TMC aplicable a crédito otorgado a una persona mayor de 65 años: No > al 30% del monto total del crédito.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados). Comisión de Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de mercado ante nuevos límites impuestos a TMC.",
+   "relevancia": "alta",
+   "fecha": "2019-12-29",
+   "hist": [
+    {
+     "f": "2019-12-29",
+     "t": "Se da cuenta y pasa a C. de Economía de la Cámara."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p93",
+   "boletin": "13.382-03",
+   "titulo": "Modifica la ley N° 20.720 (reorganización y liquidación de empresas y personas).",
+   "desc": "Incorpora los siguientes ajustes para facilitar el uso del proceso de liquidación personal: \nElimina requisito de juicios pendientes \nReduce el monto para optar a liquidación (de 80 UF a 3 sueldos mínimos) \nIncorpora nuevo artículo prohibiendo toda discriminación financiera arbitraria a quienes se hayan acogido a liquidación, no pudiendo ser utilizado como argumento para ofrecer condiciones menos favorables.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados). Comisión de Economía",
+   "urgencia": "Sin urgencia",
+   "impacto": "en procesos de calificación crediticia.",
+   "relevancia": "baja",
+   "fecha": "2020-03-31",
+   "hist": [
+    {
+     "f": "2020-03-31",
+     "t": "Se ingresa PdL. Pasa a C. de Economía de la Cámara."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p94",
+   "boletin": "13.267-18",
+   "titulo": "Modifica CPC para declarar inembargables los bienes pertenecientes a adultos mayores.",
+   "desc": "Se incorpora nuevo numeral al art. 445 del CPC (catálogo de bienes inembargables): \n \n“19°. Los bienes muebles e inmuebles que pertenezcan a personas adultas mayores”.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados). Comisión de Familia",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo de crédito ante disminución de la calidad crediticia (disminuye efectividad de garantías).",
+   "relevancia": "alta",
+   "fecha": "2026-06-02",
+   "hist": [
+    {
+     "f": "2020-03-05",
+     "t": "Se da cuenta en Cámara y pasa a C. de Familia."
+    },
+    {
+     "f": "2020-03-05",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Familia y Adulto Mayor."
+    },
+    {
+     "f": "2020-03-05",
+     "t": "Ingreso de proyecto ."
+    },
+    {
+     "f": "2026-06-02",
+     "t": "Archivado Cuenta Oficio N°22/16/2026 de la Comisión de Familia, que archiva el proyecto."
+    }
+   ],
+   "resumenes": [],
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca modificar el Código de Procedimiento Civil para declarar inembargables los bienes muebles e inmuebles pertenecientes a personas adultas mayores. Esta medida, aunque orientada a la protección de un segmento vulnerable, impacta directamente la recuperabilidad de créditos y la efectividad de las garantías bancarias. Generaría un aumento del riesgo de crédito para las instituciones financieras, especialmente en la evaluación de préstamos a adultos mayores, y requeriría un monitoreo constante por parte de ABIF.",
+   "categorias_abif": [
+    "Cobranza y ejecución",
+    "Crédito hipotecario",
+    "Protección al consumidor financiero"
+   ]
+  },
+  {
+   "id": "p95",
+   "boletin": "13.463-03",
+   "titulo": "Modifica Ley N° 19.496, para que los contratos suscritos por medios electrónicos puedan dejarse sin efecto por la misma vía.",
+   "desc": "Se agrega nuevo inciso cuarto al art. 12 A de la LPDC: \n \nLos proveedores que oferten la contratación de bienes o servicios por medios electrónicos deberán proveer, al mismo tiempo, la posibilidad de poner término a dichos contratos por el mismo medio electrónico por el que se contrató.",
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (Diputados). Comisión de Economía.",
+   "urgencia": "Sin urgencia",
+   "impacto": "Riesgo operacional y legal.",
+   "relevancia": "baja",
+   "fecha": "2020-04-28",
+   "hist": [
+    {
+     "f": "2020-04-28",
+     "t": "Se ingresa PdL. Pasa a C. de Economía de la Cámara."
+    }
+   ],
+   "resumenes": []
+  },
+  {
+   "id": "p96",
+   "boletin": "18.373-07",
+   "titulo": "Modifica la ley N° 19.913, que crea la Unidad de Análisis Financiero, para agilizar el acceso a información amparada por secreto o reserva bancaria, manteniendo el control judicial previo",
+   "desc": "Este proyecto de ley busca modificar la Ley N° 19.913, que creó la Unidad de Análisis Financiero (UAF), con el objetivo de agilizar el acceso a información bancaria protegida por secreto o reserva, manteniendo el control judicial previo. La iniciativa tiene una alta relevancia para el sistema bancario, ya que impacta directamente el régimen de secreto bancario y las facultades de la UAF en la prevención del lavado de activos. ABIF debe monitorear este proyecto por sus implicancias en la gestión ",
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca modificar la Ley N° 19.913, que creó la Unidad de Análisis Financiero (UAF), con el objetivo de agilizar el acceso a información bancaria protegida por secreto o reserva, manteniendo el control judicial previo. La iniciativa tiene una alta relevancia para el sistema bancario, ya que impacta directamente el régimen de secreto bancario y las facultades de la UAF en la prevención del lavado de activos. ABIF debe monitorear este proyecto por sus implicancias en la gestión de información confidencial de clientes y los procesos de cumplimiento normativo.",
+   "categorias_abif": [
+    "Secreto y reserva bancaria",
+    "Lavado de activos / AML"
+   ],
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (C.Diputados) · Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
+   "urgencia": "Sin urgencia",
+   "impacto": "Secreto y reserva bancaria · Lavado de activos / AML",
+   "relevancia": "alta",
+   "fecha": "2026-06-22",
+   "hist": [
+    {
+     "f": "2026-06-15",
+     "t": "Ingreso de proyecto ."
+    },
+    {
+     "f": "2026-06-22",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
+    }
+   ],
+   "resumenes": [],
+   "origen": "integración compañero"
+  },
+  {
+   "id": "p97",
+   "boletin": "18.358-03",
+   "titulo": "Modifica la ley N° 19.496, que establece normas sobre protección de los derechos de los consumidores, para consagrar el derecho a poner término a los contratos por la misma forma, vía o canal en que fueron celebrados",
+   "desc": "Este proyecto de ley busca modificar la Ley N° 19.496 de Protección de los Derechos de los Consumidores, estableciendo que los contratos puedan ser terminados por el mismo medio o canal por el cual fueron celebrados. Para la banca, esto implica un impacto indirecto al requerir la adaptación de sus procesos y canales de atención para asegurar la simetría en la contratación y terminación de servicios financieros. Genera riesgos operacionales y regulatorios al exigir la implementación de nuevas obl",
+   "resumen_ejecutivo_bancario": "Este proyecto de ley busca modificar la Ley N° 19.496 de Protección de los Derechos de los Consumidores, estableciendo que los contratos puedan ser terminados por el mismo medio o canal por el cual fueron celebrados. Para la banca, esto implica un impacto indirecto al requerir la adaptación de sus procesos y canales de atención para asegurar la simetría en la contratación y terminación de servicios financieros. Genera riesgos operacionales y regulatorios al exigir la implementación de nuevas obligaciones en la gestión de contratos y la supervisión de la CMF en materia de protección al consumidor financiero. Se sugiere monitorear su tramitación para evaluar los costos de adecuación y el alcance de las nuevas exigencias.",
+   "categorias_abif": [
+    "Protección al consumidor financiero"
+   ],
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (C.Diputados) · Primer informe de comisión de Economía, Fomento y Desarrollo",
+   "urgencia": "Sin urgencia",
+   "impacto": "Protección al consumidor financiero",
+   "relevancia": "alta",
+   "fecha": "2026-06-17",
+   "hist": [
+    {
+     "f": "2026-06-10",
+     "t": "Ingreso de proyecto ."
+    },
+    {
+     "f": "2026-06-17",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Economía, Fomento y Desarrollo"
+    }
+   ],
+   "resumenes": [],
+   "origen": "integración compañero"
+  },
+  {
+   "id": "p98",
+   "boletin": "18.395-07",
+   "titulo": "Sanciona penalmente la usura y la obtención de lucro en las contrataciones con el Estado en situaciones de emergencia o catástrofe",
+   "desc": "El proyecto de ley busca sancionar penalmente la usura y la obtención de lucro indebido en contrataciones con el Estado durante emergencias o catástrofes. Para ABIF, la penalización de la usura es de alta relevancia, ya que impacta directamente la regulación de las tasas de interés y las condiciones de los créditos de consumo ofrecidos por la banca. Esto podría generar un mayor escrutinio regulatorio y la necesidad de revisar las políticas de crédito y pricing, por lo que se sugiere un monitoreo",
+   "resumen_ejecutivo_bancario": "El proyecto de ley busca sancionar penalmente la usura y la obtención de lucro indebido en contrataciones con el Estado durante emergencias o catástrofes. Para ABIF, la penalización de la usura es de alta relevancia, ya que impacta directamente la regulación de las tasas de interés y las condiciones de los créditos de consumo ofrecidos por la banca. Esto podría generar un mayor escrutinio regulatorio y la necesidad de revisar las políticas de crédito y pricing, por lo que se sugiere un monitoreo constante de su tramitación.",
+   "categorias_abif": [
+    "Crédito de consumo",
+    "Protección al consumidor financiero"
+   ],
+   "camara": "Cámara de Diputados",
+   "etapa": "Primer trámite constitucional (C.Diputados) · Primer informe de comisión de Constitución, Legislación, Justicia y Reglamento",
+   "urgencia": "Sin urgencia",
+   "impacto": "Crédito de consumo · Protección al consumidor financiero",
+   "relevancia": "alta",
+   "fecha": "2026-06-24",
+   "hist": [
+    {
+     "f": "2026-06-16",
+     "t": "Ingreso de proyecto ."
+    },
+    {
+     "f": "2026-06-24",
+     "t": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento"
+    }
+   ],
+   "resumenes": [],
+   "origen": "integración compañero"
+  }
+ ]
+}
