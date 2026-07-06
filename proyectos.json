@@ -1,8 +1,8 @@
 {
- "version": "2026-07-03-1806",
- "generado": "2026-07-03T18:06:28",
+ "version": "2026-07-06-1927",
+ "generado": "2026-07-06T19:27:09",
  "total": 98,
- "cambios_detectados": 98,
+ "cambios_detectados": 0,
  "no_leidos": [],
  "candidatos": [
   {
@@ -110,7 +110,7 @@
    "nombre": "Senado - Tabla semanal de Sala",
    "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
    "estado": "ok",
-   "detalle": "2141 caracteres · 0 candidato(s)"
+   "detalle": "9270 caracteres · 0 candidato(s)"
   },
   {
    "nombre": "Senado - Votaciones de Sala",
