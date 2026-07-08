@@ -1,10 +1,20 @@
 {
- "version": "2026-07-07-1930",
- "generado": "2026-07-07T19:30:16",
+ "version": "2026-07-08-1811",
+ "generado": "2026-07-08T18:11:52",
  "total": 98,
  "cambios_detectados": 0,
  "no_leidos": [],
  "candidatos": [
+  {
+   "boletin": "18423-07",
+   "titulo": "Concede indulto general en favor de las personas que indica, por hechos acaecidos a contar del día 18 de octubre de 2019 En tramitación 30/06/2026",
+   "fecha": null,
+   "camara": "Por confirmar",
+   "match": [
+    "cae"
+   ],
+   "detectado_en": "Senado - Tramitación (buscador de boletines)"
+  },
   {
    "boletin": "18407-25",
    "titulo": "Modifica diversos cuerpos legales, con el objeto de agravar las sanciones aplicables en materia de lavado de activos En tramitación 24/06/2026",
@@ -12,6 +22,28 @@
    "camara": "Por confirmar",
    "match": [
     "lavado de activos"
+   ],
+   "detectado_en": "Senado - Tramitación (buscador de boletines)"
+  },
+  {
+   "boletin": "18424-07",
+   "titulo": "Modifica el Código de Procedimiento Civil, con el objeto de establecer la inembargabilidad de determinadas sumas de dinero pertenecientes a deudores de créditos destinados a financiar estudios de educación superior, en las condiciones que indica En tramitación 24/06/2026",
+   "fecha": null,
+   "camara": "Por confirmar",
+   "match": [
+    "crédito",
+    "deudor",
+    "inembargab"
+   ],
+   "detectado_en": "Senado - Tramitación (buscador de boletines)"
+  },
+  {
+   "boletin": "18420-25",
+   "titulo": "Modifica diversos cuerpos legales, con el objeto de fortalecer la seguridad portuaria ante acciones promovidas por el crimen organizado En tramitación 24/06/2026",
+   "fecha": null,
+   "camara": "Por confirmar",
+   "match": [
+    "crimen organizado"
    ],
    "detectado_en": "Senado - Tramitación (buscador de boletines)"
   },
@@ -85,6 +117,16 @@
     "garantía"
    ],
    "detectado_en": "Senado - Tramitación (buscador de boletines)"
+  },
+  {
+   "boletin": "18296-05",
+   "titulo": "Autoriza mayor endeudamiento del gobierno central durante el año 2026 En tramitación 03/06/2026",
+   "fecha": null,
+   "camara": "Por confirmar",
+   "match": [
+    "deuda"
+   ],
+   "detectado_en": "Senado - Tramitación (buscador de boletines)"
   }
  ],
  "fuentes_monitoreadas": [
@@ -110,7 +152,7 @@
    "nombre": "Senado - Tabla semanal de Sala",
    "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
    "estado": "ok",
-   "detalle": "9270 caracteres · 0 candidato(s)"
+   "detalle": "9213 caracteres · 0 candidato(s)"
   },
   {
    "nombre": "Senado - Votaciones de Sala",
@@ -128,7 +170,7 @@
    "nombre": "Senado - Tramitación (buscador de boletines)",
    "url": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/",
    "estado": "ok",
-   "detalle": "40831 caracteres · 8 candidato(s)"
+   "detalle": "43047 caracteres · 12 candidato(s)"
   },
   {
    "nombre": "Senado - Leyes publicadas",
