@@ -3,34 +3,42 @@ name: Actualizar monitor legislativo ABIF
 on:
   workflow_dispatch:
   schedule:
-    # 10:05 Chile aprox. en horario estándar. Ajustar si el repo usa otro criterio.
-    - cron: '5 14 * * 1-5'
+    # Lunes a viernes 10:00 Chile aprox. Ajustar según horario de verano si quieres.
+    - cron: '0 14 * * 1-5'
 
 permissions:
   contents: write
 
 jobs:
-  scrape:
+  actualizar:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Instalar dependencias
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Ejecutar scraper ABIF v5
-        run: python scraper_abif_v5.py --input proyectos.json --output proyectos.json --years-back 1
+      - name: Ejecutar scraper v6
+        env:
+          # Fallback para páginas públicas de Cámara si GitHub Actions recibe HTTP 403 desde camara.cl.
+          # Puedes poner 0 si no quieres usar terceros.
+          USAR_JINA_FALLBACK: '1'
+        run: python scraper_abif_v6.py --input proyectos.json --output proyectos.json --years-back 1
 
-      - name: Commit si cambió proyectos.json
+      - name: Commit cambios
         run: |
-          git config user.name "abif-monitor-bot"
-          git config user.email "actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add proyectos.json
-          git diff --cached --quiet && echo "Sin cambios" || git commit -m "Actualiza monitor legislativo ABIF"
-          git push
+          if git diff --cached --quiet; then
+            echo "Sin cambios que commitear"
+          else
+            git commit -m "Actualizar monitor legislativo ABIF"
+            git push
+          fi
