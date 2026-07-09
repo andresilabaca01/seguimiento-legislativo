@@ -24,8 +24,8 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
-      - name: Ejecutar scraper ABIF v4
-        run: python scraper_abif_v4.py --input proyectos.json --output proyectos.json --years-back 1
+      - name: Ejecutar scraper ABIF v5
+        run: python scraper_abif_v5.py --input proyectos.json --output proyectos.json --years-back 1
 
       - name: Commit si cambió proyectos.json
         run: |
