@@ -1,9 +1,12 @@
 {
- "version": "2026-07-20-1920",
- "generado": "2026-07-20T19:20:18",
+ "version": "2026-07-21-1800",
+ "generado": "2026-07-21T18:00:59",
  "total": 98,
  "cambios_detectados": 0,
- "no_leidos": [],
+ "no_leidos": [
+  "18.373-07",
+  "18.358-03"
+ ],
  "candidatos": [
   {
    "boletin": "18465-03",
@@ -172,7 +175,7 @@
    "nombre": "Senado - Tabla semanal de Sala",
    "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
    "estado": "ok",
-   "detalle": "571 caracteres · 0 candidato(s)"
+   "detalle": "8505 caracteres · 0 candidato(s)"
   },
   {
    "nombre": "Senado - Votaciones de Sala",
