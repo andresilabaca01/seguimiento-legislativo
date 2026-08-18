@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-18-abif-v7.1-seguimiento-obligatorio",
-  "generado": "2026-08-18T13:36:00-04:00",
+  "version": "2026-08-18-base-corregida-abif-v7.2",
+  "generado": "2026-08-18T15:55:00-04:00",
   "total": 98,
   "candidatos": [],
   "fuentes_monitoreadas": [],
@@ -11,11 +11,11 @@
       "titulo": "PdL que modifica la ley N° 19.799 sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados",
       "desc": "Contenido del proyecto de ley: \n\nEntre otras modificaciones, relacionadas con la incorporación de la firma electrónica avanzada y sellado de tiempo para documentos electrónicos, para que tengan la misma validez y efectos jurídicos que documentos en papel y/o ante notarios o ministros de fe.  \n\nSe modifica la Ley N° 18.092, que dicta normas sobre letra de cambio y pagaré y deroga disposiciones del código de comercio (art. 3 del PdL), en el siguiente sentido:\n\nPermitir la emisión, circulación y protesto de las letras de cambio y pagaré en formato electrónico, que estén suscritos con firma electrónica avanzada y sellado de tiempo.\nEl endoso, aceptación y aval de una letra de cambio en formato electrónico, también deberán efectuarse por medios electrónicos. \nMediante reglamento se establecerán los requisitos técnicos, operativos, de interoperabilidad, conservación, consulta y verificación para dichas actuaciones, que resguarden la seguridad jurídica del instrumento y su adecuada adaptación a la evolución tecnológica. \n\nAdemás, se establece que este tipo de instrumentos extendidos de forma electrónica, tendrán mérito ejecutivo, siempre que estén suscritos por el obligado con firma electrónica avanzada y sellado de tiempo. \n\nDisposiciones transitorias: \nEl reglamento deberá dictarse dentro del plazo de 1 año, desde la publicación de la ley en el D.O. \nLas modificaciones a la ley N° 18.092, entrarán en vigencia a contar de la publicación del reglamento en el D.O. \nDurante dicho periodo, el protesto de letras de cambio y pagarés electrónicos podrá ser efectuado por notarios u otros ministros de fe mediante la suscripción de un documento electrónico que de cuenta de la diligencia.",
       "camara": "Cámara de Diputados",
-      "etapa": "Primer trámite constitucional (Diputados) Comisión de Economía",
+      "etapa": "Primer trámite constitucional (Diputados) · Comisión de Economía · aprobado en general; plazo de indicaciones",
       "urgencia": "Simple",
       "impacto": "Firma electrónica · Contratos · Pagaré electrónico",
       "relevancia": "alta",
-      "fecha": "2026-06-23",
+      "fecha": "2026-08-04",
       "hist": [
         {
           "f": "2026-06-02",
@@ -61,15 +61,38 @@
         },
         {
           "f": "2026-06-23",
-          "t": "Citado para inicio del estudio en general por la Comisión de Economía",
-          "tipo": "otro",
-          "organo": "Cámara de Diputados"
+          "t": "La Comisión de Economía inició el estudio del proyecto. Se escuchó la exposición del Ministro de Economía en el marco de la discusión general.",
+          "organo": "Cámara de Diputados",
+          "tipo": "resultado",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-26"
         },
         {
-          "f": "2026-06-23",
-          "t": "[Tabla comisiones Cámara] En agenda Economía, Fomento; Micro, Pequeña y Mediana Empresa; Protección de los Consumidores y Turismo",
-          "tipo": "agenda",
-          "organo": "Cámara de Diputados"
+          "f": "2026-07-07",
+          "t": "La Comisión de Economía continuó la discusión general. Expusieron representantes de la Cámara de Comercio de Santiago, ACTI, Gofirmex y del Centro de Estudios en Derecho, Tecnología y Sociedad de la Universidad de Chile; participó además el Subsecretario de Economía.",
+          "organo": "Cámara de Diputados",
+          "tipo": "resultado",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-28"
+        },
+        {
+          "f": "2026-07-14",
+          "t": "La Comisión de Economía continuó la discusión general. Se escucharon exposiciones del profesor Renato Jijena, CONUPIA, representantes de la Asociación de Notarios, Conservadores y Archiveros Judiciales y de la Comisión para el Mercado Financiero (CMF).",
+          "organo": "Cámara de Diputados",
+          "tipo": "resultado",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29"
+        },
+        {
+          "f": "2026-07-21",
+          "t": "La Comisión de Economía continuó la tramitación del proyecto; se votó en general y se inició la votación en particular.",
+          "organo": "Cámara de Diputados",
+          "tipo": "resultado",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-30"
+        },
+        {
+          "f": "2026-08-04",
+          "t": "La Comisión de Economía votó en general por unanimidad el proyecto y acordó fijar plazo para presentar indicaciones al texto hasta el 21 de agosto de 2026.",
+          "organo": "Cámara de Diputados",
+          "tipo": "resultado",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-32"
         }
       ],
       "resumenes": [],
