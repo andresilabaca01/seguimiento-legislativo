@@ -1,3 +1,4 @@
-requests>=2.31.0
-beautifulsoup4>=4.12.0
-curl_cffi>=0.7.0
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+# Opcional pero recomendado en GitHub Actions para páginas que bloquean requests:
+curl_cffi>=0.7,<1
