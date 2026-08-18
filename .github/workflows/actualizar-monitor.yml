@@ -3,42 +3,73 @@ name: Actualizar monitor legislativo ABIF
 on:
   workflow_dispatch:
   schedule:
-    # Lunes a viernes 10:00 Chile aprox. Ajustar según horario de verano si quieres.
-    - cron: '0 14 * * 1-5'
+    # Cuatro revisiones diarias de lunes a viernes.
+    # GitHub Actions utiliza UTC.
+    - cron: '15 11,15,19,23 * * 1-5'
 
 permissions:
   contents: write
 
+concurrency:
+  group: monitor-legislativo-abif
+  cancel-in-progress: true
+
 jobs:
   actualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
+          cache: 'pip'
 
-      - name: Install dependencies
+      - name: Instalar dependencias
         run: pip install -r requirements.txt
 
-      - name: Ejecutar scraper v6
+      - name: Ejecutar scraper coordinado Cámara + Senado
         env:
-          # Fallback para páginas públicas de Cámara si GitHub Actions recibe HTTP 403 desde camara.cl.
-          # Puedes poner 0 si no quieres usar terceros.
           USAR_JINA_FALLBACK: '1'
-        run: python scraper_abif_v6.py --input proyectos.json --output proyectos.json --years-back 1
+          PAUSA_SENADO: '0.15'
+        run: python scraper_abif_v7.py --input proyectos.json --output proyectos.json
 
-      - name: Commit cambios
+      - name: Validar JSON generado
         run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          p = Path('proyectos.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+
+          assert isinstance(data.get('proyectos'), list) and data['proyectos'], 'JSON sin proyectos'
+          assert data.get('generado'), 'Falta timestamp generado'
+          assert data.get('politica_bandeja', {}).get('fecha_minima_ingreso') == '2026-06-01'
+
+          print(
+              'OK:',
+              len(data['proyectos']),
+              'proyectos;',
+              len(data.get('candidatos', [])),
+              'candidatos'
+          )
+          PY
+
+      - name: Publicar cambios si los hay
+        run: |
+          if git diff --quiet -- proyectos.json; then
+            echo "Sin cambios en proyectos.json"
+            exit 0
+          fi
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add proyectos.json
-          if git diff --cached --quiet; then
-            echo "Sin cambios que commitear"
-          else
-            git commit -m "Actualizar monitor legislativo ABIF"
-            git push
-          fi
+          git commit -m "Actualizar monitor legislativo"
+          git push
