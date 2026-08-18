@@ -414,10 +414,11 @@ def inferir_organo(texto: str, default: str = "Congreso") -> str:
 def limpiar_evento_texto(texto: str) -> str:
     s = re.sub(r"\s*Fuente:\s*https?://\S+", "", str(texto or ""), flags=re.I)
     s = re.sub(r"\s+", " ", s).strip(" .;-")
-    # El prefijo técnico aporta trazabilidad vía campos fuente/organo y no debe
-    # repetirse en el informe al usuario.
+    # La trazabilidad se conserva en campos separados (fuente/organo).
+    # No se corta por cantidad fija de caracteres: el recorte arbitrario era
+    # responsable de frases terminadas a la mitad en el monitor.
     s = re.sub(r"^\[(?:C[aá]mara|Senado)[^\]]*\]\s*", "", s, flags=re.I)
-    return s[:900].rstrip() + ("…" if len(s) > 900 else "")
+    return s
 
 
 def fingerprint_texto(texto: str) -> str:
@@ -931,6 +932,44 @@ def fecha_para_pos(text: str, pos: int, fallback: Optional[str] = None) -> Optio
     return f
 
 
+def contexto_especifico_bloque(texto: str, boletin: str) -> str:
+    """Devuelve una frase/bloque coherente referido al boletín pedido.
+
+    Las páginas de comisiones suelen poner varios proyectos dentro de una misma
+    fila. No debemos asignar toda esa fila a cada boletín. Se conserva la oración
+    que contiene el boletín y, cuando es útil, la oración inmediatamente anterior.
+    """
+    t = re.sub(r"\s+", " ", texto or " ").strip()
+    if not t:
+        return ""
+    b = norm_boletin(boletin)
+    ocurr = list(re.finditer(r"(?i)(?:bolet[ií]n(?:es)?\s*(?:n[°º]?\s*)?)?(\d{1,2}\.?\d{3}-\d{2})", t))
+    own = next((m for m in ocurr if norm_boletin(m.group(1)) == b), None)
+    if not own:
+        return t
+    if len(ocurr) == 1:
+        return t
+
+    # Límites naturales de oración alrededor del boletín.
+    antes = [t.rfind('. ', 0, own.start()), t.rfind('! ', 0, own.start()), t.rfind('? ', 0, own.start())]
+    start = max(antes)
+    start = start + 2 if start >= 0 else 0
+    despues = [x for x in [t.find('. ', own.end()), t.find('! ', own.end()), t.find('? ', own.end())] if x >= 0]
+    end = min(despues) + 1 if despues else len(t)
+
+    # Nunca atravesar hacia el siguiente boletín distinto.
+    idx = ocurr.index(own)
+    if idx + 1 < len(ocurr) and end > ocurr[idx + 1].start():
+        previo_punto = t.rfind('. ', own.end(), ocurr[idx + 1].start())
+        end = previo_punto + 1 if previo_punto >= own.end() else ocurr[idx + 1].start()
+    if idx > 0 and start < ocurr[idx - 1].end():
+        punto = t.find('. ', ocurr[idx - 1].end(), own.start())
+        start = punto + 2 if punto >= 0 else own.start()
+
+    seg = t[start:end].strip()
+    return seg or t
+
+
 def contextos_por_boletin(raw: str, fuente_url: str) -> List[Tuple[str, str, Optional[str]]]:
     """Extrae contexto por boletín y conserva correctamente la fecha del día.
 
@@ -978,7 +1017,7 @@ def contextos_por_boletin(raw: str, fuente_url: str) -> List[Tuple[str, str, Opt
                     cursor = max(cursor, pos + max(1, len(needle) // 2))
 
             for b in bs:
-                encontrados.append((b, txt[:1200], f))
+                encontrados.append((b, contexto_especifico_bloque(txt, b), f))
 
         # Si logramos extraer filas, las usamos. La mayoría ya tendrá fecha gracias al
         # método por posición. Para menciones aún sin fecha, el fallback de texto de
@@ -997,6 +1036,7 @@ def contextos_por_boletin(raw: str, fuente_url: str) -> List[Tuple[str, str, Opt
         left = max(prev_end, m.start() - 420)
         right = min(next_start, m.end() + 760)
         ctx = re.sub(r"\s+", " ", text[left:right]).strip()
+        ctx = contexto_especifico_bloque(ctx, b)
         f = fecha_para_pos(text, m.start(), parse_fecha_any(text[max(0, m.start()-260):m.start()+100]))
         fallback.append((b, ctx, f))
 
@@ -1103,6 +1143,8 @@ def scan_senado_fichas(data: Dict[str, Any]) -> Tuple[int, List[str]]:
         vistos.add(b)
         eventos, etapa, url = historial_senado_ficha(b)
         for pp in pmap_all(proyectos).get(b, [p]):
+            if url:
+                pp["url_tramitacion"] = url
             for ev in eventos:
                 if add_evento(pp, ev, agenda=False):
                     cambios += 1
@@ -1291,7 +1333,7 @@ def main(argv: Optional[Sequence[str]] = None) -> None:
 
     generado = dt.datetime.now(TZ).replace(microsecond=0).isoformat()
     data["generado"] = generado
-    data["version"] = dt.datetime.now(TZ).strftime("%Y-%m-%d-%H%M-abif-v7.2")
+    data["version"] = dt.datetime.now(TZ).strftime("%Y-%m-%d-%H%M-abif-v7.3")
     data["total"] = len(data["proyectos"])
     data["cambios_detectados"] = cambios
     data["calendario"] = {
