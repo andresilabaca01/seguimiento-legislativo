@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-18-1747-abif-v7.3",
-  "generado": "2026-08-18T17:47:21-04:00",
+  "version": "2026-08-18-1940-abif-v7.3",
+  "generado": "2026-08-18T19:40:32-04:00",
   "total": 98,
   "candidatos": [],
   "fuentes_monitoreadas": [],
@@ -15,7 +15,7 @@
       "urgencia": "Simple",
       "impacto": "Firma electrónica · Contratos · Pagaré electrónico",
       "relevancia": "alta",
-      "fecha": "2026-08-05",
+      "fecha": "2026-08-11",
       "hist": [
         {
           "f": "2026-06-02",
@@ -142,6 +142,13 @@
           "organo": "Cámara de Diputados",
           "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-32",
           "tipo": "citacion"
+        },
+        {
+          "f": "2026-08-11",
+          "t": "nters al desarrollo económico y social del país, y la forma en que se dinamizan los encadenamientos productivos y la visión del ecosistema digital. Se escuchó la exposición de la Gerente General de Chile Data Center, señora Natalia López, quien concurrió junto al asesor legislativo, señor Claudio Magliona. NOTA: Se recuerda que el plazo para la formulación de INDICACIONES del proyecto de ley sobre FIRMA ELECTRÓNICA, boletín N° 18286-03 ES EL VIERNES 21 DE AGOSTO DE 2026, a las 12:00 hrs (mediodía). Diputados Asistentes: Briones Patricio; Castillo Priscilla; Cristoffanini Sebastián; Cucumides Carolina; Hassler Irací; Kast Tomás; Riquelme Alejandro; Ross Felipe; Soto Raúl; Sulantay Marco Antonio; Teao Hotuiti; Verdugo Germán Reemplazos: La Diputada Schonhaut Constanza Gabriela fue reemplazada por el Diputado Achurra Ignacio Jaime Otros Diputados asistentes: Charpentier Paz; Santelices Macarena; Schneider Emilia Trabajo y Seguridad Social 17:30 Sala Manuel Bustos Huerta tercer nivel (Presencial) Iniciar el estudio en particular del proyecto de ley, originado en moción, que “Modifica el Código del Trabajo para calificar el uso indebido de licencias médicas como falta de probidad del t",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-33",
+          "tipo": "resultado"
         }
       ],
       "resumenes": [],
@@ -152,6 +159,13 @@
           "organo": "Cámara de Diputados",
           "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-33",
           "tipo": "agenda"
+        },
+        {
+          "f": "2026-08-21",
+          "t": "NOTA: Se recuerda que el plazo para la formulación de INDICACIONES del proyecto de ley sobre FIRMA ELECTRÓNICA, boletín N° 18286-03 ES EL VIERNES 21 DE AGOSTO DE 2026, a las 12:00 hrs (mediodía). Diputados Asistentes: Briones Patricio; Castillo Priscilla; Cristoffanini Sebastián; Cucumides Carolina; Hassler Irací; Kast Tomás; Riquelme Alejandro; Ross Felipe; Soto Raúl; Sulantay Marco Antonio; Teao Hotuiti; Verdugo Germán Reemplazos: La Diputada Schonhaut Constanza Gabriela fue reemplazada por el Diputado Achurra Ignacio Jaime Otros Diputados asistentes: Charpentier Paz; Santelices Macarena; Schneider Emilia",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-33",
+          "tipo": "resultado"
         },
         {
           "f": "2026-08-21",
@@ -1602,8 +1616,23 @@
       "urgencia": "Sin urgencia",
       "impacto": "",
       "relevancia": "media",
-      "fecha": null,
-      "hist": [],
+      "fecha": "2026-05-07",
+      "hist": [
+        {
+          "f": "2026-05-06",
+          "t": "ón del martes 5 de mayo en la tarde y aclaró los términos de la participación de Carabineros en la presente instancia. Al respecto, el Diputado Leiva solicitó consignar en acta la nulidad de dicha citación y sesión y la solicitud de repetición de la votación efectuada. Por su parte, el Diputado Coloma propuso, previo acuerdo de la Comisión, solicitar a la Sala la fusión de los proyectos de ley correspondientes a los Boletines N°17.976-25 y N°",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-07",
+          "t": "Por su parte, el Diputado Coloma propuso, previo acuerdo de la Comisión, solicitar a la Sala la fusión de los proyectos de ley correspondientes a los Boletines N°17.976-25 y N°",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        }
+      ],
       "resumenes": [],
       "agenda": [],
       "url_tramitacion": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=17976-25"
@@ -3225,6 +3254,90 @@
           "fuente": "https://www.camara.cl/legislacion/proyectosdeley/tramitacion.aspx?prmBOLETIN=18216-05&prmID=18872"
         },
         {
+          "f": "2026-05-04",
+          "t": "26 Volver LUNES, 4 DE MAYO DE 2026 Comisión Horario Sala Citación Resultado Hacienda 10:06 Sala de Lectura primer nivel (Presencial) Con el objeto de recibir las respuestas del Ejecutivo a las preguntas de las diputadas y diputados, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Asistió en representación del Ejecutivo, el Ministro de Hacienda, señor Jorge Quiroz Castro junto con el Director de Presupuestos, señor José Pablo Gómez Meza, y el Coordinador de Políticas Tributarias, señor Sebastián Vallebona Espinosa. Diputados Asistentes: Barrera Boris; Bianchi Carlos; Brito Jorge; Castillo Priscilla; Coloma Jaime; Durán Eduardo; Karlezi Pier; Meza Jose Carlos; Romero Agustín; Ugarte Fernando; Valenzuela Juan Marcelo; Weisse Flor Otros Diputados asistentes: Manouchehri Daniel; Yeomans Gael Seguridad Ciudadana 14:50 Sala de Conferencias Inés Enríquez segundo nivel (Presencial) Recibir, de 14:50 a 15:20 horas, al alcalde de San Bernardo, señor Christopher White, al presidente de la asociación de",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-05",
+          "t": "utada Pérez Marlene MARTES, 5 DE MAYO DE 2026 Comisión Horario Sala Citación Resultado Hacienda 10:34 Sala de Conferencias Juan Bustos Ramírez segundo nivel (Presencial) Con el objeto de recibir en audiencia las siguientes personas, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Asistió en representación del Ejecutivo, del Ministerio de Hacienda, el Coordinador de Políticas Tributarias, señor Sebastián Vallebona Espinosa. Se escuchó en audiencia las siguietes organizaciones: 1. Cámara Chilena de la Construcción, Abogado Jefe, señor Carlos Pinto Torres junto con el Vicepresidente Nacional CChC , señor Orlando Sillano Zan y la Gerenta de Vivienda y Urbanismo, señora Sol Pacheco Flanagan. 2. Asociaciones Gremiales de Organismos Técnicos de Capacitación (OTEC), Presidente AGMO AG, señor Carlos Linares Oyarzun junto con el Vicepresidente AGMO AG, señor Cristian Luengo Arriagada, el Presidente ASOCAP CHILE AG, señor Pedro Jofré Meza y la Vicepresidente AGOVAL AG, señora Jazmín Pavez Borbarán. 3",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-06",
+          "t": "Winter Gonzalo MIÉRCOLES, 6 DE MAYO DE 2026 Comisión Horario Sala Citación Resultado Hacienda 10:35 Sala de Conferencias Juan Bustos Ramírez segundo nivel (Presencial) Con el objeto de recibir en audiencia las siguientes personas, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Se escuchó al Ministro del Trabajo y Previsión Social, señor Tomás Rau Binder. Asistió además, Pablo Bobic Concha, Jefe de Gabinete, Esteban Ávila Villarroel, Coordinador Legislativo, Magdalena Ugarte Uzúa, Asesora Unidad Coordinación Legislativa, Nicolás Rebolledo Pulgar, Asesor Unidad Coordinación Legislativa, Ingrid Jones Jofré, Jefa de Asesores, Catalina Vergara, Periodista, Lucy Bennett Olivares, Jefa de Comunicaciones, Hernán Vicencio Vicencio, Audiovisual, José Molina Sánchez, Fotógrafo y María Carolina Infante Dulcic, Asesora. Subsecretario del Medio Ambiente señor José Vial B., y el Jefe de Gabinete de la Ministra, señor Eduardo Mendez. Subsecretaria de Vivienda y Urbanismo, señora Natalia Aguilar Bravo. Di",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-06",
+          "t": "a Diputada González Sofía Otros Diputados asistentes: Muñoz Francesca; Ossandón Ximena Hacienda 15:10 Sala de Conferencias Juan Bustos Ramírez segundo nivel (Presencial) Con el objeto de recibir en audiencia las siguientes personas, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Se escuchó e audiencia a: 1. Klaus Schmidt-Hebbel Dunker, economista PUC, ex director del departamento económico de la OCDE. 2. Mario Marcel, Ex Ministro de Hacienda. 3. Matías Acevedo, Ex Director de Presupuestos. 4. Andrea Repetto Lisboa, Economista. Diputados Asistentes: Barrera Boris; Bianchi Carlos; Brito Jorge; Castillo Priscilla; Coloma Jaime; Durán Eduardo; Karlezi Pier; Meza Jose Carlos; Romero Agustín; Schalper Diego; Ugarte Fernando; Valenzuela Juan Marcelo; Weisse Flor Otros Diputados asistentes: Hernando Marcela; Manouchehri Daniel Seguridad Ciudadana 17:30 Sala de Conferencias Inés Enríquez segundo nivel (Presencial) Iniciar el estudio en general del proyecto de ley iniciado en mensaje de S. E., el pre",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-06",
+          "t": "a Tatiana Karina; Valenzuela Juan Marcelo Otros Diputados asistentes: Hernando Marcela Hacienda 17:32 Sala de Conferencias Juan Bustos Ramírez segundo nivel (Presencial) Con el objeto de recibir en audiencia las siguientes personas, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Se escuchó en audiencia a: 1. Alejandro Weber, Decano de la Facultad de Economía, Negocios y Gobierno en la Universidad San Sebastián (USS). 2. Bettina Horst, Economista, Directora Ejecutiva del centro de estudios Libertad y Desarrollo (LyD). 3. Jorge Berrios Vogel, Economista, Director del Diplomado en Finanzas, Universidad de Chile. 4. Diego Riquelme, Ex Coordinador de Política Tributaria Ministerio de Hacienda. 5. Luis Eduardo Escobar, Coordinador programa económico, Red de Centros Progresistas. 6. Asociación de Fiscalizadores de Impuestos Internos AFIICH, señora Paola Tresoldi Manriquez, Presidenta Nacional. 7. Sociedad de Productores Fonográficos y Videográficos de Chile (IFPI Chile), señor Francisco Nieto, rep",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-07",
+          "t": "Hacienda 10:06 Sala de Lectura primer nivel (Presencial) Con el objeto de recibir las respuestas del Ejecutivo a las preguntas de las diputadas y diputados, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Asistió en representación del Ejecutivo, el Ministro de Hacienda, señor Jorge Quiroz Castro junto con el Director de Presupuestos, señor José Pablo Gómez Meza, y el Coordinador de Políticas Tributarias, señor Sebastián Vallebona Espinosa. Diputados Asistentes: Barrera Boris; Bianchi Carlos; Brito Jorge; Castillo Priscilla; Coloma Jaime; Durán Eduardo; Karlezi Pier; Meza Jose Carlos; Romero Agustín; Ugarte Fernando; Valenzuela Juan Marcelo; Weisse Flor Otros Diputados asistentes: Manouchehri Daniel; Yeomans Gael",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-07",
+          "t": "Hacienda 10:34 Sala de Conferencias Juan Bustos Ramírez segundo nivel (Presencial) Con el objeto de recibir en audiencia las siguientes personas, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Asistió en representación del Ejecutivo, del Ministerio de Hacienda, el Coordinador de Políticas Tributarias, señor Sebastián Vallebona Espinosa. Se escuchó en audiencia las siguietes organizaciones: 1. Cámara Chilena de la Construcción, Abogado Jefe, señor Carlos Pinto Torres junto con el Vicepresidente Nacional CChC , señor Orlando Sillano Zan y la Gerenta de Vivienda y Urbanismo, señora Sol Pacheco Flanagan. 2. Asociaciones Gremiales de Organismos Técnicos de Capacitación (OTEC), Presidente AGMO AG, señor Carlos Linares Oyarzun junto con el Vicepresidente AGMO AG, señor Cristian Luengo Arriagada, el Presidente ASOCAP CHILE AG, señor Pedro Jofré Meza y la Vicepresidente AGOVAL AG, señora Jazmín Pavez Borbarán. 3. OTEC Entribu Consultores, Consultor Senior, señor Rodrigo Jorquera Espinoza junto con la Presidenta de la AG Mujeres en la Capacitación, señora Maria Cecilia Reinoso Bustos y la Presidenta Ejecutiva red de RRHH, señora Ilia Gonzalez Hernández. 4. Agrupación Nacional de Empleados Fiscales ANEF, Presidente Nacional, señor José Pérez Debelli junto con Carlos Insunza Rojas, Helmuth Griott Bohn Y Juana Angela Rifo Castillo. 5. La Confederación de la Producción y del Comercio -CPC, Director de Políticas Públicas, señor Cristóbal Gamboni junto con la Directora Legal, señora Camila Ramos. Diputados Asistentes: Barrera Boris; Bianchi Carlos; Brito Jorge; Castillo Priscilla; Coloma Jaime; Durán Eduardo; Karlezi Pier; Meza Jose Carlos; Romero Agustín; Ugarte Fernando; Valenzuela Juan Marcelo; Weisse Flor Otros Diputados asistentes: Hassler Irací; Manouchehri Daniel; Yeomans Gael",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-07",
+          "t": "Hacienda 16:41 Sala de Conferencias Juan Bustos Ramírez segundo nivel (Presencial) Con el objeto de recibir en audiencia al Consejo Fiscal Autónomo, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Se escuchó en audiencia al Consejo Fiscal Autónomo – CFA, Presidenta, señora Paula Benavides Salazar junto con el Vicepresidente, señor Sebastián Izquierdo Ramírez, los consejeros señor Hermann González Bravo, señora Marcela Guzmán Salazar, señor Joaquín Vial Ruiz-Tagle, el gerente de Estudios, señor Mario Arend Serrano y la encargada de Comunicaciones, señora Javiera Matus Muñoz. Diputados Asistentes: Barrera Boris; Bianchi Carlos; Brito Jorge; Castillo Priscilla; Coloma Jaime; Durán Eduardo; Karlezi Pier; Meza Jose Carlos; Romero Agustín; Schalper Diego; Ugarte Fernando; Valenzuela Juan Marcelo; Weisse Flor Otros Diputados asistentes: Araya Jaime Rafael Ricardo; Arqueros Carlo; Hernando Marcela; Leiva Raúl; Manouchehri Daniel; Venegas Nelson; Yeomans Gael",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-07",
+          "t": "Hacienda 17:15 Sala de Conferencias Juan Bustos Ramírez segundo nivel (Presencial) Con el objeto de recibir las siguientes personas en audiencia, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Se escuchó en audiencia a: 1. Servicio de Impuestos Internos – SII, Director, señor Jorge Trujillo Puentes junto con el Subdirector Normativo, señor Simón Ramírez Guerra. 2. Michel Jorratt, Ex Director Servicio de Impuestos Internos. 3. Comisión Tributaria del Colegio de Contadores de Chile, Presidente, señor Juan Alberto Pizarro junto con la Periodista, señora Vanessa Alcalde Bonilla. Diputados Asistentes: Barrera Boris; Bianchi Carlos; Brito Jorge; Castillo Priscilla; Coloma Jaime; Durán Eduardo; Karlezi Pier; Meza Jose Carlos; Romero Agustín; Schalper Diego; Ugarte Fernando; Valenzuela Juan Marcelo; Weisse Flor Otros Diputados asistentes: Hassler Irací; Manouchehri Daniel; Yeomans Gael",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-07",
+          "t": "Weisse Flor Otros Diputados asistentes: Manouchehri Daniel JUEVES, 7 DE MAYO DE 2026 Comisión Horario Sala Citación Resultado Hacienda 09:10 Sala de Lectura primer nivel (Presencial) Con el objeto de tratar la siguiente Tabla en relación con el proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. 1) Recibir las siguientes autoridades: - Ministro de Vivienda y Urbanismo, señor Iván Poduje Capdeville. - Subsecretaria de Vivienda y Urbanismo, señora Natalia Aguilar Bravo. - Ministra del Medio Ambiente, señora Francisca Toledo Echegaray. - Subsecretario del Medio Ambiente, señor José Ignacio Vial Barros. - Ministro de Hacienda, señor Jorge Quiroz Castro. - Subsecretario de Hacienda, señor Juan Pablo Rodríguez Oyarzún. 2) Recibir en audiencia a: - Confederación Nacional de la Micro, Pequeña y Mediana Empresa de Chile (CONAPYME), Héctor Sandoval. Vicepresidente. - Confederación Nacional de la Pequeña, Mediana Empresa, Artesanado y Cooperativas de Chile (CONUPIA), Roberto Rojas Puga Vicepresidente. - Asociación de",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-11",
+          "t": "Hacienda 09:10 Sala de Lectura primer nivel (Presencial) Con el objeto de tratar la siguiente Tabla en relación con el proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. 1) Recibir las siguientes autoridades: - Ministro de Vivienda y Urbanismo, señor Iván Poduje Capdeville. - Subsecretaria de Vivienda y Urbanismo, señora Natalia Aguilar Bravo. - Ministra del Medio Ambiente, señora Francisca Toledo Echegaray. - Subsecretario del Medio Ambiente, señor José Ignacio Vial Barros. - Ministro de Hacienda, señor Jorge Quiroz Castro. - Subsecretario de Hacienda, señor Juan Pablo Rodríguez Oyarzún. 2) Recibir en audiencia a: - Confederación Nacional de la Micro, Pequeña y Mediana Empresa de Chile (CONAPYME), Héctor Sandoval. Vicepresidente. - Confederación Nacional de la Pequeña, Mediana Empresa, Artesanado y Cooperativas de Chile (CONUPIA), Roberto Rojas Puga Vicepresidente. - Asociación de Exportadores e Importadores-ASEXMA, representante, señor Marcos Illesca. 3) Recibir en audiencia a: - Asociación Chilena de Municipalidades (ACHM), Presidente, señor Gustavo Alessandri Bascuñán. 4) Recibir en audiencia a: - Director de Presupuestos (Dipres), señor José Pablo Gómez Meza. - Subdirector de Racionalización y Función Pública de la Dirección de Presupuestos (Dipres), José Ignacio Llodrá. Al término de las audiencias se procederá a la votación en general del proyecto. Asistió en representación del Ejecutivo, el Ministro de Vivienda y Urbanismo, señor Iván Poduje Capdeville junto con la Subsecretaria de Vivienda y Urbanismo, señora Natalia Aguilar Bravo; la Ministra del Medio Ambiente, señora Francisca Toledo Echegaray junto al Subsecretario del Medio Ambiente, señor José Ignacio Vial Barros, el Ministro de Hacienda, señor Jorge Quiroz Castro y el Subsecretario de Hacienda, señor Juan Pablo Rodríguez Oyarzún. Asimismo asistió, el Director de Presupuestos (Dipres), señor José Pablo Gómez Meza junto con el Subdirector de Racionalización y Función Pública de la Dirección de Presupuestos (Dipres), José Ignacio Llodrá. Se escuchó en audiencia las siguientes organizaciones: - Confederación Nacional de la Micro, Pequeña y Mediana Empresa de Chile (CONAPYME), Héctor Sandoval, Vicepresidente junto con Christian Aste Mejias, Abogado asesor organizaciones gremiales. - Confederación Nacional de la Pequeña, Mediana Empresa, Artesanado y Cooperativas de Chile (CONUPIA), Roberto Rojas Puga, Vicepresidente. - Asociación Chilena de Municipalidades (ACHM), Presidente, señor Gustavo Alessandri Bascuñán junto con la Vicepresidenta, señora Claudia Pizarro Peña, Alcaldesa de La Pintana. Se aprobó el proyecto de ley en general por 8 votos a favor, 4 en contra y 1 abstención. Se acordó como plazo para presentación de indicaciones, el lunes 11 de mayo de 2026 al mediodía (12.00 horas). Diputados Asistentes: Barrera Boris; Bianchi Carlos; Brito Jorge; Castillo Priscilla; Coloma Jaime; Durán Eduardo; Karlezi Pier; Meza Jose Carlos; Romero Agustín; Schalper Diego; Ugarte Fernando; Weisse Flor Reemplazos: El Diputado Valenzuela Juan Marcelo fue reemplazado por la Diputada Parisi Zandra Otros Diputados asistentes: Hernando Marcela; Leiva Raúl; Manouchehri Daniel; Soto Raúl; Ulloa Héctor; Yeomans Gael",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-11",
+          "t": "Lorena; Ramírez Guillermo; Schubert Stephan; Soto Raúl; Venegas Nelson; Ñanco Coca Hacienda 16:41 Sala de Conferencias Juan Bustos Ramírez segundo nivel (Presencial) Con el objeto de recibir en audiencia al Consejo Fiscal Autónomo, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Se escuchó en audiencia al Consejo Fiscal Autónomo – CFA, Presidenta, señora Paula Benavides Salazar junto con el Vicepresidente, señor Sebastián Izquierdo Ramírez, los consejeros señor Hermann González Bravo, señora Marcela Guzmán Salazar, señor Joaquín Vial Ruiz-Tagle, el gerente de Estudios, señor Mario Arend Serrano y la encargada de Comunicaciones, señora Javiera Matus Muñoz. Diputados Asistentes: Barrera Boris; Bianchi Carlos; Brito Jorge; Castillo Priscilla; Coloma Jaime; Durán Eduardo; Karlezi Pier; Meza Jose Carlos; Romero Agustín; Schalper Diego; Ugarte Fernando; Valenzuela Juan Marcelo; Weisse Flor Otros Diputados asistentes: Araya Jaime Rafael Ricardo; Arqueros Carlo; Hernando Marcela; Leiva Raúl; Manouc",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
           "f": "2026-07-22",
           "t": "La Comisión Mixta despachó su propuesta para resolver las divergencias entre ambas Cámaras",
           "organo": "Comisión Mixta",
@@ -3395,31 +3508,31 @@
     ],
     "duplicados_fusionados": 0,
     "movimientos_cruzados_descartados": 0,
-    "citaciones_pasadas_redundantes_descartadas": 7,
+    "citaciones_pasadas_redundantes_descartadas": 0,
     "candidatos_antiguos_o_invalidos_descartados": 0,
     "logs": [
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-28",
-      "Cámara resultados: 21 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-26",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-26",
       "Cámara resultados: 19 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-25",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-24",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-23",
+      "Cámara resultados: 108 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-23",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-20",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+      "Cámara resultados: 137 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-17",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-16",
-      "Cámara resultados: 31 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-15",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-15",
       "Cámara resultados: 6 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-27",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-31",
-      "Cámara resultados: 2 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-35",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-35",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-36",
       "Cámara tabla: 0 menciones · https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
       "Senado citaciones: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
-      "Senado citaciones: 30 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
+      "Senado citaciones: 32 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
       "Senado resultados: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
       "Senado tabla: 32 menciones · https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
-      "Senado ultimos: 117 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
+      "Senado ultimos: 119 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
       "Senado ficha 18.286-03: 0 movimientos",
       "Senado ficha 18.340-03: 0 movimientos",
       "Senado ficha 15.034-07: 0 movimientos",
@@ -3520,7 +3633,7 @@
       "Senado ficha 18.524-05: 0 movimientos"
     ]
   },
-  "cambios_detectados": 15,
+  "cambios_detectados": 16,
   "paquete_actualizado": "2026-08-18T14:02:00-04:00",
   "proyectos_seguimiento_obligatorio": [
     "18.216-05",
