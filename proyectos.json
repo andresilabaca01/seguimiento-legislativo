@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-18-1543-abif-v7",
-  "generado": "2026-08-18T15:43:05-04:00",
+  "version": "2026-08-18-abif-v7.1-seguimiento-obligatorio",
+  "generado": "2026-08-18T13:36:00-04:00",
   "total": 98,
   "candidatos": [],
   "fuentes_monitoreadas": [],
@@ -73,36 +73,7 @@
         }
       ],
       "resumenes": [],
-      "agenda": [
-        {
-          "f": "2026-08-21",
-          "t": "acerca del trabajo que realiza dicha institución, y entregue antecedentes relativos al aporte de la industria de Data Centers al desarrollo económico y social del país, y la forma en que se dinamizan los encadenamientos productivos y la visión del ecosistema digital. NOTA: Se recuerda que el plazo para la formulación de INDICACIONES del proyecto de ley sobre FIRMA ELECTRÓNICA, boletín N° 18286-03 ES EL VIERNES 21 DE AGOSTO DE 2026, a las 12:00 hrs (mediodía). Salud 17:30 a 19:30 Sala Juan Lobos Krause tercer nivel (Presencial)Iniciar discusión y votación particular del proyecto de ley, en segundo trámite constitucional, que \"Modifica el Código Sanitario, para incorporar entre los servicios de los profesionales que señala, la adopción de acciones para prevenir la infertilidad \",",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-33",
-          "tipo": "agenda"
-        },
-        {
-          "f": "2026-08-21",
-          "t": "cional (S) del Servicio Nacional del Consumidor, señora Carolina González. El Presidente de la Corporación Nacional de Consumidores y Usuarios, CONADECUS, señor Hernán Calderón. El Presidente de la Organización de Consumidores y Usuarios, ODECU, señor Stefan Larenas. NOTA: Se recuerda que el plazo para la formulación de INDICACIONES del proyecto de ley sobre FIRMA ELECTRÓNICA, boletín N° 18286-03 ES EL VIERNES 21 DE AGOSTO DE 2026, a las 12:00 hrs (mediodía). Personas Mayores 17:30 a 19:30 Sala Octavio Jara Wolff tercer nivel (Presencial)dar inicio a la discusión general del proyecto de ley que Incorpora a las víctimas de los delitos de estafa y otros engaños como personas de atención prioritaria en el Servicio Nacional de Acceso a la Justicia y Defensoría de Víctimas,",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-34",
-          "tipo": "agenda"
-        },
-        {
-          "f": "2026-08-21",
-          "t": "del país, y la forma en que se dinamizan los encadenamientos productivos y la visión del ecosistema digital.Se escuchó la exposición de la Gerente General de Chile Data Center, señora Natalia López, quien concurrió junto al asesor legislativo, señor Claudio Magliona. NOTA: Se recuerda que el plazo para la formulación de INDICACIONES del proyecto de ley sobre FIRMA ELECTRÓNICA, boletín N° 18286-03 ES EL VIERNES 21 DE AGOSTO DE 2026, a las 12:00 hrs (mediodía).Diputados Asistentes: Briones Patricio; Castillo Priscilla; Cristoffanini Sebastián; Cucumides Carolina; Hassler Irací; Kast Tomás; Riquelme Alejandro; Ross Felipe; Soto Raúl; Sulantay Marco Antonio; Teao Hotuiti; Verdugo Germán Reemplazos: La Diputada Schonhaut Constanza Gabriela fue reemplazada por el Diputado Achurra Ignacio Jaime Otros Diputados asistentes: Charpentier Paz; Santelices Macarena; Schneider Emilia Trabajo y Segurida…",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-33",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-08-21",
-          "t": "or el Presidente de la Corporación Nacional de Consumidores y Usuarios de Chile A.C., CONADECUS, señor Hernán Calderón. Participó de la tramitación de este proyecto de ley el SUBSECRETARIO DE ECONOMÍA, señor KARLFRANZ KOEHLER DUNCKER, junto al asesor legislativo, señor Benjamín Rodríguez. Se acuerda establecer como plazo para formlar indicaciones al texto del proyecto del ley, boletín N° 18286-03 el viernes 21 de agosto de 2026. Diputados Asistentes: Briones Patricio; Castillo Priscilla; Cristoffanini Sebastián; Cucumides Carolina; Hassler Irací; Kast Tomás; Riquelme Alejandro; Ross Felipe; Schonhaut Constanza Gabriela; Soto Raúl; Sulantay Marco Antonio; Teao Hotuiti; Verdugo Germán Defensa Nacional 17:35 Sala Pedro Pablo Álvarez-Salamanca tercer nivel (Presencial)1) Continuar la discusión y votar en general el proyecto de ley iniciado en moción de los diputados señores: Eric Aedo, Jorge…",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-32",
-          "tipo": "resultado"
-        }
-      ],
+      "agenda": [],
       "resumen_ejecutivo_bancario": "Este proyecto de ley busca modificar la Ley N° 19.799, que regula los documentos electrónicos, la firma electrónica y los servicios de certificación asociados. Para el sistema bancario, esta modificación es de alta relevancia, ya que la firma y los documentos electrónicos son pilares fundamentales para la operación digital de los bancos, la formalización de contratos con clientes y la seguridad de las transacciones. Su tramitación debe ser monitoreada de cerca, pues podría generar nuevas obligaciones operacionales, costos de cumplimiento o afectar la validez legal de los servicios bancarios digitales.",
       "categorias_abif": [
         "Seguridad operacional",
@@ -1198,7 +1169,7 @@
       "urgencia": "Discusión inmediata",
       "impacto": "",
       "relevancia": "media",
-      "fecha": "2026-08-11",
+      "fecha": "2026-06-30",
       "hist": [
         {
           "f": "2022-05-18",
@@ -1271,34 +1242,6 @@
           "t": "Cuenta del Mensaje 179-374 que hace presente la urgencia Discusión inmediata",
           "tipo": "urgencia",
           "organo": "Senado"
-        },
-        {
-          "f": "2026-08-04",
-          "t": "04/08/2026 14782-13 de Hacienda Equipara el derecho de sala cuna para las trabajadoras, los trabajadores y los independientes que indica, en las condiciones que establece, modifica el Código del Trabajo para tales efectos y crea un fondo solidario de sala cuna. La comisión recibió la presentación del Ministro del Trabajo y Previsión Social. Pendiente. 2026/08/04 14782-13",
-          "organo": "Senado",
-          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-08-05",
-          "t": "05/08/2026 14782-13 de Hacienda Equipara el derecho de sala cuna para las trabajadoras, los trabajadores y los independientes que indica, en las condiciones que establece, modifica el Código del Trabajo para tales efectos y crea un fondo solidario de sala cuna. La comisión recibió la presentación de AFC Chile y de la Superintendencia de Pensiones. Pendiente. 2026/08/05 14782-13",
-          "organo": "Senado",
-          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-08-11",
-          "t": "11/08/2026 14782-13 de Hacienda Equipara el derecho de sala cuna para las trabajadoras, los trabajadores y los independientes que indica, en las condiciones que establece, modifica el Código del Trabajo para tales efectos y crea un fondo solidario de sala cuna. La Comisión no sesionó por falta de quórum. Se declaró fracasada la sesión ante el reclamo de una Senadora. No hubo. 2026/08/11 14782-13",
-          "organo": "Senado",
-          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-08-11",
-          "t": "11/08/2026 14782-13 de Hacienda Equipara el derecho de sala cuna para las trabajadoras, los trabajadores y los independientes que indica, en las condiciones que establece, modifica el Código del Trabajo para tales efectos y crea un fondo solidario de sala cuna. La comisión sesionó con autorización de la Sala y se abocó a votar las indicaciones. Aprobado en particular. Pasa a la Sala. 2026/08/11 14782-13",
-          "organo": "Senado",
-          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
-          "tipo": "resultado"
         }
       ],
       "resumenes": [],
@@ -3014,105 +2957,35 @@
       "hist": [
         {
           "f": "2026-04-22",
-          "t": "Ingreso del mensaje a la Cámara de Diputados",
+          "t": "Ingreso del mensaje a la Cámara de Diputados.",
           "organo": "Cámara de Diputados",
           "tipo": "tramitacion",
           "fuente": "https://www.camara.cl/legislacion/proyectosdeley/tramitacion.aspx?prmBOLETIN=18216-05&prmID=18872"
         },
         {
-          "f": "2026-04-22",
-          "t": "Sesión citada con el objeto de conocer los artículos 26, 27 y 30 del proyecto de ley “Para la reconstrucción nacional y el desarrollo económico y social”, correspondiente al boletín N° 18.216-05, con urgencia calificada de “suma”, remitidos a esta Comisión en virtud del acuerdo adoptado por los Comités Parlamentarios con fecha 22 de abril de 2026. Para estos efectos, se ha dispuesto invitar al señor Jorge Quiroz Castro, Ministro de Hacienda, y al señor Tomás Rau Binder, Ministro del Trabajo y Previsión Social. Asimismo, la Comisión acordó recibir al señor Ricardo Ruiz de Viñaspre, ex Director del Servicio Nacional de Capacitación y Empleo – (SENCE); al señor Michel Faure Bastías, Presidente de PROFORMA y de la Asociación Nacional de OTIC, al señor Manuel Ureta Viviani, Director Ejecutivo de Fundación INFOCAP, y a la señora Maria Cecilia Reinoso Bustos, Presidenta de la Asociación Gremial…",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-04-22",
-          "t": "Trabajo y Seguridad Social 11:00 Sala Manuel Bustos Huerta tercer nivel (Presencial) Sesión citada con el objeto de conocer los artículos 26, 27 y 30 del proyecto de ley “Para la reconstrucción nacional y el desarrollo económico y social”, correspondiente al boletín N° 18.216-05, con urgencia calificada de “suma”, remitidos a esta Comisión en virtud del acuerdo adoptado por los Comités Parlamentarios con fecha 22 de abril de 2026. Para estos efectos, se ha dispuesto invitar al señor Jorge Quiroz Castro, Ministro de Hacienda, y al señor Tomás Rau Binder, Ministro del Trabajo y Previsión Social. Asimismo, la Comisión acordó recibir al señor Ricardo Ruiz de Viñaspre, ex Director del Servicio Nacional de Capacitación y Empleo – (SENCE); al señor Michel Faure Bastías, Presidente de PROFORMA y de la Asociación Nacional de OTIC, al señor Manuel Ureta Viviani, Director Ejecutivo de Fundación INF…",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-05-20",
-          "t": "Continuar la discusión y votar el proyecto de ley para la reconstrucción nacional y el desarrollo económico y social (boletín N° 18.216-05), con la finalidad de dar cumplimiento al acuerdo adoptado por la Sala, de conocer algunos artículos que se determinó en el mencionado acuerdo. La Comisión inició su sesión, se leyó la cuenta y luego fue suspendida hasta las 15:00 horas. Se encuentran presente el Ministro de Hacienda, señor Jorge Antonio Quiroz Castro, junto al Subsecretario, señor Juan Pablo Rodríguez Oyarzún; la Ministra del Medio Ambiente, señora Francisca Toledo; junto al Subsecretario del Medio Ambiente, señor José Ignacio Vial; Jefe de Gabinete, señor Eduardo Méndez. Diputados Asistentes: Araya Jaime Rafael Ricardo; Barchiesi Chiara; Bassa Jaime; Crisóstomo Francisco; Gatica Gustavo; Kunstmann Leandro; Malla Luis; Muñoz Paulina; Neumann Ricardo; Pardo Luis; Ramírez Guillermo; Re…",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-05-20",
-          "t": "Continuar la discusión y votar el proyecto de ley para la reconstrucción nacional y el desarrollo económico y social (boletín N° 18.216-05), con la finalidad de dar cumplimiento al acuerdo adoptado por la Sala, de conocer algunos artículos que se determinó en el mencionado acuerdo. La Comisión procedió a la votación del proyecto y se despachó. Se designó como diputado informante, al señor Guillemo Ramírez Diez. Se encuentran presente el Ministro de Hacienda, señor Jorge Antonio Quiroz Castro, junto al Subsecretario, señor Juan Pablo Rodríguez Oyarzún; la Ministra del Medio Ambiente, señora Francisca Toledo; junto al Subsecretario del Medio Ambiente, señor José Ignacio Vial; Jefe de Gabinete, señor Eduardo Méndez. Diputados Asistentes: Araya Jaime Rafael Ricardo; Barchiesi Chiara; Bassa Jaime; Crisóstomo Francisco; Gatica Gustavo; Kunstmann Leandro; Malla Luis; Muñoz Paulina; Neumann Rica…",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-05-20",
-          "t": "Medio Ambiente y Recursos Naturales 13:08 Sala Juan Lobos Krause tercer nivel (Presencial) Continuar la discusión y votar el proyecto de ley para la reconstrucción nacional y el desarrollo económico y social (boletín N° 18.216-05), con la finalidad de dar cumplimiento al acuerdo adoptado por la Sala, de conocer algunos artículos que se determinó en el mencionado acuerdo. La Comisión inició su sesión, se leyó la cuenta y luego fue suspendida hasta las 15:00 horas. Se encuentran presente el Ministro de Hacienda, señor Jorge Antonio Quiroz Castro, junto al Subsecretario, señor Juan Pablo Rodríguez Oyarzún; la Ministra del Medio Ambiente, señora Francisca Toledo; junto al Subsecretario del Medio Ambiente, señor José Ignacio Vial; Jefe de Gabinete, señor Eduardo Méndez. Diputados Asistentes: Araya Jaime Rafael Ricardo; Barchiesi Chiara; Bassa Jaime; Crisóstomo Francisco; Gatica Gustavo; Kunst…",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-05-20",
-          "t": "Medio Ambiente y Recursos Naturales 15:05 Sala Juan Lobos Krause tercer nivel (Presencial) Continuar la discusión y votar el proyecto de ley para la reconstrucción nacional y el desarrollo económico y social (boletín N° 18.216-05), con la finalidad de dar cumplimiento al acuerdo adoptado por la Sala, de conocer algunos artículos que se determinó en el mencionado acuerdo. La Comisión procedió a la votación del proyecto y se despachó. Se designó como diputado informante, al señor Guillemo Ramírez Diez. Se encuentran presente el Ministro de Hacienda, señor Jorge Antonio Quiroz Castro, junto al Subsecretario, señor Juan Pablo Rodríguez Oyarzún; la Ministra del Medio Ambiente, señora Francisca Toledo; junto al Subsecretario del Medio Ambiente, señor José Ignacio Vial; Jefe de Gabinete, señor Eduardo Méndez. Diputados Asistentes: Araya Jaime Rafael Ricardo; Barchiesi Chiara; Bassa Jaime; Crisó…",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21",
-          "tipo": "resultado"
-        },
-        {
           "f": "2026-07-22",
-          "t": "La Comisión Mixta despachó su propuesta para resolver las divergencias entre ambas Cámaras",
+          "t": "La Comisión Mixta despachó su propuesta para resolver las divergencias entre ambas Cámaras.",
           "organo": "Comisión Mixta",
           "tipo": "resultado",
           "fuente": "https://tramitacion.senado.cl/senado/site/edic/base/port/comisiones.html"
         },
         {
-          "f": "2026-07-22",
-          "t": "22/07/2026 18216-05 Comisión Mixta para Boletín Nº 18216-05 Para la reconstrucción nacional y el desarrollo económico y social La comisión se constituyó, eligió como su Presidente al Honorable Senador señor Javier Macaya Danús y se abocó a las materias de su competencia. Despachada la Comisión Mixta. Pasa a la Cámara de Diputados. 2026/07/22 18216-05",
-          "organo": "Senado",
-          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-08-04",
-          "t": "04/08/2026 18216-05 Para la reconstrucción nacional y el desarrollo económico y social Discusión informe de Comisión Mixta Disc. informe C.Mixta por rechazo de modif. C. Revisora Aprobado 2026/08/04 18216-05",
-          "organo": "Senado",
-          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
-          "tipo": "resultado"
-        },
-        {
           "f": "2026-08-10",
-          "t": "La Cámara de Diputados se pronunció sobre las observaciones del Ejecutivo al proyecto",
+          "t": "La Cámara de Diputados se pronunció sobre las observaciones del Ejecutivo al proyecto.",
           "organo": "Cámara de Diputados",
           "tipo": "resultado",
           "fuente": "https://www.camara.cl/legislacion/proyectosdeley/tramitacion.aspx?prmBOLETIN=18216-05&prmID=18872"
         },
         {
           "f": "2026-08-12",
-          "t": "12/08/2026 18216-05 Para la reconstrucción nacional y el desarrollo económico y social Discusión veto Discusión veto en Cámara Revisora Aprobado 2026/08/12 18216-05",
-          "organo": "Senado",
-          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-08-12",
-          "t": "12/08/2026 18216-05 de Hacienda Para la reconstrucción nacional y el desarrollo económico y social La comisión recibió las presentaciones del Banco Central, CMF y Convergencia Nacional de Gremios Pymes y Cooperativas de Chile junto con abocarse a las materias de competencia. Despachadas las observaciones. Pasa a la Sala. 2026/08/12 18216-05",
-          "organo": "Senado",
-          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-08-12",
-          "t": "El Senado aprobó los tres vetos supresivos del Ejecutivo: anatocismo, derecho al olvido financiero y reglas sobre plazos excepcionales de pago. Con ello terminó la tramitación del veto en el Congreso",
+          "t": "El Senado aprobó los tres vetos supresivos del Ejecutivo: anatocismo, derecho al olvido financiero y reglas sobre plazos excepcionales de pago. Con ello terminó la tramitación del veto en el Congreso.",
           "organo": "Senado",
           "tipo": "resultado",
           "fuente": "https://www.senado.cl/comunicaciones/noticias/proyecto-de-reconstruccion-con-aprobacion-de-vetos-supresivos-camara-alta"
         },
         {
           "f": "2026-08-13",
-          "t": "La ficha oficial de la Cámara registra el proyecto en trámite ante el Tribunal Constitucional",
+          "t": "La ficha oficial de la Cámara registra el proyecto en trámite ante el Tribunal Constitucional.",
           "organo": "Tribunal Constitucional",
           "tipo": "tramitacion",
           "fuente": "https://www.camara.cl/legislacion/proyectosdeley/tramitacion.aspx?prmBOLETIN=18216-05&prmID=18872"
@@ -3142,42 +3015,28 @@
       "hist": [
         {
           "f": "2026-08-04",
-          "t": "Ingreso del mensaje con urgencia de discusión inmediata; pasa a la Comisión de Hacienda de la Cámara de Diputados",
+          "t": "Ingreso del mensaje con urgencia de discusión inmediata; pasa a la Comisión de Hacienda de la Cámara de Diputados.",
           "organo": "Cámara de Diputados",
           "tipo": "tramitacion",
           "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx"
         },
         {
           "f": "2026-08-05",
-          "t": "La Cámara de Diputados aprobó el proyecto en primer trámite y lo despachó al Senado",
+          "t": "La Cámara de Diputados aprobó el proyecto en primer trámite y lo despachó al Senado.",
           "organo": "Cámara de Diputados",
           "tipo": "resultado",
           "fuente": "https://www.camara.cl/legislacion/comisiones/informes.aspx?prmID=4890"
         },
         {
           "f": "2026-08-10",
-          "t": "10/08/2026 18524-05 de Hacienda Extiende vigencia y aumenta cobertura de la ley N° 21.748 y modifica normas que indica La comisión recibió a los Ministros de Hacienda, de Vivienda y Urbanismo y las audiencias de Asociación de Bancos, Banco Estado y Cámara Chilena de la Construcción. Aprobado en general y en particular. Pasa a la Sala. 2026/08/10 18524-05",
-          "organo": "Senado",
-          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-08-10",
-          "t": "La Comisión de Hacienda del Senado trató el proyecto en segundo trámite constitucional",
+          "t": "La Comisión de Hacienda del Senado trató el proyecto en segundo trámite constitucional.",
           "organo": "Senado",
           "tipo": "resultado",
           "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=sesiones_celebradas&ano=2026&comi_nombre=de+Hacienda&fecha=10%2F08%2F2026&idcomision=188&idpunto=nada&idsesion=22814&mo=comisiones"
         },
         {
           "f": "2026-08-11",
-          "t": "11/08/2026 18524-05 Extiende vigencia y aumenta cobertura de la ley N° 21.748 y modifica normas que indica Discusión general Segundo trámite constitucional Aprobado en general y particular sin modificaciones 2026/08/11 18524-05",
-          "organo": "Senado",
-          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-08-11",
-          "t": "El Senado aprobó por unanimidad el proyecto. La iniciativa quedó en condiciones de convertirse en ley",
+          "t": "El Senado aprobó por unanimidad el proyecto. La iniciativa quedó en condiciones de convertirse en ley.",
           "organo": "Senado",
           "tipo": "resultado",
           "fuente": "https://www.senado.cl/comunicaciones/noticias/luz-verde-al-proyecto-que-extiende-el-subsidio-la-tasa-de-interes"
@@ -3211,150 +3070,13 @@
   "politica_bandeja": {
     "fecha_minima_ingreso": "2026-06-01",
     "requiere_fecha_ingreso_confirmada": true,
-    "puntaje_minimo_abif": 4,
-    "nota": "El corte aplica solo a candidatos nuevos; los proyectos de seguimiento obligatorio pueden ser anteriores."
+    "puntaje_minimo_abif": 4
   },
   "fuentes_revision": {
-    "camara": [
-      "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx",
-      "https://www.camara.cl/legislacion/comisiones/resultados_todos.aspx",
-      "https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
-      "https://opendata.camara.cl/camaradiputados/WServices/WSLegislativo.asmx"
-    ],
-    "senado": [
-      "https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
-      "https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
-      "https://www.senado.cl/actividad-legislativa/comisiones/resultados",
-      "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
-      "https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini={bol}"
-    ],
-    "duplicados_fusionados": 0,
-    "movimientos_cruzados_descartados": 0,
-    "candidatos_antiguos_o_invalidos_descartados": 0,
-    "logs": [
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-30",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-28",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-26",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-25",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-24",
-      "Cámara resultados: 25 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-23",
-      "Cámara resultados: 31 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-20",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
-      "Cámara resultados: 44 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-17",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-16",
-      "Cámara resultados: 43 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-15",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-31",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-35",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-36",
-      "Cámara tabla: 0 menciones · https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
-      "Senado citaciones: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
-      "Senado citaciones: 30 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
-      "Senado resultados: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
-      "Senado tabla: 64 menciones · https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
-      "Senado ultimos: 112 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
-      "Senado ficha 18.286-03: 0 movimientos",
-      "Senado ficha 18.340-03: 0 movimientos",
-      "Senado ficha 15.034-07: 0 movimientos",
-      "Senado ficha 15.975-25: 0 movimientos",
-      "Senado ficha 15.869-19: 0 movimientos",
-      "Senado ficha 15.610-03: 0 movimientos",
-      "Senado ficha 17.381-03: 0 movimientos",
-      "Senado ficha 18.044-13: 0 movimientos",
-      "Senado ficha 18.263-03: 0 movimientos",
-      "Senado ficha 18.251-07: 0 movimientos",
-      "Senado ficha 18.226-15: 0 movimientos",
-      "Senado ficha 18.060-07: 0 movimientos",
-      "Senado ficha 16.271-03: 0 movimientos",
-      "Senado ficha 12.917-03: 0 movimientos",
-      "Senado ficha 15.697-03: 0 movimientos",
-      "Senado ficha 15.407-03: 0 movimientos",
-      "Senado ficha 15.779-03: 0 movimientos",
-      "Senado ficha 17.169-04: 0 movimientos",
-      "Senado ficha 14.782-13: 0 movimientos",
-      "Senado ficha 16.889-05: 0 movimientos",
-      "Senado ficha 17.625-03: 0 movimientos",
-      "Senado ficha 17.687-03: 0 movimientos",
-      "Senado ficha 17.445-03: 0 movimientos",
-      "Senado ficha 10.576-13: 0 movimientos",
-      "Senado ficha 17.976-25: 0 movimientos",
-      "Senado ficha 8.096-32: 0 movimientos",
-      "Senado ficha 17.435-03: 0 movimientos",
-      "Senado ficha 17.266-03: 0 movimientos",
-      "Senado ficha 16.927-35: 0 movimientos",
-      "Senado ficha 15.462-03: 0 movimientos",
-      "Senado ficha 15.875-03: 0 movimientos",
-      "Senado ficha 18.126-03: 0 movimientos",
-      "Senado ficha 17.196-17: 0 movimientos",
-      "Senado ficha 17.520-17: 0 movimientos",
-      "Senado ficha 16.475-05: 0 movimientos",
-      "Senado ficha 12.100-07: 0 movimientos",
-      "Senado ficha 15.716-03: 0 movimientos",
-      "Senado ficha 17.079-03: 0 movimientos",
-      "Senado ficha 16.992-03: 0 movimientos",
-      "Senado ficha 16.925-07: 0 movimientos",
-      "Senado ficha 16.899-07: 0 movimientos",
-      "Senado ficha 16.696-07: 0 movimientos",
-      "Senado ficha 15.244-13: 0 movimientos",
-      "Senado ficha 15.169-11: 0 movimientos",
-      "Senado ficha 16.122-03: 0 movimientos",
-      "Senado ficha 15.961-07: 0 movimientos",
-      "Senado ficha 16.494-05: 0 movimientos",
-      "Senado ficha 16.343-03: 0 movimientos",
-      "Senado ficha 16.057-13: 0 movimientos",
-      "Senado ficha 13.810-03: 0 movimientos",
-      "Senado ficha 15.515-03: 0 movimientos",
-      "Senado ficha 14.939-18: 0 movimientos",
-      "Senado ficha 15.722-03: 0 movimientos",
-      "Senado ficha 14.059-03: 0 movimientos",
-      "Senado ficha 15.260-03: 0 movimientos",
-      "Senado ficha 14.968-03: 0 movimientos",
-      "Senado ficha 15.652-07: 0 movimientos",
-      "Senado ficha 15.361-13: 0 movimientos",
-      "Senado ficha 15.356-03: 0 movimientos",
-      "Senado ficha 15.341-25: 0 movimientos",
-      "Senado ficha 8.729-31: 0 movimientos",
-      "Senado ficha 15.248-18: 0 movimientos",
-      "Senado ficha 15.209-13: 0 movimientos",
-      "Senado ficha 15.199-25: 0 movimientos",
-      "Senado ficha 15.019-07: 0 movimientos",
-      "Senado ficha 14.986-13: 0 movimientos",
-      "Senado ficha 14.888-03: 0 movimientos",
-      "Senado ficha 14.709-03: 0 movimientos",
-      "Senado ficha 11.835-03: 0 movimientos",
-      "Senado ficha 14.535-03: 0 movimientos",
-      "Senado ficha 14.494-03: 0 movimientos",
-      "Senado ficha 14.451-13: 0 movimientos",
-      "Senado ficha 14.333-03: 0 movimientos",
-      "Senado ficha 13.240-13: 0 movimientos",
-      "Senado ficha 9.706-14: 0 movimientos",
-      "Senado ficha 13.519-03: 0 movimientos",
-      "Senado ficha 14.231-07: 0 movimientos",
-      "Senado ficha 13.362-03: 0 movimientos",
-      "Senado ficha 13.526-03: 0 movimientos",
-      "Senado ficha 8.466-07: 0 movimientos",
-      "Senado ficha 14.822-07: 0 movimientos",
-      "Senado ficha 13.506-04: 0 movimientos",
-      "Senado ficha 13.625-03: 0 movimientos",
-      "Senado ficha 13.695-03: 0 movimientos",
-      "Senado ficha 13.897-03: 0 movimientos",
-      "Senado ficha 13.053-04: 0 movimientos",
-      "Senado ficha 13.560-03: 0 movimientos",
-      "Senado ficha 13.841-03: 0 movimientos",
-      "Senado ficha 13.117-03: 0 movimientos",
-      "Senado ficha 13.226-03: 0 movimientos",
-      "Senado ficha 13.382-03: 0 movimientos",
-      "Senado ficha 13.267-18: 0 movimientos",
-      "Senado ficha 13.463-03: 0 movimientos",
-      "Senado ficha 18.373-07: 0 movimientos",
-      "Senado ficha 18.358-03: 0 movimientos",
-      "Senado ficha 18.395-07: 0 movimientos",
-      "Senado ficha 18.216-05: 0 movimientos",
-      "Senado ficha 18.524-05: 0 movimientos"
-    ]
+    "estado": "Base saneada localmente; ejecutar scraper_abif_v7.py en GitHub para refrescar fuentes oficiales.",
+    "duplicados_fusionados": 2
   },
-  "cambios_detectados": 25,
+  "cambios_detectados": 0,
   "paquete_actualizado": "2026-08-18T14:02:00-04:00",
   "proyectos_seguimiento_obligatorio": [
     "18.216-05",
