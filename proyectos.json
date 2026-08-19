@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-19-0742-abif-v7.3",
-  "generado": "2026-08-19T07:42:56-04:00",
+  "version": "2026-08-19-1151-abif-v7.3",
+  "generado": "2026-08-19T11:51:31-04:00",
   "total": 98,
   "candidatos": [],
   "fuentes_monitoreadas": [],
@@ -109,6 +109,20 @@
           "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29"
         },
         {
+          "f": "2026-07-14",
+          "t": "mía, Fomento; Micro, Pequeña y Mediana Empresa; Protección de los Consumidores y Turismo 17:30 Sala Ramón Pérez Opazo tercer nivel (Presencial) Continuar la discusión general del proyecto de ley, originado en mensaje de S. E. el Presidente de la República, que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Se escuchó la exposición de las siguientes entidades: El profesor de Derecho Informático de la Universidad Católica de Valparaíso, señor Renato Jijena. El Tesorero Nacional de la Confederación Nacional de la Micro, Pequeña y Mediana Empresa, Artesanado y Cooperativas de Chile, CONUPIA señor Jorge Andrade. El Presidente de la Asociación de Notarios, Conservadores y Archiveros Judiciales de Chile, y Conservador de Santiago, señor Carlos Miranda, quien asiste junto al Notario de la Segunda Notaría de Coronel, señor Víctor Toledo; al Asesor de la Asociación, señor Alfredo Martin, y al Secretario Ejecutivo, señor Juan Carlos Arriaza. El abogado, señor Patricio",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-07-15",
+          "t": "Economía, Fomento; Micro, Pequeña y Mediana Empresa; Protección de los Consumidores y Turismo 17:30 Sala Ramón Pérez Opazo tercer nivel (Presencial) Continuar la discusión general del proyecto de ley, originado en mensaje de S. E. el Presidente de la República, que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Se escuchó la exposición de las siguientes entidades: El profesor de Derecho Informático de la Universidad Católica de Valparaíso, señor Renato Jijena. El Tesorero Nacional de la Confederación Nacional de la Micro, Pequeña y Mediana Empresa, Artesanado y Cooperativas de Chile, CONUPIA señor Jorge Andrade. El Presidente de la Asociación de Notarios, Conservadores y Archiveros Judiciales de Chile, y Conservador de Santiago, señor Carlos Miranda, quien asiste junto al Notario de la Segunda Notaría de Coronel, señor Víctor Toledo; al Asesor de la Asociación, señor Alfredo Martin, y al Secretario Ejecutivo, señor Juan Carlos Arriaza. El abogado, señor Patricio Sainz. Participó de la tramitación del proyecto de ley el SUBSECRETARIO DE ECONOMÍA, señor KARLFRANZ KOEHLER DUNCKER. Diputados Asistentes: Briones Patricio; Castillo Priscilla; Cristoffanini Sebastián; Cucumides Carolina; Hassler Irací; Kast Tomás; Riquelme Alejandro; Ross Felipe; Schonhaut Constanza Gabriela; Soto Raúl; Sulantay Marco Antonio; Teao Hotuiti; Verdugo Germán",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29",
+          "tipo": "resultado"
+        },
+        {
           "f": "2026-07-21",
           "t": "La Comisión de Economía continuó la tramitación del proyecto; se votó en general y se inició la votación en particular",
           "organo": "Cámara de Diputados",
@@ -128,6 +142,13 @@
           "organo": "Cámara de Diputados",
           "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-30",
           "tipo": "resultado"
+        },
+        {
+          "f": "2026-07-23",
+          "t": "Economía 17:30 a 19:30 Sala Ramón Pérez Opazo tercer nivel (Presencial) Continuar la discusión general del proyecto de ley, originado en mensaje de S. E. el Presidente de la República, que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Se encuentran invitados a exponer sobre dicha iniciativa legal: El Fiscal Nacional Económico, señor Jorge Grunberg. El Presidente de la Asociación de Bancos e Instituciones Financieras de Chile A.G., ABIF, señor José Manuel Mena. El Director de la Asociación de Empresas FinteChile, José Gabriel Carrasco. El Gerente General de la Empresa Nacional de Certificación Electrónica en Chile, ECERT, señor Alfredo Guardiola. El Presidente de la Cámara Nacional de Comercio, Servicios y Turismo de Chile, CNC, señor José Pakomio Un especialista de la Biblioteca del Congreso Nacional. Se encuentran invitados a participar de la tramitación de este proyecto de ley representantes expertos en la materia del Ministerio de Justicia y Derechos Humanos y del Ministro de Economía, Fomento y Turismo",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-30",
+          "tipo": "citacion"
         },
         {
           "f": "2026-08-04",
@@ -3254,10 +3275,38 @@
           "fuente": "https://www.camara.cl/legislacion/proyectosdeley/tramitacion.aspx?prmBOLETIN=18216-05&prmID=18872"
         },
         {
+          "f": "2026-04-22",
+          "t": "Tributarias, señor Sebastián Vallebona Espinosa. La Comisión acordó realizar una sesión especial el día jueves 23 de abril, de 10:30 a 12:30 horas, con el objeto continuar con la presentación de los antecedentes por parte del Ejecutivo, en particular, para responder las preguntas planteadas por los diputados y diputadas, respecto del proyecto de ley para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Diputados Asistentes: Barrera Boris; Bianchi Carlos; Brito Jorge; Castillo Priscilla; Coloma Jaime; Durán Eduardo; Karlezi Pier; Meza Jose Carlos; Romero Agustín; Ugarte Fernando; Valenzuela Juan Marcelo; Weisse Flor Reemplazos: El Diputado Schalper Diego fue reemplazado por el Diputado Celis Andrés Otros Diputados asistentes: Hassler Irací; Hernando Marcela; Manouchehri Daniel; Yeomans Gael JUEVES, 23 DE ABRIL DE 2026 Comisión Horario Sala Citación Resultado Hacienda 10:31 Sala de Lectura primer nivel (Presencial) Con el objeto de continuar con la presentación por parte del Ejecutivo, y con las preguntas que se formulen y sus respuestas, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-17",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-04-22",
+          "t": "lina; Neumann Ricardo; Pardo Luis; Ramírez Guillermo; Ramírez Tamara; Reyes Claudia Hacienda 16:03 Sala de Conferencias Juan Bustos Ramírez segundo nivel (Presencial) Con el objeto de recibir los antecedentes por parte del Ejecutivo respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Asistió en representación del Ejecutivo, el Ministro de Hacienda, señor Jorge Quiroz Castro junto con el Subsecretario de Hacienda, señor Juan Pablo Rodríguez Oyarzún, el Director de Presupuestos, señor José Pablo Gómez Meza, y el Coordinador de Políticas Tributarias, señor Sebastián Vallebona Espinosa. La Comisión acordó realizar una sesión especial el día jueves 23 de abril, de 10:30 a 12:30 horas, con el objeto continuar con la presentación de los antecedentes por parte del Ejecutivo, en particular, para responder las preguntas planteadas por los diputados y diputadas, respecto del proyecto de ley para la reconstrucción nacional y el desarrollo económico y social,",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-17",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-04-23",
+          "t": "el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-17",
+          "tipo": "resultado"
+        },
+        {
           "f": "2026-05-04",
           "t": "26 Volver LUNES, 4 DE MAYO DE 2026 Comisión Horario Sala Citación Resultado Hacienda 10:06 Sala de Lectura primer nivel (Presencial) Con el objeto de recibir las respuestas del Ejecutivo a las preguntas de las diputadas y diputados, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Asistió en representación del Ejecutivo, el Ministro de Hacienda, señor Jorge Quiroz Castro junto con el Director de Presupuestos, señor José Pablo Gómez Meza, y el Coordinador de Políticas Tributarias, señor Sebastián Vallebona Espinosa. Diputados Asistentes: Barrera Boris; Bianchi Carlos; Brito Jorge; Castillo Priscilla; Coloma Jaime; Durán Eduardo; Karlezi Pier; Meza Jose Carlos; Romero Agustín; Ugarte Fernando; Valenzuela Juan Marcelo; Weisse Flor Otros Diputados asistentes: Manouchehri Daniel; Yeomans Gael Seguridad Ciudadana 14:50 Sala de Conferencias Inés Enríquez segundo nivel (Presencial) Recibir, de 14:50 a 15:20 horas, al alcalde de San Bernardo, señor Christopher White, al presidente de la asociación de",
           "organo": "Cámara de Diputados",
           "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-05-04",
+          "t": "Hacienda 10:31 Sala de Lectura primer nivel (Presencial) Con el objeto de continuar con la presentación por parte del Ejecutivo, y con las preguntas que se formulen y sus respuestas, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N° 18216-05, con urgencia calificada de Suma. Asistió en representación del Ejecutivo, el Ministro de Hacienda, señor Jorge Quiroz Castro junto con el Director de Presupuestos, señor José Pablo Gómez Meza, y el Coordinador de Políticas Tributarias, señor Sebastián Vallebona Espinosa. La Comisión acordó celebrar sesión especial el día lunes 4 de mayo de 2026, durante la jornada de la mañana, en la Sede de Santiago. Diputados Asistentes: Barrera Boris; Bianchi Carlos; Brito Jorge; Castillo Priscilla; Coloma Jaime; Durán Eduardo; Karlezi Pier; Meza Jose Carlos; Romero Agustín; Schalper Diego; Ugarte Fernando; Weisse Flor Reemplazos: El Diputado Valenzuela Juan Marcelo fue reemplazado por la Diputada Parisi Zandra Otros Diputados asistentes: Hassler Irací; Manouchehri Daniel; Yeomans Gael",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-17",
           "tipo": "resultado"
         },
         {
@@ -3391,6 +3440,34 @@
           "t": "Medio Ambiente Suspendida 10:30 a 13:30 Sala Juan Lobos Krause tercer nivel (Presencial) Iniciar la discusión del proyecto de ley para la reconstrucción nacional y el desarrollo económico y social (boletín N° 18.216-05), con la finalidad de dar cumplimiento al acuerdo adoptado por la Sala, de conocer algunos artículos que se determinó en el mencionado acuerdo",
           "organo": "Cámara de Diputados",
           "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-20",
+          "tipo": "citacion"
+        },
+        {
+          "f": "2026-05-18",
+          "t": "Sala Resoluciones Trabajo en Sala Citaciones Semana del 18 al 20 de mayo de 2026 Volver Descargar (PDF) LUNES, 18 DE MAYO DE 2026 Comisión Horario Sala Citación Invitados Trabajo 11:00 a 13:30 Sala Manuel Bustos Huerta tercer nivel (Presencial) Sesión citada con el objeto de conocer los artículos 26, 27 y 30 del proyecto de ley “Para la reconstrucción nacional y el desarrollo económico y social”, correspondiente al boletín N° 18.216-05, con urgencia calificada de “suma”, remitidos a esta Comisión en virtud del acuerdo adoptado por los Comités Parlamentarios con fecha 22 de abril de 2026. Para estos efectos, se ha dispuesto invitar al señor Jorge Quiroz Castro, Ministro de Hacienda, y al señor Tomás Rau Binder, Ministro del Trabajo y Previsión Social. Asimismo, la Comisión acordó recibir al señor Ricardo Ruiz de Viñaspre, ex Director del Servicio Nacional de Capacitación y Empleo – (SENCE); al señor Michel Faure Bastías, Presidente de PROFORMA y de la Asociación Nacional de OTIC, al señor Manuel Ureta Viviani, Director Ejecutivo de Fundación INFOCAP, y a la señora Maria Cecilia Reinoso Bustos, Presidenta de la Asociación Gremial Alianza Mujeres en la Capacitación. Medio Ambiente 13",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-21",
+          "tipo": "citacion"
+        },
+        {
+          "f": "2026-05-18",
+          "t": "a de Prevención del Delito, señora Ana Victoria Quintana Olguín. - El Fiscal Nacional del Ministerio Público, señor Ángel Valencia Vasquéz - La Defensora Nacional de la Defensoría Penal Pública, señora Veronica Encina Vera. Medio Ambiente 15:00 a 23:59 Sala Juan Lobos Krause tercer nivel (Presencial) Continuar la discusión y votar el proyecto de ley para la reconstrucción nacional y el desarrollo económico y social (boletín N° 18.216-05), con la finalidad de dar cumplimiento al acuerdo adoptado por la Sala, de conocer algunos artículos que se determinó en el mencionado acuerdo. Control de inteligencia Suspendida 15:30 a 16:50 Sala Pedro Pablo Álvarez-Salamanca tercer nivel (Presencial) Para conocer el estado actual del Sistema de Inteligencia del Estado. Ministro del Interior, señor Claudio Alvarado Andrade. Director del Servicio de Inteligencia del Estado, señor Ronald Mc Intyre Astorga. MARTES, 19 DE MAYO DE 2026 Comisión Horario Sala Citación Invitados Medidas ante violencia desde 18 oct 2019 Suspendida 08:30 a 09:50 Sala Arturo Longton Guerrero tercer nivel (Presencial) cumplir con su mandato. A esta sesión, han sido invitados los ex integrantes del Tribunal Constitucional, señ",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-21",
+          "tipo": "citacion"
+        },
+        {
+          "f": "2026-05-18",
+          "t": "de la Asociación Nacional de OTIC, al señor Manuel Ureta Viviani, Director Ejecutivo de Fundación INFOCAP, y a la señora Maria Cecilia Reinoso Bustos, Presidenta de la Asociación Gremial Alianza Mujeres en la Capacitación. Medio Ambiente 13:00 a 15:00 Sala Juan Lobos Krause tercer nivel (Presencial) Continuar la discusión y votar el proyecto de ley para la reconstrucción nacional y el desarrollo económico y social (boletín N° 18.216-05), con la finalidad de dar cumplimiento al acuerdo adoptado por la Sala, de conocer algunos artículos que se determinó en el mencionado acuerdo. Zonas Extremas Suspendida 14:50 a 16:50 Sala Manuel Bustos Huerta tercer nivel (Presencial) analizar la situación actual de los incentivos económicos y mecanismos de fomento aplicables a las zonas extremas del país, particularmente aquellos relativos a la bonificación a la contratación de mano de obra y al fomento de la inversión privada, así como su impacto en el desarrollo productivo regional, el empleo y la actividad de proveedores locales. Para estos efectos, se ha acordado invitar a los señores Daniel Navarro Marinovic, Presidente de la Asociación de Industriales de Arica y a don Marcos Gómez Barrera, G",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-21",
+          "tipo": "citacion"
+        },
+        {
+          "f": "2026-05-20",
+          "t": "Medio Ambiente 13:00 a 15:00 Sala Juan Lobos Krause tercer nivel (Presencial) Continuar la discusión y votar el proyecto de ley para la reconstrucción nacional y el desarrollo económico y social (boletín N° 18.216-05), con la finalidad de dar cumplimiento al acuerdo adoptado por la Sala, de conocer algunos artículos que se determinó en el mencionado acuerdo",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-21",
           "tipo": "citacion"
         },
         {
@@ -3564,31 +3641,31 @@
     ],
     "duplicados_fusionados": 0,
     "movimientos_cruzados_descartados": 0,
-    "citaciones_pasadas_redundantes_descartadas": 0,
+    "citaciones_pasadas_redundantes_descartadas": 4,
     "candidatos_antiguos_o_invalidos_descartados": 0,
     "logs": [
-      "Cámara citaciones: 1 menciones · https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-31",
-      "Cámara citaciones: 7 menciones · https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-35",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-23",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-24",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-25",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-26",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-27",
+      "Cámara resultados: 133 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29",
       "Cámara resultados: 31 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-28",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-30",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-31",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-32",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-33",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-34",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-26",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-25",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-24",
+      "Cámara resultados: 108 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-23",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-20",
+      "Cámara resultados: 137 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
+      "Cámara resultados: 126 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-17",
+      "Cámara resultados: 140 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-16",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-15",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-27",
+      "Cámara resultados: 6 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-31",
       "Cámara resultados: 6 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-35",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-36",
-      "Cámara tabla: 0 menciones · https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
+      "Cámara tabla: 29 menciones · https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
       "Senado citaciones: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
       "Senado citaciones: 17 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
       "Senado resultados: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
       "Senado tabla: 32 menciones · https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
-      "Senado ultimos: 112 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
+      "Senado ultimos: 114 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
       "Senado ficha 18.286-03: 0 movimientos",
       "Senado ficha 18.340-03: 0 movimientos",
       "Senado ficha 15.034-07: 0 movimientos",
@@ -3689,7 +3766,7 @@
       "Senado ficha 18.524-05: 0 movimientos"
     ]
   },
-  "cambios_detectados": 8,
+  "cambios_detectados": 15,
   "paquete_actualizado": "2026-08-18T14:02:00-04:00",
   "proyectos_seguimiento_obligatorio": [
     "18.216-05",
