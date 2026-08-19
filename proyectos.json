@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-19-1151-abif-v7.3",
-  "generado": "2026-08-19T11:51:31-04:00",
+  "version": "2026-08-19-1541-abif-v7.3",
+  "generado": "2026-08-19T15:41:20-04:00",
   "total": 98,
   "candidatos": [],
   "fuentes_monitoreadas": [],
@@ -15,7 +15,7 @@
       "urgencia": "Simple",
       "impacto": "Firma electrónica · Contratos · Pagaré electrónico",
       "relevancia": "alta",
-      "fecha": "2026-08-11",
+      "fecha": "2026-08-18",
       "hist": [
         {
           "f": "2026-06-02",
@@ -56,6 +56,13 @@
         {
           "f": "2026-06-09",
           "t": "to y Turismo, señor Daniel Mas junto al Subsecretario de Economía, señor Karlfranz Koehler, y al asesor jurídico o especialista que sea designado. Comenzar la discusión general del proyecto de ley, iniciado en mensaje de S. E. el Presidente de la República que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario.Para conocer el sentido y alcance de esta iniciativa presidencial se ha invitado al Ministro de Economía, Fomento y Turismo, señor Daniel Mas junto al Subsecretario de Economía, señor Karlfranz Koehler, y al asesor jurídico o especialista que sea designado",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-24",
+          "tipo": "citacion"
+        },
+        {
+          "f": "2026-06-11",
+          "t": "el Presidente de la República que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario",
           "organo": "Cámara de Diputados",
           "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-24",
           "tipo": "citacion"
@@ -170,6 +177,13 @@
           "organo": "Cámara de Diputados",
           "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-33",
           "tipo": "resultado"
+        },
+        {
+          "f": "2026-08-18",
+          "t": "iguientes instituciones: La Directora Nacional (S) del Servicio Nacional del Consumidor, señora Carolina González. El Presidente de la Corporación Nacional de Consumidores y Usuarios, CONADECUS, señor Hernán Calderón. El Presidente de la Organización de Consumidores y Usuarios, ODECU, señor Stefan Larenas. NOTA: Se recuerda que el plazo para la formulación de INDICACIONES del proyecto de ley sobre FIRMA ELECTRÓNICA, boletín N° 18286-03 ES EL VIERNES 21 DE AGOSTO DE 2026, a las 12:00 hrs (mediodía). Trabajo 17:30 a 19:30 Sala Manuel Bustos Huerta tercer nivel (Presencial) continuar el estudio del proyecto de ley, originado en mensaje de S.E. el Presidente de la República, que “Perfecciona los mecanismos de adaptabilidad de la jornada de trabajo y establece un régimen especial para el sector turismo y actividades conexas”, correspondiente al",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-34",
+          "tipo": "citacion"
         }
       ],
       "resumenes": [],
@@ -3228,6 +3242,13 @@
           "organo": "Cámara de Diputados"
         },
         {
+          "f": "2026-08-17",
+          "t": "(S). 4. Proyecto de ley que “Sanciona penalmente la usura y la obtención de lucro en las contrataciones con el Estado en situaciones de emergencia o catástrofe”, boletín N° 18.395-07. 5. Proyecto de ley que “Facilita el acceso a la justicia a turistas extranjeros víctimas de delitos en el territorio nacional”,",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-34",
+          "tipo": "citacion"
+        },
+        {
           "f": "2026-08-18",
           "t": "Proyecto de ley que “Sanciona penalmente la usura y la obtención de lucro en las contrataciones con el Estado en situaciones de emergencia o catástrofe”, boletín N° 18.395-07",
           "organo": "Cámara de Diputados",
@@ -3238,6 +3259,13 @@
       "resumenes": [],
       "origen": "integración compañero",
       "agenda": [
+        {
+          "f": "2026-08-20",
+          "t": "Proyecto de ley que “Sanciona penalmente la usura y la obtención de lucro en las contrataciones con el Estado en situaciones de emergencia o catástrofe”, boletín N° 18.395-07",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-34",
+          "tipo": "agenda"
+        },
         {
           "f": "2026-08-27",
           "t": "(S). 4. Proyecto de ley que “Sanciona penalmente la usura y la obtención de lucro en las contrataciones con el Estado en situaciones de emergencia o catástrofe”, boletín N° 18.395-07. 5. Proyecto de ley que “Facilita el acceso a la justicia a turistas extranjeros víctimas de delitos en el territorio nacional”,",
@@ -3641,31 +3669,31 @@
     ],
     "duplicados_fusionados": 0,
     "movimientos_cruzados_descartados": 0,
-    "citaciones_pasadas_redundantes_descartadas": 4,
+    "citaciones_pasadas_redundantes_descartadas": 0,
     "candidatos_antiguos_o_invalidos_descartados": 0,
     "logs": [
-      "Cámara resultados: 133 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29",
-      "Cámara resultados: 31 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-28",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-26",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-25",
+      "Cámara citaciones: 7 menciones · https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-35",
+      "Cámara citaciones: 1 menciones · https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-36",
+      "Cámara resultados: 25 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-23",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-24",
-      "Cámara resultados: 108 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-23",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-20",
-      "Cámara resultados: 137 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19",
-      "Cámara resultados: 126 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-17",
-      "Cámara resultados: 140 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-16",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-15",
+      "Cámara resultados: 19 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-25",
+      "Cámara resultados: 21 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-26",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-27",
-      "Cámara resultados: 6 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-31",
-      "Cámara resultados: 6 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-35",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-28",
+      "Cámara resultados: 39 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-30",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-31",
+      "Cámara resultados: 25 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-32",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-33",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-34",
+      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-35",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-36",
-      "Cámara tabla: 29 menciones · https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
+      "Cámara tabla: 2 menciones · https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
       "Senado citaciones: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
       "Senado citaciones: 17 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
       "Senado resultados: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
       "Senado tabla: 32 menciones · https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
-      "Senado ultimos: 114 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
+      "Senado ultimos: 116 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
       "Senado ficha 18.286-03: 0 movimientos",
       "Senado ficha 18.340-03: 0 movimientos",
       "Senado ficha 15.034-07: 0 movimientos",
@@ -3766,7 +3794,7 @@
       "Senado ficha 18.524-05: 0 movimientos"
     ]
   },
-  "cambios_detectados": 15,
+  "cambios_detectados": 4,
   "paquete_actualizado": "2026-08-18T14:02:00-04:00",
   "proyectos_seguimiento_obligatorio": [
     "18.216-05",
