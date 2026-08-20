@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-20-1521-abif-v8.2",
-  "generado": "2026-08-20T15:21:50-04:00",
+  "version": "2026-08-20-1557-abif-v8.2",
+  "generado": "2026-08-20T15:57:45-04:00",
   "total": 98,
   "candidatos": [],
   "fuentes_monitoreadas": [],
@@ -49,10 +49,10 @@
         },
         {
           "f": "2026-06-09",
-          "t": "Comenzar la discusión general del proyecto de ley, iniciado en mensaje de S. E. el Presidente de la República que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. No se alcanzó a tratar el proyecto de ley",
+          "t": "Comenzar la discusión general del proyecto de ley, iniciado en mensaje de S. E. el Presidente de la República que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Para conocer el sentido y alcance de esta iniciativa presidencial se ha invitado al Ministro de Economía, Fomento y Turismo, señor Daniel Mas junto al Subsecretario de Economía, señor Karlfranz Koehler, y al asesor jurídico o especialista que sea designado",
           "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-24",
-          "tipo": "resultado"
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-24",
+          "tipo": "citacion"
         },
         {
           "f": "2026-06-09",
@@ -61,36 +61,28 @@
           "organo": "Cámara de Diputados"
         },
         {
-          "f": "2026-06-16",
-          "t": "Comenzar la discusión general del proyecto de ley, iniciado en mensaje de S. E. el Presidente de la República que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-25",
-          "tipo": "citacion"
-        },
-        {
           "f": "2026-06-22",
           "t": "Cuenta del Mensaje 163-374 que hace presente la urgencia Simple",
           "tipo": "urgencia",
           "organo": "Cámara de Diputados"
         },
         {
-          "f": "2026-07-21",
-          "t": "Continuar la discusión general del proyecto de ley, originado en mensaje de S. E. el Presidente de la República, que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Se encuentran invitados a exponer sobre dicha iniciativa legal:",
+          "f": "2026-06-23",
+          "t": "Comenzar la discusión general del proyecto de ley, originado en mensaje de S. E. el Presidente de la República que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Se escuchó la exposición del Ministro de Economía, Fomento y Turismo, señor Daniel Mas y del Subsecretario de Economía, señor Karlfranz Koehler. Así como al Ministro de Justicia y Derechos Humanos, señor Fernando Rabat",
           "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-30",
-          "tipo": "citacion"
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-26",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-07-21",
+          "t": "Continuar la discusión general del proyecto de ley, originado en mensaje de S. E. el Presidente de la República, que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Se escuchó la exposición de las siguientes personas:",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-30",
+          "tipo": "resultado"
         }
       ],
       "resumenes": [],
-      "agenda": [
-        {
-          "f": "2026-08-21",
-          "t": "NOTA: Se recuerda que el plazo para la formulación de INDICACIONES del proyecto de ley sobre FIRMA ELECTRÓNICA, boletín N° 18286-03 ES EL VIERNES 21 DE AGOSTO DE 2026, a las 12:00 hrs (mediodía)",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-33",
-          "tipo": "agenda"
-        }
-      ],
+      "agenda": [],
       "resumen_ejecutivo_bancario": "Este proyecto de ley busca modificar la Ley N° 19.799, que regula los documentos electrónicos, la firma electrónica y los servicios de certificación asociados. Para el sistema bancario, esta modificación es de alta relevancia, ya que la firma y los documentos electrónicos son pilares fundamentales para la operación digital de los bancos, la formalización de contratos con clientes y la seguridad de las transacciones. Su tramitación debe ser monitoreada de cerca, pues podría generar nuevas obligaciones operacionales, costos de cumplimiento o afectar la validez legal de los servicios bancarios digitales.",
       "categorias_abif": [
         "Seguridad operacional",
@@ -3088,7 +3080,7 @@
       "urgencia": "Sin urgencia",
       "impacto": "Crédito de consumo · Protección al consumidor financiero",
       "relevancia": "alta",
-      "fecha": "2026-08-17",
+      "fecha": "2026-06-24",
       "hist": [
         {
           "f": "2026-06-16",
@@ -3101,13 +3093,6 @@
           "t": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
           "tipo": "tramitacion",
           "organo": "Cámara de Diputados"
-        },
-        {
-          "f": "2026-08-17",
-          "t": "4. Proyecto de ley que “Sanciona penalmente la usura y la obtención de lucro en las contrataciones con el Estado en situaciones de emergencia o catástrofe”, boletín N° 18.395-07",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-34",
-          "tipo": "citacion"
         }
       ],
       "resumenes": [],
@@ -3127,20 +3112,6 @@
       "relevancia": "alta",
       "fecha": "2026-08-13",
       "hist": [
-        {
-          "f": "2026-04-22",
-          "t": "Con el objeto de continuar con la presentación por parte del Ejecutivo, y con las preguntas que se formulen y sus respuestas, respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N° 18216-05, con urgencia calificada de Suma. Asistió en representación del Ejecutivo, el Ministro de Hacienda, señor Jorge Quiroz Castro junto con el Director de Presupuestos, señor José Pablo Gómez Meza, y el Coordinador de Políticas Tributarias, señor Sebastián Vallebona Espinosa",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-17",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-04-22",
-          "t": "Con el objeto de recibir los antecedentes por parte del Ejecutivo respecto del proyecto de ley, iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, Para la reconstrucción nacional y el desarrollo económico y social, Boletín N°18216-05, con urgencia calificada de Suma. Asistió en representación del Ejecutivo, el Ministro de Hacienda, señor Jorge Quiroz Castro junto con el Subsecretario de Hacienda, señor Juan Pablo Rodríguez Oyarzún, el Director de Presupuestos, señor José Pablo Gómez Meza, y el Coordinador de Políticas Tributarias, señor Sebastián Vallebona Espinosa",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-17",
-          "tipo": "resultado"
-        },
         {
           "f": "2026-04-22",
           "t": "Ingreso del mensaje a la Cámara de Diputados",
@@ -3163,32 +3134,18 @@
           "tipo": "citacion"
         },
         {
-          "f": "2026-05-12",
-          "t": "Iniciar la votación en particular del proyecto de ley iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, para la reconstrucción nacional y del desarrollo económico y social, Boletín N°18.216-05, con urgencia calificada de \"Suma\". Asistió en representación del Ejecutivo, el Ministro de Hacienda, señor Jorge Quiroz Castro junto con el Subsecretario de Hacienda, señor Juan Pablo Rodríguez Oyarzún y el Coordinador de Políticas Tributarias, señor Sebastián Vallebona Espinosa",
+          "f": "2026-05-18",
+          "t": "Continuar la discusión y votar el proyecto de ley para la reconstrucción nacional y el desarrollo económico y social (boletín N° 18.216-05), con la finalidad de dar cumplimiento al acuerdo adoptado por la Sala, de conocer algunos artículos que se determinó en el mencionado acuerdo",
           "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-20",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-05-13",
-          "t": "Continuar con la votación en particular, hasta su total despacho, del proyecto de ley iniciado en Mensaje de S.E. el Presidente de la República, señor José Antonio Kast Rist, para la reconstrucción nacional y el desarrollo económico y social, Boletín N° 18.216-05, con urgencia calificada de \"Suma\". Asistió en representación del Ejecutivo, el Ministro de Hacienda, señor Jorge Quiroz Castro junto con el Coordinador de Políticas Tributarias, señor Sebastián Vallebona Espinosa, el Asesor de la coordinación legislativa, señor Daniel Muñoz y el asesor político señor Felipe Donoso y el Ministro Secretario General de la Presidencia (Segpres), señor José García Ruminot",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-20",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-05-14",
-          "t": "Iniciar la discusión del proyecto de ley para la reconstrucción nacional y el desarrollo económico y social (boletín N° 18.216-05), con la finalidad de dar cumplimiento al acuerdo adoptado por la Sala, de conocer algunos artículos que se determinó en el mencionado acuerdo. La Comisión escuchó las exposiciones del Ministro de Hacienda, señor Jorge Antonio Quiroz Castro, junto al jefe de asesores, señor Tomás Bunster Bustamante y coordinadora legislativa, señora Bárbara Bayolo Muñoz; de la Ministra del Medio Ambiente, señora Francisca Toledo; junto al Subsecretario del Medio Ambiente, señor José Ignacio Vial; Jefe de Gabinete, señor Eduardo Méndez, y asesor legislativo, señor Gabriel Bravo Medina; del señor Benjamín Cornejo Cousiño, abogado de incidencias y seguimiento de Chile Sustentable; y del señor Pablo Méndez, profesor Derecho Administrativo, Universidad de Chile",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-20",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21",
           "tipo": "resultado"
         },
         {
           "f": "2026-05-18",
-          "t": "Sala Resoluciones Trabajo en Sala Citaciones Semana del 18 al 20 de mayo de 2026 Volver Descargar (PDF) LUNES, 18 DE MAYO DE 2026 Comisión Horario Sala Citación Invitados Trabajo 11:00 a 13:30 Sala Manuel Bustos Huerta tercer nivel (Presencial) Sesión citada con el objeto de conocer los artículos 26, 27 y 30 del proyecto de ley “Para la reconstrucción nacional y el desarrollo económico y social”, correspondiente al boletín N° 18.216-05, con urgencia calificada de “suma”, remitidos a esta Comisión en virtud del acuerdo adoptado por los Comités Parlamentarios con fecha 22 de abril de 2026. Para estos efectos, se ha dispuesto invitar al señor Jorge Quiroz Castro, Ministro de Hacienda, y al señor Tomás Rau Binder, Ministro del Trabajo y Previsión Social. Asimismo, la Comisión acordó recibir al señor Ricardo Ruiz de Viñaspre, ex Director del Servicio Nacional de Capacitación y Empleo – (SENCE); al señor Michel Faure Bastías, Presidente de PROFORMA y de la Asociación Nacional de OTIC, al señor Manuel Ureta Viviani, Director Ejecutivo de Fundación INFOCAP, y a la señora Maria Cecilia Reinoso Bustos, Presidenta de la Asociación Gremial Alianza Mujeres en la Capacitación. Medio Ambiente 13",
+          "t": "Sesión citada con el objeto de conocer los artículos 26, 27 y 30 del proyecto de ley “Para la reconstrucción nacional y el desarrollo económico y social”, correspondiente al boletín N° 18.216-05, con urgencia calificada de “suma”, remitidos a esta Comisión en virtud del acuerdo adoptado por los Comités Parlamentarios con fecha 22 de abril de 2026. Para estos efectos, se ha dispuesto invitar al señor Jorge Quiroz Castro, Ministro de Hacienda, y al señor Tomás Rau Binder, Ministro del Trabajo y Previsión Social",
           "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-21",
-          "tipo": "citacion"
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21",
+          "tipo": "resultado"
         },
         {
           "f": "2026-05-20",
@@ -3414,15 +3371,15 @@
     "duplicados_fusionados": 0,
     "movimientos_cruzados_descartados": 0,
     "resultados_senado_vagos_reemplazados": 0,
-    "citaciones_pasadas_redundantes_descartadas": 5,
+    "citaciones_pasadas_redundantes_descartadas": 1,
     "candidatos_antiguos_o_invalidos_descartados": 0,
     "logs": [
-      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-23 · residuos truncados limpiados: 0",
-      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21 · residuos truncados limpiados: 0",
-      "Cámara resultados: 30 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-20 · residuos truncados limpiados: 0",
-      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19 · residuos truncados limpiados: 11",
-      "Cámara resultados: 50 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-17 · residuos truncados limpiados: 2",
-      "Cámara resultados: 57 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-16 · residuos truncados limpiados: 0",
+      "Cámara resultados: 36 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-23 · residuos truncados limpiados: 0",
+      "Cámara resultados: 15 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-20 · residuos truncados limpiados: 3",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-19 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-17 · residuos truncados limpiados: 2",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-16 · residuos truncados limpiados: 0",
       "Cámara resultados: 21 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-15 · residuos truncados limpiados: 0",
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-27 · residuos truncados limpiados: 0",
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-31 · residuos truncados limpiados: 0",
@@ -3539,14 +3496,14 @@
       "Senado ficha 18.524-05: 0 movimientos"
     ]
   },
-  "cambios_detectados": 11,
+  "cambios_detectados": 5,
   "paquete_actualizado": "2026-08-18T14:02:00-04:00",
   "proyectos_seguimiento_obligatorio": [
     "18.216-05",
     "18.524-05"
   ],
   "estado_fuentes": {
-    "generado": "2026-08-20T15:21:50-04:00",
+    "generado": "2026-08-20T15:57:45-04:00",
     "total_obligatorias": 13,
     "ok": 13,
     "parcial": 0,
@@ -3558,7 +3515,7 @@
         "url": "https://www.camara.cl/legislacion/ProyectosDeLey/proyectos_ley.aspx",
         "modo": "web+datos-abiertos",
         "estado": "ok",
-        "revisado": "2026-08-20T15:13:02-04:00",
+        "revisado": "2026-08-20T15:46:51-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (20718 bytes)"
@@ -3569,10 +3526,10 @@
         "url": "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx",
         "modo": "web+semanas",
         "estado": "ok",
-        "revisado": "2026-08-20T15:13:05-04:00",
+        "revisado": "2026-08-20T15:46:53-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "Respuesta oficial leída (62018 bytes)"
+        "detalle": "Respuesta oficial leída (903 bytes)"
       },
       "camara_resultados_comisiones": {
         "camara": "Cámara de Diputados",
@@ -3580,10 +3537,10 @@
         "url": "https://www.camara.cl/legislacion/comisiones/resultados_todos.aspx",
         "modo": "web+semanas",
         "estado": "ok",
-        "revisado": "2026-08-20T15:13:08-04:00",
+        "revisado": "2026-08-20T15:46:56-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "Respuesta oficial leída (61576 bytes)"
+        "detalle": "Respuesta oficial leída (18596 bytes)"
       },
       "camara_tabla_semanal": {
         "camara": "Cámara de Diputados",
@@ -3591,7 +3548,7 @@
         "url": "https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
         "modo": "web",
         "estado": "ok",
-        "revisado": "2026-08-20T15:13:11-04:00",
+        "revisado": "2026-08-20T15:46:58-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (899 bytes)"
@@ -3602,7 +3559,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
         "modo": "web",
         "estado": "ok",
-        "revisado": "2026-08-20T15:13:12-04:00",
+        "revisado": "2026-08-20T15:46:59-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (181274 bytes)"
@@ -3613,10 +3570,10 @@
         "url": "https://www.camara.cl/legislacion/comisiones/comisiones_permanentes.aspx#marca",
         "modo": "web+directorio",
         "estado": "ok",
-        "revisado": "2026-08-20T15:13:21-04:00",
-        "paginas_revisadas": 1,
+        "revisado": "2026-08-20T15:49:29-04:00",
+        "paginas_revisadas": 46,
         "eventos_relevantes": 0,
-        "detalle": "Directorio revisado; 0 página(s) de comisión accesibles"
+        "detalle": "Directorio revisado; 45 página(s) de comisión accesibles"
       },
       "camara_votaciones_sala": {
         "camara": "Cámara de Diputados",
@@ -3624,7 +3581,7 @@
         "url": "https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx",
         "modo": "web+detalle",
         "estado": "ok",
-        "revisado": "2026-08-20T15:16:12-04:00",
+        "revisado": "2026-08-20T15:51:39-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "0 menciones analizadas"
@@ -3635,7 +3592,7 @@
         "url": "https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx",
         "modo": "web+detalle",
         "estado": "ok",
-        "revisado": "2026-08-20T15:17:00-04:00",
+        "revisado": "2026-08-20T15:52:46-04:00",
         "paginas_revisadas": 13,
         "eventos_relevantes": 0,
         "detalle": "Portada + 12 detalle(s)"
@@ -3646,7 +3603,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-08-20T15:17:16-04:00",
+        "revisado": "2026-08-20T15:53:03-04:00",
         "paginas_revisadas": 2,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 2 página(s) revisadas"
@@ -3657,7 +3614,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala/votaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-08-20T15:17:24-04:00",
+        "revisado": "2026-08-20T15:53:12-04:00",
         "paginas_revisadas": 2,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 2 página(s) revisadas"
@@ -3668,7 +3625,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/sesiones-de-sala",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-08-20T15:18:05-04:00",
+        "revisado": "2026-08-20T15:54:00-04:00",
         "paginas_revisadas": 12,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 12 página(s) revisadas"
@@ -3679,7 +3636,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/resultados",
         "modo": "navegador",
         "estado": "ok",
-        "revisado": "2026-08-20T15:18:40-04:00",
+        "revisado": "2026-08-20T15:54:38-04:00",
         "paginas_revisadas": 11,
         "eventos_relevantes": 1,
         "detalle": "10 fila(s) recientes; 10 ficha(s) leídas"
@@ -3690,7 +3647,7 @@
         "url": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/",
         "modo": "por-proyecto",
         "estado": "ok",
-        "revisado": "2026-08-20T15:21:50-04:00",
+        "revisado": "2026-08-20T15:57:45-04:00",
         "paginas_revisadas": 122,
         "eventos_relevantes": 0,
         "detalle": "Fichas revisadas; errores registrados: 0"
