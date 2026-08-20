@@ -3,9 +3,12 @@ name: Actualizar monitor legislativo ABIF
 on:
   workflow_dispatch:
   schedule:
-    # Cuatro revisiones diarias de lunes a viernes.
-    # GitHub Actions utiliza UTC.
-    - cron: '15 11,15,19,23 * * 1-5'
+    # Revisión temprana todos los días. GitHub Actions usa UTC.
+    - cron: '15 11 * * *'
+    # Revisiones durante la jornada legislativa, lunes a viernes.
+    - cron: '15 15,19,23 * * 1-5'
+    # Revisión de cierre del viernes (aprox. 21:15 Chile en horario -04).
+    - cron: '15 1 * * 6'
 
 permissions:
   contents: write
@@ -17,7 +20,7 @@ concurrency:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 45
 
     steps:
       - name: Checkout
@@ -32,32 +35,34 @@ jobs:
       - name: Instalar dependencias
         run: pip install -r requirements.txt
 
-      - name: Ejecutar scraper coordinado Cámara + Senado
+      - name: Instalar Chromium
+        run: python -m playwright install --with-deps chromium
+
+      - name: Revisar Cámara y Senado
         env:
           USAR_JINA_FALLBACK: '1'
           PAUSA_SENADO: '0.15'
-        run: python scraper_abif_v7.py --input proyectos.json --output proyectos.json
+          SENADO_RESULTADOS_DIAS: '35'
+        run: python scraper_abif.py --input proyectos.json --output proyectos.json
 
-      - name: Validar JSON generado
+      - name: Validar salida y cobertura
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-
-          p = Path('proyectos.json')
-          data = json.loads(p.read_text(encoding='utf-8'))
-
-          assert isinstance(data.get('proyectos'), list) and data['proyectos'], 'JSON sin proyectos'
+          data=json.loads(Path('proyectos.json').read_text(encoding='utf-8'))
+          assert isinstance(data.get('proyectos'),list) and data['proyectos'], 'JSON sin proyectos'
           assert data.get('generado'), 'Falta timestamp generado'
-          assert data.get('politica_bandeja', {}).get('fecha_minima_ingreso') == '2026-06-01'
-
-          print(
-              'OK:',
-              len(data['proyectos']),
-              'proyectos;',
-              len(data.get('candidatos', [])),
-              'candidatos'
-          )
+          assert data.get('politica_bandeja',{}).get('fecha_minima_ingreso')=='2026-06-01'
+          ef=data.get('estado_fuentes',{})
+          assert ef.get('total_obligatorias')==13, f"Se esperaban 13 fuentes obligatorias: {ef}"
+          fuentes=ef.get('fuentes',{})
+          assert len(fuentes)==13, f"Faltan fuentes en estado_fuentes: {len(fuentes)}"
+          print('Proyectos:',len(data['proyectos']))
+          print('Candidatos:',len(data.get('candidatos',[])))
+          print('Fuentes obligatorias: OK',ef.get('ok'),'Parcial',ef.get('parcial'),'Error/no revisada',ef.get('error_o_no_revisada'))
+          for k,v in fuentes.items():
+              print(v.get('estado','?').upper(), '-', v.get('camara'), '-', v.get('nombre'))
           PY
 
       - name: Publicar cambios si los hay
@@ -66,10 +71,8 @@ jobs:
             echo "Sin cambios en proyectos.json"
             exit 0
           fi
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add proyectos.json
           git commit -m "Actualizar monitor legislativo"
           git push
