@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Scraper ABIF v8.0 — monitor legislativo ABIF definitivo Cámara + Senado.
+Scraper ABIF v8.2 — monitor legislativo ABIF definitivo Cámara + Senado.
 
 Objetivos de esta versión
 -------------------------
@@ -979,130 +979,270 @@ def fecha_para_pos(text: str, pos: int, fallback: Optional[str] = None) -> Optio
     return f
 
 
-def contexto_especifico_bloque(texto: str, boletin: str) -> str:
-    """Devuelve una frase/bloque coherente referido al boletín pedido.
+def _bloques_celda(node) -> List[str]:
+    """Extrae bloques naturales de una celda sin imponer límites de caracteres.
 
-    Las páginas de comisiones suelen poner varios proyectos dentro de una misma
-    fila. No debemos asignar toda esa fila a cada boletín. Se conserva la oración
-    que contiene el boletín y, cuando es útil, la oración inmediatamente anterior.
+    La Cámara separa materias mediante <br>, <p>, <div> y elementos similares. Al
+    usar saltos de línea preservamos esos límites y evitamos unir una materia con la
+    comisión o asunto siguiente.
+    """
+    if node is None:
+        return []
+    txt = node.get_text("\n", strip=True)
+    out: List[str] = []
+    for parte in re.split(r"\n+", txt or ""):
+        x = re.sub(r"\s+", " ", parte).strip(" \t|·")
+        if not x:
+            continue
+        # Une fragmentos HTML extremadamente cortos solo cuando son continuación
+        # inequívoca (p. ej. una línea que quedó separada por un <span>).
+        if out and len(x) < 28 and not re.match(r"(?i)^(?:nota:|recibir|continuar|iniciar|comenzar|tratar|analizar|pronunciarse|se\s|diputad[oa]s asistentes|reemplazos:|otros diputad)", x):
+            out[-1] = (out[-1] + " " + x).strip()
+        else:
+            out.append(x)
+    return out
+
+
+def _bloques_texto(texto: str) -> List[str]:
+    """Bloques para Markdown/Jina; conserva filas y párrafos completos."""
+    out: List[str] = []
+    for parte in re.split(r"\n+", texto or ""):
+        x = re.sub(r"\s+", " ", parte).strip(" \t|·")
+        if x:
+            out.append(x)
+    return out
+
+
+def _segmento_boletin_en_bloques(bloques: Sequence[str], boletin: str) -> str:
+    """Devuelve solo el bloque que contiene el boletín exacto.
+
+    Si el HTML separó una misma oración en dos bloques, agrega la continuación
+    inmediata únicamente cuando no comienza una nueva materia. Nunca recorta por
+    cantidad de caracteres.
+    """
+    b = norm_boletin(boletin)
+    for i, x in enumerate(bloques):
+        if b not in boletines_en_texto(x):
+            continue
+        seg = x.strip()
+        if i + 1 < len(bloques):
+            nxt = bloques[i+1].strip()
+            # Continuaciones típicas: invitados/detalles de la misma materia. No
+            # arrastrar una nueva materia, asistentes ni otra comisión.
+            if nxt and not re.match(
+                r"(?i)^(?:nota:|recibir\b|continuar\b|iniciar\b|comenzar\b|tratar\b|analizar\b|pronunciarse\b|diputad[oa]s asistentes:|reemplazos:|otros diputad|[A-ZÁÉÍÓÚÑ][^:]{0,80}\s+\d{1,2}:\d{2})",
+                nxt,
+            ) and not boletines_en_texto(nxt):
+                # Solo una continuación; no concatenamos indefinidamente.
+                seg = (seg + " " + nxt).strip()
+        return seg
+    return ""
+
+
+def _es_nota_agenda(texto: str) -> bool:
+    n = norm_text(texto)
+    return n.startswith("nota ") or "plazo para la formulacion de indicaciones" in n or "plazo para presentar indicaciones" in n or "plazo de indicaciones" in n
+
+
+def _fecha_explicita_agenda(texto: str, fecha_fila: Optional[str]) -> Optional[str]:
+    """Para una NOTA/plazo usa la fecha futura mencionada; nunca cambia la fecha
+    de una sesión por una fecha incidental dentro de la materia.
+    """
+    if not _es_nota_agenda(texto):
+        return fecha_fila
+    f = parse_fecha_any(texto)
+    if f and (not fecha_fila or f >= fecha_fila):
+        return f
+    return fecha_fila
+
+
+def contexto_especifico_bloque(texto: str, boletin: str) -> str:
+    """Fallback conservador: extrae la oración completa del boletín exacto.
+
+    Se mantiene para fuentes no tabulares. A diferencia de versiones antiguas,
+    jamás utiliza ventanas fijas ni devuelve texto que termine a mitad de palabra.
     """
     t = re.sub(r"\s+", " ", texto or " ").strip()
     if not t:
         return ""
     b = norm_boletin(boletin)
-    ocurr = list(re.finditer(r"(?i)(?:bolet[ií]n(?:es)?\s*(?:n[°º]?\s*)?)?(\d{1,2}\.?\d{3}-\d{2})", t))
-    own = next((m for m in ocurr if norm_boletin(m.group(1)) == b), None)
-    if not own:
+    matches = [m for m in re.finditer(r"(?i)(?:bolet[ií]n(?:es)?\s*(?:n[°º]?\s*)?)?(\d{1,2}\.?\d{3}-\d{2})", t) if norm_boletin(m.group(1)) == b]
+    if not matches:
         return t
-    if len(ocurr) == 1:
-        return t
-
-    # Límites naturales de oración alrededor del boletín.
-    antes = [t.rfind('. ', 0, own.start()), t.rfind('! ', 0, own.start()), t.rfind('? ', 0, own.start())]
-    start = max(antes)
-    start = start + 2 if start >= 0 else 0
-    despues = [x for x in [t.find('. ', own.end()), t.find('! ', own.end()), t.find('? ', own.end())] if x >= 0]
-    end = min(despues) + 1 if despues else len(t)
-
-    # Nunca atravesar hacia el siguiente boletín distinto.
-    idx = ocurr.index(own)
-    if idx + 1 < len(ocurr) and end > ocurr[idx + 1].start():
-        previo_punto = t.rfind('. ', own.end(), ocurr[idx + 1].start())
-        end = previo_punto + 1 if previo_punto >= own.end() else ocurr[idx + 1].start()
-    if idx > 0 and start < ocurr[idx - 1].end():
-        punto = t.find('. ', ocurr[idx - 1].end(), own.start())
-        start = punto + 2 if punto >= 0 else own.start()
-
-    seg = t[start:end].strip()
+    own = matches[0]
+    # Inicio: último límite natural o marcador de materia antes del boletín.
+    starts = [0]
+    for pat in [r"\.\s+", r"!\s+", r"\?\s+", r"(?i)(?=NOTA:)", r"(?i)(?=Recibir\b)", r"(?i)(?=Continuar\b)", r"(?i)(?=Iniciar\b)", r"(?i)(?=Comenzar\b)", r"(?i)(?=Tratar\b)"]:
+        for m in re.finditer(pat, t[:own.start()]):
+            starts.append(m.end() if pat.startswith('\\.') or pat.startswith('!') or pat.startswith('\\?') else m.start())
+    start = max(starts)
+    # Fin: siguiente límite de oración o marcador de una nueva materia.
+    ends = [len(t)]
+    after = t[own.end():]
+    for pat in [r"\.\s+", r"!\s+", r"\?\s+", r"(?i)\s+(?=NOTA:|Recibir\b|Continuar\b|Iniciar\b|Comenzar\b|Tratar\b|Diputad[oa]s Asistentes:|Reemplazos:|Otros Diputad)"]:
+        m = re.search(pat, after)
+        if m:
+            ends.append(own.end() + (m.end() if pat in {r"\.\s+",r"!\s+",r"\?\s+"} else m.start()))
+    end = min(ends)
+    seg = t[start:end].strip(" .;-")
     return seg or t
 
 
+def _contextos_camara_html(raw: str, fuente_url: str) -> List[Tuple[str, str, Optional[str]]]:
+    """Parser estructural de tablas semanales de Cámara.
+
+    Regla clave v8.2: la fecha de la sesión se obtiene por la POSICIÓN de la fila
+    respecto del encabezado LUNES/MARTES/etc. Nunca se usa una fecha escrita dentro
+    de la propia materia (por ejemplo, 'VIERNES 21 DE AGOSTO' como plazo de
+    indicaciones), que fue la causa de fechas erróneas en v8.1.
+    """
+    soup = BeautifulSoup(raw, "html.parser")
+    page_text = plain_text(raw)
+    out: List[Tuple[str, str, Optional[str]]] = []
+    tipo = "resultados" if "resultados_semana" in fuente_url else ("citaciones" if "citaciones_semana" in fuente_url else "tabla")
+    cursor = 0
+
+    for tr in soup.find_all("tr"):
+        tds = tr.find_all("td", recursive=False)
+        if len(tds) < 4:
+            # Algunas tablas usan wrappers; aceptamos td descendientes solo si
+            # no existe una fila hija con sus propios td para evitar megafilas.
+            if tr.find("tr"):
+                continue
+            tds = tr.find_all("td")
+        if len(tds) < 4:
+            continue
+
+        row_txt = re.sub(r"\s+", " ", tr.get_text(" ", strip=True)).strip()
+        if not boletines_en_texto(row_txt):
+            continue
+
+        # Fecha por posición de inicio de la fila en el texto de la página.
+        needle = re.sub(r"\s+", " ", tds[0].get_text(" ", strip=True)).strip()
+        pos = page_text.find(needle, cursor) if needle else -1
+        if pos < 0 and needle:
+            pos = page_text.find(needle)
+        if pos < 0:
+            # Como último recurso, ubica el primer boletín de esta fila.
+            bsrow = boletines_en_texto(row_txt)
+            posiciones = []
+            for bb in bsrow:
+                for token in (fmt_boletin(bb), bb):
+                    pp = page_text.find(token, cursor)
+                    if pp >= 0:
+                        posiciones.append(pp)
+            pos = min(posiciones) if posiciones else -1
+        if pos < 0:
+            continue
+        cursor = max(cursor, pos + max(1, len(needle)))
+        fecha_fila = fecha_para_pos(page_text, pos, None)
+        if not fecha_fila:
+            continue
+
+        cit_node = tds[3] if len(tds) >= 4 else None
+        res_node = tds[4] if len(tds) >= 5 else None
+        cit_bloques = _bloques_celda(cit_node)
+        res_bloques = _bloques_celda(res_node)
+        cit_text = " ".join(cit_bloques)
+        res_text = " ".join(res_bloques)
+        bs_cit = boletines_en_texto(cit_text)
+        bs_res = boletines_en_texto(res_text)
+        bs_row = []
+        for bb in bs_cit + bs_res:
+            if bb not in bs_row:
+                bs_row.append(bb)
+
+        for b in bs_row:
+            cit_ctx = _segmento_boletin_en_bloques(cit_bloques, b)
+            res_ctx = _segmento_boletin_en_bloques(res_bloques, b)
+
+            if tipo == "citaciones":
+                ctx = cit_ctx or res_ctx
+                if not ctx:
+                    continue
+                f = _fecha_explicita_agenda(ctx, fecha_fila)
+                out.append((b, ctx, f))
+                continue
+
+            if tipo == "resultados":
+                # Una NOTA/plazo incluida en Resultados no es un resultado de la
+                # sesión; se conserva como agenda futura limpia.
+                if cit_ctx and _es_nota_agenda(cit_ctx):
+                    f = _fecha_explicita_agenda(cit_ctx, fecha_fila)
+                    out.append((b, cit_ctx, f))
+                    continue
+
+                if res_ctx:
+                    out.append((b, res_ctx, fecha_fila))
+                    continue
+
+                # Si el resultado no repite el boletín, solo se puede asociar de
+                # forma segura cuando la fila trata un único PdL y su citación no
+                # es una nota incidental. En ese caso el Resultado completo de la
+                # fila corresponde a ese proyecto.
+                if len(set(bs_row)) == 1 and cit_ctx and not _es_nota_agenda(cit_ctx) and res_text:
+                    limpio = re.sub(r"(?i)\s*(?:Diputad[oa]s Asistentes:|Reemplazos:|Otros Diputados asistentes:).*$", "", res_text).strip()
+                    if limpio:
+                        out.append((b, limpio, fecha_fila))
+                    else:
+                        out.append((b, cit_ctx, fecha_fila))
+                elif cit_ctx:
+                    # No inventa qué parte del resultado corresponde al proyecto.
+                    # Conserva únicamente la materia de la citación como respaldo.
+                    out.append((b, cit_ctx, fecha_fila))
+                continue
+
+            ctx = cit_ctx or res_ctx
+            if ctx:
+                out.append((b, ctx, fecha_fila))
+
+    ded=[]; seen=set()
+    for b,ctx,f in out:
+        ctx = limpiar_evento_texto(ctx)
+        if not ctx or not f:
+            continue
+        k=(b,f,fingerprint_texto(ctx))
+        if k in seen:
+            continue
+        seen.add(k); ded.append((b,ctx,f))
+    return ded
+
+
 def contextos_por_boletin(raw: str, fuente_url: str) -> List[Tuple[str, str, Optional[str]]]:
-    """Extrae cada mención por su unidad estructural, sin cortar por caracteres.
+    """Extrae menciones de Cámara sin cortar ni mezclar materias.
 
-    v8.1: las páginas semanales de Cámara pueden llegar como HTML o como Markdown
-    (fallback Jina). El error anterior estaba en el último fallback: tomaba una
-    ventana fija de 420 caracteres antes y 760 después del boletín. Eso podía
-    empezar/terminar a mitad de palabra y, además, alcanzar la comisión siguiente.
-
-    Orden de preferencia:
-      1) fila HTML (<tr>/<li>) completa;
-      2) fila/línea Markdown completa, heredando el encabezado del día;
-      3) bloque completo del día, limitado por boletines vecinos, SIN topes fijos.
+    v8.2 prioriza la estructura real de la tabla (columnas Citación/Resultado) y
+    usa el encabezado del día como fecha. Markdown/Jina queda como respaldo.
     """
     raw = raw or ""
-    es_html = bool(re.search(r"<html|<table|<tr|<li|<div", raw, re.I))
-    page_text = plain_text(raw)
-    encontrados: List[Tuple[str, str, Optional[str]]] = []
-
-    # 1) HTML: una fila de la tabla equivale a una comisión/sesión. Nunca la
-    # recortamos por número de caracteres.
+    es_html = bool(re.search(r"<html|<table|<tr|<td", raw, re.I))
     if es_html:
-        soup = BeautifulSoup(raw, "html.parser")
-        cursor = 0
-        for node in soup.find_all(["tr", "li"]):
-            txt = re.sub(r"\s+", " ", node.get_text(" ", strip=True)).strip()
-            bs = boletines_en_texto(txt)
-            if not bs or len(txt) < 15:
-                continue
+        estruct = _contextos_camara_html(raw, fuente_url)
+        if estruct:
+            return estruct
 
-            f = parse_fecha_any(txt)
-            if not f:
-                prev = node.find_previous(["h1", "h2", "h3", "h4", "h5", "strong", "b"])
-                f = parse_fecha_any(prev.get_text(" ", strip=True) if prev else "")
-            if not f and page_text:
-                needle = txt[:240]
-                pos = page_text.find(needle, cursor)
-                if pos < 0:
-                    pos = page_text.find(needle)
-                if pos < 0:
-                    posiciones = [page_text.find(x, cursor) for b in bs for x in (fmt_boletin(b), b) if x]
-                    posiciones = [x for x in posiciones if x >= 0]
-                    pos = min(posiciones) if posiciones else -1
-                if pos >= 0:
-                    f = fecha_para_pos(page_text, pos, None)
-                    cursor = max(cursor, pos + max(1, len(needle)//2))
-
-            if not f:
-                continue
-            for b in bs:
-                encontrados.append((b, contexto_especifico_bloque(txt, b), f))
-
-        # Si la tabla HTML entregó filas fechadas, NO ejecutamos el fallback de
-        # texto sobre la misma página. Ese doble parseo era la principal fuente
-        # de duplicados cortados y mezclados.
-        if encontrados:
-            out=[]; seen=set()
-            for b,ctx,f in encontrados:
-                k=(b,f,fingerprint_texto(ctx))
-                if k in seen: continue
-                seen.add(k); out.append((b,ctx,f))
-            return out
-
-    # 2) Markdown/Jina: respeta cada línea/fila completa. Las tablas Markdown de
-    # Cámara conservan cada comisión en una línea con pipes; el encabezado del día
-    # suele venir en la línea inmediatamente anterior.
+    # Markdown/Jina: conserva fecha del encabezado del día. No reemplazarla por
+    # fechas incidentales de la materia salvo que sea una NOTA/plazo explícito.
     actual_fecha: Optional[str] = None
     estructurados: List[Tuple[str, str, Optional[str]]] = []
-    if not es_html and "\n" in raw:
+    if "\n" in raw:
         for linea in raw.splitlines():
             l = re.sub(r"\s+", " ", linea).strip()
             if not l:
                 continue
             fd = parse_fecha_any(l)
-            if fd and re.search(r"(?i)lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo", l):
+            if fd and re.search(r"(?i)^(?:#+\s*)?(?:lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo)\b", l):
                 actual_fecha = fd
+                continue
             bs = boletines_en_texto(l)
-            if not bs or len(l) < 15:
+            if not bs or len(l) < 15 or not actual_fecha:
                 continue
-            f = parse_fecha_any(l) or actual_fecha
-            if not f:
-                continue
-            # Quita separadores de tabla sin mutilar el contenido.
             l = re.sub(r"^\s*\|\s*|\s*\|\s*$", "", l).strip()
             l = re.sub(r"\s*\|\s*", " · ", l)
             for b in bs:
-                estructurados.append((b, contexto_especifico_bloque(l, b), f))
+                ctx = contexto_especifico_bloque(l, b)
+                f = _fecha_explicita_agenda(ctx, actual_fecha)
+                estructurados.append((b,ctx,f))
         if estructurados:
             out=[]; seen=set()
             for b,ctx,f in estructurados:
@@ -1111,70 +1251,81 @@ def contextos_por_boletin(raw: str, fuente_url: str) -> List[Tuple[str, str, Opt
                 seen.add(k); out.append((b,ctx,f))
             return out
 
-    # 3) Último fallback: trabaja con el BLOQUE COMPLETO DEL DÍA y con boletines
-    # vecinos. Importante: no existe m.end()+760 ni m.start()-420.
-    text = page_text
+    # Último fallback: bloque del día y boletines vecinos, sin topes fijos.
+    text = plain_text(raw)
     occ = list(re.finditer(r"(?i)(?:bolet[ií]n(?:es)?\s*(?:n[°º]?\s*)?)?(\d{1,2}\.?\d{3}-\d{2})", text))
     dias = fechas_dia_en_texto(text)
     fallback: List[Tuple[str, str, Optional[str]]] = []
     for i, m in enumerate(occ):
         b = norm_boletin(m.group(1))
-        f = fecha_para_pos(text, m.start(), parse_fecha_any(text[:m.start()]))
-
-        day_start = 0
-        day_end = len(text)
-        for j,(pos,ff) in enumerate(dias):
-            if pos <= m.start():
-                day_start = pos
-                if f is None: f = ff
+        f = fecha_para_pos(text, m.start(), None)
+        if not f:
+            continue
+        day_start = 0; day_end = len(text)
+        for j,(pp,ff) in enumerate(dias):
+            if pp <= m.start():
+                day_start = pp; f = ff
                 day_end = dias[j+1][0] if j+1 < len(dias) else len(text)
             else:
                 break
-
         prev_end = occ[i-1].end() if i and occ[i-1].start() >= day_start else day_start
         next_start = occ[i+1].start() if i+1 < len(occ) and occ[i+1].start() < day_end else day_end
         bloque = re.sub(r"\s+", " ", text[max(day_start, prev_end):min(day_end, next_start)]).strip()
         ctx = contexto_especifico_bloque(bloque or text[day_start:day_end], b)
+        f = _fecha_explicita_agenda(ctx, f)
         fallback.append((b, ctx, f))
     return fallback
 
 def _evento_camara_semanal_sospechoso(h: Dict[str, Any], url: str) -> bool:
-    """Detecta residuos del parser antiguo para poder reconstruir esa fuente.
-
-    Solo actúa sobre eventos automáticos provenientes de la MISMA página semanal;
-    no toca resúmenes manuales ni otras fuentes.
-    """
+    """Detecta registros heredados mutilados/mezclados de páginas semanales."""
     if str(h.get("fuente") or "") != url:
         return False
     t = str(h.get("t") or "").strip()
     if not t:
         return True
-    # Inicio abrupto/mid-word, final claramente truncado, o mezcla con otra comisión.
-    inicio_malo = bool(re.match(r"^[,;:]|^[a-záéíóúñ]{1,12}\s", t))
-    fin_malo = bool(re.search(r"\b(?:del|de|la|el|los|las|un|una|y|o|al|para|por|señor|señora|proyecto|correspondiente|t)$", t, re.I))
-    mezcla = len(re.findall(r"\bSala\s+[A-ZÁÉÍÓÚÑ][^\n]{0,90}?\b(?:nivel|Presencial|Telemática)\b", t, re.I)) >= 2
-    mezcla = mezcla or bool(re.search(r"Diputados Asistentes:.*?\b(?:Trabajo|Salud|Defensa Nacional|Hacienda|Economía|Obras Públicas|Personas Mayores)\b\s+\d{1,2}:\d{2}", t, re.I|re.S))
-    return inicio_malo or fin_malo or mezcla
+    # Señales inequívocas de las versiones antiguas.
+    if "…" in t or "..." == t[-3:]:
+        return True
+    primer = re.match(r"^([A-Za-zÁÉÍÓÚÑáéíóúñ]+)([^A-Za-zÁÉÍÓÚÑáéíóúñ]|$)", t)
+    if primer and primer.group(1)[:1].islower() and norm_text(primer.group(1)) not in {
+        "el","la","los","las","un","una","se","al","del","en","con","por","para","que","y","o"
+    }:
+        return True
+    if len(t) > 180 and re.search(r"\b(?:del|de|la|el|los|las|un|una|y|o|al|para|por|señor|señora|proyecto|correspondiente|este|esta|t)$", t, re.I):
+        return True
+    if len(re.findall(r"\bSala\s+[A-ZÁÉÍÓÚÑ][^\n]{0,100}?\b(?:nivel|Presencial|Telemática)\b", t, re.I)) >= 2:
+        return True
+    if re.search(r"Diputad[oa]s Asistentes:.*?\b(?:Trabajo|Salud|Defensa Nacional|Hacienda|Economía|Obras Públicas|Personas Mayores|Ciencias|Cultura)\b\s+\d{1,2}:\d{2}", t, re.I|re.S):
+        return True
+    return False
+
+
+def _limpiar_fuente_camara_para_reconstruir(data: Dict[str, Any], url: str) -> int:
+    """Elimina los eventos automáticos provenientes de UNA página semanal ya
+    leída correctamente, para reconstruirlos con el parser actual.
+
+    Esto es deliberado: conservar registros viejos de la misma URL permitía que
+    fragmentos mutilados siguieran visibles aunque el parser nuevo funcionara.
+    No toca resúmenes manuales ni eventos de otras fuentes.
+    """
+    n = 0
+    for p in data.get("proyectos") or []:
+        for campo in ("hist", "agenda"):
+            arr = []
+            for h in p.get(campo) or []:
+                misma = str(h.get("fuente") or "") == url
+                automatico = str(h.get("tipo") or "") in {"resultado","citacion","agenda"}
+                if misma and automatico:
+                    n += 1
+                    continue
+                arr.append(h)
+            p[campo] = arr
+    return n
 
 
 def _limpiar_residuos_fuente_camara(data: Dict[str, Any], url: str) -> int:
-    """Elimina SOLO registros manifiestamente mutilados de una fuente ya leída.
-
-    Se llama después de obtener correctamente la página, por lo que si Cámara está
-    caída se conserva el historial anterior. En la misma corrida se vuelven a crear
-    los eventos desde la fila oficial completa.
-    """
-    n=0
-    for p in data.get("proyectos") or []:
-        for campo in ("hist","agenda"):
-            arr=[]
-            for h in p.get(campo) or []:
-                if _evento_camara_semanal_sospechoso(h,url):
-                    n+=1
-                else:
-                    arr.append(h)
-            p[campo]=arr
-    return n
+    # Compatibilidad con llamadas antiguas; v8.2 reconstruye toda la fuente.
+    return _limpiar_fuente_camara_para_reconstruir(data, url)
 
 
 def scan_camara_semana(data: Dict[str, Any], meta_cache: Dict[str, Optional[Dict[str, Any]]]) -> Tuple[int, List[str]]:
@@ -1217,8 +1368,14 @@ def scan_camara_semana(data: Dict[str, Any], meta_cache: Dict[str, Optional[Dict
                     # si existe un resultado sustantivo del mismo día. Esto evita perder
                     # completamente una sesión cuando la página de Resultados falla.
                     if tipo == "resultados":
-                        tipo_evento = "resultado"
-                        a_agenda = False
+                        # Una nota de plazo/indicaciones futura que aparece dentro
+                        # de Resultados no es un resultado de la sesión.
+                        if _es_nota_agenda(ctx) and f >= HOY.isoformat():
+                            tipo_evento = "agenda"
+                            a_agenda = True
+                        else:
+                            tipo_evento = "resultado"
+                            a_agenda = False
                     elif tipo == "citaciones":
                         tipo_evento = "agenda" if es_futuro else "citacion"
                         a_agenda = es_futuro
@@ -2361,7 +2518,7 @@ def main(argv: Optional[Sequence[str]] = None) -> None:
 
     generado = dt.datetime.now(TZ).replace(microsecond=0).isoformat()
     data["generado"] = generado
-    data["version"] = dt.datetime.now(TZ).strftime("%Y-%m-%d-%H%M-abif-v8.1")
+    data["version"] = dt.datetime.now(TZ).strftime("%Y-%m-%d-%H%M-abif-v8.2")
     data["total"] = len(data["proyectos"])
     data["cambios_detectados"] = cambios
     data["calendario"] = {
