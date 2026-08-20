@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-20-0743-abif-v7.3",
-  "generado": "2026-08-20T07:43:48-04:00",
+  "version": "2026-08-20-1129-abif-v7.4",
+  "generado": "2026-08-20T11:29:46-04:00",
   "total": 98,
   "candidatos": [],
   "fuentes_monitoreadas": [],
@@ -336,7 +336,7 @@
       "urgencia": "Suma",
       "impacto": "Afectación del secreto y reserva bancaria.",
       "relevancia": "alta",
-      "fecha": "2026-06-16",
+      "fecha": "2026-08-19",
       "hist": [
         {
           "f": "2023-07-18",
@@ -439,6 +439,13 @@
           "t": "Cuenta del Mensaje 154-374 que hace presente la urgencia Suma",
           "tipo": "urgencia",
           "organo": "Comisión Mixta"
+        },
+        {
+          "f": "2026-08-19",
+          "t": "19/08/2026 15975-25 Comisión Mixta para",
+          "organo": "Senado",
+          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
+          "tipo": "resultado"
         }
       ],
       "resumenes": [
@@ -3657,6 +3664,7 @@
       "https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
       "https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
       "https://www.senado.cl/actividad-legislativa/comisiones/resultados",
+      "https://tramitacion.senado.cl/appsenado/index.php?ac=sesiones_celebradas&idcomision={idcomision}&mo=comisiones&t=",
       "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
       "https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini={bol}"
     ],
@@ -3665,28 +3673,28 @@
     "citaciones_pasadas_redundantes_descartadas": 0,
     "candidatos_antiguos_o_invalidos_descartados": 0,
     "logs": [
-      "Cámara citaciones: 1 menciones · https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-35",
-      "Cámara citaciones: 1 menciones · https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-36",
+      "Cámara citaciones: 7 menciones · https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-31",
+      "Cámara citaciones: 7 menciones · https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-35",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-23",
       "Cámara resultados: 20 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-24",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-25",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-26",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-27",
+      "Cámara resultados: 6 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-27",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-28",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29",
+      "Cámara resultados: 133 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-30",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-31",
+      "Cámara resultados: 6 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-31",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-32",
-      "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-33",
+      "Cámara resultados: 142 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-33",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-34",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-35",
       "Cámara resultados: 1 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-36",
       "Cámara tabla: 0 menciones · https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
       "Senado citaciones: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
-      "Senado citaciones: 7 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
+      "Senado citaciones: 8 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
       "Senado resultados: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
       "Senado tabla: 32 menciones · https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
-      "Senado ultimos: 115 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
+      "Senado ultimos: 116 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
       "Senado ficha 18.286-03: 0 movimientos",
       "Senado ficha 18.340-03: 0 movimientos",
       "Senado ficha 15.034-07: 0 movimientos",
@@ -3787,7 +3795,7 @@
       "Senado ficha 18.524-05: 0 movimientos"
     ]
   },
-  "cambios_detectados": 0,
+  "cambios_detectados": 1,
   "paquete_actualizado": "2026-08-18T14:02:00-04:00",
   "proyectos_seguimiento_obligatorio": [
     "18.216-05",
