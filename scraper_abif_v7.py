@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Scraper ABIF v7.2 — seguimiento legislativo coordinado Cámara + Senado.
+Scraper ABIF v7.4 — seguimiento legislativo coordinado Cámara + Senado.
 
 Objetivos de esta versión
 -------------------------
@@ -50,6 +50,7 @@ TZ = dt.timezone(dt.timedelta(hours=-4))
 HOY = dt.datetime.now(TZ).date()
 CANDIDATOS_DESDE = dt.date(2026, 6, 1)
 CAMARA_HISTORIAL_DESDE = dt.date(2026, 6, 1)
+SENADO_HISTORIAL_DESDE = dt.date(2026, 6, 1)
 
 CAMARA_BASE = "https://www.camara.cl/"
 CAMARA_CITACIONES_TODAS = "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx"
@@ -69,9 +70,13 @@ SENADO_CITACIONES_ALT = (
 SENADO_RESULTADOS = "https://www.senado.cl/actividad-legislativa/comisiones/resultados"
 SENADO_TABLA = "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal"
 SENADO_ULTIMOS = "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion"
+SENADO_SESIONES_COMISION = (
+    "https://tramitacion.senado.cl/appsenado/index.php?"
+    "ac=sesiones_celebradas&idcomision={idcomision}&mo=comisiones&t="
+)
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; ABIF-Monitor-Legislativo/7.2; +https://github.com/)",
+    "User-Agent": "Mozilla/5.0 (compatible; ABIF-Monitor-Legislativo/7.4; +https://github.com/)",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "es-CL,es;q=0.9,en;q=0.5",
 }
@@ -519,6 +524,21 @@ def merge_proyectos(base: Dict[str, Any], otro: Dict[str, Any]) -> Dict[str, Any
             base[campo] = v
     if outro_id := otro.get("manual"):
         base["manual"] = base.get("manual") or outro_id
+
+    # Metadatos de comisiones del Senado descubiertos desde citaciones. Son claves
+    # para poder consultar luego los resultados server-rendered por comisión.
+    sc = []
+    seen_sc = set()
+    for c in list(base.get("senado_comisiones") or []) + list(otro.get("senado_comisiones") or []):
+        if not isinstance(c, dict):
+            continue
+        cid = str(c.get("id") or "").strip()
+        if not cid or cid in seen_sc:
+            continue
+        seen_sc.add(cid)
+        sc.append(copy.deepcopy(c))
+    if sc:
+        base["senado_comisiones"] = sc
 
     base["hist"] = dedup_eventos(list(base.get("hist") or []) + list(otro.get("hist") or []))
     base["agenda"] = dedup_eventos(list(base.get("agenda") or []) + list(otro.get("agenda") or []))
@@ -1181,6 +1201,232 @@ def parse_senado_tabla(text: str) -> List[Tuple[str, str, Optional[str]]]:
     return out
 
 
+
+def id_comision_desde_href(href: str) -> Optional[str]:
+    """Extrae el id de comisión desde URLs modernas o legacy del Senado."""
+    h = str(href or "")
+    m = re.search(r"/actividad-legislativa/comisiones/(\d+)(?:/|$|[?#])", h)
+    if m:
+        return m.group(1)
+    m = re.search(r"[?&]idcomision=(\d+)", h, re.I)
+    return m.group(1) if m else None
+
+
+def registrar_comision_senado(p: Dict[str, Any], cid: str, nombre: str = "", fuente: str = "") -> bool:
+    cid = str(cid or "").strip()
+    if not cid:
+        return False
+    arr = p.setdefault("senado_comisiones", [])
+    for c in arr:
+        if str(c.get("id") or "") == cid:
+            cambio = False
+            if nombre and not c.get("nombre"):
+                c["nombre"] = nombre; cambio = True
+            if fuente and c.get("fuente") != fuente:
+                c["fuente"] = fuente; cambio = True
+            c["ultima_mencion"] = HOY.isoformat()
+            return cambio
+    arr.append({
+        "id": cid,
+        "nombre": nombre or "Comisión del Senado",
+        "fuente": fuente,
+        "ultima_mencion": HOY.isoformat(),
+    })
+    return True
+
+
+def descubrir_comisiones_senado(raw: str, proyectos: List[Dict[str, Any]], fuente_url: str) -> int:
+    """Asocia boletines seguidos con el id de la comisión que aparece en citaciones.
+
+    El martes el Senado puede publicar una citación futura y el jueves el resultado
+    ya no está en esa misma vista. Guardar el id de comisión permite consultar
+    directamente el historial de sesiones de esa comisión en cada corrida.
+    """
+    pm = pmap_all(proyectos)
+    cambios = 0
+    if not raw:
+        return 0
+
+    # HTML: busca el enlace de comisión en la fila/bloque o encabezado cercano.
+    if re.search(r"<html|<table|<tr|<li|<div", raw, re.I):
+        soup = BeautifulSoup(raw, "html.parser")
+        for node in soup.find_all(["tr", "li", "div", "p"]):
+            txt = re.sub(r"\s+", " ", node.get_text(" ", strip=True)).strip()
+            bs = [b for b in boletines_en_texto(txt) if b in pm]
+            if not bs:
+                continue
+            candidatos = []
+            cur = node
+            for _ in range(4):
+                if cur is None:
+                    break
+                candidatos.extend(cur.find_all("a", href=True))
+                cur = cur.parent
+            # Los encabezados de las citaciones modernas suelen estar antes de la materia.
+            for prev in node.find_all_previous(["h2", "h3", "h4", "h5", "a"], limit=20):
+                if getattr(prev, "name", None) == "a" and prev.get("href"):
+                    candidatos.append(prev)
+                else:
+                    candidatos.extend(prev.find_all("a", href=True))
+
+            visto = set()
+            for a in candidatos:
+                href = a.get("href", "")
+                cid = id_comision_desde_href(href)
+                if not cid or cid in visto:
+                    continue
+                visto.add(cid)
+                nombre = re.sub(r"\s+", " ", a.get_text(" ", strip=True)).strip()
+                if not nombre:
+                    # Si el enlace no tiene texto útil, rescata el encabezado más cercano.
+                    h = a.find_parent(["h2", "h3", "h4", "h5"])
+                    nombre = re.sub(r"\s+", " ", h.get_text(" ", strip=True)).strip() if h else ""
+                for b in bs:
+                    for p in pm[b]:
+                        if registrar_comision_senado(p, cid, nombre, urljoin(fuente_url, href)):
+                            cambios += 1
+                # En una fila de citación basta el primer id de comisión razonable.
+                break
+
+    # Fallback Markdown/texto (Jina / página legacy): busca idcomision o URL moderna
+    # en una ventana cercana a cada boletín.
+    text = raw
+    for m in re.finditer(r"(?i)(\d{1,2}\.?\d{3}-\d{2})", text):
+        b = norm_boletin(m.group(1))
+        if b not in pm:
+            continue
+        window = text[max(0, m.start()-2600): min(len(text), m.end()+2600)]
+        ids = []
+        ids += re.findall(r"[?&]idcomision=(\d+)", window, re.I)
+        ids += re.findall(r"/actividad-legislativa/comisiones/(\d+)(?:/|$|[?#])", window)
+        if ids:
+            cid = ids[0]
+            for p in pm[b]:
+                if registrar_comision_senado(p, cid, "Comisión del Senado", fuente_url):
+                    cambios += 1
+    return cambios
+
+
+def _resultado_senado_desde_celdas(celdas: List[str], fila, base_url: str, nombre_comision: str) -> Optional[Tuple[str, List[str], str, str]]:
+    """Normaliza una fila del listado legacy de sesiones celebradas."""
+    if len(celdas) < 4:
+        return None
+    f = parse_fecha_any(celdas[0])
+    if not f:
+        return None
+    try:
+        if dt.date.fromisoformat(f) < SENADO_HISTORIAL_DESDE:
+            return None
+    except Exception:
+        return None
+    bs = boletines_en_texto(" ".join(celdas[:4]))
+    if not bs:
+        return None
+    tema = celdas[1].strip() if len(celdas) > 1 else ""
+    aspectos = celdas[3].strip() if len(celdas) > 3 else ""
+    acuerdos = celdas[4].strip() if len(celdas) > 4 else ""
+    partes = []
+    if nombre_comision:
+        partes.append(nombre_comision)
+    if tema:
+        partes.append(tema)
+    if aspectos:
+        partes.append(f"Aspectos considerados: {aspectos}")
+    if acuerdos:
+        partes.append(f"Acuerdos: {acuerdos}")
+    texto = ". ".join(x.rstrip(" .") for x in partes if x).strip() + "."
+    fuente = base_url
+    if fila is not None:
+        for a in fila.find_all("a", href=True):
+            href = a.get("href", "")
+            if "sesiones_celebradas" in href or "idsesion=" in href or "actividad-legislativa/comisiones/" in href:
+                fuente = urljoin(base_url, href)
+                break
+    return f, bs, texto, fuente
+
+
+def scan_senado_resultados_por_comision(data: Dict[str, Any]) -> Tuple[int, List[str]]:
+    """Consulta resultados reales por comisión en el endpoint legacy del Senado.
+
+    La página moderna /actividad-legislativa/comisiones/resultados carga su tabla
+    mediante JavaScript y una petición HTTP simple puede devolver 0 filas aunque
+    existan resultados publicados. El listado legacy `sesiones_celebradas`, en
+    cambio, es server-rendered y contiene Fecha, Boletín, Aspectos y Acuerdos.
+    """
+    proyectos = data.setdefault("proyectos", [])
+    pm = pmap_all(proyectos)
+    ids: Dict[str, Dict[str, Any]] = {}
+    for p in proyectos:
+        for c in p.get("senado_comisiones") or []:
+            if not isinstance(c, dict):
+                continue
+            cid = str(c.get("id") or "").strip()
+            if not cid:
+                continue
+            d = ids.setdefault(cid, {"nombre": c.get("nombre") or "Comisión del Senado", "boletines": set()})
+            d["boletines"].update(boletines_proyecto(p))
+            if c.get("nombre") and d.get("nombre") == "Comisión del Senado":
+                d["nombre"] = c.get("nombre")
+
+    cambios = 0
+    logs: List[str] = []
+    for cid, meta in sorted(ids.items(), key=lambda x: int(x[0]) if x[0].isdigit() else 10**9):
+        url = SENADO_SESIONES_COMISION.format(idcomision=cid)
+        try:
+            raw = request_text(url)
+            encontrados = 0
+            if re.search(r"<html|<table|<tr", raw or "", re.I):
+                soup = BeautifulSoup(raw, "html.parser")
+                for tr in soup.find_all("tr"):
+                    celdas = [re.sub(r"\s+", " ", c.get_text(" ", strip=True)).strip() for c in tr.find_all(["td", "th"])]
+                    res = _resultado_senado_desde_celdas(celdas, tr, url, str(meta.get("nombre") or ""))
+                    if not res:
+                        continue
+                    f, bs, texto, fuente = res
+                    for b in bs:
+                        if b not in pm or b not in meta["boletines"]:
+                            continue
+                        evento = {
+                            "f": f,
+                            "t": texto,
+                            "organo": "Comisión Mixta" if "mixta" in norm_text(str(meta.get("nombre") or "")) else "Senado",
+                            "fuente": fuente,
+                            "tipo": "resultado",
+                        }
+                        for p in pm[b]:
+                            if add_evento(p, evento, agenda=False):
+                                cambios += 1
+                        encontrados += 1
+            else:
+                # Fallback Markdown de Jina: filas tipo tabla separadas por '|'.
+                for line in (raw or "").splitlines():
+                    if "|" not in line or not re.search(r"\d{1,2}/\d{1,2}/20\d{2}", line):
+                        continue
+                    cells = [re.sub(r"\s+", " ", x).strip() for x in line.strip().strip("|").split("|")]
+                    res = _resultado_senado_desde_celdas(cells, None, url, str(meta.get("nombre") or ""))
+                    if not res:
+                        continue
+                    f, bs, texto, fuente = res
+                    for b in bs:
+                        if b not in pm or b not in meta["boletines"]:
+                            continue
+                        evento = {
+                            "f": f,
+                            "t": texto,
+                            "organo": "Comisión Mixta" if "mixta" in norm_text(str(meta.get("nombre") or "")) else "Senado",
+                            "fuente": fuente,
+                            "tipo": "resultado",
+                        }
+                        for p in pm[b]:
+                            if add_evento(p, evento, agenda=False):
+                                cambios += 1
+                        encontrados += 1
+            logs.append(f"Senado resultados comisión {cid}: {encontrados} resultado(s) relevante(s) · {url}")
+        except Exception as e:
+            logs.append(f"ERROR Senado resultados comisión {cid}: {e}")
+    return cambios, logs
+
+
 def scan_senado_paginas(data: Dict[str, Any], meta_cache: Dict[str, Optional[Dict[str, Any]]]) -> Tuple[int, List[str]]:
     proyectos = data.setdefault("proyectos", [])
     candidatos = data.setdefault("candidatos", [])
@@ -1199,6 +1445,8 @@ def scan_senado_paginas(data: Dict[str, Any], meta_cache: Dict[str, Optional[Dic
     for tipo, url, es_agenda in fuentes:
         try:
             raw = request_text(url)
+            if tipo == "citaciones":
+                cambios += descubrir_comisiones_senado(raw, proyectos, url)
             text = plain_text(raw)
             contexts = parse_senado_tabla(text) if tipo == "tabla" else contextos_por_boletin(raw, url)
             logs.append(f"Senado {tipo}: {len(contexts)} menciones · {url}")
@@ -1323,6 +1571,10 @@ def main(argv: Optional[Sequence[str]] = None) -> None:
     n, lg = scan_open_data_camara(data); cambios += n; logs += lg
     n, lg = scan_camara_semana(data, meta_cache); cambios += n; logs += lg
     n, lg = scan_senado_paginas(data, meta_cache); cambios += n; logs += lg
+    # Resultados de comisiones del Senado: se consultan por id de comisión porque
+    # la vista moderna /resultados es dinámica y puede devolver una tabla vacía
+    # a requests aunque el resultado ya esté publicado.
+    n, lg = scan_senado_resultados_por_comision(data); cambios += n; logs += lg
     if not args.skip_senado_fichas:
         n, lg = scan_senado_fichas(data); cambios += n; logs += lg
 
@@ -1333,7 +1585,7 @@ def main(argv: Optional[Sequence[str]] = None) -> None:
 
     generado = dt.datetime.now(TZ).replace(microsecond=0).isoformat()
     data["generado"] = generado
-    data["version"] = dt.datetime.now(TZ).strftime("%Y-%m-%d-%H%M-abif-v7.3")
+    data["version"] = dt.datetime.now(TZ).strftime("%Y-%m-%d-%H%M-abif-v7.4")
     data["total"] = len(data["proyectos"])
     data["cambios_detectados"] = cambios
     data["calendario"] = {
@@ -1348,7 +1600,7 @@ def main(argv: Optional[Sequence[str]] = None) -> None:
     }
     data["fuentes_revision"] = {
         "camara": [CAMARA_CITACIONES_TODAS, CAMARA_RESULTADOS_TODOS, CAMARA_TABLA, CAMARA_OPEN_LEG],
-        "senado": [SENADO_CITACIONES, SENADO_CITACIONES_ALT, SENADO_RESULTADOS, SENADO_TABLA, SENADO_FICHA],
+        "senado": [SENADO_CITACIONES, SENADO_CITACIONES_ALT, SENADO_RESULTADOS, SENADO_SESIONES_COMISION, SENADO_TABLA, SENADO_FICHA],
         "duplicados_fusionados": merges_iniciales + merges_finales,
         "movimientos_cruzados_descartados": quitados_cruzados,
         "citaciones_pasadas_redundantes_descartadas": citaciones_redundantes,
