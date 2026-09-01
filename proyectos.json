@@ -1,6 +1,6 @@
 {
-  "version": "2026-08-31-2158-abif-v8.2",
-  "generado": "2026-08-31T21:58:19-04:00",
+  "version": "2026-09-01-1134-abif-v8.2",
+  "generado": "2026-09-01T11:34:56-04:00",
   "total": 98,
   "candidatos": [],
   "fuentes_monitoreadas": [],
@@ -15,7 +15,7 @@
       "urgencia": "Simple",
       "impacto": "Firma electrónica · Contratos · Pagaré electrónico",
       "relevancia": "alta",
-      "fecha": "2026-08-21",
+      "fecha": "2026-09-01",
       "hist": [
         {
           "f": "2026-06-02",
@@ -114,18 +114,17 @@
           "organo": "Cámara de Diputados",
           "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-34",
           "tipo": "resultado"
-        }
-      ],
-      "resumenes": [],
-      "agenda": [
+        },
         {
           "f": "2026-09-01",
           "t": "Comenzar la discusión y votación particular del proyecto de ley, originado en mensaje de S. E. el Presidente de la República, que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario",
           "organo": "Cámara de Diputados",
           "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-36",
-          "tipo": "agenda"
+          "tipo": "citacion"
         }
       ],
+      "resumenes": [],
+      "agenda": [],
       "resumen_ejecutivo_bancario": "Este proyecto de ley busca modificar la Ley N° 19.799, que regula los documentos electrónicos, la firma electrónica y los servicios de certificación asociados. Para el sistema bancario, esta modificación es de alta relevancia, ya que la firma y los documentos electrónicos son pilares fundamentales para la operación digital de los bancos, la formalización de contratos con clientes y la seguridad de las transacciones. Su tramitación debe ser monitoreada de cerca, pues podría generar nuevas obligaciones operacionales, costos de cumplimiento o afectar la validez legal de los servicios bancarios digitales.",
       "categorias_abif": [
         "Seguridad operacional",
@@ -1912,7 +1911,7 @@
       "urgencia": "Sin urgencia",
       "impacto": "",
       "relevancia": "media",
-      "fecha": "2024-07-23",
+      "fecha": "2026-09-01",
       "hist": [
         {
           "f": "2023-05-30",
@@ -1931,6 +1930,15 @@
           "t": "Citación para continuar con el estudio del proyecto",
           "tipo": "agenda",
           "organo": "Senado"
+        },
+        {
+          "f": "2026-09-01",
+          "t": "Se continuó con el estudio del referido proyecto de ley Acuerdos: Se despacha el proyecto. Pasa a la Sala. Integrantes: (Presidente) Senador Saavedra Chandía Gastón Senador Celis Araya Ricardo Senador Kuschel Silva Carlos Ignacio Senadora Sánchez Muñoz Beatriz en reemplazo de Ibáñez Cotroneo Diego Senador Walker Prieto Matías Invitados: De la Universidad de Chile (Zoom): la Académica del Instituto de Estudios Internacionales, señora Fabiola Wust. Otros asistentes: Los asesores de los Parlamentarios, señora Carolina Codocceo, (Senador señor Ricardo Celis), señores César Barra (Honorable Senador señor Gastón Saavedra), Ignacio Ortega (Senador señor Matías Walker), Alejandro Mera (Honorable Senador señor Carlos Kuschel), Cristian Sánchez (Honorable Senadora señora Beatriz Sánchez), y Julio Valladares (Senadora señora Yasna Provoste).De la Biblioteca del Congreso Nacional, la investigadora, señora Fabiola Cabrera.Del Comité PS, el asesor, señor Mauricio Galaz y la asesora, señora Melanie Moraga.Del Comité PS, PPD y PL, la asesora, señora Eliana Díaz.Del Comité Frente Amplio, la asesora legislativa, señora Javiera Ascencio.De la Secretaría General de la Presidencia (SEPRES), señora Josefina Ossa. Punto 2 Boletin: 15716-03 Tema: Proyecto de ley que introduce modificaciones a la ley Nº 19.983, que regula la transferencia y otorga mérito ejecutivo a copia de la factura, y al decreto ley N° 825, de 1974, del Ministerio de Hacienda, ley sobre impuesto a las ventas y servicios, para mejorar el pago a treinta días. Aspectos considerados: Se continuó con el estudio del referido proyecto de ley. Acuerdos: Continuar en una próxima sesión. Integrantes: (Presidente) Senador Saavedra Chandía Gastón Senador Celis Araya Ricardo Senador Kuschel Silva Carlos Ignacio Senadora Sánchez Muñoz Beatriz en reemplazo de Ibáñez Cotroneo Diego Senador Walker Prieto Matías Invitados: De la Dirección de Presupuestos (DIPRES) (Zoom): el Director, señor José Pablo Gómez. Otros asistentes: Los asesores de los Parlamentarios, señora Carolina Codocceo, (Senador señor Ricardo Celis), señores César Barra (Honorable Senador señor Gastón Saavedra), Ignacio Ortega (Senador señor Matías Walker), Alejandro Mera (Honorable Senador señor Carlos Kuschel), Cristian Sánchez (Honorable Senadora señora Beatriz Sánchez), y Julio Valladares (Senadora señora Yasna Provoste).De la Biblioteca del Congreso Nacional, la investigadora, señora Fabiola Cabrera.Del Comité PS, el asesor, señor Mauricio Galaz y la asesora, señora Melanie Moraga.Del Comité PS, PPD y PL, la asesora, señora Eliana Díaz.Del Comité Frente Amplio, la asesora legislativa, señora Javiera Ascencio.De la Secretaría General de la Presidencia (SEPRES), señora Josefina Ossa. Avenida Pedro Montt s/n, Valparaíso / Morandé 441, Santiago (56-32) 250 4000 / (56-2) 2519 6700 Contacto",
+          "organo": "Senado",
+          "comision": "Comisión de Economía",
+          "fuente": "https://www.senado.cl/actividad-legislativa/comisiones/187/22916",
+          "tipo": "resultado",
+          "origen": "senado_resultados_moderno"
         }
       ],
       "resumenes": [],
@@ -3548,7 +3556,7 @@
       "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion"
     ],
     "duplicados_fusionados": 0,
-    "movimientos_cruzados_descartados": 0,
+    "movimientos_cruzados_descartados": 1,
     "resultados_senado_vagos_reemplazados": 0,
     "citaciones_pasadas_redundantes_descartadas": 24,
     "candidatos_antiguos_o_invalidos_descartados": 0,
@@ -3565,16 +3573,16 @@
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-37 · residuos truncados limpiados: 0",
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-38 · residuos truncados limpiados: 0",
       "Cámara tabla: 0 menciones · https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL · residuos truncados limpiados: 0",
-      "Cámara votaciones: 17 menciones · 0 cambios",
+      "Cámara votaciones: 15 menciones · 0 cambios",
       "Senado citaciones: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
-      "Senado citaciones: 58 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
+      "Senado citaciones: 43 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
       "Senado resultados: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
       "Senado tabla: 28 menciones · https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
       "Senado ultimos: 0 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
       "senado_citaciones_comisiones: OK · 2 página(s) · 0 evento(s)",
       "senado_votaciones_sala: OK · 2 página(s) · 0 evento(s)",
-      "senado_sesiones_sala: OK · 2 página(s) · 0 evento(s)",
-      "Senado resultados modernos: 0 fila(s) recientes; 0 ficha(s) leídas; 0 evento(s) relevante(s) · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
+      "senado_sesiones_sala: OK · 12 página(s) · 0 evento(s)",
+      "Senado resultados modernos: 10 fila(s) recientes; 10 ficha(s) leídas; 2 evento(s) relevante(s) · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
       "Senado ficha 18.286-03: 0 movimientos",
       "Senado ficha 18.340-03: 0 movimientos",
       "Senado ficha 15.034-07: 0 movimientos",
@@ -3675,14 +3683,14 @@
       "Senado ficha 18.524-05: 0 movimientos"
     ]
   },
-  "cambios_detectados": 51,
+  "cambios_detectados": 53,
   "paquete_actualizado": "2026-08-18T14:02:00-04:00",
   "proyectos_seguimiento_obligatorio": [
     "18.216-05",
     "18.524-05"
   ],
   "estado_fuentes": {
-    "generado": "2026-08-31T21:58:19-04:00",
+    "generado": "2026-09-01T11:34:56-04:00",
     "total_obligatorias": 13,
     "ok": 13,
     "parcial": 0,
@@ -3694,7 +3702,7 @@
         "url": "https://www.camara.cl/legislacion/ProyectosDeLey/proyectos_ley.aspx",
         "modo": "web+datos-abiertos",
         "estado": "ok",
-        "revisado": "2026-08-31T21:50:12-04:00",
+        "revisado": "2026-09-01T11:27:59-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (1291248 bytes)"
@@ -3705,7 +3713,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx",
         "modo": "web+semanas",
         "estado": "ok",
-        "revisado": "2026-08-31T21:50:14-04:00",
+        "revisado": "2026-09-01T11:28:00-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (61474 bytes)"
@@ -3716,7 +3724,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/resultados_todos.aspx",
         "modo": "web+semanas",
         "estado": "ok",
-        "revisado": "2026-08-31T21:50:15-04:00",
+        "revisado": "2026-09-01T11:28:00-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (61008 bytes)"
@@ -3727,7 +3735,7 @@
         "url": "https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
         "modo": "web",
         "estado": "ok",
-        "revisado": "2026-08-31T21:50:18-04:00",
+        "revisado": "2026-09-01T11:28:00-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (140524 bytes)"
@@ -3738,7 +3746,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
         "modo": "web",
         "estado": "ok",
-        "revisado": "2026-08-31T21:50:19-04:00",
+        "revisado": "2026-09-01T11:28:01-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (176731 bytes)"
@@ -3749,7 +3757,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/comisiones_permanentes.aspx#marca",
         "modo": "web+directorio",
         "estado": "ok",
-        "revisado": "2026-08-31T21:51:11-04:00",
+        "revisado": "2026-09-01T11:28:34-04:00",
         "paginas_revisadas": 46,
         "eventos_relevantes": 0,
         "detalle": "Directorio revisado; 45 página(s) de comisión accesibles"
@@ -3760,10 +3768,10 @@
         "url": "https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx",
         "modo": "web+detalle",
         "estado": "ok",
-        "revisado": "2026-08-31T21:53:18-04:00",
+        "revisado": "2026-09-01T11:30:20-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "17 menciones analizadas"
+        "detalle": "15 menciones analizadas"
       },
       "camara_sesiones_sala": {
         "camara": "Cámara de Diputados",
@@ -3771,7 +3779,7 @@
         "url": "https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx",
         "modo": "web+detalle",
         "estado": "ok",
-        "revisado": "2026-08-31T21:53:23-04:00",
+        "revisado": "2026-09-01T11:30:25-04:00",
         "paginas_revisadas": 13,
         "eventos_relevantes": 0,
         "detalle": "Portada + 12 detalle(s)"
@@ -3782,7 +3790,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-08-31T21:53:37-04:00",
+        "revisado": "2026-09-01T11:30:38-04:00",
         "paginas_revisadas": 2,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 2 página(s) revisadas"
@@ -3793,7 +3801,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala/votaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-08-31T21:54:04-04:00",
+        "revisado": "2026-09-01T11:30:45-04:00",
         "paginas_revisadas": 2,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 2 página(s) revisadas"
@@ -3804,10 +3812,10 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/sesiones-de-sala",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-08-31T21:54:32-04:00",
-        "paginas_revisadas": 2,
+        "revisado": "2026-09-01T11:31:22-04:00",
+        "paginas_revisadas": 12,
         "eventos_relevantes": 0,
-        "detalle": "Página dinámica renderizada; 2 página(s) revisadas"
+        "detalle": "Página dinámica renderizada; 12 página(s) revisadas"
       },
       "senado_resultados_comisiones": {
         "camara": "Senado",
@@ -3815,10 +3823,10 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/resultados",
         "modo": "navegador",
         "estado": "ok",
-        "revisado": "2026-08-31T21:55:09-04:00",
-        "paginas_revisadas": 1,
-        "eventos_relevantes": 0,
-        "detalle": "0 fila(s) recientes; 0 ficha(s) leídas"
+        "revisado": "2026-09-01T11:31:57-04:00",
+        "paginas_revisadas": 11,
+        "eventos_relevantes": 2,
+        "detalle": "10 fila(s) recientes; 10 ficha(s) leídas"
       },
       "senado_fichas_tramitacion": {
         "camara": "Senado",
@@ -3826,7 +3834,7 @@
         "url": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/",
         "modo": "por-proyecto",
         "estado": "ok",
-        "revisado": "2026-08-31T21:58:19-04:00",
+        "revisado": "2026-09-01T11:34:56-04:00",
         "paginas_revisadas": 122,
         "eventos_relevantes": 0,
         "detalle": "Fichas revisadas; errores registrados: 0"
