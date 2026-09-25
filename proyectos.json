@@ -1,6 +1,6 @@
 {
-  "version": "2026-09-24-1842-abif-v8.4",
-  "generado": "2026-09-24T18:42:50-04:00",
+  "version": "2026-09-24-2148-abif-v8.4",
+  "generado": "2026-09-24T21:48:55-04:00",
   "total": 98,
   "candidatos": [
     {
@@ -4353,14 +4353,14 @@
       "Senado ficha 18.524-05: 0 movimientos"
     ]
   },
-  "cambios_detectados": 44,
+  "cambios_detectados": 42,
   "paquete_actualizado": "2026-08-18T14:02:00-04:00",
   "proyectos_seguimiento_obligatorio": [
     "18.216-05",
     "18.524-05"
   ],
   "estado_fuentes": {
-    "generado": "2026-09-24T18:42:50-04:00",
+    "generado": "2026-09-24T21:48:55-04:00",
     "total_obligatorias": 13,
     "ok": 13,
     "parcial": 0,
@@ -4372,7 +4372,7 @@
         "url": "https://www.camara.cl/legislacion/ProyectosDeLey/proyectos_ley.aspx",
         "modo": "web+datos-abiertos",
         "estado": "ok",
-        "revisado": "2026-09-24T18:27:06-04:00",
+        "revisado": "2026-09-24T21:32:09-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (1291392 bytes)"
@@ -4383,7 +4383,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx",
         "modo": "web+semanas",
         "estado": "ok",
-        "revisado": "2026-09-24T18:27:09-04:00",
+        "revisado": "2026-09-24T21:32:10-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (62288 bytes)"
@@ -4394,7 +4394,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/resultados_todos.aspx",
         "modo": "web+semanas",
         "estado": "ok",
-        "revisado": "2026-09-24T18:27:11-04:00",
+        "revisado": "2026-09-24T21:32:10-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (61868 bytes)"
@@ -4405,7 +4405,7 @@
         "url": "https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
         "modo": "web",
         "estado": "ok",
-        "revisado": "2026-09-24T18:27:13-04:00",
+        "revisado": "2026-09-24T21:32:14-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (149220 bytes)"
@@ -4416,7 +4416,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
         "modo": "web",
         "estado": "ok",
-        "revisado": "2026-09-24T18:27:14-04:00",
+        "revisado": "2026-09-24T21:32:15-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (207917 bytes)"
@@ -4427,7 +4427,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/comisiones_permanentes.aspx#marca",
         "modo": "web+directorio",
         "estado": "ok",
-        "revisado": "2026-09-24T18:28:53-04:00",
+        "revisado": "2026-09-24T21:34:33-04:00",
         "paginas_revisadas": 46,
         "eventos_relevantes": 0,
         "detalle": "Directorio revisado; 45 página(s) de comisión accesibles"
@@ -4438,7 +4438,7 @@
         "url": "https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx",
         "modo": "web+detalle",
         "estado": "ok",
-        "revisado": "2026-09-24T18:36:41-04:00",
+        "revisado": "2026-09-24T21:42:38-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "9 menciones analizadas"
@@ -4449,7 +4449,7 @@
         "url": "https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx",
         "modo": "web+detalle",
         "estado": "ok",
-        "revisado": "2026-09-24T18:36:46-04:00",
+        "revisado": "2026-09-24T21:42:45-04:00",
         "paginas_revisadas": 13,
         "eventos_relevantes": 0,
         "detalle": "Portada + 12 detalle(s)"
@@ -4460,7 +4460,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-09-24T18:38:29-04:00",
+        "revisado": "2026-09-24T21:44:23-04:00",
         "paginas_revisadas": 2,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 2 página(s) revisadas"
@@ -4471,7 +4471,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala/votaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-09-24T18:38:36-04:00",
+        "revisado": "2026-09-24T21:44:31-04:00",
         "paginas_revisadas": 2,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 2 página(s) revisadas"
@@ -4482,7 +4482,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/sesiones-de-sala",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-09-24T18:38:43-04:00",
+        "revisado": "2026-09-24T21:44:39-04:00",
         "paginas_revisadas": 2,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 2 página(s) revisadas"
@@ -4493,7 +4493,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/resultados",
         "modo": "navegador",
         "estado": "ok",
-        "revisado": "2026-09-24T18:39:20-04:00",
+        "revisado": "2026-09-24T21:45:15-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "0 fila(s) recientes; 0 ficha(s) leídas"
@@ -4504,7 +4504,7 @@
         "url": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/",
         "modo": "por-proyecto",
         "estado": "ok",
-        "revisado": "2026-09-24T18:42:49-04:00",
+        "revisado": "2026-09-24T21:48:54-04:00",
         "paginas_revisadas": 122,
         "eventos_relevantes": 0,
         "detalle": "Fichas revisadas; errores registrados: 0"
