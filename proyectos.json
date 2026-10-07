@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-06-2236-abif-v8.4",
-  "generado": "2026-10-06T22:36:16-04:00",
+  "version": "2026-10-07-1406-abif-v8.4",
+  "generado": "2026-10-07T14:06:13-04:00",
   "total": 98,
   "candidatos": [
     {
@@ -500,7 +500,7 @@
       "urgencia": "Simple",
       "impacto": "Firma electrónica · Contratos · Pagaré electrónico",
       "relevancia": "alta",
-      "fecha": "2026-06-23",
+      "fecha": "2026-09-01",
       "hist": [
         {
           "f": "2026-06-02",
@@ -539,16 +539,44 @@
           "organo": "Cámara de Diputados"
         },
         {
+          "f": "2026-06-09",
+          "t": "el Presidente de la República que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario.No se alcanzó a",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-24",
+          "tipo": "resultado"
+        },
+        {
           "f": "2026-06-22",
           "t": "Cuenta del Mensaje 163-374 que hace presente la urgencia Simple",
           "tipo": "urgencia",
           "organo": "Cámara de Diputados"
         },
         {
-          "f": "2026-06-23",
-          "t": "Comenzar la discusión general del proyecto de ley, originado en mensaje de S. E. el Presidente de la República que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Para conocer el sentido y alcance de esta iniciativa presidencial se ha invitado:",
+          "f": "2026-07-07",
+          "t": "Continuar la discusión general del proyecto de ley, originado en mensaje de S. E. el Presidente de la República que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Se encuentran invitados a exponer sobre dicha iniciativa legal:",
           "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-26",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-28",
+          "tipo": "citacion"
+        },
+        {
+          "f": "2026-07-20",
+          "t": "el Presidente de la República, que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario.Se escuchó la exposición de las siguientes entidades: El profesor de Derecho Informático de la Universidad Católica de Valparaíso, señor Renato Jijena",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-29",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-08-21",
+          "t": "NOTA: Se recuerda que el plazo para la formulación de INDICACIONES del proyecto de ley sobre FIRMA ELECTRÓNICA, boletín N° 18286-03 ES EL VIERNES 21 DE AGOSTO DE 2026, a las 12:00 hrs (mediodía)",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-34",
+          "tipo": "resultado"
+        },
+        {
+          "f": "2026-09-01",
+          "t": "Comenzar la discusión y votación particular del proyecto de ley, originado en mensaje de S. E. el Presidente de la República, que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-36",
           "tipo": "citacion"
         }
       ],
@@ -666,7 +694,7 @@
       "urgencia": "Suma",
       "impacto": "Afectación del secreto y reserva bancaria.",
       "relevancia": "alta",
-      "fecha": "2026-09-30",
+      "fecha": "2026-10-07",
       "hist": [
         {
           "f": "2023-07-18",
@@ -803,6 +831,15 @@
           "organo": "Comisión Mixta",
           "comision": "Comisión Mixta para Boletín Nº 15975-25",
           "fuente": "https://www.senado.cl/actividad-legislativa/comisiones/1485/23053",
+          "tipo": "resultado",
+          "origen": "senado_resultados_moderno"
+        },
+        {
+          "f": "2026-10-07",
+          "t": "La Comisión Mixta recibió al Ministro de Seguridad Pública, señor Martín Arrau y a representantes del Ministerio Público y de la Comisión para el Mercado Financiero quienes se refirieron a la iniciativa en estudio Acuerdos: Seguirá su análisis en la próxima sesión. Integrantes: (Presidente) Senador Bianchi Retamales Karim Senador Castro González Juan Luis Diputado Kunstmann Collado Leandro en reemplazo de Araya Lerdo de Tejada Cristián Senador Longton Herrera Andrés Diputada Urrutia Herrera Tatiana Diputado Valenzuela Salazar Daniel en reemplazo de Orrego Gutiérrez Francisco Senador Vial Maceratta Cristian Invitados: Del Ministerio de Seguridad Pública: El Ministro, señor Martín Arrau; el jefe de la Unidad de Crimen Organizado, señor Ilan Motles; el jefe de asesores legislativos, señor Cristóbal García, y el asesor señor Benjamín Durán. Del Ministerio Público: El Director de la Unidad Especializada de Crimen Organizado y Drogas, señor Ignacio Castillo. De la Comisión para el Mercado Financiero: La Presidenta, señora Catherine Tornel, y el abogado jefe de la Dirección Jurídica de Supervisión, señor Martín de la Vega. De la Unidad de Análisis Financiero: El Director (S), señor Marcelo Contreras, y la jefa del Área de Gestión Estratégica, Difusión y Estudios, señora María Paz Arriagada. Otros asistentes: Del Ministerio del Interior, la asesora legislativa, señora Carmen Castañaza. Del Ministerio de Hacienda, el asesor, señor José Manuel Valdivieso. Del Ministerio Secretaría General de la Presidencia, el jefe legislativo, señor Sebastián Sotelo. Los asesores del Honorable Senador señor Bianchi, señora Carol Matus y señor Sergio Mancilla. La asesor del Honorable Senador señor Castro, señora Teresita Fabres. La asesora del Honorable Diputado señor Valenzuela, señora María de Jesús Mestre. El asesor de la Honorable Diputada señora Urrutia, señor Claudio Messina. La asesora del Honorable Senador señor Vial, señora María Jesús Negrete. De la Bancada Partido Republicano, el asesor, señor Alexander Stehr. Del Comité Partido Republicano, la asesora, señora María Fernanda Esguep. Del Comité Partido Socialista, Partido por la Democracia y Partido Liberal, los asesores, señora Eliana Díaz y señor Debby Lemus. Del Instituto Libertad y Desarrollo, el investigador, señor Alberto Herrera. Avenida Pedro Montt s/n, Valparaíso / Morandé 441, Santiago (56-32) 250 4000 / (56-2) 2519 6700 Contacto",
+          "organo": "Comisión Mixta",
+          "comision": "Comisión Mixta para Boletín Nº 15975-25",
+          "fuente": "https://www.senado.cl/actividad-legislativa/comisiones/1485/23097",
           "tipo": "resultado",
           "origen": "senado_resultados_moderno"
         }
@@ -1065,29 +1102,7 @@
         "Cobranza y ejecución",
         "Pagos y transacciones"
       ],
-      "agenda": [
-        {
-          "f": "2026-10-06",
-          "t": "Mayoría Simple_8.- Modifica la ley N°19.496, que establece normas sobre protección de los derechos de los consumidores, para prohibir llamadas telefónicas publicitarias de proveedores sin consentimiento del consumidor (Boletín N° 15610-03)",
-          "organo": "Sala del Senado",
-          "fuente": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/sesiones-de-sala/10292",
-          "tipo": "sesion"
-        },
-        {
-          "f": "2026-10-06",
-          "t": "das telefónicas publicitarias de proveedores sin consentimiento del consumidor (Boletín N° 15610-03). Mayoría Simple_9.- (",
-          "organo": "Senado",
-          "fuente": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
-          "tipo": "agenda"
-        },
-        {
-          "f": "2026-10-06",
-          "t": "ica (Boletín N° 18337-12). Con urgencia calificada de Suma. Mayoría Simple_8.- (Bol. N° 15610-03) Modifica la ley N°19.496, que establece normas sobre protección de los derechos de los consumidores, para prohibir llamadas telefónicas publicitarias de proveedores sin consentimiento del consumidor (",
-          "organo": "Senado",
-          "fuente": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
-          "tipo": "agenda"
-        }
-      ],
+      "agenda": [],
       "url_tramitacion": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=15610-03"
     },
     {
@@ -1171,14 +1186,14 @@
       ],
       "agenda": [
         {
-          "f": "2026-10-06",
-          "t": "LUGAR: Sala N° 3 de Comisiones, Valparaíso HORARIO: 09:30 a 11:00 MATERIA: 1.- ( Bol.N° 17381-03 )",
+          "f": "2026-10-20",
+          "t": "LUGAR: Sala N° 3 de Comisiones, Valparaíso HORARIO: 9:30 a 11:00 MATERIA: 1.- ( Bol.N° 17381-03 )",
           "organo": "Senado",
           "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
           "tipo": "agenda"
         },
         {
-          "f": "2026-10-06",
+          "f": "2026-10-20",
           "t": "tratar servicios de teleoperadores que funcionen fuera del territorio nacional (Boletín N° 17.381-03)",
           "organo": "Senado",
           "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
@@ -3891,7 +3906,7 @@
       "urgencia": "Sin urgencia",
       "impacto": "Crédito de consumo · Protección al consumidor financiero",
       "relevancia": "alta",
-      "fecha": "2026-06-24",
+      "fecha": "2026-08-27",
       "hist": [
         {
           "f": "2026-06-16",
@@ -3904,6 +3919,13 @@
           "t": "Cuenta de proyecto . Pasa a Comisión de Constitución, Legislación, Justicia y Reglamento",
           "tipo": "tramitacion",
           "organo": "Cámara de Diputados"
+        },
+        {
+          "f": "2026-08-27",
+          "t": "4. Proyecto de ley que “Sanciona penalmente la usura y la obtención de lucro en las contrataciones con el Estado en situaciones de emergencia o catástrofe”, boletín N° 18.395-07",
+          "organo": "Cámara de Diputados",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-34",
+          "tipo": "resultado"
         }
       ],
       "resumenes": [],
@@ -4239,12 +4261,12 @@
     "duplicados_fusionados": 0,
     "movimientos_cruzados_descartados": 1,
     "resultados_senado_vagos_reemplazados": 0,
-    "citaciones_pasadas_redundantes_descartadas": 0,
+    "citaciones_pasadas_redundantes_descartadas": 1,
     "candidatos_antiguos_o_invalidos_descartados": 0,
     "logs": [
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-26 · residuos truncados limpiados: 0",
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-25 · residuos truncados limpiados: 0",
-      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-24 · residuos truncados limpiados: 0",
+      "Cámara resultados: 18 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-24 · residuos truncados limpiados: 0",
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-23 · residuos truncados limpiados: 0",
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-21 · residuos truncados limpiados: 0",
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-27 · residuos truncados limpiados: 0",
@@ -4254,16 +4276,16 @@
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-42 · residuos truncados limpiados: 0",
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-43 · residuos truncados limpiados: 0",
       "Cámara tabla: 0 menciones · https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL · residuos truncados limpiados: 0",
-      "Cámara votaciones: 0 menciones · 0 cambios",
+      "Cámara votaciones: 9 menciones · 0 cambios",
       "Senado citaciones: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
-      "Senado citaciones: 38 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
+      "Senado citaciones: 29 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
       "Senado resultados: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
       "Senado tabla: 76 menciones · https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
       "Senado ultimos: 0 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
       "senado_citaciones_comisiones: OK · 2 página(s) · 0 evento(s)",
-      "senado_votaciones_sala: OK · 2 página(s) · 2 evento(s)",
+      "senado_votaciones_sala: OK · 2 página(s) · 0 evento(s)",
       "senado_sesiones_sala: OK · 12 página(s) · 0 evento(s)",
-      "Senado resultados modernos: 10 fila(s) recientes; 10 ficha(s) leídas; 1 evento(s) relevante(s) · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
+      "Senado resultados modernos: 10 fila(s) recientes; 10 ficha(s) leídas; 2 evento(s) relevante(s) · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
       "Senado ficha 18.286-03: 0 movimientos",
       "Senado ficha 18.340-03: 0 movimientos",
       "Senado ficha 15.034-07: 0 movimientos",
@@ -4364,14 +4386,14 @@
       "Senado ficha 18.524-05: 0 movimientos"
     ]
   },
-  "cambios_detectados": 6,
+  "cambios_detectados": 15,
   "paquete_actualizado": "2026-08-18T14:02:00-04:00",
   "proyectos_seguimiento_obligatorio": [
     "18.216-05",
     "18.524-05"
   ],
   "estado_fuentes": {
-    "generado": "2026-10-06T22:36:16-04:00",
+    "generado": "2026-10-07T14:06:13-04:00",
     "total_obligatorias": 13,
     "ok": 12,
     "parcial": 1,
@@ -4383,10 +4405,10 @@
         "url": "https://www.camara.cl/legislacion/ProyectosDeLey/proyectos_ley.aspx",
         "modo": "web+datos-abiertos",
         "estado": "ok",
-        "revisado": "2026-10-06T22:24:43-04:00",
+        "revisado": "2026-10-07T13:49:34-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "Respuesta oficial leída (1291056 bytes)"
+        "detalle": "Respuesta oficial leída (20946 bytes)"
       },
       "camara_citaciones_comisiones": {
         "camara": "Cámara de Diputados",
@@ -4394,7 +4416,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx",
         "modo": "web+semanas",
         "estado": "ok",
-        "revisado": "2026-10-06T22:24:46-04:00",
+        "revisado": "2026-10-07T13:49:38-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (302 bytes)"
@@ -4405,7 +4427,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/resultados_todos.aspx",
         "modo": "web+semanas",
         "estado": "ok",
-        "revisado": "2026-10-06T22:24:51-04:00",
+        "revisado": "2026-10-07T13:49:43-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (62150 bytes)"
@@ -4416,7 +4438,7 @@
         "url": "https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
         "modo": "web",
         "estado": "parcial",
-        "revisado": "2026-10-06T22:24:56-04:00",
+        "revisado": "2026-10-07T13:49:47-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (212 bytes)"
@@ -4427,7 +4449,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
         "modo": "web",
         "estado": "ok",
-        "revisado": "2026-10-06T22:24:57-04:00",
+        "revisado": "2026-10-07T13:49:49-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (216604 bytes)"
@@ -4438,7 +4460,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/comisiones_permanentes.aspx#marca",
         "modo": "web+directorio",
         "estado": "ok",
-        "revisado": "2026-10-06T22:26:06-04:00",
+        "revisado": "2026-10-07T13:51:08-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Directorio revisado; 0 página(s) de comisión accesibles"
@@ -4449,10 +4471,10 @@
         "url": "https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx",
         "modo": "web+detalle",
         "estado": "ok",
-        "revisado": "2026-10-06T22:30:11-04:00",
+        "revisado": "2026-10-07T13:59:35-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "0 menciones analizadas"
+        "detalle": "9 menciones analizadas"
       },
       "camara_sesiones_sala": {
         "camara": "Cámara de Diputados",
@@ -4460,7 +4482,7 @@
         "url": "https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx",
         "modo": "web+detalle",
         "estado": "ok",
-        "revisado": "2026-10-06T22:30:14-04:00",
+        "revisado": "2026-10-07T13:59:38-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Portada + 0 detalle(s)"
@@ -4471,7 +4493,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-10-06T22:31:41-04:00",
+        "revisado": "2026-10-07T14:01:07-04:00",
         "paginas_revisadas": 2,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 2 página(s) revisadas"
@@ -4482,9 +4504,9 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala/votaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-10-06T22:31:50-04:00",
+        "revisado": "2026-10-07T14:01:16-04:00",
         "paginas_revisadas": 2,
-        "eventos_relevantes": 2,
+        "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 2 página(s) revisadas"
       },
       "senado_sesiones_sala": {
@@ -4493,7 +4515,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/sesiones-de-sala",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-10-06T22:32:29-04:00",
+        "revisado": "2026-10-07T14:01:54-04:00",
         "paginas_revisadas": 12,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 12 página(s) revisadas"
@@ -4504,9 +4526,9 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/resultados",
         "modo": "navegador",
         "estado": "ok",
-        "revisado": "2026-10-06T22:33:02-04:00",
+        "revisado": "2026-10-07T14:02:34-04:00",
         "paginas_revisadas": 11,
-        "eventos_relevantes": 1,
+        "eventos_relevantes": 2,
         "detalle": "10 fila(s) recientes; 10 ficha(s) leídas"
       },
       "senado_fichas_tramitacion": {
@@ -4515,7 +4537,7 @@
         "url": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/",
         "modo": "por-proyecto",
         "estado": "ok",
-        "revisado": "2026-10-06T22:36:15-04:00",
+        "revisado": "2026-10-07T14:06:11-04:00",
         "paginas_revisadas": 122,
         "eventos_relevantes": 0,
         "detalle": "Fichas revisadas; errores registrados: 0"
