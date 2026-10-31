@@ -1,6 +1,6 @@
 {
-  "version": "2026-10-31-0311-abif-v8.4",
-  "generado": "2026-10-31T03:11:37-04:00",
+  "version": "2026-10-31-1218-abif-v8.4",
+  "generado": "2026-10-31T12:18:55-04:00",
   "total": 98,
   "candidatos": [
     {
@@ -808,7 +808,7 @@
       "urgencia": "Simple",
       "impacto": "Firma electrónica · Contratos · Pagaré electrónico",
       "relevancia": "alta",
-      "fecha": "2026-10-06",
+      "fecha": "2026-10-27",
       "hist": [
         {
           "f": "2026-06-02",
@@ -853,38 +853,10 @@
           "organo": "Cámara de Diputados"
         },
         {
-          "f": "2026-07-07",
-          "t": "Continuar la discusión general del proyecto de ley, originado en mensaje de S. E. el Presidente de la República que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Expusieron sobre el proyecto los representantes de las siguientes instituciones:",
+          "f": "2026-10-27",
+          "t": "Con el objeto de iniciar la discusión del proyecto de ley, originado en mensaje, en primer trámite constitucional y primero reglamentario, que modifica la ley N°19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, Boletín N°18286-03, con urgencia calificada de Suma. Ministro de Hacienda, señor Jorge Quiroz Castro",
           "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-28",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-07-14",
-          "t": "Continuar la discusión general del proyecto de ley, originado en mensaje de S. E. el Presidente de la República, que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Se encuentran invitados a exponer sobre dicha iniciativa legal:",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-29",
-          "tipo": "citacion"
-        },
-        {
-          "f": "2026-07-21",
-          "t": "Continuar la discusión general del proyecto de ley, originado en mensaje de S. E. el Presidente de la República, que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Se escuchó la exposición de las siguientes personas:",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-30",
-          "tipo": "resultado"
-        },
-        {
-          "f": "2026-09-22",
-          "t": "Continuar con la discusión y votación en particular del proyecto de ley, originado en mensaje de S. E. el Presidente de la República, que Modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, boletín N° 18.286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-39",
-          "tipo": "citacion"
-        },
-        {
-          "f": "2026-10-06",
-          "t": "Continuar la discusión y votación particular del proyecto de ley, originado en mensaje, que modifica la ley N° 19.799, sobre documentos electrónicos, firma electrónica y servicios de certificación de dicha firma, y otros cuerpos legales relacionados, correspondiente al boletín N° 18286-03, con urgencia calificada de “simple”, en primer trámite constitucional y primero reglamentario. Se encuentran invitados el Ministro de Economía, Fomento y Turismo, señor Daniel Mas; el Subsecretario de Economía, señor Karlfranz Koehler junto a un experto en la materia de dicho Ministerio",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-41",
+          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-44",
           "tipo": "citacion"
         }
       ],
@@ -2123,7 +2095,7 @@
       "urgencia": "Discusión inmediata",
       "impacto": "",
       "relevancia": "media",
-      "fecha": "2026-10-06",
+      "fecha": "2026-09-08",
       "hist": [
         {
           "f": "2022-05-18",
@@ -2441,34 +2413,6 @@
           "organo": "Sala del Senado",
           "fuente": "https://www.senado.cl/actividad-legislativa/sala/votaciones",
           "tipo": "votacion"
-        },
-        {
-          "f": "2026-09-22",
-          "t": "Iniciar el estudio del proyecto de ley, originado en mensaje de S.E. el Presidente de la República, que equipara el derecho de sala cuna para las trabajadoras, los trabajadores y los independientes que indica, en las condiciones que establece, modifica el Código del Trabajo para tales efectos y crea un fondo solidario de sala cuna, correspondiente al boletín N° 14.782-13, en segundo trámite constitucional y primero reglamentario, con urgencia calificada de “discusión inmediata”. Para estos efectos, han sido invitados:",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-39",
-          "tipo": "citacion"
-        },
-        {
-          "f": "2026-09-23",
-          "t": "Continuar el estudio del proyecto de ley, originado en mensaje de S.E. el Presidente de la República, que equipara el derecho de sala cuna para las trabajadoras, los trabajadores y los independientes que indica, en las condiciones que establece, modifica el Código del Trabajo para tales efectos y crea un fondo solidario de sala cuna, correspondiente al boletín N° 14.782-13, en segundo trámite constitucional y primero reglamentario, con urgencia calificada de “discusión inmediata”. Para estos efectos, han sido invitados:",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-39",
-          "tipo": "citacion"
-        },
-        {
-          "f": "2026-10-05",
-          "t": "Continuar el estudio del proyecto de ley, originado en mensaje de S.E. el Presidente de la República, que equipara el derecho de sala cuna para las trabajadoras, los trabajadores y los independientes que indica, en las condiciones que establece, modifica el Código del Trabajo para tales efectos y crea un fondo solidario de sala cuna, correspondiente al boletín N° 14.782-13, en segundo trámite constitucional y primero reglamentario, con urgencia calificada de “discusión inmediata”. Para estos efectos, han sido invitados:",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-41",
-          "tipo": "citacion"
-        },
-        {
-          "f": "2026-10-06",
-          "t": "Continuar el estudio del proyecto de ley, originado en mensaje de S.E. el Presidente de la República, que equipara el derecho de sala cuna para las trabajadoras, los trabajadores y los independientes que indica, en las condiciones que establece, modifica el Código del Trabajo para tales efectos y crea un fondo solidario de sala cuna, correspondiente al boletín N° 14.782-13, en segundo trámite constitucional y primero reglamentario, con urgencia calificada de “discusión inmediata”. Para estos efectos, han sido invitados:",
-          "organo": "Cámara de Diputados",
-          "fuente": "https://www.camara.cl/legislacion/comisiones/citaciones_semana.aspx?prmSemana=2026-41",
-          "tipo": "citacion"
         }
       ],
       "resumenes": [],
@@ -4596,15 +4540,15 @@
     "citaciones_pasadas_redundantes_descartadas": 0,
     "candidatos_antiguos_o_invalidos_descartados": 0,
     "logs": [
-      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-26 · residuos truncados limpiados: 0",
-      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-25 · residuos truncados limpiados: 0",
-      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-24 · residuos truncados limpiados: 0",
-      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-23 · residuos truncados limpiados: 0",
-      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-27 · residuos truncados limpiados: 0",
-      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-31 · residuos truncados limpiados: 0",
-      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-35 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-36 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-37 · residuos truncados limpiados: 0",
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-38 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-39 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-40 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-41 · residuos truncados limpiados: 0",
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-42 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-43 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-44 · residuos truncados limpiados: 0",
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-45 · residuos truncados limpiados: 0",
       "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-46 · residuos truncados limpiados: 0",
       "Cámara tabla: 0 menciones · https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL · residuos truncados limpiados: 0",
@@ -4718,14 +4662,14 @@
       "Senado ficha 18.524-05: 0 movimientos"
     ]
   },
-  "cambios_detectados": 9,
+  "cambios_detectados": 1,
   "paquete_actualizado": "2026-08-18T14:02:00-04:00",
   "proyectos_seguimiento_obligatorio": [
     "18.216-05",
     "18.524-05"
   ],
   "estado_fuentes": {
-    "generado": "2026-10-31T03:11:37-04:00",
+    "generado": "2026-10-31T12:18:55-04:00",
     "total_obligatorias": 13,
     "ok": 12,
     "parcial": 1,
@@ -4737,7 +4681,7 @@
         "url": "https://www.camara.cl/legislacion/ProyectosDeLey/proyectos_ley.aspx",
         "modo": "web+datos-abiertos",
         "estado": "ok",
-        "revisado": "2026-10-31T02:56:52-04:00",
+        "revisado": "2026-10-31T12:05:56-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (303 bytes)"
@@ -4748,7 +4692,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx",
         "modo": "web+semanas",
         "estado": "ok",
-        "revisado": "2026-10-31T02:56:55-04:00",
+        "revisado": "2026-10-31T12:05:59-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (302 bytes)"
@@ -4759,10 +4703,10 @@
         "url": "https://www.camara.cl/legislacion/comisiones/resultados_todos.aspx",
         "modo": "web+semanas",
         "estado": "ok",
-        "revisado": "2026-10-31T02:56:58-04:00",
+        "revisado": "2026-10-31T12:06:03-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "Respuesta oficial leída (302 bytes)"
+        "detalle": "Respuesta oficial leída (62845 bytes)"
       },
       "camara_tabla_semanal": {
         "camara": "Cámara de Diputados",
@@ -4770,7 +4714,7 @@
         "url": "https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
         "modo": "web",
         "estado": "parcial",
-        "revisado": "2026-10-31T02:57:01-04:00",
+        "revisado": "2026-10-31T12:06:08-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (212 bytes)"
@@ -4781,7 +4725,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
         "modo": "web",
         "estado": "ok",
-        "revisado": "2026-10-31T02:57:07-04:00",
+        "revisado": "2026-10-31T12:06:12-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (500 bytes)"
@@ -4792,7 +4736,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/comisiones_permanentes.aspx#marca",
         "modo": "web+directorio",
         "estado": "ok",
-        "revisado": "2026-10-31T02:59:00-04:00",
+        "revisado": "2026-10-31T12:08:14-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Directorio revisado; 0 página(s) de comisión accesibles"
@@ -4803,7 +4747,7 @@
         "url": "https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx",
         "modo": "web+detalle",
         "estado": "ok",
-        "revisado": "2026-10-31T03:06:16-04:00",
+        "revisado": "2026-10-31T12:12:14-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "0 menciones analizadas"
@@ -4814,10 +4758,10 @@
         "url": "https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx",
         "modo": "web+detalle",
         "estado": "ok",
-        "revisado": "2026-10-31T03:06:19-04:00",
-        "paginas_revisadas": 1,
+        "revisado": "2026-10-31T12:13:18-04:00",
+        "paginas_revisadas": 13,
         "eventos_relevantes": 0,
-        "detalle": "Portada + 0 detalle(s)"
+        "detalle": "Portada + 12 detalle(s)"
       },
       "senado_citaciones_comisiones": {
         "camara": "Senado",
@@ -4825,7 +4769,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-10-31T03:07:01-04:00",
+        "revisado": "2026-10-31T12:14:04-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 1 página(s) revisadas"
@@ -4836,7 +4780,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala/votaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-10-31T03:07:17-04:00",
+        "revisado": "2026-10-31T12:14:20-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 1 página(s) revisadas"
@@ -4847,7 +4791,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/sesiones-de-sala",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-10-31T03:07:33-04:00",
+        "revisado": "2026-10-31T12:14:36-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 1 página(s) revisadas"
@@ -4858,7 +4802,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/resultados",
         "modo": "navegador",
         "estado": "ok",
-        "revisado": "2026-10-31T03:08:08-04:00",
+        "revisado": "2026-10-31T12:15:11-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "0 fila(s) recientes; 0 ficha(s) leídas"
@@ -4869,7 +4813,7 @@
         "url": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/",
         "modo": "por-proyecto",
         "estado": "ok",
-        "revisado": "2026-10-31T03:11:36-04:00",
+        "revisado": "2026-10-31T12:18:54-04:00",
         "paginas_revisadas": 122,
         "eventos_relevantes": 0,
         "detalle": "Fichas revisadas; errores registrados: 0"
