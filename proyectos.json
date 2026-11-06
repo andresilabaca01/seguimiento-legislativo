@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-05-2337-abif-v8.4",
-  "generado": "2026-11-05T23:37:39-04:00",
+  "version": "2026-11-06-1408-abif-v8.4",
+  "generado": "2026-11-06T14:08:06-04:00",
   "total": 98,
   "candidatos": [
     {
@@ -1140,10 +1140,31 @@
       "agenda": [
         {
           "f": "2026-11-11",
+          "t": ") Votar las proposiciones formuladas ante la Comisión Mixta encargada de proponer la forma y modo de resolver las divergencias suscitadas entre ambas Cámaras durante la tramitación del proyecto de ley que crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado, correspondiente al Boletín N° 15.975-25",
+          "organo": "Senado",
+          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
+          "tipo": "agenda"
+        },
+        {
+          "f": "2026-11-11",
+          "t": "COMISIÓN: Comisión Mixta para Boletín Nº 15975-25 -- HA QUEDADO SIN EFECTO -- LUGAR: Sala N° 11, segundo piso, Valparaíso HORARIO: 10:15 a 11:15 MATERIA: 1.- ( Bol.N°",
+          "organo": "Senado",
+          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
+          "tipo": "agenda"
+        },
+        {
+          "f": "2026-11-11",
           "t": "Comisión Mixta encargada de proponer la forma y modo de resolver las divergencias suscitadas entre ambas Cámaras durante la tramitación del proyecto de ley que crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado correspondiente al Boletín N° 15.975-25",
           "organo": "Senado",
           "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
           "tipo": "resultado"
+        },
+        {
+          "f": "2026-11-11",
+          "t": "HA QUEDADO SIN EFECTO -- LUGAR: Sala N° 11, segundo piso, Valparaíso HORARIO: 10:15 a 11:15 MATERIA: 1.- ( Bol.N° 15975-25 ) Votar las proposiciones formuladas ante la Comisión Mixta encargada de proponer la forma y modo de resolver las divergencias suscitadas entre ambas Cámaras durante la tramitación del proyecto de ley que crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado, correspondiente al",
+          "organo": "Senado",
+          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
+          "tipo": "agenda"
         }
       ],
       "url_tramitacion": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=15975-25"
@@ -4562,10 +4583,10 @@
       "Cámara tabla: 0 menciones · https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL · residuos truncados limpiados: 0",
       "Cámara votaciones: 0 menciones · 0 cambios",
       "Senado citaciones: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
-      "Senado citaciones: 44 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
+      "Senado citaciones: 47 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
       "Senado resultados: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
       "Senado tabla: 0 menciones · https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
-      "Senado ultimos: 8 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
+      "Senado ultimos: 10 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
       "senado_citaciones_comisiones: OK · 1 página(s) · 0 evento(s)",
       "senado_votaciones_sala: OK · 1 página(s) · 0 evento(s)",
       "senado_sesiones_sala: OK · 1 página(s) · 0 evento(s)",
@@ -4670,14 +4691,14 @@
       "Senado ficha 18.524-05: 0 movimientos"
     ]
   },
-  "cambios_detectados": 0,
+  "cambios_detectados": 3,
   "paquete_actualizado": "2026-08-18T14:02:00-04:00",
   "proyectos_seguimiento_obligatorio": [
     "18.216-05",
     "18.524-05"
   ],
   "estado_fuentes": {
-    "generado": "2026-11-05T23:37:39-04:00",
+    "generado": "2026-11-06T14:08:06-04:00",
     "total_obligatorias": 13,
     "ok": 12,
     "parcial": 1,
@@ -4689,10 +4710,10 @@
         "url": "https://www.camara.cl/legislacion/ProyectosDeLey/proyectos_ley.aspx",
         "modo": "web+datos-abiertos",
         "estado": "ok",
-        "revisado": "2026-11-05T23:26:33-04:00",
+        "revisado": "2026-11-06T13:57:05-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "Respuesta oficial leída (21200 bytes)"
+        "detalle": "Respuesta oficial leída (303 bytes)"
       },
       "camara_citaciones_comisiones": {
         "camara": "Cámara de Diputados",
@@ -4700,7 +4721,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx",
         "modo": "web+semanas",
         "estado": "ok",
-        "revisado": "2026-11-05T23:26:37-04:00",
+        "revisado": "2026-11-06T13:57:08-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (302 bytes)"
@@ -4711,7 +4732,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/resultados_todos.aspx",
         "modo": "web+semanas",
         "estado": "ok",
-        "revisado": "2026-11-05T23:26:40-04:00",
+        "revisado": "2026-11-06T13:57:10-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (302 bytes)"
@@ -4722,7 +4743,7 @@
         "url": "https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
         "modo": "web",
         "estado": "parcial",
-        "revisado": "2026-11-05T23:26:44-04:00",
+        "revisado": "2026-11-06T13:57:13-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (212 bytes)"
@@ -4733,7 +4754,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
         "modo": "web",
         "estado": "ok",
-        "revisado": "2026-11-05T23:26:50-04:00",
+        "revisado": "2026-11-06T13:57:19-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Respuesta oficial leída (500 bytes)"
@@ -4744,7 +4765,7 @@
         "url": "https://www.camara.cl/legislacion/comisiones/comisiones_permanentes.aspx#marca",
         "modo": "web+directorio",
         "estado": "ok",
-        "revisado": "2026-11-05T23:28:50-04:00",
+        "revisado": "2026-11-06T13:59:13-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Directorio revisado; 0 página(s) de comisión accesibles"
@@ -4755,7 +4776,7 @@
         "url": "https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx",
         "modo": "web+detalle",
         "estado": "ok",
-        "revisado": "2026-11-05T23:31:43-04:00",
+        "revisado": "2026-11-06T14:01:53-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "0 menciones analizadas"
@@ -4766,7 +4787,7 @@
         "url": "https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx",
         "modo": "web+detalle",
         "estado": "ok",
-        "revisado": "2026-11-05T23:31:46-04:00",
+        "revisado": "2026-11-06T14:01:56-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Portada + 0 detalle(s)"
@@ -4777,7 +4798,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-11-05T23:33:14-04:00",
+        "revisado": "2026-11-06T14:03:30-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 1 página(s) revisadas"
@@ -4788,7 +4809,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala/votaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-11-05T23:33:29-04:00",
+        "revisado": "2026-11-06T14:03:46-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 1 página(s) revisadas"
@@ -4799,7 +4820,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/sesiones-de-sala",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-11-05T23:33:45-04:00",
+        "revisado": "2026-11-06T14:04:01-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 1 página(s) revisadas"
@@ -4810,7 +4831,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/resultados",
         "modo": "navegador",
         "estado": "ok",
-        "revisado": "2026-11-05T23:34:20-04:00",
+        "revisado": "2026-11-06T14:04:37-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "0 fila(s) recientes; 0 ficha(s) leídas"
@@ -4821,7 +4842,7 @@
         "url": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/",
         "modo": "por-proyecto",
         "estado": "ok",
-        "revisado": "2026-11-05T23:37:39-04:00",
+        "revisado": "2026-11-06T14:08:05-04:00",
         "paginas_revisadas": 122,
         "eventos_relevantes": 0,
         "detalle": "Fichas revisadas; errores registrados: 0"
