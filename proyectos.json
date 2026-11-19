@@ -1,6 +1,6 @@
 {
-  "version": "2026-11-19-0026-abif-v8.4",
-  "generado": "2026-11-19T00:26:42-04:00",
+  "version": "2026-11-19-1544-abif-v8.4",
+  "generado": "2026-11-19T15:44:15-04:00",
   "total": 98,
   "candidatos": [
     {
@@ -1361,7 +1361,29 @@
         "Regulación prudencial",
         "Secreto y reserva bancaria"
       ],
-      "agenda": [],
+      "agenda": [
+        {
+          "f": "2026-11-24",
+          "t": ") Votar las proposiciones formuladas ante la Comisión Mixta encargada de proponer la forma y modo de resolver las divergencias suscitadas entre ambas Cámaras durante la tramitación del proyecto de ley que crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado, correspondiente al Boletín N° 15.975-25",
+          "organo": "Senado",
+          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
+          "tipo": "agenda"
+        },
+        {
+          "f": "2026-11-24",
+          "t": "COMISIÓN: Comisión Mixta para Boletín Nº 15975-25 -- La sesión será transmitida por TV Senado y por el sitio http://tv.senado.cl",
+          "organo": "Senado",
+          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
+          "tipo": "agenda"
+        },
+        {
+          "f": "2026-11-24",
+          "t": "LUGAR: Sala N° 10, tercer piso, Valparaíso HORARIO: 15:00 a 16:00 MATERIA: 1.- ( Bol.N° 15975-25 ) Votar las proposiciones formuladas ante la Comisión Mixta encargada de proponer la forma y modo de resolver las divergencias suscitadas entre ambas Cámaras durante la tramitación del proyecto de ley que crea el Subsistema de Inteligencia Económica y establece otras medidas para la prevención y alerta de actividades que digan relación con el crimen organizado, correspondiente al",
+          "organo": "Senado",
+          "fuente": "https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
+          "tipo": "agenda"
+        }
+      ],
       "url_tramitacion": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/index.php?boletin_ini=15975-25"
     },
     {
@@ -4757,23 +4779,23 @@
     "citaciones_pasadas_redundantes_descartadas": 0,
     "candidatos_antiguos_o_invalidos_descartados": 0,
     "logs": [
-      "ERROR Cámara resultados https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-40: No se pudo leer https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-40: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-40",
-      "ERROR Cámara resultados https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-41: No se pudo leer https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-41: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-41",
-      "ERROR Cámara resultados https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-42: No se pudo leer https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-42: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-42",
-      "ERROR Cámara resultados https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-43: No se pudo leer https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-43: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-43",
-      "ERROR Cámara resultados https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-44: No se pudo leer https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-44: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-44",
-      "ERROR Cámara resultados https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-45: No se pudo leer https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-45: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-45",
-      "ERROR Cámara resultados https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-46: No se pudo leer https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-46: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-46",
-      "ERROR Cámara resultados https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-47: No se pudo leer https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-47: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-47",
-      "ERROR Cámara resultados https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-48: No se pudo leer https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-48: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-48",
-      "ERROR Cámara resultados https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-49: No se pudo leer https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-49: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-49",
-      "ERROR Cámara tabla https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL: No se pudo leer https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
-      "ERROR Cámara votaciones: No se pudo leer https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx",
-      "ERROR Cámara sesiones: No se pudo leer https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx",
-      "ERROR Senado citaciones https://www.senado.cl/actividad-legislativa/comisiones/citaciones: No se pudo leer https://www.senado.cl/actividad-legislativa/comisiones/citaciones: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
-      "Senado citaciones: 20 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
-      "ERROR Senado resultados https://www.senado.cl/actividad-legislativa/comisiones/resultados: No se pudo leer https://www.senado.cl/actividad-legislativa/comisiones/resultados: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.senado.cl/actividad-legislativa/comisiones/resultados",
-      "ERROR Senado tabla https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal: No se pudo leer https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-39 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-40 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-41 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-42 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-43 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-44 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-45 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-46 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-47 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-48 · residuos truncados limpiados: 0",
+      "Cámara resultados: 0 menciones · https://www.camara.cl/legislacion/comisiones/resultados_semana.aspx?prmSemana=2026-49 · residuos truncados limpiados: 0",
+      "Cámara tabla: 0 menciones · https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL · residuos truncados limpiados: 0",
+      "Cámara votaciones: 0 menciones · 0 cambios",
+      "Senado citaciones: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
+      "Senado citaciones: 32 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=citacionesComision&mo=comisiones&tipo_consulta=1",
+      "Senado resultados: 0 menciones · https://www.senado.cl/actividad-legislativa/comisiones/resultados",
+      "Senado tabla: 0 menciones · https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
       "Senado ultimos: 1 menciones · https://tramitacion.senado.cl/appsenado/index.php?ac=ultimos_vistos&etc=&mo=tramitacion",
       "senado_citaciones_comisiones: OK · 1 página(s) · 0 evento(s)",
       "senado_votaciones_sala: OK · 1 página(s) · 0 evento(s)",
@@ -4879,106 +4901,106 @@
       "Senado ficha 18.524-05: 0 movimientos"
     ]
   },
-  "cambios_detectados": 0,
+  "cambios_detectados": 3,
   "paquete_actualizado": "2026-08-18T14:02:00-04:00",
   "proyectos_seguimiento_obligatorio": [
     "18.216-05",
     "18.524-05"
   ],
   "estado_fuentes": {
-    "generado": "2026-11-19T00:26:42-04:00",
+    "generado": "2026-11-19T15:44:15-04:00",
     "total_obligatorias": 13,
-    "ok": 5,
+    "ok": 13,
     "parcial": 0,
-    "error_o_no_revisada": 8,
+    "error_o_no_revisada": 0,
     "fuentes": {
       "camara_proyectos_ley": {
         "camara": "Cámara de Diputados",
         "nombre": "Proyectos de ley",
         "url": "https://www.camara.cl/legislacion/ProyectosDeLey/proyectos_ley.aspx",
         "modo": "web+datos-abiertos",
-        "estado": "error",
-        "revisado": "2026-11-19T00:15:56-04:00",
-        "paginas_revisadas": 0,
+        "estado": "ok",
+        "revisado": "2026-11-19T15:28:47-04:00",
+        "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "No se pudo leer https://www.camara.cl/legislacion/ProyectosDeLey/proyectos_ley.aspx: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/ProyectosDeLey/proyectos_ley.aspx"
+        "detalle": "Respuesta oficial leída (303 bytes)"
       },
       "camara_citaciones_comisiones": {
         "camara": "Cámara de Diputados",
         "nombre": "Citaciones de comisiones",
         "url": "https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx",
         "modo": "web+semanas",
-        "estado": "error",
-        "revisado": "2026-11-19T00:15:58-04:00",
-        "paginas_revisadas": 0,
+        "estado": "ok",
+        "revisado": "2026-11-19T15:28:49-04:00",
+        "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "No se pudo leer https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/citaciones_todas.aspx"
+        "detalle": "Respuesta oficial leída (302 bytes)"
       },
       "camara_resultados_comisiones": {
         "camara": "Cámara de Diputados",
         "nombre": "Resultados de comisiones",
         "url": "https://www.camara.cl/legislacion/comisiones/resultados_todos.aspx",
         "modo": "web+semanas",
-        "estado": "error",
-        "revisado": "2026-11-19T00:16:01-04:00",
-        "paginas_revisadas": 0,
+        "estado": "ok",
+        "revisado": "2026-11-19T15:28:52-04:00",
+        "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "No se pudo leer https://www.camara.cl/legislacion/comisiones/resultados_todos.aspx: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/resultados_todos.aspx"
+        "detalle": "Respuesta oficial leída (302 bytes)"
       },
       "camara_tabla_semanal": {
         "camara": "Cámara de Diputados",
         "nombre": "Tabla semanal de Sala",
         "url": "https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL",
         "modo": "web",
-        "estado": "error",
-        "revisado": "2026-11-19T00:16:03-04:00",
-        "paginas_revisadas": 0,
+        "estado": "ok",
+        "revisado": "2026-11-19T15:28:58-04:00",
+        "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "No se pudo leer https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/verDoc.aspx?prmId=0&prmTipo=TABLASEMANAL"
+        "detalle": "Respuesta oficial leída (488 bytes)"
       },
       "senado_tabla_semanal": {
         "camara": "Senado",
         "nombre": "Tabla semanal de Sala",
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal",
         "modo": "web",
-        "estado": "error",
-        "revisado": "2026-11-19T00:16:05-04:00",
-        "paginas_revisadas": 0,
+        "estado": "ok",
+        "revisado": "2026-11-19T15:29:02-04:00",
+        "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "No se pudo leer https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.senado.cl/actividad-legislativa/sala-de-sesiones/tabla-semanal"
+        "detalle": "Respuesta oficial leída (535 bytes)"
       },
       "camara_comisiones_permanentes": {
         "camara": "Cámara de Diputados",
         "nombre": "Comisiones permanentes",
         "url": "https://www.camara.cl/legislacion/comisiones/comisiones_permanentes.aspx#marca",
         "modo": "web+directorio",
-        "estado": "error",
-        "revisado": "2026-11-19T00:18:41-04:00",
-        "paginas_revisadas": 0,
+        "estado": "ok",
+        "revisado": "2026-11-19T15:32:14-04:00",
+        "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "No se pudo leer https://www.camara.cl/legislacion/comisiones/comisiones_permanentes.aspx#marca: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/comisiones/comisiones_permanentes.aspx#marca"
+        "detalle": "Directorio revisado; 0 página(s) de comisión accesibles"
       },
       "camara_votaciones_sala": {
         "camara": "Cámara de Diputados",
         "nombre": "Votaciones de Sala",
         "url": "https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx",
         "modo": "web+detalle",
-        "estado": "error",
-        "revisado": "2026-11-19T00:20:50-04:00",
-        "paginas_revisadas": 0,
+        "estado": "ok",
+        "revisado": "2026-11-19T15:37:04-04:00",
+        "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "No se pudo leer https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/sala_sesiones/votaciones.aspx"
+        "detalle": "0 menciones analizadas"
       },
       "camara_sesiones_sala": {
         "camara": "Cámara de Diputados",
         "nombre": "Sesiones de Sala",
         "url": "https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx",
         "modo": "web+detalle",
-        "estado": "error",
-        "revisado": "2026-11-19T00:20:52-04:00",
-        "paginas_revisadas": 0,
+        "estado": "ok",
+        "revisado": "2026-11-19T15:37:07-04:00",
+        "paginas_revisadas": 1,
         "eventos_relevantes": 0,
-        "detalle": "No se pudo leer https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx: 401 Client Error: Unauthorized for url: https://r.jina.ai/https://www.camara.cl/legislacion/sesiones_sala/sesiones_sala.aspx"
+        "detalle": "Portada + 0 detalle(s)"
       },
       "senado_citaciones_comisiones": {
         "camara": "Senado",
@@ -4986,7 +5008,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/citaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-11-19T00:21:50-04:00",
+        "revisado": "2026-11-19T15:38:28-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 1 página(s) revisadas"
@@ -4997,7 +5019,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala/votaciones",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-11-19T00:22:05-04:00",
+        "revisado": "2026-11-19T15:38:43-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 1 página(s) revisadas"
@@ -5008,7 +5030,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/sala-de-sesiones/sesiones-de-sala",
         "modo": "navegador+detalle",
         "estado": "ok",
-        "revisado": "2026-11-19T00:22:21-04:00",
+        "revisado": "2026-11-19T15:38:59-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "Página dinámica renderizada; 1 página(s) revisadas"
@@ -5019,7 +5041,7 @@
         "url": "https://www.senado.cl/actividad-legislativa/comisiones/resultados",
         "modo": "navegador",
         "estado": "ok",
-        "revisado": "2026-11-19T00:22:56-04:00",
+        "revisado": "2026-11-19T15:39:34-04:00",
         "paginas_revisadas": 1,
         "eventos_relevantes": 0,
         "detalle": "0 fila(s) recientes; 0 ficha(s) leídas"
@@ -5030,7 +5052,7 @@
         "url": "https://tramitacion.senado.cl/appsenado/templates/tramitacion/",
         "modo": "por-proyecto",
         "estado": "ok",
-        "revisado": "2026-11-19T00:26:42-04:00",
+        "revisado": "2026-11-19T15:44:14-04:00",
         "paginas_revisadas": 122,
         "eventos_relevantes": 0,
         "detalle": "Fichas revisadas; errores registrados: 0"
